@@ -225,6 +225,41 @@ export interface Page {
             blockName?: string | null;
             blockType: 'companies';
           }
+        | {
+            heading: string;
+            description?: string | null;
+            testimonials?:
+              | {
+                  quote: string;
+                  authorName: string;
+                  authorRole?: string | null;
+                  authorAvatar: {
+                    source: 'upload' | 'url';
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  companyLogo: {
+                    source: 'upload' | 'url';
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  /**
+                   * Featured testimonials span two columns and two rows.
+                   */
+                  featured?: boolean | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'testimonials';
+          }
       )[]
     | null;
   meta: {
@@ -423,6 +458,37 @@ export interface PagesSelect<T extends boolean = true> {
                     id?: T;
                   };
               speed?: T;
+              id?: T;
+              blockName?: T;
+            };
+        testimonials?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              testimonials?:
+                | T
+                | {
+                    quote?: T;
+                    authorName?: T;
+                    authorRole?: T;
+                    authorAvatar?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    companyLogo?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    featured?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };

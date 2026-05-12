@@ -2,6 +2,7 @@ import type { CollectionConfig } from 'payload'
 import { imageField } from '@/fields/imageField'
 import { HeroBlock } from '@/blocks/HeroBlock'
 import { CompaniesBlock } from '@/blocks/CompaniesBlock'
+import { TestimonialsBlock } from '@/blocks/TestimonialsBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -40,6 +41,7 @@ export const PagesCollection: CollectionConfig = {
       blocks: [
         HeroBlock,
         CompaniesBlock,
+        TestimonialsBlock,
       ],
     },
     {
