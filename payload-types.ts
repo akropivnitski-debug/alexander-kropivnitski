@@ -162,41 +162,70 @@ export interface Page {
    */
   slug: string;
   layout?:
-    | {
-        /**
-         * Short paragraph displayed on the left side of the hero.
-         */
-        mainText: string;
-        readMoreLabel?: string | null;
-        readMoreHref?: string | null;
-        image: {
-          source: 'upload' | 'url';
-          upload?: (number | null) | Media;
-          /**
-           * Full URL to an image (JPG, PNG, WebP, SVG)
-           */
-          url?: string | null;
-        };
-        /**
-         * First line of the large overlay text.
-         */
-        overlayPart1: string;
-        /**
-         * Second line of the large overlay text.
-         */
-        overlayPart2: string;
-        /**
-         * Hex color for the circle behind the image (e.g. #facc15 for yellow).
-         */
-        circleColor?: string | null;
-        /**
-         * Small text shown at the bottom right of the hero.
-         */
-        locationText?: string | null;
-        id?: string | null;
-        blockName?: string | null;
-        blockType: 'hero';
-      }[]
+    | (
+        | {
+            /**
+             * Short paragraph displayed on the left side of the hero.
+             */
+            mainText: string;
+            readMoreLabel?: string | null;
+            readMoreHref?: string | null;
+            image: {
+              source: 'upload' | 'url';
+              upload?: (number | null) | Media;
+              /**
+               * Full URL to an image (JPG, PNG, WebP, SVG)
+               */
+              url?: string | null;
+            };
+            /**
+             * First line of the large overlay text.
+             */
+            overlayPart1: string;
+            /**
+             * Second line of the large overlay text.
+             */
+            overlayPart2: string;
+            /**
+             * Hex color for the circle behind the image (e.g. #facc15 for yellow).
+             */
+            circleColor?: string | null;
+            /**
+             * Small text shown at the bottom right of the hero.
+             */
+            locationText?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'hero';
+          }
+        | {
+            /**
+             * Optional heading above the logo strip.
+             */
+            heading?: string | null;
+            logos?:
+              | {
+                  name: string;
+                  logo: {
+                    source: 'upload' | 'url';
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            /**
+             * Duration in seconds for one full scroll cycle. Lower = faster.
+             */
+            speed?: number | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'companies';
+          }
+      )[]
     | null;
   meta: {
     /**
@@ -373,6 +402,27 @@ export interface PagesSelect<T extends boolean = true> {
               overlayPart2?: T;
               circleColor?: T;
               locationText?: T;
+              id?: T;
+              blockName?: T;
+            };
+        companies?:
+          | T
+          | {
+              heading?: T;
+              logos?:
+                | T
+                | {
+                    name?: T;
+                    logo?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    id?: T;
+                  };
+              speed?: T;
               id?: T;
               blockName?: T;
             };
