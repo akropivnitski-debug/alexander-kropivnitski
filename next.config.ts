@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       // Payload CMS media uploads (local dev)
       { protocol: 'http', hostname: 'localhost' },
-      // Add production domain here after Vercel deployment
+      // Payload CMS media uploads (production)
+      { protocol: 'https', hostname: 'alexander-kropivnitski.vercel.app' },
     ],
   },
 };
