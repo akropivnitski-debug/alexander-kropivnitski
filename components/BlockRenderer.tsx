@@ -1,4 +1,5 @@
 import type { Page } from '@/payload-types'
+import { Hero } from '@/components/blocks/hero'
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
 
@@ -8,9 +9,9 @@ export function BlockRenderer({ blocks }: { blocks: LayoutBlock[] }) {
   return (
     <>
       {blocks.map((block, i) => {
-        const b = block as Record<string, unknown>
-        switch (b.blockType) {
-          // Blocks will be added here one by one
+        switch (block.blockType) {
+          case 'hero':
+            return <Hero key={block.id ?? i} data={block} />
           default:
             return null
         }

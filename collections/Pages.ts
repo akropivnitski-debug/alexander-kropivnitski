@@ -1,5 +1,6 @@
 import type { CollectionConfig } from 'payload'
 import { imageField } from '@/fields/imageField'
+import { HeroBlock } from '@/blocks/HeroBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -36,7 +37,7 @@ export const PagesCollection: CollectionConfig = {
       label: 'Page Layout',
       type: 'blocks',
       blocks: [
-        // Blocks will be added here one by one
+        HeroBlock,
       ],
     },
     {

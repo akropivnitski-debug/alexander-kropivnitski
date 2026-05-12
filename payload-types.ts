@@ -161,7 +161,43 @@ export interface Page {
    * URL path. Use "home" for the homepage.
    */
   slug: string;
-  layout?: unknown[] | null;
+  layout?:
+    | {
+        /**
+         * Short paragraph displayed on the left side of the hero.
+         */
+        mainText: string;
+        readMoreLabel?: string | null;
+        readMoreHref?: string | null;
+        image: {
+          source: 'upload' | 'url';
+          upload?: (number | null) | Media;
+          /**
+           * Full URL to an image (JPG, PNG, WebP, SVG)
+           */
+          url?: string | null;
+        };
+        /**
+         * First line of the large overlay text.
+         */
+        overlayPart1: string;
+        /**
+         * Second line of the large overlay text.
+         */
+        overlayPart2: string;
+        /**
+         * Hex color for the circle behind the image (e.g. #facc15 for yellow).
+         */
+        circleColor?: string | null;
+        /**
+         * Small text shown at the bottom right of the hero.
+         */
+        locationText?: string | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }[]
+    | null;
   meta: {
     /**
      * Overrides the default site title.
@@ -317,7 +353,30 @@ export interface MediaSelect<T extends boolean = true> {
 export interface PagesSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
-  layout?: T | {};
+  layout?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              mainText?: T;
+              readMoreLabel?: T;
+              readMoreHref?: T;
+              image?:
+                | T
+                | {
+                    source?: T;
+                    upload?: T;
+                    url?: T;
+                  };
+              overlayPart1?: T;
+              overlayPart2?: T;
+              circleColor?: T;
+              locationText?: T;
+              id?: T;
+              blockName?: T;
+            };
+      };
   meta?:
     | T
     | {
