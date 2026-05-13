@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { BlockRenderer } from '@/components/BlockRenderer'
+import { Header } from '@/components/Header'
 import { resolveImage } from '@/lib/resolveImage'
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -58,22 +59,28 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Home() {
   const payload = await getPayload({ config })
 
-  const result = await payload.find({
-    collection: 'pages',
-    where: {
-      and: [
-        { slug: { equals: 'home' } },
-        { _status: { equals: 'published' } },
-      ],
-    },
-    limit: 1,
-  })
+  const [header, result] = await Promise.all([
+    payload.findGlobal({ slug: 'header' }),
+    payload.find({
+      collection: 'pages',
+      where: {
+        and: [
+          { slug: { equals: 'home' } },
+          { _status: { equals: 'published' } },
+        ],
+      },
+      limit: 1,
+    }),
+  ])
 
   const page = result.docs[0]
 
   return (
-    <main className="bg-black relative min-h-screen w-full">
-      {page && <BlockRenderer blocks={page.layout ?? []} />}
-    </main>
+    <>
+      <Header data={header} />
+      <main className="bg-black relative min-h-screen w-full">
+        {page && <BlockRenderer blocks={page.layout ?? []} />}
+      </main>
+    </>
   );
 }

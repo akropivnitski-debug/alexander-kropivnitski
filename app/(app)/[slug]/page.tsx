@@ -5,14 +5,16 @@ import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { BlockRenderer } from '@/components/BlockRenderer'
+import { Header } from '@/components/Header'
 import { resolveImage } from '@/lib/resolveImage'
 
 type Props = { params: Promise<{ slug: string }> }
 
 async function getPage(slug: string) {
   const payload = await getPayload({ config })
-  const [siteSettings, result] = await Promise.all([
+  const [siteSettings, header, result] = await Promise.all([
     payload.findGlobal({ slug: 'site-settings' }),
+    payload.findGlobal({ slug: 'header' }),
     payload.find({
       collection: 'pages',
       where: {
@@ -24,7 +26,7 @@ async function getPage(slug: string) {
       limit: 1,
     }),
   ])
-  return { page: result.docs[0] ?? null, siteSettings }
+  return { page: result.docs[0] ?? null, siteSettings, header }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -62,13 +64,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { slug } = await params
-  const { page } = await getPage(slug)
+  const { page, header } = await getPage(slug)
 
   if (!page) notFound()
 
   return (
-    <main className="bg-black relative min-h-screen w-full">
-      <BlockRenderer blocks={page.layout ?? []} />
-    </main>
+    <>
+      <Header data={header} />
+      <main className="bg-black relative min-h-screen w-full">
+        <BlockRenderer blocks={page.layout ?? []} />
+      </main>
+    </>
   )
 }
