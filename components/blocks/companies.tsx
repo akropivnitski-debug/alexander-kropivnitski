@@ -15,7 +15,7 @@ export function Companies({ data }: { data: CompaniesData }) {
 
 
   return (
-    <section className="w-full bg-background py-16">
+    <section className="w-full bg-background pt-8 pb-16">
       {data.heading && (
         <h2 className="mb-12 text-center text-sm font-medium uppercase tracking-widest text-muted-foreground">
           {data.heading}
