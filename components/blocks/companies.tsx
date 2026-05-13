@@ -23,7 +23,7 @@ export function Companies({ data }: { data: CompaniesData }) {
         </h2>
       )}
       <div
-        className="marquee-track flex w-max items-center gap-16"
+        className="marquee-track flex w-max items-center justify-center gap-24"
         style={{ '--marquee-speed': `${speed}s` } as React.CSSProperties}
       >
         {/* Duplicate the list twice for seamless loop */}
@@ -32,13 +32,13 @@ export function Companies({ data }: { data: CompaniesData }) {
           return (
             <div
               key={`${item.id ?? i}`}
-              className="flex shrink-0 items-center justify-center px-4"
+              className="flex shrink-0 items-center justify-center px-8"
             >
               {src ? (
                 <img
                   src={src}
                   alt={item.name}
-                  className="h-10 w-auto max-w-[160px] object-contain opacity-60 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+                  className="h-16 w-auto max-w-[280px] object-contain brightness-0 invert opacity-70 grayscale transition-all duration-300 hover:opacity-100"
                   onError={(e) => {
                     const t = e.target as HTMLImageElement
                     t.onerror = null
