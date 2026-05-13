@@ -64,34 +64,32 @@ export function Hero({ data }: { data: HeroData }) {
           />
         </div>
 
-        {/* Right Text */}
+        {/* Right Text + Location */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="z-20 order-3 flex items-center justify-center text-center md:justify-start"
+          className="z-20 order-3 flex flex-col items-center justify-between text-center md:items-start md:self-stretch"
         >
-          <h1 className="text-7xl font-extrabold text-foreground md:text-8xl lg:text-9xl">
-            {data.overlayPart1}
-            <br />
-            {data.overlayPart2}
-          </h1>
+          <div className="flex flex-1 items-center">
+            <h1 className="text-7xl font-extrabold text-foreground md:text-8xl lg:text-9xl">
+              {data.overlayPart1}
+              <br />
+              {data.overlayPart2}
+            </h1>
+          </div>
+          {data.locationText && (
+            <motion.span
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 1.0 }}
+              className="mt-4 text-sm font-medium text-foreground/80 md:mt-0"
+            >
+              {data.locationText}
+            </motion.span>
+          )}
         </motion.div>
       </div>
-
-      {/* Location Text */}
-      {data.locationText && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.0 }}
-          className="z-30 mt-8 w-full max-w-7xl flex justify-end"
-        >
-          <span className="text-sm font-medium text-foreground/80">
-            {data.locationText}
-          </span>
-        </motion.div>
-      )}
     </section>
   )
 }
