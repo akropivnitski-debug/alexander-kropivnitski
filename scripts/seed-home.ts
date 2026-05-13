@@ -12,7 +12,13 @@ async function seed() {
   })
 
   if (existing.docs.length > 0) {
-    console.log('Home page already exists, skipping.')
+    const doc = existing.docs[0]
+    console.log('Home page exists. id=' + doc.id + ' status=' + doc._status)
+    // Ensure it is published
+    if (doc._status !== 'published') {
+      await payload.update({ collection: 'pages', id: doc.id, data: { _status: 'published' } })
+      console.log('Republished.')
+    }
     process.exit(0)
   }
 

@@ -170,8 +170,8 @@ export interface Page {
             mainText: string;
             readMoreLabel?: string | null;
             readMoreHref?: string | null;
-            image: {
-              source: 'upload' | 'url';
+            image?: {
+              source?: ('upload' | 'url') | null;
               upload?: (number | null) | Media;
               /**
                * Full URL to an image (JPG, PNG, WebP, SVG)
@@ -206,8 +206,8 @@ export interface Page {
             logos?:
               | {
                   name: string;
-                  logo: {
-                    source: 'upload' | 'url';
+                  logo?: {
+                    source?: ('upload' | 'url') | null;
                     upload?: (number | null) | Media;
                     /**
                      * Full URL to an image (JPG, PNG, WebP, SVG)
@@ -233,16 +233,16 @@ export interface Page {
                   quote: string;
                   authorName: string;
                   authorRole?: string | null;
-                  avatar: {
-                    source: 'upload' | 'url';
+                  avatar?: {
+                    source?: ('upload' | 'url') | null;
                     upload?: (number | null) | Media;
                     /**
                      * Full URL to an image (JPG, PNG, WebP, SVG)
                      */
                     url?: string | null;
                   };
-                  logo: {
-                    source: 'upload' | 'url';
+                  logo?: {
+                    source?: ('upload' | 'url') | null;
                     upload?: (number | null) | Media;
                     /**
                      * Full URL to an image (JPG, PNG, WebP, SVG)
@@ -271,8 +271,8 @@ export interface Page {
                   label: string;
                   title: string;
                   text?: string | null;
-                  image: {
-                    source: 'upload' | 'url';
+                  image?: {
+                    source?: ('upload' | 'url') | null;
                     upload?: (number | null) | Media;
                     /**
                      * Full URL to an image (JPG, PNG, WebP, SVG)
@@ -288,7 +288,7 @@ export interface Page {
           }
       )[]
     | null;
-  meta: {
+  meta?: {
     /**
      * Overrides the default site title.
      */
@@ -297,8 +297,8 @@ export interface Page {
      * Overrides the default site description.
      */
     description?: string | null;
-    ogImage: {
-      source: 'upload' | 'url';
+    ogImage?: {
+      source?: ('upload' | 'url') | null;
       upload?: (number | null) | Media;
       /**
        * Full URL to an image (JPG, PNG, WebP, SVG)
@@ -636,8 +636,8 @@ export interface SiteSetting {
    * Used when a page has no individual meta description.
    */
   siteDescription?: string | null;
-  defaultOgImage: {
-    source: 'upload' | 'url';
+  defaultOgImage?: {
+    source?: ('upload' | 'url') | null;
     upload?: (number | null) | Media;
     /**
      * Full URL to an image (JPG, PNG, WebP, SVG)

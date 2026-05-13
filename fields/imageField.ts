@@ -15,7 +15,6 @@ export function imageField(name: string, label: string): Field {
           { label: 'External URL', value: 'url' },
         ],
         defaultValue: 'url',
-        required: true,
         admin: { layout: 'horizontal' },
       },
       {
