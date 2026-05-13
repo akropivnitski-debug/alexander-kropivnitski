@@ -41,7 +41,7 @@ export function Hero({ data }: { data: HeroData }) {
         </motion.div>
 
         {/* Center Image with Circle */}
-        <div className="relative order-1 md:order-2 flex justify-center items-center min-h-[400px] md:min-h-[500px]">
+        <div className="relative order-1 md:order-2 flex justify-center items-center h-[300px] md:h-[400px] lg:h-[500px]">
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
@@ -62,32 +62,31 @@ export function Hero({ data }: { data: HeroData }) {
               target.src = 'https://placehold.co/400x600/eab308/ffffff?text=Image+Not+Found'
             }}
           />
-        </div>
-
-        {/* Right Text + Location */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
-          className="z-20 order-3 flex flex-col items-center justify-between text-center md:items-start md:self-stretch"
-        >
-          <div className="flex flex-1 items-center">
-            <h1 className="text-7xl font-extrabold text-foreground md:text-8xl lg:text-9xl">
-              {data.overlayPart1}
-              <br />
-              {data.overlayPart2}
-            </h1>
-          </div>
+          {/* Location Text — anchored to bottom of the circle */}
           {data.locationText && (
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.0 }}
-              className="mt-4 text-sm font-medium text-foreground/80 md:mt-0"
+              className="absolute bottom-0 right-0 z-20 translate-x-full pl-4 text-sm font-medium text-foreground/80 whitespace-nowrap"
             >
               {data.locationText}
             </motion.span>
           )}
+        </div>
+
+        {/* Right Text */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          className="z-20 order-3 flex items-center justify-center text-center md:justify-start"
+        >
+          <h1 className="text-7xl font-extrabold text-foreground md:text-8xl lg:text-9xl">
+            {data.overlayPart1}
+            <br />
+            {data.overlayPart2}
+          </h1>
         </motion.div>
       </div>
     </section>
