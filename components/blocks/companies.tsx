@@ -13,32 +13,27 @@ export function Companies({ data }: { data: CompaniesData }) {
   const logos = data.logos ?? []
   if (logos.length === 0) return null
 
-  const speed = data.speed ?? 30
 
   return (
-    <section className="w-full overflow-hidden bg-background py-16">
+    <section className="w-full bg-background py-16">
       {data.heading && (
         <h2 className="mb-12 text-center text-sm font-medium uppercase tracking-widest text-muted-foreground">
           {data.heading}
         </h2>
       )}
-      <div
-        className="marquee-track flex w-max items-center justify-center gap-24"
-        style={{ '--marquee-speed': `${speed}s` } as React.CSSProperties}
-      >
-        {/* Duplicate the list twice for seamless loop */}
-        {[...logos, ...logos].map((item, i) => {
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-16 px-8">
+        {logos.map((item, i) => {
           const src = resolveImage(item.logo)
           return (
             <div
-              key={`${item.id ?? i}`}
-              className="flex shrink-0 items-center justify-center px-8"
+              key={item.id ?? i}
+              className="flex items-center justify-center"
             >
               {src ? (
                 <img
                   src={src}
                   alt={item.name}
-                  className="h-16 w-auto max-w-[280px] object-contain brightness-0 invert opacity-70 grayscale transition-all duration-300 hover:opacity-100"
+                  className="h-48 w-auto max-w-[400px] object-contain brightness-0 invert opacity-70 transition-all duration-300 hover:opacity-100"
                   onError={(e) => {
                     const t = e.target as HTMLImageElement
                     t.onerror = null
