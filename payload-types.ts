@@ -260,6 +260,32 @@ export interface Page {
             blockName?: string | null;
             blockType: 'testimonials';
           }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            items?:
+              | {
+                  /**
+                   * Displayed on the opposite side (e.g. "2020 – 2023", "Chapter 1").
+                   */
+                  label: string;
+                  title: string;
+                  text?: string | null;
+                  image: {
+                    source: 'upload' | 'url';
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'aboutMe';
+          }
       )[]
     | null;
   meta: {
@@ -487,6 +513,29 @@ export interface PagesSelect<T extends boolean = true> {
                           url?: T;
                         };
                     featured?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        aboutMe?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              items?:
+                | T
+                | {
+                    label?: T;
+                    title?: T;
+                    text?: T;
+                    image?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
                     id?: T;
                   };
               id?: T;
