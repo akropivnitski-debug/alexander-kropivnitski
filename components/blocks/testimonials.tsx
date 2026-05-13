@@ -1,6 +1,7 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
@@ -21,11 +22,17 @@ function getInitials(name: string) {
     .slice(0, 2)
 }
 
-function TestimonialItem({ item }: { item: Testimonial }) {
+function TestimonialSlide({ item }: { item: Testimonial }) {
   const avatarSrc = resolveImage(item.avatar)
 
   return (
-    <div className="flex flex-col items-center text-center">
+    <motion.div
+      initial={{ opacity: 0, x: 40 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -40 }}
+      transition={{ duration: 0.4, ease: 'easeInOut' }}
+      className="flex flex-col items-center text-center"
+    >
       <blockquote className="space-y-6">
         <p className="text-xl font-medium leading-relaxed md:text-2xl">
           &ldquo;{item.quote}&rdquo;
@@ -53,12 +60,24 @@ function TestimonialItem({ item }: { item: Testimonial }) {
           </div>
         </div>
       </blockquote>
-    </div>
+    </motion.div>
   )
 }
 
 export function Testimonials({ data }: { data: TestimonialsData }) {
   const items = data.testimonials ?? []
+  const [active, setActive] = useState(0)
+
+  const next = useCallback(() => {
+    setActive((prev) => (prev + 1) % items.length)
+  }, [items.length])
+
+  useEffect(() => {
+    if (items.length <= 1) return
+    const interval = setInterval(next, 5000)
+    return () => clearInterval(interval)
+  }, [next, items.length])
+
   if (items.length === 0) return null
 
   return (
@@ -71,11 +90,27 @@ export function Testimonials({ data }: { data: TestimonialsData }) {
           )}
         </div>
 
-        <div className="space-y-16">
-          {items.map((item, i) => (
-            <TestimonialItem key={item.id ?? i} item={item} />
-          ))}
+        <div className="relative min-h-[200px]">
+          <AnimatePresence mode="wait">
+            <TestimonialSlide key={active} item={items[active]} />
+          </AnimatePresence>
         </div>
+
+        {items.length > 1 && (
+          <div className="flex justify-center gap-2">
+            {items.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setActive(i)}
+                className={`h-2 rounded-full transition-all duration-300 ${
+                  i === active
+                    ? 'w-6 bg-foreground'
+                    : 'w-2 bg-foreground/30 hover:bg-foreground/50'
+                }`}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </section>
   )
