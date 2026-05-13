@@ -4,6 +4,7 @@ import { imageField } from '@/fields/imageField'
 export const TestimonialsBlock: Block = {
   slug: 'testimonials',
   labels: { singular: 'Testimonials', plural: 'Testimonials Sections' },
+  dbName: 'testi',
   fields: [
     {
       name: 'heading',
@@ -23,6 +24,7 @@ export const TestimonialsBlock: Block = {
       name: 'testimonials',
       label: 'Testimonials',
       type: 'array',
+      dbName: 'testi_items',
       minRows: 1,
       fields: [
         {
@@ -42,8 +44,8 @@ export const TestimonialsBlock: Block = {
           label: 'Author Role / Title',
           type: 'text',
         },
-        imageField('authorAvatar', 'Author Avatar'),
-        imageField('companyLogo', 'Company Logo'),
+        imageField('avatar', 'Author Avatar'),
+        imageField('logo', 'Company Logo'),
         {
           name: 'featured',
           label: 'Featured (large card)',

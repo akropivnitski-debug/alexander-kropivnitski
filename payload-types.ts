@@ -233,7 +233,7 @@ export interface Page {
                   quote: string;
                   authorName: string;
                   authorRole?: string | null;
-                  authorAvatar: {
+                  avatar: {
                     source: 'upload' | 'url';
                     upload?: (number | null) | Media;
                     /**
@@ -241,7 +241,7 @@ export interface Page {
                      */
                     url?: string | null;
                   };
-                  companyLogo: {
+                  logo: {
                     source: 'upload' | 'url';
                     upload?: (number | null) | Media;
                     /**
@@ -472,14 +472,14 @@ export interface PagesSelect<T extends boolean = true> {
                     quote?: T;
                     authorName?: T;
                     authorRole?: T;
-                    authorAvatar?:
+                    avatar?:
                       | T
                       | {
                           source?: T;
                           upload?: T;
                           url?: T;
                         };
-                    companyLogo?:
+                    logo?:
                       | T
                       | {
                           source?: T;

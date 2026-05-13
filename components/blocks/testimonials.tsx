@@ -23,8 +23,8 @@ function getInitials(name: string) {
 }
 
 function TestimonialCard({ item }: { item: Testimonial }) {
-  const avatarSrc = resolveImage(item.authorAvatar)
-  const logoSrc = resolveImage(item.companyLogo)
+  const avatarSrc = resolveImage(item.avatar)
+  const logoSrc = resolveImage(item.logo)
   const isFeatured = item.featured
 
   return (
