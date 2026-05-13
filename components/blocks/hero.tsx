@@ -15,11 +15,11 @@ export function Hero({ data }: { data: HeroData }) {
   return (
     <section
       className={cn(
-        'relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-background px-8 py-20 font-sans md:px-12'
+        'relative flex min-h-screen w-full flex-col items-center justify-end overflow-hidden bg-background px-8 pt-20 pb-0 font-sans md:px-12'
       )}
     >
       {/* Main Content Area */}
-      <div className="relative grid w-full max-w-7xl flex-grow grid-cols-1 items-center md:grid-cols-3 gap-8">
+      <div className="relative grid w-full max-w-7xl grid-cols-1 items-end md:grid-cols-3 gap-8">
         {/* Left Text Content */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
