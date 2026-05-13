@@ -15,7 +15,7 @@ export function Hero({ data }: { data: HeroData }) {
   return (
     <section
       className={cn(
-        'relative flex w-full flex-col items-center justify-center overflow-hidden bg-background px-8 pt-20 pb-8 font-sans md:px-12'
+        'relative flex w-full flex-col items-center justify-center overflow-hidden bg-background px-8 pt-10 pb-8 font-sans md:px-12'
       )}
     >
       {/* Main Content Area */}
