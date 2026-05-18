@@ -8,9 +8,42 @@ import type { Page } from '@/payload-types'
 
 type HeroV2Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'heroV2' }>
 
+function LogoCloud({ logos }: { logos: NonNullable<HeroV2Data['logos']> }) {
+  if (logos.length === 0) return null
+
+  return (
+    <div className="relative grid grid-cols-2 border-x border-foreground/10">
+      <div className="pointer-events-none absolute -top-px left-1/2 -translate-x-1/2 w-full border-t border-foreground/10" />
+      {logos.map((logo, i) => {
+        const isEvenCol = i % 2 === 0
+        const isTopHalf = i < logos.length / 2
+        return (
+          <div
+            key={logo.id ?? i}
+            className={cn(
+              'flex items-center justify-center px-4 py-6 md:py-8',
+              isEvenCol && 'border-r border-foreground/10',
+              !isTopHalf ? '' : 'border-b border-foreground/10',
+              (i % 4 === 0 || i % 4 === 3) && 'bg-foreground/5'
+            )}
+          >
+            <img
+              src={logo.src}
+              alt={logo.alt}
+              className="pointer-events-none h-4 select-none brightness-0 invert opacity-70 md:h-5"
+            />
+          </div>
+        )
+      })}
+      <div className="pointer-events-none absolute -bottom-px left-1/2 -translate-x-1/2 w-full border-b border-foreground/10" />
+    </div>
+  )
+}
+
 export function HeroV2({ data }: { data: HeroV2Data }) {
   const imageSrc = resolveImage(data.image) ?? 'https://placehold.co/400x600/eab308/ffffff?text=Hero'
   const circleColor = data.circleColor ?? '#facc15'
+  const logos = data.logos ?? []
 
   return (
     <section
@@ -18,26 +51,15 @@ export function HeroV2({ data }: { data: HeroV2Data }) {
         'relative flex w-full flex-col items-center justify-center overflow-hidden bg-background px-8 pt-10 pb-8 font-sans md:px-12'
       )}
     >
-      {/* Main Content Area */}
       <div className="relative grid w-full max-w-7xl grid-cols-1 items-center md:grid-cols-3 gap-8">
-        {/* Left Text Content */}
+        {/* Left — Logo Cloud */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="z-20 order-2 md:order-1 text-center md:text-left"
+          className="z-20 order-2 md:order-1"
         >
-          <p className="mx-auto max-w-xs text-sm leading-relaxed text-foreground/80 md:mx-0">
-            {data.mainText}
-          </p>
-          {data.readMoreLabel && data.readMoreHref && (
-            <a
-              href={data.readMoreHref}
-              className="mt-4 inline-block text-sm font-medium text-foreground underline decoration-from-font"
-            >
-              {data.readMoreLabel}
-            </a>
-          )}
+          <LogoCloud logos={logos} />
         </motion.div>
 
         {/* Center Image with Circle */}
@@ -62,7 +84,6 @@ export function HeroV2({ data }: { data: HeroV2Data }) {
               target.src = 'https://placehold.co/400x600/eab308/ffffff?text=Image+Not+Found'
             }}
           />
-          {/* Location Text — anchored to bottom of the circle */}
           {data.locationText && (
             <motion.span
               initial={{ opacity: 0, y: 10 }}

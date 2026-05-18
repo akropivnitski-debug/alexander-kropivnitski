@@ -6,26 +6,26 @@ export const HeroV2Block: Block = {
   labels: { singular: 'Hero V2', plural: 'Hero V2 Sections' },
   fields: [
     {
-      name: 'mainText',
-      label: 'Description Text',
-      type: 'textarea',
-      required: true,
-      defaultValue: 'Creative developer crafting digital experiences with modern web technologies.',
+      name: 'logos',
+      label: 'Logo Cloud',
+      type: 'array',
       admin: {
-        description: 'Short paragraph displayed on the left side of the hero.',
+        description: 'Logos displayed in a grid on the left side. Ideally 4 or 8 logos.',
       },
-    },
-    {
-      name: 'readMoreLabel',
-      label: 'Link Label',
-      type: 'text',
-      defaultValue: 'Read More',
-    },
-    {
-      name: 'readMoreHref',
-      label: 'Link URL',
-      type: 'text',
-      defaultValue: '#about',
+      fields: [
+        {
+          name: 'src',
+          label: 'Logo URL',
+          type: 'text',
+          required: true,
+        },
+        {
+          name: 'alt',
+          label: 'Alt Text',
+          type: 'text',
+          required: true,
+        },
+      ],
     },
     imageField('image', 'Hero Image'),
     {
@@ -34,9 +34,6 @@ export const HeroV2Block: Block = {
       type: 'text',
       required: true,
       defaultValue: 'ALEX',
-      admin: {
-        description: 'First line of the large overlay text.',
-      },
     },
     {
       name: 'overlayPart2',
@@ -44,27 +41,18 @@ export const HeroV2Block: Block = {
       type: 'text',
       required: true,
       defaultValue: 'ANDER',
-      admin: {
-        description: 'Second line of the large overlay text.',
-      },
     },
     {
       name: 'circleColor',
       label: 'Circle Background Color',
       type: 'text',
       defaultValue: '#facc15',
-      admin: {
-        description: 'Hex color for the circle behind the image (e.g. #facc15 for yellow).',
-      },
     },
     {
       name: 'locationText',
       label: 'Location Text',
       type: 'text',
       defaultValue: 'Based in Europe',
-      admin: {
-        description: 'Small text shown at the bottom right of the hero.',
-      },
     },
   ],
 }

@@ -288,11 +288,15 @@ export interface Page {
           }
         | {
             /**
-             * Short paragraph displayed on the left side of the hero.
+             * Logos displayed in a grid on the left side. Ideally 4 or 8 logos.
              */
-            mainText: string;
-            readMoreLabel?: string | null;
-            readMoreHref?: string | null;
+            logos?:
+              | {
+                  src: string;
+                  alt: string;
+                  id?: string | null;
+                }[]
+              | null;
             image?: {
               source?: ('upload' | 'url') | null;
               upload?: (number | null) | Media;
@@ -301,21 +305,9 @@ export interface Page {
                */
               url?: string | null;
             };
-            /**
-             * First line of the large overlay text.
-             */
             overlayPart1: string;
-            /**
-             * Second line of the large overlay text.
-             */
             overlayPart2: string;
-            /**
-             * Hex color for the circle behind the image (e.g. #facc15 for yellow).
-             */
             circleColor?: string | null;
-            /**
-             * Small text shown at the bottom right of the hero.
-             */
             locationText?: string | null;
             id?: string | null;
             blockName?: string | null;
@@ -579,9 +571,13 @@ export interface PagesSelect<T extends boolean = true> {
         heroV2?:
           | T
           | {
-              mainText?: T;
-              readMoreLabel?: T;
-              readMoreHref?: T;
+              logos?:
+                | T
+                | {
+                    src?: T;
+                    alt?: T;
+                    id?: T;
+                  };
               image?:
                 | T
                 | {
