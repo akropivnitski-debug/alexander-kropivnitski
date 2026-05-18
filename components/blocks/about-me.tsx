@@ -83,7 +83,7 @@ export function AboutMe({ data }: { data: AboutMeData }) {
           </h2>
         )}
         {data.description && (
-          <p className="mx-auto mb-12 max-w-xl text-center text-muted-foreground md:mb-16">
+          <p className="mx-auto mb-12 max-w-3xl text-center text-muted-foreground md:mb-16">
             {data.description}
           </p>
         )}
