@@ -35,6 +35,6 @@ export default buildConfig({
       connectionTimeoutMillis: 5000,
       idleTimeoutMillis: 10000,
     },
-    push: process.env.PAYLOAD_DB_PUSH === 'true',
+    push: process.env.NODE_ENV !== 'production' && process.env.PAYLOAD_DB_PUSH === 'true',
   }),
 })
