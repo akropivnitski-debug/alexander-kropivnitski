@@ -28,7 +28,7 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV2Data['logos']> }) {
             )}
           >
             <img
-              src={logo.src}
+              src={resolveImage(logo.logo) ?? ''}
               alt={logo.alt}
               className="pointer-events-none h-4 select-none brightness-0 invert opacity-70 md:h-5"
             />

@@ -13,12 +13,7 @@ export const HeroV2Block: Block = {
         description: 'Logos displayed in a grid on the left side. Ideally 4 or 8 logos.',
       },
       fields: [
-        {
-          name: 'src',
-          label: 'Logo URL',
-          type: 'text',
-          required: true,
-        },
+        imageField('logo', 'Logo Image'),
         {
           name: 'alt',
           label: 'Alt Text',

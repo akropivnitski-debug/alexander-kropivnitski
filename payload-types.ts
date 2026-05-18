@@ -292,7 +292,14 @@ export interface Page {
              */
             logos?:
               | {
-                  src: string;
+                  logo?: {
+                    source?: ('upload' | 'url') | null;
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
                   alt: string;
                   id?: string | null;
                 }[]
@@ -574,7 +581,13 @@ export interface PagesSelect<T extends boolean = true> {
               logos?:
                 | T
                 | {
-                    src?: T;
+                    logo?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
                     alt?: T;
                     id?: T;
                   };
