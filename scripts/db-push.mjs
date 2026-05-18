@@ -24,15 +24,23 @@ if (!connectionString) {
 
 console.log('[db-push] Pushing schema to database...')
 
+// Override NODE_ENV so the push condition in payload.config.ts evaluates to true.
+// In production builds on Vercel, NODE_ENV=production which disables push at runtime.
+// But during this build-time script, we explicitly want to push.
+const originalNodeEnv = process.env.NODE_ENV
+process.env.NODE_ENV = 'development'
+
 try {
   const { getPayload } = await import('payload')
   const config = (await import('../payload.config.js')).default
 
   const payload = await getPayload({ config })
   console.log('[db-push] Schema push complete.')
+  process.env.NODE_ENV = originalNodeEnv
   process.exit(0)
 } catch (err) {
   console.error('[db-push] Schema push failed:', err.message)
+  process.env.NODE_ENV = originalNodeEnv
   // Don't fail the build — the schema may already be up to date
   process.exit(0)
 }
