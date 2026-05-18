@@ -4,6 +4,7 @@ import { HeroBlock } from '@/blocks/HeroBlock'
 import { CompaniesBlock } from '@/blocks/CompaniesBlock'
 import { TestimonialsBlock } from '@/blocks/TestimonialsBlock'
 import { AboutMeBlock } from '@/blocks/AboutMeBlock'
+import { HeroV2Block } from '@/blocks/HeroV2Block'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -44,6 +45,7 @@ export const PagesCollection: CollectionConfig = {
         CompaniesBlock,
         TestimonialsBlock,
         AboutMeBlock,
+        HeroV2Block,
       ],
     },
     {
