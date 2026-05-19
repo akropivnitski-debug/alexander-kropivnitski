@@ -6,15 +6,17 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { BlockRenderer } from '@/components/BlockRenderer'
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import { resolveImage } from '@/lib/resolveImage'
 
 type Props = { params: Promise<{ slug: string }> }
 
 async function getPage(slug: string) {
   const payload = await getPayload({ config })
-  const [siteSettings, header, result] = await Promise.all([
+  const [siteSettings, header, footer, result] = await Promise.all([
     payload.findGlobal({ slug: 'site-settings' }),
     payload.findGlobal({ slug: 'header' }),
+    payload.findGlobal({ slug: 'footer' }),
     payload.find({
       collection: 'pages',
       where: {
@@ -26,7 +28,7 @@ async function getPage(slug: string) {
       limit: 1,
     }),
   ])
-  return { page: result.docs[0] ?? null, siteSettings, header }
+  return { page: result.docs[0] ?? null, siteSettings, header, footer }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -64,7 +66,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { slug } = await params
-  const { page, header } = await getPage(slug)
+  const { page, header, footer } = await getPage(slug)
 
   if (!page) notFound()
 
@@ -74,6 +76,7 @@ export default async function Page({ params }: Props) {
       <main className="bg-black relative min-h-screen w-full">
         <BlockRenderer blocks={page.layout ?? []} />
       </main>
+      <Footer data={footer} />
     </>
   )
 }
