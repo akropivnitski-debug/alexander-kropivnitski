@@ -11,9 +11,11 @@ type HeroV2Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'her
 function LogoCloud({ logos }: { logos: NonNullable<HeroV2Data['logos']> }) {
   if (logos.length === 0) return null
 
+  const cols = 2
+  const rows = Math.ceil(logos.length / cols)
+
   return (
-    <div className="relative grid grid-cols-2 border-x border-foreground/10">
-      <div className="pointer-events-none absolute -top-px left-1/2 -translate-x-1/2 w-full border-t border-foreground/10" />
+    <div className="relative grid grid-cols-2">
       {logos.map((logo, i) => {
         const isEvenCol = i % 2 === 0
         const isTopHalf = i < logos.length / 2
@@ -21,9 +23,7 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV2Data['logos']> }) {
           <div
             key={logo.id ?? i}
             className={cn(
-              'flex items-center justify-center px-4 py-6 md:py-8',
-              isEvenCol && 'border-r border-foreground/10',
-              !isTopHalf ? '' : 'border-b border-foreground/10',
+              'relative flex items-center justify-center px-4 py-6 md:py-8 border border-foreground/10',
               (i % 4 === 0 || i % 4 === 3) && 'bg-foreground/5'
             )}
           >
@@ -32,13 +32,46 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV2Data['logos']> }) {
               alt={logo.alt}
               className={cn(
                 'pointer-events-none h-8 w-auto max-w-[120px] select-none md:h-10',
-                !logo.disableFilter && 'grayscale invert opacity-70'
+                !logo.disableFilter && 'brightness-0 invert'
               )}
             />
           </div>
         )
       })}
-      <div className="pointer-events-none absolute -bottom-px left-1/2 -translate-x-1/2 w-full border-b border-foreground/10" />
+      {/* + markers at grid intersections */}
+      {Array.from({ length: rows - 1 }).map((_, row) => (
+        <React.Fragment key={`plus-row-${row}`}>
+          {/* Center intersection */}
+          <span
+            className="pointer-events-none absolute left-1/2 -translate-x-1/2 text-foreground/30 text-xs font-light"
+            style={{ top: `${((row + 1) / rows) * 100}%`, transform: 'translate(-50%, -50%)' }}
+          >
+            +
+          </span>
+          {/* Left intersection */}
+          <span
+            className="pointer-events-none absolute left-0 text-foreground/30 text-xs font-light"
+            style={{ top: `${((row + 1) / rows) * 100}%`, transform: 'translate(-50%, -50%)' }}
+          >
+            +
+          </span>
+          {/* Right intersection */}
+          <span
+            className="pointer-events-none absolute right-0 text-foreground/30 text-xs font-light"
+            style={{ top: `${((row + 1) / rows) * 100}%`, transform: 'translate(50%, -50%)' }}
+          >
+            +
+          </span>
+        </React.Fragment>
+      ))}
+      {/* Top corners */}
+      <span className="pointer-events-none absolute top-0 left-0 text-foreground/30 text-xs font-light" style={{ transform: 'translate(-50%, -50%)' }}>+</span>
+      <span className="pointer-events-none absolute top-0 left-1/2 text-foreground/30 text-xs font-light" style={{ transform: 'translate(-50%, -50%)' }}>+</span>
+      <span className="pointer-events-none absolute top-0 right-0 text-foreground/30 text-xs font-light" style={{ transform: 'translate(50%, -50%)' }}>+</span>
+      {/* Bottom corners */}
+      <span className="pointer-events-none absolute bottom-0 left-0 text-foreground/30 text-xs font-light" style={{ transform: 'translate(-50%, 50%)' }}>+</span>
+      <span className="pointer-events-none absolute bottom-0 left-1/2 text-foreground/30 text-xs font-light" style={{ transform: 'translate(-50%, 50%)' }}>+</span>
+      <span className="pointer-events-none absolute bottom-0 right-0 text-foreground/30 text-xs font-light" style={{ transform: 'translate(50%, 50%)' }}>+</span>
     </div>
   )
 }
