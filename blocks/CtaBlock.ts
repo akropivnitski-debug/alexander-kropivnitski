@@ -4,6 +4,8 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const CtaBlock: Block = {
   slug: 'cta',
   labels: { singular: 'CTA', plural: 'CTA Sections' },
+  imageURL: '/blocks/cta.png',
+  imageAltText: 'CTA block preview',
   fields: [
     {
       name: 'heading',

@@ -5,6 +5,8 @@ import { spacingFields } from '@/fields/spacingFields'
 export const HeroV4Block: Block = {
   slug: 'heroV4',
   labels: { singular: 'Hero V4', plural: 'Hero V4 Sections' },
+  imageURL: '/blocks/hero-v4.png',
+  imageAltText: 'Hero V4 block preview',
   fields: [
     {
       name: 'heading',

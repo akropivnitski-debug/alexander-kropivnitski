@@ -5,6 +5,8 @@ import { spacingFields } from '@/fields/spacingFields'
 export const WorldMapBlock: Block = {
   slug: 'worldMap',
   labels: { singular: 'World Map', plural: 'World Map Sections' },
+  imageURL: '/blocks/world-map.png',
+  imageAltText: 'World Map block preview',
   fields: [
     {
       name: 'heading',

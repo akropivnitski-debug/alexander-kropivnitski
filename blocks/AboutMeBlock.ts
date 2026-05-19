@@ -5,6 +5,8 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const AboutMeBlock: Block = {
   slug: 'aboutMe',
   labels: { singular: 'About Me', plural: 'About Me Sections' },
+  imageURL: '/blocks/about-me.png',
+  imageAltText: 'About Me block preview',
   dbName: 'about_me',
   fields: [
     {

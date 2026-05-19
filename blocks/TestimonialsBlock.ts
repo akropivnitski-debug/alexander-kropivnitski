@@ -5,6 +5,8 @@ import { spacingFields } from '@/fields/spacingFields'
 export const TestimonialsBlock: Block = {
   slug: 'testimonials',
   labels: { singular: 'Testimonials', plural: 'Testimonials Sections' },
+  imageURL: '/blocks/testimonials.png',
+  imageAltText: 'Testimonials block preview',
   dbName: 'testi',
   fields: [
     {
