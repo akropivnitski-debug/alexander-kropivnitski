@@ -53,6 +53,6 @@ export const CtaBlock: Block = {
       label: 'GitHub URL',
       type: 'text',
     },
-    ...makeSpacingFields('sm', 'sm'),
+    ...makeSpacingFields('none', 'none'),
   ],
 }

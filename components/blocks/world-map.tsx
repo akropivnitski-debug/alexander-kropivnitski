@@ -218,17 +218,9 @@ export function WorldMap({ data }: { data: WorldMapData }) {
             )}
           </div>
         )}
-        <WorldMapCanvas
-          dots={dots}
-          lineColor={data.lineColor ?? '#0ea5e9'}
-          dotColor={data.dotColor ?? '#FFFF7F40'}
-          showLabels={data.showLabels ?? true}
-          loop={data.loop ?? true}
-        />
-
         {/* Stats */}
         {data.stats && data.stats.length > 0 && (
-          <div className="mt-12 flex items-center justify-center gap-16 md:gap-24">
+          <div className="mb-10 flex items-center justify-center gap-16 md:gap-24">
             {data.stats.map((stat, i) => (
               <div key={stat.id ?? i} className="text-center">
                 <p
@@ -244,6 +236,14 @@ export function WorldMap({ data }: { data: WorldMapData }) {
             ))}
           </div>
         )}
+
+        <WorldMapCanvas
+          dots={dots}
+          lineColor={data.lineColor ?? '#0ea5e9'}
+          dotColor={data.dotColor ?? '#FFFF7F40'}
+          showLabels={data.showLabels ?? true}
+          loop={data.loop ?? true}
+        />
       </div>
     </section>
   )

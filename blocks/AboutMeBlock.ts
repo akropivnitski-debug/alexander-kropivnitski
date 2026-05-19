@@ -48,6 +48,6 @@ export const AboutMeBlock: Block = {
         imageField('image', 'Image'),
       ],
     },
-    ...makeSpacingFields('sm', 'sm'),
+    ...makeSpacingFields('none', 'none'),
   ],
 }

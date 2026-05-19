@@ -29,6 +29,6 @@ export const HeroV3Block: Block = {
         description: 'Hex color for the circle behind the image (e.g. #facc15 for yellow).',
       },
     },
-    ...makeSpacingFields('sm', 'sm'),
+    ...makeSpacingFields('none', 'none'),
   ],
 }
