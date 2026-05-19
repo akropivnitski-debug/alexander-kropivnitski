@@ -329,6 +329,10 @@ export interface Page {
              * CSS color for the animated connection lines (e.g. #0ea5e9)
              */
             lineColor?: string | null;
+            /**
+             * CSS color for the continent dots (8-char hex for alpha, e.g. #FFFF7F40)
+             */
+            dotColor?: string | null;
             showLabels?: boolean | null;
             loop?: boolean | null;
             /**
@@ -645,6 +649,7 @@ export interface PagesSelect<T extends boolean = true> {
               heading?: T;
               description?: T;
               lineColor?: T;
+              dotColor?: T;
               showLabels?: T;
               loop?: T;
               connections?:
