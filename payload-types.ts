@@ -547,6 +547,39 @@ export interface Page {
             blockName?: string | null;
             blockType: 'worldMap';
           }
+        | {
+            heading: string;
+            content: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            };
+            image?: {
+              source?: ('upload' | 'url') | null;
+              upload?: (number | null) | Media;
+              /**
+               * Full URL to an image (JPG, PNG, WebP, SVG)
+               */
+              url?: string | null;
+            };
+            /**
+             * Hex color for the circle behind the image (e.g. #facc15 for yellow).
+             */
+            circleColor?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'heroV3';
+          }
       )[]
     | null;
   meta?: {
@@ -847,6 +880,22 @@ export interface PagesSelect<T extends boolean = true> {
                     endCity?: T;
                     id?: T;
                   };
+              id?: T;
+              blockName?: T;
+            };
+        heroV3?:
+          | T
+          | {
+              heading?: T;
+              content?: T;
+              image?:
+                | T
+                | {
+                    source?: T;
+                    upload?: T;
+                    url?: T;
+                  };
+              circleColor?: T;
               id?: T;
               blockName?: T;
             };
