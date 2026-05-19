@@ -9,6 +9,8 @@ export const MediaCollection: CollectionConfig = {
   },
   upload: {
     mimeTypes: ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml'],
+    disableLocalStorage: true,
+    focalPoint: false,
   },
   fields: [
     {
