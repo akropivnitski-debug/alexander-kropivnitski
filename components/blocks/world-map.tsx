@@ -1,7 +1,7 @@
 'use client'
 
-import React, { useRef, useState, useMemo } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import React, { useRef, useMemo } from 'react'
+import { motion } from 'framer-motion'
 import DottedMap from 'dotted-map'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
@@ -28,7 +28,6 @@ function WorldMapCanvas({
   loop?: boolean
 }) {
   const svgRef = useRef<SVGSVGElement>(null)
-  const [hoveredLocation, setHoveredLocation] = useState<string | null>(null)
 
   const map = useMemo(
     () => new DottedMap({ height: 100, grid: 'diagonal' }),
@@ -172,137 +171,75 @@ function WorldMapCanvas({
             <g key={`points-group-${i}`}>
               {/* Start Point */}
               <g>
-                <motion.g
-                  onHoverStart={() =>
-                    setHoveredLocation(dot.start.label || `Location ${i}`)
-                  }
-                  onHoverEnd={() => setHoveredLocation(null)}
-                  className="cursor-pointer"
-                  whileHover={{ scale: 1.2 }}
-                  transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                <circle
+                  cx={startPoint.x}
+                  cy={startPoint.y}
+                  r="3"
+                  fill={lineColor}
+                  filter="url(#glow)"
+                />
+                <circle
+                  cx={startPoint.x}
+                  cy={startPoint.y}
+                  r="3"
+                  fill={lineColor}
+                  opacity="0.5"
                 >
-                  <circle
-                    cx={startPoint.x}
-                    cy={startPoint.y}
-                    r="3"
-                    fill={lineColor}
-                    filter="url(#glow)"
-                    className="drop-shadow-lg"
-                  />
-                  <circle
-                    cx={startPoint.x}
-                    cy={startPoint.y}
-                    r="3"
-                    fill={lineColor}
-                    opacity="0.5"
-                  >
-                    <animate
-                      attributeName="r"
-                      from="3"
-                      to="12"
-                      dur="2s"
-                      begin="0s"
-                      repeatCount="indefinite"
-                    />
-                    <animate
-                      attributeName="opacity"
-                      from="0.6"
-                      to="0"
-                      dur="2s"
-                      begin="0s"
-                      repeatCount="indefinite"
-                    />
-                  </circle>
-                </motion.g>
+                  <animate attributeName="r" from="3" to="12" dur="2s" repeatCount="indefinite" />
+                  <animate attributeName="opacity" from="0.6" to="0" dur="2s" repeatCount="indefinite" />
+                </circle>
 
                 {showLabels && dot.start.label && (
-                  <motion.g
-                    initial={{ opacity: 0, y: 5 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 * i + 0.3, duration: 0.5 }}
+                  <foreignObject
+                    x={startPoint.x - 50}
+                    y={startPoint.y - 35}
+                    width="100"
+                    height="30"
                     className="pointer-events-none"
                   >
-                    <foreignObject
-                      x={startPoint.x - 50}
-                      y={startPoint.y - 35}
-                      width="100"
-                      height="30"
-                    >
-                      <div className="flex items-center justify-center h-full">
-                        <span className="text-sm font-medium px-2 py-0.5 rounded-md bg-black/95 text-white border border-gray-700 shadow-sm">
-                          {dot.start.label}
-                        </span>
-                      </div>
-                    </foreignObject>
-                  </motion.g>
+                    <div className="flex items-center justify-center h-full">
+                      <span className="text-sm font-medium px-2 py-0.5 rounded-md bg-black/95 text-white border border-gray-700 shadow-sm">
+                        {dot.start.label}
+                      </span>
+                    </div>
+                  </foreignObject>
                 )}
               </g>
 
               {/* End Point */}
               <g>
-                <motion.g
-                  onHoverStart={() =>
-                    setHoveredLocation(dot.end.label || `Destination ${i}`)
-                  }
-                  onHoverEnd={() => setHoveredLocation(null)}
-                  className="cursor-pointer"
-                  whileHover={{ scale: 1.2 }}
-                  transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                <circle
+                  cx={endPoint.x}
+                  cy={endPoint.y}
+                  r="3"
+                  fill={lineColor}
+                  filter="url(#glow)"
+                />
+                <circle
+                  cx={endPoint.x}
+                  cy={endPoint.y}
+                  r="3"
+                  fill={lineColor}
+                  opacity="0.5"
                 >
-                  <circle
-                    cx={endPoint.x}
-                    cy={endPoint.y}
-                    r="3"
-                    fill={lineColor}
-                    filter="url(#glow)"
-                    className="drop-shadow-lg"
-                  />
-                  <circle
-                    cx={endPoint.x}
-                    cy={endPoint.y}
-                    r="3"
-                    fill={lineColor}
-                    opacity="0.5"
-                  >
-                    <animate
-                      attributeName="r"
-                      from="3"
-                      to="12"
-                      dur="2s"
-                      begin="0.5s"
-                      repeatCount="indefinite"
-                    />
-                    <animate
-                      attributeName="opacity"
-                      from="0.6"
-                      to="0"
-                      dur="2s"
-                      begin="0.5s"
-                      repeatCount="indefinite"
-                    />
-                  </circle>
-                </motion.g>
+                  <animate attributeName="r" from="3" to="12" dur="2s" begin="0.5s" repeatCount="indefinite" />
+                  <animate attributeName="opacity" from="0.6" to="0" dur="2s" begin="0.5s" repeatCount="indefinite" />
+                </circle>
 
                 {showLabels && dot.end.label && (
-                  <motion.g
-                    initial={{ opacity: 0, y: 5 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 * i + 0.5, duration: 0.5 }}
+                  <foreignObject
+                    x={endPoint.x - 50}
+                    y={endPoint.y - 35}
+                    width="100"
+                    height="30"
                     className="pointer-events-none"
                   >
-                    <foreignObject
-                      x={endPoint.x - 50}
-                      y={endPoint.y - 35}
-                      width="100"
-                      height="30"
-                    >
-                      <div className="flex items-center justify-center h-full">
-                        <span className="text-sm font-medium px-2 py-0.5 rounded-md bg-black/95 text-white border border-gray-700 shadow-sm">
-                          {dot.end.label}
-                        </span>
-                      </div>
-                    </foreignObject>
-                  </motion.g>
+                    <div className="flex items-center justify-center h-full">
+                      <span className="text-sm font-medium px-2 py-0.5 rounded-md bg-black/95 text-white border border-gray-700 shadow-sm">
+                        {dot.end.label}
+                      </span>
+                    </div>
+                  </foreignObject>
                 )}
               </g>
             </g>
@@ -310,19 +247,6 @@ function WorldMapCanvas({
         })}
       </svg>
 
-      {/* Mobile Tooltip */}
-      <AnimatePresence>
-        {hoveredLocation && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 10 }}
-            className="absolute bottom-4 left-4 bg-black/90 text-white px-3 py-2 rounded-lg text-sm font-medium backdrop-blur-sm sm:hidden border border-gray-700"
-          >
-            {hoveredLocation}
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   )
 }
