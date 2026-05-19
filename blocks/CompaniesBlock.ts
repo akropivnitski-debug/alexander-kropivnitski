@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { imageField } from '@/fields/imageField'
+import { spacingFields } from '@/fields/spacingFields'
 
 export const CompaniesBlock: Block = {
   slug: 'companies',
@@ -38,5 +39,6 @@ export const CompaniesBlock: Block = {
         description: 'Duration in seconds for one full scroll cycle. Lower = faster.',
       },
     },
+    ...spacingFields,
   ],
 }

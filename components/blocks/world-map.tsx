@@ -225,6 +225,25 @@ export function WorldMap({ data }: { data: WorldMapData }) {
           showLabels={data.showLabels ?? true}
           loop={data.loop ?? true}
         />
+
+        {/* Stats */}
+        {data.stats && data.stats.length > 0 && (
+          <div className="mt-12 flex items-center justify-center gap-16 md:gap-24">
+            {data.stats.map((stat, i) => (
+              <div key={stat.id ?? i} className="text-center">
+                <p
+                  className="text-5xl font-extrabold md:text-6xl lg:text-7xl"
+                  style={{ color: data.statsColor ?? '#facc15' }}
+                >
+                  {stat.value}
+                </p>
+                <p className="mt-2 text-sm text-foreground/60 md:text-base">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   )

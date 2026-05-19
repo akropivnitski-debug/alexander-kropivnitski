@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { spacingFields } from '@/fields/spacingFields'
 
 export const CtaBlock: Block = {
   slug: 'cta',
@@ -52,5 +53,6 @@ export const CtaBlock: Block = {
       label: 'GitHub URL',
       type: 'text',
     },
+    ...spacingFields,
   ],
 }

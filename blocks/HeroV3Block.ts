@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { imageField } from '@/fields/imageField'
+import { spacingFields } from '@/fields/spacingFields'
 
 export const HeroV3Block: Block = {
   slug: 'heroV3',
@@ -28,5 +29,6 @@ export const HeroV3Block: Block = {
         description: 'Hex color for the circle behind the image (e.g. #facc15 for yellow).',
       },
     },
+    ...spacingFields,
   ],
 }

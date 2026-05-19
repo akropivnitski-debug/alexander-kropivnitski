@@ -192,6 +192,8 @@ export interface Page {
              * Small text shown at the bottom right of the hero.
              */
             locationText?: string | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'hero';
@@ -219,6 +221,8 @@ export interface Page {
              * Duration in seconds for one full scroll cycle. Lower = faster.
              */
             speed?: number | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'companies';
@@ -254,6 +258,8 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'testimonials';
@@ -280,6 +286,8 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'aboutMe';
@@ -318,6 +326,8 @@ export interface Page {
             overlayPart2: string;
             circleColor?: string | null;
             locationText?: string | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'heroV2';
@@ -543,6 +553,28 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            /**
+             * Up to 3 big numbers displayed below the map.
+             */
+            stats?:
+              | {
+                  /**
+                   * e.g. "10+", "50K", "99%"
+                   */
+                  value: string;
+                  /**
+                   * Small text below the number.
+                   */
+                  label: string;
+                  id?: string | null;
+                }[]
+              | null;
+            /**
+             * Hex color for the stat numbers (e.g. #facc15 for yellow).
+             */
+            statsColor?: string | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'worldMap';
@@ -576,6 +608,8 @@ export interface Page {
              * Hex color for the circle behind the image (e.g. #facc15 for yellow).
              */
             circleColor?: string | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'heroV3';
@@ -630,6 +664,8 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'heroV4';
@@ -648,6 +684,8 @@ export interface Page {
             buttonColor?: string | null;
             linkedinUrl?: string | null;
             githubUrl?: string | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'cta';
@@ -827,6 +865,8 @@ export interface PagesSelect<T extends boolean = true> {
               overlayPart2?: T;
               circleColor?: T;
               locationText?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -848,6 +888,8 @@ export interface PagesSelect<T extends boolean = true> {
                     id?: T;
                   };
               speed?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -879,6 +921,8 @@ export interface PagesSelect<T extends boolean = true> {
                     featured?: T;
                     id?: T;
                   };
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -902,6 +946,8 @@ export interface PagesSelect<T extends boolean = true> {
                         };
                     id?: T;
                   };
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -933,6 +979,8 @@ export interface PagesSelect<T extends boolean = true> {
               overlayPart2?: T;
               circleColor?: T;
               locationText?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -952,6 +1000,16 @@ export interface PagesSelect<T extends boolean = true> {
                     endCity?: T;
                     id?: T;
                   };
+              stats?:
+                | T
+                | {
+                    value?: T;
+                    label?: T;
+                    id?: T;
+                  };
+              statsColor?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -968,6 +1026,8 @@ export interface PagesSelect<T extends boolean = true> {
                     url?: T;
                   };
               circleColor?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -998,6 +1058,8 @@ export interface PagesSelect<T extends boolean = true> {
                     disableFilter?: T;
                     id?: T;
                   };
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };
@@ -1011,6 +1073,8 @@ export interface PagesSelect<T extends boolean = true> {
               buttonColor?: T;
               linkedinUrl?: T;
               githubUrl?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
               id?: T;
               blockName?: T;
             };

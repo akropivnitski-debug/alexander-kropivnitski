@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { imageField } from '@/fields/imageField'
+import { spacingFields } from '@/fields/spacingFields'
 
 export const TestimonialsBlock: Block = {
   slug: 'testimonials',
@@ -57,5 +58,6 @@ export const TestimonialsBlock: Block = {
         },
       ],
     },
+    ...spacingFields,
   ],
 }

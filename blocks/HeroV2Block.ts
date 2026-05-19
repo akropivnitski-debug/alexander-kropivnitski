@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { imageField } from '@/fields/imageField'
+import { spacingFields } from '@/fields/spacingFields'
 
 export const HeroV2Block: Block = {
   slug: 'heroV2',
@@ -58,5 +59,6 @@ export const HeroV2Block: Block = {
       type: 'text',
       defaultValue: 'Based in Europe',
     },
+    ...spacingFields,
   ],
 }

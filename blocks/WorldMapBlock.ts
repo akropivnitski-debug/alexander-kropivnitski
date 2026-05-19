@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { cityOptions } from '@/lib/city-coordinates'
+import { spacingFields } from '@/fields/spacingFields'
 
 export const WorldMapBlock: Block = {
   slug: 'worldMap',
@@ -76,5 +77,40 @@ export const WorldMapBlock: Block = {
         },
       ],
     },
+    {
+      name: 'stats',
+      label: 'Stats',
+      type: 'array',
+      maxRows: 3,
+      admin: {
+        description: 'Up to 3 big numbers displayed below the map.',
+      },
+      fields: [
+        {
+          name: 'value',
+          label: 'Number / Value',
+          type: 'text',
+          required: true,
+          admin: { description: 'e.g. "10+", "50K", "99%"' },
+        },
+        {
+          name: 'label',
+          label: 'Label',
+          type: 'text',
+          required: true,
+          admin: { description: 'Small text below the number.' },
+        },
+      ],
+    },
+    {
+      name: 'statsColor',
+      label: 'Stats Number Color',
+      type: 'text',
+      defaultValue: '#facc15',
+      admin: {
+        description: 'Hex color for the stat numbers (e.g. #facc15 for yellow).',
+      },
+    },
+    ...spacingFields,
   ],
 }
