@@ -580,6 +580,60 @@ export interface Page {
             blockName?: string | null;
             blockType: 'heroV3';
           }
+        | {
+            heading: string;
+            content: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            };
+            image?: {
+              source?: ('upload' | 'url') | null;
+              upload?: (number | null) | Media;
+              /**
+               * Full URL to an image (JPG, PNG, WebP, SVG)
+               */
+              url?: string | null;
+            };
+            /**
+             * Hex color for the circle behind the image (e.g. #facc15 for yellow).
+             */
+            circleColor?: string | null;
+            /**
+             * Logos displayed in a grid below the heading and content.
+             */
+            logos?:
+              | {
+                  logo?: {
+                    source?: ('upload' | 'url') | null;
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  alt: string;
+                  /**
+                   * Show the logo in its original colors instead of grayscale/inverted.
+                   */
+                  disableFilter?: boolean | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'heroV4';
+          }
       )[]
     | null;
   meta?: {
@@ -896,6 +950,36 @@ export interface PagesSelect<T extends boolean = true> {
                     url?: T;
                   };
               circleColor?: T;
+              id?: T;
+              blockName?: T;
+            };
+        heroV4?:
+          | T
+          | {
+              heading?: T;
+              content?: T;
+              image?:
+                | T
+                | {
+                    source?: T;
+                    upload?: T;
+                    url?: T;
+                  };
+              circleColor?: T;
+              logos?:
+                | T
+                | {
+                    logo?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    alt?: T;
+                    disableFilter?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };
