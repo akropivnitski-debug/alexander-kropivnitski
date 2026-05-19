@@ -61,17 +61,17 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
   const fullCycleDuration = totalAnimationTime + pauseTime
 
   return (
-    <div className="w-full aspect-[2/1] md:aspect-[2.5/1] lg:aspect-[2/1] bg-background rounded-lg relative font-sans overflow-hidden">
+    <div className="w-full aspect-[2/1] md:aspect-[2.5/1] lg:aspect-[2/1] bg-background rounded-lg relative font-sans overflow-hidden [will-change:transform] [transform:translateZ(0)]">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}
-        className="h-full w-full [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)] pointer-events-none select-none object-cover"
+        className="h-full w-full [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)] pointer-events-none select-none object-cover [will-change:transform] [transform:translateZ(0)]"
         alt="world map"
         draggable={false}
       />
       <svg
         viewBox="0 0 800 400"
-        className="w-full h-full absolute inset-0 pointer-events-none select-none"
+        className="w-full h-full absolute inset-0 pointer-events-none select-none [will-change:transform] [transform:translateZ(0)]"
         preserveAspectRatio="xMidYMid meet"
       >
         <defs>
