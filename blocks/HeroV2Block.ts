@@ -20,6 +20,15 @@ export const HeroV2Block: Block = {
           type: 'text',
           required: true,
         },
+        {
+          name: 'disableFilter',
+          label: 'Disable Color Filter',
+          type: 'checkbox',
+          defaultValue: false,
+          admin: {
+            description: 'Show the logo in its original colors instead of grayscale/inverted.',
+          },
+        },
       ],
     },
     imageField('image', 'Hero Image'),

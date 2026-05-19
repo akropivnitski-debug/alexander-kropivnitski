@@ -147,8 +147,6 @@ export interface Media {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
-  focalX?: number | null;
-  focalY?: number | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -301,6 +299,10 @@ export interface Page {
                     url?: string | null;
                   };
                   alt: string;
+                  /**
+                   * Show the logo in its original colors instead of grayscale/inverted.
+                   */
+                  disableFilter?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -467,8 +469,6 @@ export interface MediaSelect<T extends boolean = true> {
   filesize?: T;
   width?: T;
   height?: T;
-  focalX?: T;
-  focalY?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -589,6 +589,7 @@ export interface PagesSelect<T extends boolean = true> {
                           url?: T;
                         };
                     alt?: T;
+                    disableFilter?: T;
                     id?: T;
                   };
               image?:
