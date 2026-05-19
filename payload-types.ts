@@ -147,11 +147,11 @@ export interface Media {
    */
   optimizeQuality?: number | null;
   /**
-   * Downscale to this width (keeps aspect ratio). Leave empty to keep original.
+   * Downscale to this width (keeps aspect ratio).
    */
   optimizeMaxWidth?: number | null;
   /**
-   * Downscale to this height (keeps aspect ratio). Leave empty to keep original.
+   * Downscale to this height (keeps aspect ratio).
    */
   optimizeMaxHeight?: number | null;
   updatedAt: string;

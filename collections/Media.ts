@@ -125,47 +125,43 @@ export const MediaCollection: CollectionConfig = {
       type: 'text',
     },
     {
-      type: 'collapsible',
-      label: 'Optimization',
+      name: 'optimizeFormat',
+      label: 'Format',
+      type: 'select',
+      defaultValue: 'auto',
+      options: [
+        { label: 'Auto (keep original)', value: 'auto' },
+        { label: 'WebP', value: 'webp' },
+        { label: 'AVIF', value: 'avif' },
+        { label: 'JPEG', value: 'jpeg' },
+        { label: 'PNG', value: 'png' },
+      ],
       admin: {
-        initCollapsed: true,
-        description: 'Compress, convert format, or resize the image on upload.',
+        description: 'Convert to a different format. WebP/AVIF offer best compression.',
       },
+    },
+    {
+      name: 'optimizeQuality',
+      label: 'Quality',
+      type: 'number',
+      defaultValue: 80,
+      min: 1,
+      max: 100,
+      admin: {
+        description: 'Compression quality (1–100). Lower = smaller file. 80 is a good default.',
+      },
+    },
+    {
+      type: 'row',
       fields: [
-        {
-          name: 'optimizeFormat',
-          label: 'Format',
-          type: 'select',
-          defaultValue: 'auto',
-          options: [
-            { label: 'Auto (keep original)', value: 'auto' },
-            { label: 'WebP', value: 'webp' },
-            { label: 'AVIF', value: 'avif' },
-            { label: 'JPEG', value: 'jpeg' },
-            { label: 'PNG', value: 'png' },
-          ],
-          admin: {
-            description: 'Convert to a different format. WebP/AVIF offer best compression.',
-          },
-        },
-        {
-          name: 'optimizeQuality',
-          label: 'Quality',
-          type: 'number',
-          defaultValue: 80,
-          min: 1,
-          max: 100,
-          admin: {
-            description: 'Compression quality (1–100). Lower = smaller file. 80 is a good default.',
-          },
-        },
         {
           name: 'optimizeMaxWidth',
           label: 'Max Width (px)',
           type: 'number',
           min: 1,
           admin: {
-            description: 'Downscale to this width (keeps aspect ratio). Leave empty to keep original.',
+            description: 'Downscale to this width (keeps aspect ratio).',
+            width: '50%',
           },
         },
         {
@@ -174,7 +170,8 @@ export const MediaCollection: CollectionConfig = {
           type: 'number',
           min: 1,
           admin: {
-            description: 'Downscale to this height (keeps aspect ratio). Leave empty to keep original.',
+            description: 'Downscale to this height (keeps aspect ratio).',
+            width: '50%',
           },
         },
       ],
