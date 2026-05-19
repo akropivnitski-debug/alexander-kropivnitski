@@ -634,6 +634,24 @@ export interface Page {
             blockName?: string | null;
             blockType: 'heroV4';
           }
+        | {
+            heading: string;
+            description?: string | null;
+            buttonLabel: string;
+            /**
+             * Use mailto: for email links or a URL.
+             */
+            buttonHref: string;
+            /**
+             * Hex color for the button background (e.g. #facc15 for yellow).
+             */
+            buttonColor?: string | null;
+            linkedinUrl?: string | null;
+            githubUrl?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta';
+          }
       )[]
     | null;
   meta?: {
@@ -980,6 +998,19 @@ export interface PagesSelect<T extends boolean = true> {
                     disableFilter?: T;
                     id?: T;
                   };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              buttonLabel?: T;
+              buttonHref?: T;
+              buttonColor?: T;
+              linkedinUrl?: T;
+              githubUrl?: T;
               id?: T;
               blockName?: T;
             };

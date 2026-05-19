@@ -8,6 +8,7 @@ import { HeroV2Block } from '@/blocks/HeroV2Block'
 import { WorldMapBlock } from '@/blocks/WorldMapBlock'
 import { HeroV3Block } from '@/blocks/HeroV3Block'
 import { HeroV4Block } from '@/blocks/HeroV4Block'
+import { CtaBlock } from '@/blocks/CtaBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -52,6 +53,7 @@ export const PagesCollection: CollectionConfig = {
         WorldMapBlock,
         HeroV3Block,
         HeroV4Block,
+        CtaBlock,
       ],
     },
     {

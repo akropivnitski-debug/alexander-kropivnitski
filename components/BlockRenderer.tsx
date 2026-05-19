@@ -7,6 +7,7 @@ import { HeroV2 } from '@/components/blocks/hero-v2'
 import { WorldMap } from '@/components/blocks/world-map'
 import { HeroV3 } from '@/components/blocks/hero-v3'
 import { HeroV4 } from '@/components/blocks/hero-v4'
+import { Cta } from '@/components/blocks/cta'
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
 
@@ -33,6 +34,8 @@ export function BlockRenderer({ blocks }: { blocks: LayoutBlock[] }) {
             return <HeroV3 key={block.id ?? i} data={block} />
           case 'heroV4':
             return <HeroV4 key={block.id ?? i} data={block} />
+          case 'cta':
+            return <Cta key={block.id ?? i} data={block} />
           default:
             return null
         }
