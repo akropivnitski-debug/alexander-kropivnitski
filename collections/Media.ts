@@ -12,12 +12,21 @@ export const MediaCollection: CollectionConfig = {
     disableLocalStorage: true,
     focalPoint: false,
   },
+  hooks: {
+    beforeChange: [
+      ({ data }) => {
+        if (data && data.filename && !data.alt) {
+          data.alt = data.filename.replace(/\.[^.]+$/, '')
+        }
+        return data
+      },
+    ],
+  },
   fields: [
     {
       name: 'alt',
       label: 'Alt Text',
       type: 'text',
-      required: true,
       admin: {
         description: 'Describe the image for screen readers and SEO.',
       },
