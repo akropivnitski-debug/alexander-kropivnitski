@@ -136,8 +136,24 @@ export interface Media {
   /**
    * Describe the image for screen readers and SEO.
    */
-  alt: string;
+  alt?: string | null;
   caption?: string | null;
+  /**
+   * Convert to a different format. WebP/AVIF offer best compression.
+   */
+  optimizeFormat?: ('auto' | 'webp' | 'avif' | 'jpeg' | 'png') | null;
+  /**
+   * Compression quality (1–100). Lower = smaller file. 80 is a good default.
+   */
+  optimizeQuality?: number | null;
+  /**
+   * Downscale to this width (keeps aspect ratio). Leave empty to keep original.
+   */
+  optimizeMaxWidth?: number | null;
+  /**
+   * Downscale to this height (keeps aspect ratio). Leave empty to keep original.
+   */
+  optimizeMaxHeight?: number | null;
   updatedAt: string;
   createdAt: string;
   url?: string | null;
@@ -449,7 +465,13 @@ export interface Page {
                     | 'tallahassee'
                     | 'topeka'
                     | 'trenton'
-                    | 'washington-dc';
+                    | 'washington-dc'
+                    | '_regions_header'
+                    | 'emea'
+                    | 'usa'
+                    | 'canada'
+                    | 'australia'
+                    | 'new-zealand';
                   /**
                    * Select a European capital or US state capital
                    */
@@ -549,7 +571,13 @@ export interface Page {
                     | 'tallahassee'
                     | 'topeka'
                     | 'trenton'
-                    | 'washington-dc';
+                    | 'washington-dc'
+                    | '_regions_header'
+                    | 'emea'
+                    | 'usa'
+                    | 'canada'
+                    | 'australia'
+                    | 'new-zealand';
                   id?: string | null;
                 }[]
               | null;
@@ -828,6 +856,10 @@ export interface PayloadMigration {
 export interface MediaSelect<T extends boolean = true> {
   alt?: T;
   caption?: T;
+  optimizeFormat?: T;
+  optimizeQuality?: T;
+  optimizeMaxWidth?: T;
+  optimizeMaxHeight?: T;
   updatedAt?: T;
   createdAt?: T;
   url?: T;
