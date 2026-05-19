@@ -1,6 +1,6 @@
 import type { Block } from 'payload'
 import { imageField } from '@/fields/imageField'
-import { spacingFields } from '@/fields/spacingFields'
+import { makeSpacingFields } from '@/fields/spacingFields'
 
 export const AboutMeBlock: Block = {
   slug: 'aboutMe',
@@ -48,6 +48,6 @@ export const AboutMeBlock: Block = {
         imageField('image', 'Image'),
       ],
     },
-    ...spacingFields,
+    ...makeSpacingFields('sm', 'sm'),
   ],
 }

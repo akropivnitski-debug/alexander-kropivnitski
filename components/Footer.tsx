@@ -50,11 +50,11 @@ const TextHoverEffect = ({
         >
           {hovered && (
             <>
-              <stop offset="0%" stopColor="#eab308" />
-              <stop offset="25%" stopColor="#ef4444" />
-              <stop offset="50%" stopColor="#80eeb4" />
-              <stop offset="75%" stopColor="#06b6d4" />
-              <stop offset="100%" stopColor="#8b5cf6" />
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="25%" stopColor="#facc15" />
+              <stop offset="50%" stopColor="#eab308" />
+              <stop offset="75%" stopColor="#ca8a04" />
+              <stop offset="100%" stopColor="#fef08a" />
             </>
           )}
         </linearGradient>
@@ -87,7 +87,7 @@ const TextHoverEffect = ({
         dominantBaseline="middle"
         strokeWidth="0.3"
         className="fill-transparent stroke-neutral-200 font-[helvetica] font-bold dark:stroke-neutral-800"
-        style={{ fontSize: 60, opacity: hovered ? 0.7 : 0 }}
+        style={{ fontSize: 48, opacity: hovered ? 0.7 : 0 }}
       >
         {text}
       </text>
@@ -97,8 +97,8 @@ const TextHoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="fill-transparent stroke-[#3ca2fa] font-[helvetica] font-bold dark:stroke-[#3ca2fa99]"
-        style={{ fontSize: 60 }}
+        className="fill-transparent stroke-[#facc15] font-[helvetica] font-bold dark:stroke-[#facc1599]"
+        style={{ fontSize: 48 }}
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,
@@ -120,7 +120,7 @@ const TextHoverEffect = ({
         strokeWidth="0.3"
         mask="url(#textMask)"
         className="fill-transparent font-[helvetica] font-bold"
-        style={{ fontSize: 60 }}
+        style={{ fontSize: 48 }}
       >
         {text}
       </text>
@@ -190,7 +190,7 @@ export function Footer({ data }: { data: FooterType }) {
         className="absolute inset-0 z-0"
         style={{
           background:
-            'radial-gradient(125% 125% at 50% 10%, #0F0F1166 50%, #3ca2fa33 100%)',
+            'radial-gradient(125% 125% at 50% 10%, #0F0F1166 50%, #facc1520 100%)',
         }}
       />
 

@@ -73,7 +73,7 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <Header data={header} />
-      <main className="bg-black relative min-h-screen w-full">
+      <main className="bg-background relative min-h-screen w-full">
         <BlockRenderer blocks={page.layout ?? []} />
       </main>
       <Footer data={footer} />

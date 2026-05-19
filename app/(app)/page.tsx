@@ -80,7 +80,7 @@ export default async function Home() {
   return (
     <>
       <Header data={header} />
-      <main className="bg-black relative min-h-screen w-full">
+      <main className="bg-background relative min-h-screen w-full">
         {page && <BlockRenderer blocks={page.layout ?? []} />}
       </main>
       <Footer data={footer} />

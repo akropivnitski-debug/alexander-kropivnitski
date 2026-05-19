@@ -8,6 +8,32 @@ const spacingOptions = [
   { label: 'Extra Large', value: 'xl' },
 ]
 
+export function makeSpacingFields(defaultTop = 'md', defaultBottom = 'md'): Field[] {
+  return [
+    {
+      type: 'row',
+      fields: [
+        {
+          name: 'spacingTop',
+          label: 'Top Spacing',
+          type: 'select',
+          defaultValue: defaultTop,
+          options: spacingOptions,
+          admin: { width: '50%' },
+        },
+        {
+          name: 'spacingBottom',
+          label: 'Bottom Spacing',
+          type: 'select',
+          defaultValue: defaultBottom,
+          options: spacingOptions,
+          admin: { width: '50%' },
+        },
+      ],
+    },
+  ]
+}
+
 export const spacingFields: Field[] = [
   {
     type: 'row',
