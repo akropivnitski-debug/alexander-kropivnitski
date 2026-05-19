@@ -9,14 +9,11 @@ export const HeroV4Block: Block = {
       name: 'heading',
       label: 'Heading',
       type: 'text',
-      required: true,
-      defaultValue: 'Hello, I\'m Alexander',
     },
     {
       name: 'content',
       label: 'Content',
       type: 'richText',
-      required: true,
     },
     imageField('image', 'Hero Image'),
     {

@@ -581,8 +581,8 @@ export interface Page {
             blockType: 'heroV3';
           }
         | {
-            heading: string;
-            content: {
+            heading?: string | null;
+            content?: {
               root: {
                 type: string;
                 children: {
@@ -596,7 +596,7 @@ export interface Page {
                 version: number;
               };
               [k: string]: unknown;
-            };
+            } | null;
             image?: {
               source?: ('upload' | 'url') | null;
               upload?: (number | null) | Media;

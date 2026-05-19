@@ -79,13 +79,17 @@ export function HeroV4({ data }: { data: HeroV4Data }) {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="z-20 order-2 md:order-1"
         >
-          <h1 className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
-            {data.heading}
-          </h1>
-          <div
-            className="mt-6 prose prose-invert max-w-none text-foreground/80 prose-li:marker:text-foreground/50"
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
+          {data.heading && (
+            <h1 className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
+              {data.heading}
+            </h1>
+          )}
+          {contentHtml && (
+            <div
+              className={cn('prose prose-invert max-w-none text-foreground/80 prose-li:marker:text-foreground/50', data.heading && 'mt-6')}
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
+            />
+          )}
           {logos.length > 0 && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
