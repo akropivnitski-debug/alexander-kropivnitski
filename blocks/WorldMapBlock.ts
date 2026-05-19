@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { cityOptions } from '@/lib/city-coordinates'
 
 export const WorldMapBlock: Block = {
   slug: 'worldMap',
@@ -54,40 +55,24 @@ export const WorldMapBlock: Block = {
       },
       fields: [
         {
-          name: 'startLat',
-          label: 'Start Latitude',
-          type: 'number',
+          name: 'startCity',
+          label: 'Start City',
+          type: 'select',
           required: true,
-          admin: { description: 'e.g. 48.8566 for Paris' },
+          options: cityOptions,
+          admin: {
+            description: 'Select a European capital or US state capital',
+          },
         },
         {
-          name: 'startLng',
-          label: 'Start Longitude',
-          type: 'number',
+          name: 'endCity',
+          label: 'End City',
+          type: 'select',
           required: true,
-          admin: { description: 'e.g. 2.3522 for Paris' },
-        },
-        {
-          name: 'startLabel',
-          label: 'Start Label',
-          type: 'text',
-        },
-        {
-          name: 'endLat',
-          label: 'End Latitude',
-          type: 'number',
-          required: true,
-        },
-        {
-          name: 'endLng',
-          label: 'End Longitude',
-          type: 'number',
-          required: true,
-        },
-        {
-          name: 'endLabel',
-          label: 'End Label',
-          type: 'text',
+          options: cityOptions,
+          admin: {
+            description: 'Select a European capital or US state capital',
+          },
         },
       ],
     },

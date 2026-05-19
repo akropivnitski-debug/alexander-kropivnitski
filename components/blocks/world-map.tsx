@@ -3,6 +3,7 @@
 import React, { useMemo } from 'react'
 import DottedMap from 'dotted-map'
 import type { Page } from '@/payload-types'
+import { cityCoordinates } from '@/lib/city-coordinates'
 
 type WorldMapData = Extract<NonNullable<Page['layout']>[number], { blockType: 'worldMap' }>
 
@@ -186,10 +187,19 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
 
 export function WorldMap({ data }: { data: WorldMapData }) {
   const connections = data.connections ?? []
-  const dots: MapDot[] = useMemo(() => connections.map((c) => ({
-    start: { lat: c.startLat, lng: c.startLng, label: c.startLabel ?? undefined },
-    end: { lat: c.endLat, lng: c.endLng, label: c.endLabel ?? undefined },
-  })), [connections])
+  const dots: MapDot[] = useMemo(() => {
+    const result: MapDot[] = []
+    for (const c of connections) {
+      const start = c.startCity ? cityCoordinates[c.startCity] : null
+      const end = c.endCity ? cityCoordinates[c.endCity] : null
+      if (!start || !end) continue
+      result.push({
+        start: { lat: start.lat, lng: start.lng, label: start.label },
+        end: { lat: end.lat, lng: end.lng, label: end.label },
+      })
+    }
+    return result
+  }, [connections])
 
   return (
     <section className="w-full bg-background px-8 py-16 md:px-12 md:py-24">
