@@ -2,7 +2,6 @@
 
 import React, { useMemo } from 'react'
 import DottedMap from 'dotted-map'
-import Image from 'next/image'
 import type { Page } from '@/payload-types'
 
 type WorldMapData = Extract<NonNullable<Page['layout']>[number], { blockType: 'worldMap' }>
@@ -63,14 +62,12 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
 
   return (
     <div className="w-full aspect-[2/1] md:aspect-[2.5/1] lg:aspect-[2/1] bg-background rounded-lg relative font-sans overflow-hidden">
-      <Image
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}
         className="h-full w-full [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)] pointer-events-none select-none object-cover"
         alt="world map"
-        height={495}
-        width={1056}
         draggable={false}
-        priority
       />
       <svg
         viewBox="0 0 800 400"
