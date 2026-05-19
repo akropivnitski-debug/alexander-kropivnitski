@@ -14,12 +14,14 @@ interface MapDot {
 const WorldMapCanvas = React.memo(function WorldMapCanvas({
   dots = [],
   lineColor = '#0ea5e9',
+  dotColor = '#FFFF7F40',
   showLabels = true,
   animationDuration = 2,
   loop = true,
 }: {
   dots: MapDot[]
   lineColor?: string
+  dotColor?: string
   showLabels?: boolean
   animationDuration?: number
   loop?: boolean
@@ -33,11 +35,11 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
     () =>
       map.getSVG({
         radius: 0.22,
-        color: '#FFFF7F40',
+        color: dotColor,
         shape: 'circle',
         backgroundColor: 'black',
       }),
-    [map],
+    [map, dotColor],
   )
 
   const projectPoint = (lat: number, lng: number) => {
@@ -209,6 +211,7 @@ export function WorldMap({ data }: { data: WorldMapData }) {
         <WorldMapCanvas
           dots={dots}
           lineColor={data.lineColor ?? '#0ea5e9'}
+          dotColor={data.dotColor ?? '#FFFF7F40'}
           showLabels={data.showLabels ?? true}
           loop={data.loop ?? true}
         />

@@ -24,6 +24,15 @@ export const WorldMapBlock: Block = {
       },
     },
     {
+      name: 'dotColor',
+      label: 'Map Dots Color',
+      type: 'text',
+      defaultValue: '#FFFF7F40',
+      admin: {
+        description: 'CSS color for the continent dots (8-char hex for alpha, e.g. #FFFF7F40)',
+      },
+    },
+    {
       name: 'showLabels',
       label: 'Show Location Labels',
       type: 'checkbox',
