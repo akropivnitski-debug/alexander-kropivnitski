@@ -4,6 +4,7 @@ import { Companies } from '@/components/blocks/companies'
 import { Testimonials } from '@/components/blocks/testimonials'
 import { AboutMe } from '@/components/blocks/about-me'
 import { HeroV2 } from '@/components/blocks/hero-v2'
+import { WorldMap } from '@/components/blocks/world-map'
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
 
@@ -24,6 +25,8 @@ export function BlockRenderer({ blocks }: { blocks: LayoutBlock[] }) {
             return <AboutMe key={block.id ?? i} data={block} />
           case 'heroV2':
             return <HeroV2 key={block.id ?? i} data={block} />
+          case 'worldMap':
+            return <WorldMap key={block.id ?? i} data={block} />
           default:
             return null
         }

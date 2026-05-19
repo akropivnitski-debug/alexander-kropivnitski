@@ -322,6 +322,39 @@ export interface Page {
             blockName?: string | null;
             blockType: 'heroV2';
           }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            /**
+             * CSS color for the animated connection lines (e.g. #0ea5e9)
+             */
+            lineColor?: string | null;
+            showLabels?: boolean | null;
+            loop?: boolean | null;
+            /**
+             * Each connection draws an animated arc between two points on the map.
+             */
+            connections?:
+              | {
+                  /**
+                   * e.g. 48.8566 for Paris
+                   */
+                  startLat: number;
+                  /**
+                   * e.g. 2.3522 for Paris
+                   */
+                  startLng: number;
+                  startLabel?: string | null;
+                  endLat: number;
+                  endLng: number;
+                  endLabel?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'worldMap';
+          }
       )[]
     | null;
   meta?: {
@@ -603,6 +636,28 @@ export interface PagesSelect<T extends boolean = true> {
               overlayPart2?: T;
               circleColor?: T;
               locationText?: T;
+              id?: T;
+              blockName?: T;
+            };
+        worldMap?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              lineColor?: T;
+              showLabels?: T;
+              loop?: T;
+              connections?:
+                | T
+                | {
+                    startLat?: T;
+                    startLng?: T;
+                    startLabel?: T;
+                    endLat?: T;
+                    endLng?: T;
+                    endLabel?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };
