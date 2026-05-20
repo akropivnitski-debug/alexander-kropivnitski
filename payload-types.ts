@@ -755,6 +755,34 @@ export interface Page {
             blockName?: string | null;
             blockType: 'projects';
           }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            /**
+             * Number of cards per row on desktop.
+             */
+            columns?: ('2' | '3' | '4') | null;
+            cards?:
+              | {
+                  /**
+                   * Lucide icon name, e.g. "Rocket", "Globe", "Code", "BarChart3". See lucide.dev/icons for the full list.
+                   */
+                  icon?: string | null;
+                  title: string;
+                  description?: string | null;
+                  /**
+                   * Optional URL the card links to.
+                   */
+                  href?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'projectsV2';
+          }
       )[]
     | null;
   meta?: {
@@ -1167,6 +1195,26 @@ export interface PagesSelect<T extends boolean = true> {
                         };
                     buttonLabel?: T;
                     buttonHref?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        projectsV2?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              columns?: T;
+              cards?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    href?: T;
                     id?: T;
                   };
               spacingTop?: T;
