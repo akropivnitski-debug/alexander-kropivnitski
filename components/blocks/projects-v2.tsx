@@ -12,12 +12,12 @@ type ProjectsV2Data = Extract<
 >
 type CardData = NonNullable<ProjectsV2Data['cards']>[number]
 
-function resolveIcon(name?: string | null): React.ComponentType<{ className?: string }> | null {
+function resolveIcon(name?: string | null): React.ComponentType<{ className?: string; strokeWidth?: number }> | null {
   if (!name) return null
   const icons = LucideIcons as Record<string, unknown>
   const icon = icons[name] || icons[name + 'Icon']
   if (typeof icon === 'function' || (typeof icon === 'object' && icon !== null)) {
-    return icon as React.ComponentType<{ className?: string }>
+    return icon as React.ComponentType<{ className?: string; strokeWidth?: number }>
   }
   return null
 }
@@ -100,7 +100,7 @@ function FeatureCard({
       className={cn('relative overflow-hidden p-6', className)}
     >
       <div className="pointer-events-none absolute top-0 left-1/2 -mt-2 -ml-20 h-full w-full [mask-image:linear-gradient(white,transparent)]">
-        <div className="from-foreground/5 to-foreground/1 absolute inset-0 bg-gradient-to-r opacity-100 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]">
+        <div className="from-foreground/5 to-foreground/1 absolute inset-0 bg-gradient-to-r [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] opacity-100">
           <GridPattern
             width={20}
             height={20}
@@ -111,10 +111,10 @@ function FeatureCard({
           />
         </div>
       </div>
-      {Icon && <Icon className="size-6 text-foreground/75" />}
-      <h3 className="mt-10 text-sm font-medium text-foreground md:text-base">{card.title}</h3>
+      {Icon && <Icon className="size-6 text-foreground/75" strokeWidth={1} />}
+      <h3 className="mt-10 text-sm text-foreground md:text-base">{card.title}</h3>
       {card.description && (
-        <p className="relative z-20 mt-2 text-xs font-light text-muted-foreground">
+        <p className="text-muted-foreground relative z-20 mt-2 text-xs font-light">
           {card.description}
         </p>
       )}
@@ -174,9 +174,9 @@ export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
         )}
 
         {data.cards && data.cards.length > 0 && (
-          <div className={cn('mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/10', colsClass[cols])}>
+          <div className={cn('mt-10 grid grid-cols-1', colsClass[cols])}>
             {data.cards.map((card, i) => (
-              <FeatureCard key={card.id ?? i} card={card} index={i} className="bg-background" />
+              <FeatureCard key={card.id ?? i} card={card} index={i} />
             ))}
           </div>
         )}
