@@ -24,7 +24,7 @@ function StatBadge({ stat }: { stat: Stat }) {
         {isDown && <ArrowDown className="size-4" />}
         <span>{stat.value}</span>
       </div>
-      <p className="text-xs text-foreground/50">{stat.label}</p>
+      {stat.label && <p className="text-xs text-foreground/50">{stat.label}</p>}
     </div>
   )
 }
@@ -54,7 +54,7 @@ function Card({ project, index }: { project: ProjectCard; index: number }) {
         </div>
       )}
 
-      <div className="mt-auto pt-6">
+      <div className="mt-auto flex justify-end pt-6">
         {project.buttonHref ? (
           <a
             href={project.buttonHref}
@@ -86,7 +86,7 @@ export function Projects({ data }: { data: ProjectsData }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl font-bold text-foreground md:text-4xl"
+            className="text-center text-3xl font-bold text-foreground md:text-4xl"
           >
             {data.heading}
           </motion.h2>
@@ -98,7 +98,7 @@ export function Projects({ data }: { data: ProjectsData }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="mt-4 max-w-2xl text-foreground/60"
+            className="mx-auto mt-4 max-w-2xl text-center text-foreground/60"
           >
             {data.description}
           </motion.p>

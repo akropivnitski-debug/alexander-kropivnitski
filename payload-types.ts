@@ -718,7 +718,7 @@ export interface Page {
                         /**
                          * e.g. "Revenue", "Users", "Performance"
                          */
-                        label: string;
+                        label?: string | null;
                         /**
                          * e.g. "+25%", "10K", "99.9%"
                          */

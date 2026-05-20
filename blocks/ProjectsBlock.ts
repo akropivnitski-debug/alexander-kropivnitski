@@ -46,7 +46,6 @@ export const ProjectsBlock: Block = {
               name: 'label',
               label: 'Label',
               type: 'text',
-              required: true,
               admin: { description: 'e.g. "Revenue", "Users", "Performance"' },
             },
             {
