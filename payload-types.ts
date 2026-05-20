@@ -706,6 +706,41 @@ export interface Page {
             blockName?: string | null;
             blockType: 'cta';
           }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            projects?:
+              | {
+                  title: string;
+                  description?: string | null;
+                  stats?:
+                    | {
+                        /**
+                         * e.g. "Revenue", "Users", "Performance"
+                         */
+                        label: string;
+                        /**
+                         * e.g. "+25%", "10K", "99.9%"
+                         */
+                        value: string;
+                        trend?: ('up' | 'neutral' | 'down') | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  buttonLabel?: string | null;
+                  /**
+                   * URL the button links to.
+                   */
+                  buttonHref?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'projects';
+          }
       )[]
     | null;
   meta?: {
@@ -1093,6 +1128,33 @@ export interface PagesSelect<T extends boolean = true> {
               buttonColor?: T;
               linkedinUrl?: T;
               githubUrl?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        projects?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              projects?:
+                | T
+                | {
+                    title?: T;
+                    description?: T;
+                    stats?:
+                      | T
+                      | {
+                          label?: T;
+                          value?: T;
+                          trend?: T;
+                          id?: T;
+                        };
+                    buttonLabel?: T;
+                    buttonHref?: T;
+                    id?: T;
+                  };
               spacingTop?: T;
               spacingBottom?: T;
               id?: T;

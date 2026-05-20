@@ -8,6 +8,7 @@ import { WorldMap } from '@/components/blocks/world-map'
 import { HeroV3 } from '@/components/blocks/hero-v3'
 import { HeroV4 } from '@/components/blocks/hero-v4'
 import { Cta } from '@/components/blocks/cta'
+import { Projects } from '@/components/blocks/projects'
 import { getSpacingClass } from '@/fields/spacingFields'
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
@@ -32,6 +33,8 @@ function renderBlock(block: LayoutBlock, i: number) {
       return <HeroV4 key={block.id ?? i} data={block} />
     case 'cta':
       return <Cta key={block.id ?? i} data={block} />
+    case 'projects':
+      return <Projects key={block.id ?? i} data={block} />
     default:
       return null
   }
