@@ -18,6 +18,9 @@ const MIME_TO_EXT: Record<string, string> = {
 export const MediaCollection: CollectionConfig = {
   slug: 'media',
   labels: { singular: 'Media', plural: 'Media' },
+  access: {
+    read: () => true,
+  },
   admin: {
     group: 'Content',
     useAsTitle: 'filename',
