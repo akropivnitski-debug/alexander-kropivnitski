@@ -142,7 +142,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
               overflowY: 'auto',
               display: 'grid',
               gridTemplateColumns: 'repeat(6, 1fr)',
-              gap: 4,
+              gap: 6,
             }}
           >
             {visible.map((name) => {
@@ -161,7 +161,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
                     flexDirection: 'column',
                     alignItems: 'center',
                     gap: 2,
-                    padding: '8px 4px',
+                    padding: '10px 6px',
                     borderRadius: 6,
                     border:
                       value === name
@@ -174,7 +174,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
                     overflow: 'hidden',
                   }}
                 >
-                  <Icon className="size-5" />
+                  <Icon className="size-8" />
                   <span
                     style={{
                       maxWidth: '100%',
