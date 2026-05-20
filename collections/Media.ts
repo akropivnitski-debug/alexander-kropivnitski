@@ -125,8 +125,16 @@ export const MediaCollection: CollectionConfig = {
       type: 'text',
     },
     {
+      type: 'ui',
+      name: 'optimizationPanel',
+      admin: {
+        components: {
+          Field: '/components/admin/OptimizationPanel#OptimizationPanel',
+        },
+      },
+    },
+    {
       name: 'optimizeFormat',
-      label: 'Format',
       type: 'select',
       defaultValue: 'auto',
       options: [
@@ -136,45 +144,27 @@ export const MediaCollection: CollectionConfig = {
         { label: 'JPEG', value: 'jpeg' },
         { label: 'PNG', value: 'png' },
       ],
-      admin: {
-        description: 'Convert to a different format. WebP/AVIF offer best compression.',
-      },
+      admin: { hidden: true },
     },
     {
       name: 'optimizeQuality',
-      label: 'Quality',
       type: 'number',
       defaultValue: 80,
       min: 1,
       max: 100,
-      admin: {
-        description: 'Compression quality (1–100). Lower = smaller file. 80 is a good default.',
-      },
+      admin: { hidden: true },
     },
     {
-      type: 'row',
-      fields: [
-        {
-          name: 'optimizeMaxWidth',
-          label: 'Max Width (px)',
-          type: 'number',
-          min: 1,
-          admin: {
-            description: 'Downscale to this width (keeps aspect ratio).',
-            width: '50%',
-          },
-        },
-        {
-          name: 'optimizeMaxHeight',
-          label: 'Max Height (px)',
-          type: 'number',
-          min: 1,
-          admin: {
-            description: 'Downscale to this height (keeps aspect ratio).',
-            width: '50%',
-          },
-        },
-      ],
+      name: 'optimizeMaxWidth',
+      type: 'number',
+      min: 1,
+      admin: { hidden: true },
+    },
+    {
+      name: 'optimizeMaxHeight',
+      type: 'number',
+      min: 1,
+      admin: { hidden: true },
     },
   ],
 }

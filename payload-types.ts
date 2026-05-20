@@ -138,21 +138,9 @@ export interface Media {
    */
   alt?: string | null;
   caption?: string | null;
-  /**
-   * Convert to a different format. WebP/AVIF offer best compression.
-   */
   optimizeFormat?: ('auto' | 'webp' | 'avif' | 'jpeg' | 'png') | null;
-  /**
-   * Compression quality (1–100). Lower = smaller file. 80 is a good default.
-   */
   optimizeQuality?: number | null;
-  /**
-   * Downscale to this width (keeps aspect ratio).
-   */
   optimizeMaxWidth?: number | null;
-  /**
-   * Downscale to this height (keeps aspect ratio).
-   */
   optimizeMaxHeight?: number | null;
   updatedAt: string;
   createdAt: string;
