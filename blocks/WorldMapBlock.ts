@@ -16,7 +16,7 @@ export const WorldMapBlock: Block = {
     {
       name: 'description',
       label: 'Description',
-      type: 'textarea',
+      type: 'richText',
     },
     {
       name: 'lineColor',

@@ -4,6 +4,7 @@ import React, { useMemo } from 'react'
 import DottedMap from 'dotted-map'
 import type { Page } from '@/payload-types'
 import { cityCoordinates } from '@/lib/city-coordinates'
+import { lexicalToHtml } from '@/lib/lexicalToHtml'
 
 type WorldMapData = Extract<NonNullable<Page['layout']>[number], { blockType: 'worldMap' }>
 
@@ -212,9 +213,10 @@ export function WorldMap({ data }: { data: WorldMapData }) {
               </h2>
             )}
             {data.description && (
-              <p className="mx-auto mt-4 max-w-3xl text-foreground/70">
-                {data.description}
-              </p>
+              <div
+                className="prose prose-invert mx-auto mt-4 max-w-3xl text-foreground/70 prose-strong:text-foreground prose-em:text-foreground/80"
+                dangerouslySetInnerHTML={{ __html: lexicalToHtml(data.description) }}
+              />
             )}
           </div>
         )}
