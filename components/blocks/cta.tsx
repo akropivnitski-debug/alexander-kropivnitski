@@ -27,7 +27,7 @@ export function Cta({ data }: { data: CtaData }) {
   const buttonColor = data.buttonColor ?? '#facc15'
 
   return (
-    <section className="relative w-full overflow-hidden bg-background px-8 py-24 md:px-12 md:py-32">
+    <section className="relative w-full overflow-hidden bg-background px-8 py-12 md:px-12 md:py-16">
       <div className="mx-auto max-w-3xl text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

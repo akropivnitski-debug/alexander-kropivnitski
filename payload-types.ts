@@ -1214,6 +1214,32 @@ export interface SiteSetting {
    */
   primaryColor?: string | null;
   twitterHandle?: string | null;
+  headingFontSource?: ('google' | 'custom') | null;
+  /**
+   * Exact Google Fonts name, e.g. "Inter", "Playfair Display", "Space Grotesk".
+   */
+  headingFontGoogle?: string | null;
+  /**
+   * Upload a .woff2 font file for headings.
+   */
+  headingFontFile?: (number | null) | Media;
+  /**
+   * CSS font-weight value, e.g. "700", "400..900" for variable fonts.
+   */
+  headingFontWeight?: string | null;
+  bodyFontSource?: ('google' | 'custom') | null;
+  /**
+   * Exact Google Fonts name, e.g. "Inter", "DM Sans", "Outfit".
+   */
+  bodyFontGoogle?: string | null;
+  /**
+   * Upload a .woff2 font file for body text.
+   */
+  bodyFontFile?: (number | null) | Media;
+  /**
+   * CSS font-weight value, e.g. "400", "100..900" for variable fonts.
+   */
+  bodyFontWeight?: string | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -1305,6 +1331,14 @@ export interface SiteSettingsSelect<T extends boolean = true> {
   googleAnalyticsId?: T;
   primaryColor?: T;
   twitterHandle?: T;
+  headingFontSource?: T;
+  headingFontGoogle?: T;
+  headingFontFile?: T;
+  headingFontWeight?: T;
+  bodyFontSource?: T;
+  bodyFontGoogle?: T;
+  bodyFontFile?: T;
+  bodyFontWeight?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;

@@ -23,7 +23,7 @@ export const MediaCollection: CollectionConfig = {
     useAsTitle: 'filename',
   },
   upload: {
-    mimeTypes: ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml', 'image/avif'],
+    mimeTypes: ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml', 'image/avif', 'font/woff2'],
     disableLocalStorage: true,
     focalPoint: false,
   },
