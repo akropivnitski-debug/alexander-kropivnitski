@@ -37,11 +37,12 @@ export const ProjectsV2Block: Block = {
       fields: [
         {
           name: 'icon',
-          label: 'Icon Name',
+          label: 'Icon',
           type: 'text',
           admin: {
-            description:
-              'Lucide icon name, e.g. "Rocket", "Globe", "Code", "BarChart3". See lucide.dev/icons for the full list.',
+            components: {
+              Field: '/components/admin/IconPicker#IconPicker',
+            },
           },
         },
         {

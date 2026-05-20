@@ -97,7 +97,7 @@ function FeatureCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.08 }}
-      className={cn('relative overflow-hidden rounded-2xl border border-foreground/10 p-6', className)}
+      className={cn('relative overflow-hidden p-6', className)}
     >
       <div className="pointer-events-none absolute top-0 left-1/2 -mt-2 -ml-20 h-full w-full [mask-image:linear-gradient(white,transparent)]">
         <div className="from-foreground/5 to-foreground/1 absolute inset-0 bg-gradient-to-r opacity-100 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]">
@@ -174,9 +174,9 @@ export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
         )}
 
         {data.cards && data.cards.length > 0 && (
-          <div className={cn('mt-10 grid gap-px rounded-2xl border border-foreground/10 bg-foreground/10', colsClass[cols])}>
+          <div className={cn('mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/10', colsClass[cols])}>
             {data.cards.map((card, i) => (
-              <FeatureCard key={card.id ?? i} card={card} index={i} className="border-0 bg-background" />
+              <FeatureCard key={card.id ?? i} card={card} index={i} className="bg-background" />
             ))}
           </div>
         )}

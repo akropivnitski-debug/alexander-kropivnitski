@@ -764,9 +764,6 @@ export interface Page {
             columns?: ('2' | '3' | '4') | null;
             cards?:
               | {
-                  /**
-                   * Lucide icon name, e.g. "Rocket", "Globe", "Code", "BarChart3". See lucide.dev/icons for the full list.
-                   */
                   icon?: string | null;
                   title: string;
                   description?: string | null;
