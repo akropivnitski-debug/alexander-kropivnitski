@@ -174,9 +174,9 @@ export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
         )}
 
         {data.cards && data.cards.length > 0 && (
-          <div className={cn('mt-10 grid grid-cols-1', colsClass[cols])}>
+          <div className={cn('mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/10', colsClass[cols])}>
             {data.cards.map((card, i) => (
-              <FeatureCard key={card.id ?? i} card={card} index={i} />
+              <FeatureCard key={card.id ?? i} card={card} index={i} className="bg-background" />
             ))}
           </div>
         )}
