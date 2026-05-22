@@ -41,7 +41,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
 
   const CurrentIcon = value
     ? ((LucideIcons as Record<string, unknown>)[value] as React.ComponentType<{
-        className?: string
+        style?: React.CSSProperties
       }> | null)
     : null
 
@@ -77,7 +77,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
             minWidth: 160,
           }}
         >
-          {CurrentIcon && <CurrentIcon className="size-4" />}
+          {CurrentIcon && <CurrentIcon style={{ width: 16, height: 16 }} />}
           <span>{value || 'Choose icon...'}</span>
         </button>
         {value && (
@@ -147,7 +147,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
           >
             {visible.map((name) => {
               const Icon = (LucideIcons as Record<string, unknown>)[name] as React.ComponentType<{
-                className?: string
+                style?: React.CSSProperties
               }>
               if (!Icon) return null
               return (
@@ -174,7 +174,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
                     overflow: 'hidden',
                   }}
                 >
-                  <Icon className="size-8" />
+                  <Icon style={{ width: 32, height: 32 }} />
                   <span
                     style={{
                       maxWidth: '100%',
