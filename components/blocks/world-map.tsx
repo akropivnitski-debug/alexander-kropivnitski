@@ -214,7 +214,7 @@ export function WorldMap({ data }: { data: WorldMapData }) {
             )}
             {data.description && (
               <div
-                className="prose prose-invert mx-auto mt-4 max-w-3xl text-foreground/70 prose-strong:text-foreground prose-em:text-foreground/80"
+                className="prose prose-invert mx-auto mt-4 max-w-5xl text-foreground/70 prose-strong:text-foreground prose-em:text-foreground/80"
                 dangerouslySetInnerHTML={{ __html: lexicalToHtml(data.description) }}
               />
             )}
