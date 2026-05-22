@@ -169,7 +169,7 @@ export const IconPicker: React.FC<{ path: string }> = ({ path }) => {
                         : '1px solid transparent',
                     background: value === name ? 'var(--theme-elevation-100)' : 'transparent',
                     cursor: 'pointer',
-                    color: 'inherit',
+                    color: 'var(--theme-elevation-800)',
                     fontSize: 9,
                     overflow: 'hidden',
                   }}
