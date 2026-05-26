@@ -39,7 +39,7 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
               src={resolveImage(logo.logo) ?? ''}
               alt={logo.alt}
               className={cn(
-                'pointer-events-none h-4 w-auto max-w-[120px] select-none md:h-5',
+                'pointer-events-none h-8 w-auto max-w-[160px] select-none md:h-10',
                 !logo.disableFilter && 'grayscale invert opacity-70',
               )}
             />
