@@ -4,15 +4,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { resolveImage } from '@/lib/resolveImage'
-import { lexicalToHtml } from '@/lib/lexicalToHtml'
 import type { Page } from '@/payload-types'
 
 type HeroV3Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'heroV3' }>
 
-export function HeroV3({ data }: { data: HeroV3Data }) {
+export function HeroV3({ data, contentHtml = '' }: { data: HeroV3Data; contentHtml?: string }) {
   const imageSrc = resolveImage(data.image) ?? 'https://placehold.co/400x600/eab308/ffffff?text=Hero'
   const circleColor = data.circleColor ?? '#facc15'
-  const contentHtml = lexicalToHtml(data.content)
 
   return (
     <section

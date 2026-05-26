@@ -4,8 +4,6 @@ import React, { useMemo } from 'react'
 import DottedMap from 'dotted-map'
 import type { Page } from '@/payload-types'
 import { cityCoordinates } from '@/lib/city-coordinates'
-import { lexicalToHtml } from '@/lib/lexicalToHtml'
-
 type WorldMapData = Extract<NonNullable<Page['layout']>[number], { blockType: 'worldMap' }>
 
 interface MapDot {
@@ -186,7 +184,7 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
   )
 })
 
-export function WorldMap({ data }: { data: WorldMapData }) {
+export function WorldMap({ data, descriptionHtml = '' }: { data: WorldMapData; descriptionHtml?: string }) {
   const connections = data.connections ?? []
   const dots: MapDot[] = useMemo(() => {
     const result: MapDot[] = []
@@ -212,10 +210,10 @@ export function WorldMap({ data }: { data: WorldMapData }) {
                 {data.heading}
               </h2>
             )}
-            {data.description && (
+            {descriptionHtml && (
               <div
                 className="prose prose-invert mx-auto mt-4 max-w-5xl text-foreground/70 prose-strong:text-foreground prose-em:text-foreground/80"
-                dangerouslySetInnerHTML={{ __html: lexicalToHtml(data.description) }}
+                dangerouslySetInnerHTML={{ __html: descriptionHtml }}
               />
             )}
           </div>

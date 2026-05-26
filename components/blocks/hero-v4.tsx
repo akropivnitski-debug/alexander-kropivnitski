@@ -5,7 +5,6 @@ import { PlusIcon } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { resolveImage } from '@/lib/resolveImage'
-import { lexicalToHtml } from '@/lib/lexicalToHtml'
 import type { Page } from '@/payload-types'
 
 type HeroV4Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'heroV4' }>
@@ -59,10 +58,9 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
   )
 }
 
-export function HeroV4({ data }: { data: HeroV4Data }) {
+export function HeroV4({ data, contentHtml = '' }: { data: HeroV4Data; contentHtml?: string }) {
   const imageSrc = resolveImage(data.image) ?? 'https://placehold.co/400x600/eab308/ffffff?text=Hero'
   const circleColor = data.circleColor ?? '#facc15'
-  const contentHtml = lexicalToHtml(data.content)
   const logos = data.logos ?? []
 
   return (

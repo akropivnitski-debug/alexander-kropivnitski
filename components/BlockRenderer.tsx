@@ -12,6 +12,7 @@ import { Projects } from '@/components/blocks/projects'
 import { ProjectsV2 } from '@/components/blocks/projects-v2'
 import { AboutSimple } from '@/components/blocks/about-simple'
 import { getSpacingClass } from '@/fields/spacingFields'
+import { lexicalToHtml } from '@/lib/lexicalToHtml'
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
 
@@ -28,11 +29,11 @@ function renderBlock(block: LayoutBlock, i: number) {
     case 'heroV2':
       return <HeroV2 key={block.id ?? i} data={block} />
     case 'worldMap':
-      return <WorldMap key={block.id ?? i} data={block} />
+      return <WorldMap key={block.id ?? i} data={block} descriptionHtml={lexicalToHtml(block.description)} />
     case 'heroV3':
-      return <HeroV3 key={block.id ?? i} data={block} />
+      return <HeroV3 key={block.id ?? i} data={block} contentHtml={lexicalToHtml(block.content)} />
     case 'heroV4':
-      return <HeroV4 key={block.id ?? i} data={block} />
+      return <HeroV4 key={block.id ?? i} data={block} contentHtml={lexicalToHtml(block.content)} />
     case 'cta':
       return <Cta key={block.id ?? i} data={block} />
     case 'projects':
