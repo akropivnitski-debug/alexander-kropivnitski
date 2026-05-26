@@ -11,6 +11,7 @@ import { HeroV4Block } from '@/blocks/HeroV4Block'
 import { CtaBlock } from '@/blocks/CtaBlock'
 import { ProjectsBlock } from '@/blocks/ProjectsBlock'
 import { ProjectsV2Block } from '@/blocks/ProjectsV2Block'
+import { AboutSimpleBlock } from '@/blocks/AboutSimpleBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -58,6 +59,7 @@ export const PagesCollection: CollectionConfig = {
         CtaBlock,
         ProjectsBlock,
         ProjectsV2Block,
+        AboutSimpleBlock,
       ],
     },
     {

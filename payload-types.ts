@@ -780,6 +780,29 @@ export interface Page {
             blockName?: string | null;
             blockType: 'projectsV2';
           }
+        | {
+            heading?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'aboutSimple';
+          }
       )[]
     | null;
   meta?: {
@@ -1214,6 +1237,16 @@ export interface PagesSelect<T extends boolean = true> {
                     href?: T;
                     id?: T;
                   };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        aboutSimple?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
               spacingTop?: T;
               spacingBottom?: T;
               id?: T;

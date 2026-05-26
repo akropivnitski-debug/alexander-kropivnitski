@@ -10,6 +10,7 @@ import { HeroV4 } from '@/components/blocks/hero-v4'
 import { Cta } from '@/components/blocks/cta'
 import { Projects } from '@/components/blocks/projects'
 import { ProjectsV2 } from '@/components/blocks/projects-v2'
+import { AboutSimple } from '@/components/blocks/about-simple'
 import { getSpacingClass } from '@/fields/spacingFields'
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
@@ -38,6 +39,8 @@ function renderBlock(block: LayoutBlock, i: number) {
       return <Projects key={block.id ?? i} data={block} />
     case 'projectsV2':
       return <ProjectsV2 key={block.id ?? i} data={block} />
+    case 'aboutSimple':
+      return <AboutSimple key={block.id ?? i} data={block} />
     default:
       return null
   }
