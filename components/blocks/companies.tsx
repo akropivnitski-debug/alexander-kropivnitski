@@ -21,7 +21,7 @@ export function Companies({ data }: { data: CompaniesData }) {
           {data.heading}
         </h2>
       )}
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-16 px-8">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-8 px-8 md:gap-16">
         {logos.map((item, i) => {
           const src = resolveImage(item.logo)
           return (
@@ -33,7 +33,7 @@ export function Companies({ data }: { data: CompaniesData }) {
                 <img
                   src={src}
                   alt={item.name}
-                  className="h-48 w-auto max-w-[400px] object-contain brightness-0 invert opacity-70 transition-all duration-300 hover:opacity-100"
+                  className="h-16 w-auto max-w-[150px] object-contain brightness-0 invert opacity-70 transition-all duration-300 hover:opacity-100 md:h-24 md:max-w-[250px] lg:h-48 lg:max-w-[400px]"
                   onError={(e) => {
                     const t = e.target as HTMLImageElement
                     t.onerror = null

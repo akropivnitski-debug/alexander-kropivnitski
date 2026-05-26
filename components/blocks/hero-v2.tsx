@@ -92,7 +92,7 @@ export function HeroV2({ data }: { data: HeroV2Data }) {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.0 }}
-              className="absolute bottom-0 right-0 z-20 translate-x-full pl-4 text-sm font-medium text-foreground/80 whitespace-nowrap"
+              className="absolute -bottom-8 left-1/2 -translate-x-1/2 z-20 text-sm font-medium text-foreground/80 whitespace-nowrap md:bottom-0 md:right-0 md:left-auto md:translate-x-full md:pl-4"
             >
               {data.locationText}
             </motion.span>
@@ -106,7 +106,7 @@ export function HeroV2({ data }: { data: HeroV2Data }) {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="z-20 order-3 flex items-center justify-center text-center md:justify-start"
         >
-          <h1 className="text-7xl font-extrabold text-foreground md:text-8xl lg:text-9xl">
+          <h1 className="text-7xl font-extrabold text-foreground md:text-7xl lg:text-9xl">
             {data.overlayPart1}
             <br />
             {data.overlayPart2}

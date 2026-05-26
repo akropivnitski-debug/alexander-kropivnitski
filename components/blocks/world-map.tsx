@@ -220,11 +220,11 @@ export function WorldMap({ data, descriptionHtml = '' }: { data: WorldMapData; d
         )}
         {/* Stats */}
         {data.stats && data.stats.length > 0 && (
-          <div className="mb-10 flex items-center justify-center gap-16 md:gap-24">
+          <div className="mb-10 flex flex-wrap items-center justify-center gap-8 md:gap-24">
             {data.stats.map((stat, i) => (
               <div key={stat.id ?? i} className="text-center">
                 <p
-                  className="text-5xl font-extrabold md:text-6xl lg:text-7xl"
+                  className="text-3xl font-extrabold md:text-6xl lg:text-7xl"
                   style={{ color: data.statsColor ?? '#facc15' }}
                 >
                   {stat.value}
