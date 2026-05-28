@@ -64,6 +64,18 @@ export const ProjectsV2Block: Block = {
         },
       ],
     },
+    {
+      name: 'buttonLabel',
+      label: 'Button Label',
+      type: 'text',
+      admin: { description: 'Text for the button below the cards. Only shows when cards exceed 2 rows.' },
+    },
+    {
+      name: 'buttonHref',
+      label: 'Button Link',
+      type: 'text',
+      admin: { description: 'URL the button links to.' },
+    },
     ...makeSpacingFields('none', 'none'),
   ],
 }

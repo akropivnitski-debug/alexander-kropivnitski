@@ -774,6 +774,14 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            /**
+             * Text for the button below the cards. Only shows when cards exceed 2 rows.
+             */
+            buttonLabel?: string | null;
+            /**
+             * URL the button links to.
+             */
+            buttonHref?: string | null;
             spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
             id?: string | null;
@@ -1262,6 +1270,8 @@ export interface PagesSelect<T extends boolean = true> {
                     href?: T;
                     id?: T;
                   };
+              buttonLabel?: T;
+              buttonHref?: T;
               spacingTop?: T;
               spacingBottom?: T;
               id?: T;

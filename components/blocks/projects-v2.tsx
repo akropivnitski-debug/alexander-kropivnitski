@@ -4,6 +4,7 @@ import React, { useMemo } from 'react'
 import { motion } from 'framer-motion'
 import * as LucideIcons from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { TextScramble } from '@/components/ui/text-scramble'
 import type { Page } from '@/payload-types'
 
 type ProjectsV2Data = Extract<
@@ -145,6 +146,10 @@ const colsClass: Record<string, string> = {
 
 export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
   const cols = data.columns || '3'
+  const colCount = Number(cols) || 3
+  const cardCount = data.cards?.length ?? 0
+  const maxCardsIn2Rows = colCount * 2
+  const showButton = cardCount > maxCardsIn2Rows && data.buttonLabel && data.buttonHref
 
   return (
     <section className="relative w-full bg-background px-6 py-12 md:px-12 md:py-16">
@@ -179,6 +184,20 @@ export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
               <FeatureCard key={card.id ?? i} card={card} index={i} className="bg-background" />
             ))}
           </div>
+        )}
+
+        {showButton && (
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mt-10 flex justify-center"
+          >
+            <a href={data.buttonHref!}>
+              <TextScramble text={data.buttonLabel!} />
+            </a>
+          </motion.div>
         )}
       </div>
     </section>
