@@ -11,6 +11,7 @@ import { Cta } from '@/components/blocks/cta'
 import { Projects } from '@/components/blocks/projects'
 import { ProjectsV2 } from '@/components/blocks/projects-v2'
 import { AboutSimple } from '@/components/blocks/about-simple'
+import { ImageSlider } from '@/components/blocks/image-slider'
 import { getSpacingClass } from '@/fields/spacingFields'
 import { lexicalToHtml } from '@/lib/lexicalToHtml'
 
@@ -42,6 +43,8 @@ function renderBlock(block: LayoutBlock, i: number) {
       return <ProjectsV2 key={block.id ?? i} data={block} />
     case 'aboutSimple':
       return <AboutSimple key={block.id ?? i} data={block} />
+    case 'imageSlider':
+      return <ImageSlider key={block.id ?? i} data={block} />
     default:
       return null
   }

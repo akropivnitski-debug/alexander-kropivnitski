@@ -12,6 +12,7 @@ import { CtaBlock } from '@/blocks/CtaBlock'
 import { ProjectsBlock } from '@/blocks/ProjectsBlock'
 import { ProjectsV2Block } from '@/blocks/ProjectsV2Block'
 import { AboutSimpleBlock } from '@/blocks/AboutSimpleBlock'
+import { ImageSliderBlock } from '@/blocks/ImageSliderBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -60,6 +61,7 @@ export const PagesCollection: CollectionConfig = {
         ProjectsBlock,
         ProjectsV2Block,
         AboutSimpleBlock,
+        ImageSliderBlock,
       ],
     },
     {

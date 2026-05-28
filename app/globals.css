@@ -61,3 +61,28 @@ h1, h2, h3, h4, h5, h6 {
 .marquee-track:hover {
   animation-play-state: paused;
 }
+
+/* Image slider */
+@keyframes image-slider-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.image-slider-scroll {
+  animation: image-slider-scroll var(--slider-speed, 20s) linear infinite;
+  will-change: transform;
+}
+.image-slider-item {
+  width: 12rem;
+  height: 12rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.image-slider-item:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+@media (min-width: 768px) {
+  .image-slider-item { width: 16rem; height: 16rem; }
+}
+@media (min-width: 1024px) {
+  .image-slider-item { width: 20rem; height: 20rem; }
+}

@@ -803,6 +803,31 @@ export interface Page {
             blockName?: string | null;
             blockType: 'aboutSimple';
           }
+        | {
+            images?:
+              | {
+                  image?: {
+                    source?: ('upload' | 'url') | null;
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  alt?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            /**
+             * Duration in seconds for one full scroll cycle. Lower = faster.
+             */
+            speed?: number | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'imageSlider';
+          }
       )[]
     | null;
   meta?: {
@@ -1247,6 +1272,28 @@ export interface PagesSelect<T extends boolean = true> {
           | {
               heading?: T;
               description?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        imageSlider?:
+          | T
+          | {
+              images?:
+                | T
+                | {
+                    image?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    alt?: T;
+                    id?: T;
+                  };
+              speed?: T;
               spacingTop?: T;
               spacingBottom?: T;
               id?: T;
