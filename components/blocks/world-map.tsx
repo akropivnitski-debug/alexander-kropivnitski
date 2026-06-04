@@ -1,9 +1,8 @@
-'use client'
-
-import React, { useMemo } from 'react'
+import React from 'react'
 import DottedMap from 'dotted-map'
 import type { Page } from '@/payload-types'
 import { cityCoordinates } from '@/lib/city-coordinates'
+
 type WorldMapData = Extract<NonNullable<Page['layout']>[number], { blockType: 'worldMap' }>
 
 interface MapDot {
@@ -11,7 +10,19 @@ interface MapDot {
   end: { lat: number; lng: number; label?: string }
 }
 
-const WorldMapCanvas = React.memo(function WorldMapCanvas({
+function projectPoint(lat: number, lng: number) {
+  const x = (lng + 180) * (800 / 360)
+  const y = (90 - lat) * (400 / 180)
+  return { x, y }
+}
+
+function createCurvedPath(start: { x: number; y: number }, end: { x: number; y: number }) {
+  const midX = (start.x + end.x) / 2
+  const midY = Math.min(start.y, end.y) - 50
+  return `M ${start.x} ${start.y} Q ${midX} ${midY} ${end.x} ${end.y}`
+}
+
+function WorldMapCanvas({
   dots = [],
   lineColor = '#0ea5e9',
   dotColor = '#FFFF7F40',
@@ -26,36 +37,14 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
   animationDuration?: number
   loop?: boolean
 }) {
-  const map = useMemo(
-    () => new DottedMap({ height: 100, grid: 'diagonal' }),
-    [],
-  )
-
-  const svgMap = useMemo(
-    () =>
-      map.getSVG({
-        radius: 0.22,
-        color: dotColor,
-        shape: 'circle',
-        backgroundColor: 'black',
-      }),
-    [map, dotColor],
-  )
-
-  const projectPoint = (lat: number, lng: number) => {
-    const x = (lng + 180) * (800 / 360)
-    const y = (90 - lat) * (400 / 180)
-    return { x, y }
-  }
-
-  const createCurvedPath = (
-    start: { x: number; y: number },
-    end: { x: number; y: number },
-  ) => {
-    const midX = (start.x + end.x) / 2
-    const midY = Math.min(start.y, end.y) - 50
-    return `M ${start.x} ${start.y} Q ${midX} ${midY} ${end.x} ${end.y}`
-  }
+  // dotted-map runs server-side only — no JS shipped to client
+  const map = new DottedMap({ height: 100, grid: 'diagonal' })
+  const svgMap = map.getSVG({
+    radius: 0.22,
+    color: dotColor,
+    shape: 'circle',
+    backgroundColor: 'black',
+  })
 
   const staggerDelay = 0.3
   const totalAnimationTime = dots.length * staggerDelay + animationDuration
@@ -143,7 +132,6 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
 
           return (
             <g key={`points-${i}`}>
-              {/* Start Point */}
               <circle cx={startPoint.x} cy={startPoint.y} r="3" fill={lineColor} filter="url(#glow)" />
               <circle cx={startPoint.x} cy={startPoint.y} r="3" fill={lineColor} opacity="0.5">
                 <animate attributeName="r" from="3" to="12" dur="2s" repeatCount="indefinite" />
@@ -160,7 +148,6 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
                 </foreignObject>
               )}
 
-              {/* End Point */}
               <circle cx={endPoint.x} cy={endPoint.y} r="3" fill={lineColor} filter="url(#glow)" />
               <circle cx={endPoint.x} cy={endPoint.y} r="3" fill={lineColor} opacity="0.5">
                 <animate attributeName="r" from="3" to="12" dur="2s" begin="0.5s" repeatCount="indefinite" />
@@ -182,23 +169,20 @@ const WorldMapCanvas = React.memo(function WorldMapCanvas({
       </svg>
     </div>
   )
-})
+}
 
 export function WorldMap({ data, descriptionHtml = '' }: { data: WorldMapData; descriptionHtml?: string }) {
   const connections = data.connections ?? []
-  const dots: MapDot[] = useMemo(() => {
-    const result: MapDot[] = []
-    for (const c of connections) {
-      const start = c.startCity ? cityCoordinates[c.startCity] : null
-      const end = c.endCity ? cityCoordinates[c.endCity] : null
-      if (!start || !end) continue
-      result.push({
-        start: { lat: start.lat, lng: start.lng, label: start.label },
-        end: { lat: end.lat, lng: end.lng, label: end.label },
-      })
-    }
-    return result
-  }, [connections])
+  const dots: MapDot[] = []
+  for (const c of connections) {
+    const start = c.startCity ? cityCoordinates[c.startCity] : null
+    const end = c.endCity ? cityCoordinates[c.endCity] : null
+    if (!start || !end) continue
+    dots.push({
+      start: { lat: start.lat, lng: start.lng, label: start.label },
+      end: { lat: end.lat, lng: end.lng, label: end.label },
+    })
+  }
 
   return (
     <section className="w-full bg-background px-8 py-16 md:px-12 md:py-24">
