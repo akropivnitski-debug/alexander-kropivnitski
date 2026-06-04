@@ -5,7 +5,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = process.env.NEXT_PUBLIC_SERVER_URL ?? 'http://localhost:3000'
+  const base = (process.env.NEXT_PUBLIC_SERVER_URL ?? 'http://localhost:3000').trim()
 
   const payload = await getPayload({ config })
 

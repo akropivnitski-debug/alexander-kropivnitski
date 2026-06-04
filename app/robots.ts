@@ -3,7 +3,7 @@ export const dynamic = 'force-dynamic'
 import type { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const base = process.env.NEXT_PUBLIC_SERVER_URL ?? 'http://localhost:3000'
+  const base = (process.env.NEXT_PUBLIC_SERVER_URL ?? 'http://localhost:3000').trim()
 
   return {
     rules: [
