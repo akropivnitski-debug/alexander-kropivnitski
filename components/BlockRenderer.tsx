@@ -14,6 +14,16 @@ import { AboutSimple } from '@/components/blocks/about-simple'
 import { ImageSlider } from '@/components/blocks/image-slider'
 import { HeroV5 } from '@/components/blocks/hero-v5'
 import { HeroV6 } from '@/components/blocks/hero-v6'
+import { Stats } from '@/components/blocks/stats'
+import { Timeline } from '@/components/blocks/timeline'
+import { Faq } from '@/components/blocks/faq'
+import { Pricing } from '@/components/blocks/pricing'
+import { ProcessSteps } from '@/components/blocks/process-steps'
+import { FeatureList } from '@/components/blocks/feature-list'
+import { Banner } from '@/components/blocks/banner'
+import { ContactInfo } from '@/components/blocks/contact-info'
+import { ContentColumns } from '@/components/blocks/content-columns'
+import { Blockquote } from '@/components/blocks/blockquote'
 import { getSpacingClass } from '@/fields/spacingFields'
 import { lexicalToHtml } from '@/lib/lexicalToHtml'
 
@@ -51,6 +61,26 @@ function renderBlock(block: LayoutBlock, i: number) {
       return <HeroV5 key={block.id ?? i} data={block} contentHtml={lexicalToHtml(block.content)} />
     case 'heroV6':
       return <HeroV6 key={block.id ?? i} data={block} contentHtml={lexicalToHtml(block.content)} />
+    case 'stats':
+      return <Stats key={block.id ?? i} data={block} />
+    case 'timeline':
+      return <Timeline key={block.id ?? i} data={block} />
+    case 'faq':
+      return <Faq key={block.id ?? i} data={block} />
+    case 'pricing':
+      return <Pricing key={block.id ?? i} data={block} />
+    case 'processSteps':
+      return <ProcessSteps key={block.id ?? i} data={block} />
+    case 'featureList':
+      return <FeatureList key={block.id ?? i} data={block} />
+    case 'banner':
+      return <Banner key={block.id ?? i} data={block} />
+    case 'contactInfo':
+      return <ContactInfo key={block.id ?? i} data={block} />
+    case 'contentColumns':
+      return <ContentColumns key={block.id ?? i} data={block} columnsHtml={(block.columns ?? []).map((col: Record<string, unknown>) => lexicalToHtml(col.content))} />
+    case 'blockquote':
+      return <Blockquote key={block.id ?? i} data={block} />
     default:
       return null
   }

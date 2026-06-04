@@ -15,6 +15,16 @@ import { AboutSimpleBlock } from '@/blocks/AboutSimpleBlock'
 import { ImageSliderBlock } from '@/blocks/ImageSliderBlock'
 import { HeroV5Block } from '@/blocks/HeroV5Block'
 import { HeroV6Block } from '@/blocks/HeroV6Block'
+import { StatsBlock } from '@/blocks/StatsBlock'
+import { TimelineBlock } from '@/blocks/TimelineBlock'
+import { FaqBlock } from '@/blocks/FaqBlock'
+import { PricingBlock } from '@/blocks/PricingBlock'
+import { ProcessStepsBlock } from '@/blocks/ProcessStepsBlock'
+import { FeatureListBlock } from '@/blocks/FeatureListBlock'
+import { BannerBlock } from '@/blocks/BannerBlock'
+import { ContactInfoBlock } from '@/blocks/ContactInfoBlock'
+import { ContentColumnsBlock } from '@/blocks/ContentColumnsBlock'
+import { BlockquoteBlock } from '@/blocks/BlockquoteBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -66,6 +76,16 @@ export const PagesCollection: CollectionConfig = {
         ImageSliderBlock,
         HeroV5Block,
         HeroV6Block,
+        StatsBlock,
+        TimelineBlock,
+        FaqBlock,
+        PricingBlock,
+        ProcessStepsBlock,
+        FeatureListBlock,
+        BannerBlock,
+        ContactInfoBlock,
+        ContentColumnsBlock,
+        BlockquoteBlock,
       ],
     },
     {
