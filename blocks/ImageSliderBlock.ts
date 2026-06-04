@@ -5,6 +5,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const ImageSliderBlock: Block = {
   slug: 'imageSlider',
   labels: { singular: 'Image Slider', plural: 'Image Slider Sections' },
+  imageURL: '/blocks/image-slider.png',
   imageAltText: 'Image Slider block preview',
   fields: [
     {

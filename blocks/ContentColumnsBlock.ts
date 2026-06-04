@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const ContentColumnsBlock: Block = {
   slug: 'contentColumns',
   labels: { singular: 'Content Columns', plural: 'Content Columns Sections' },
+  imageURL: '/blocks/content-columns.png',
   imageAltText: 'Content Columns block — multi-column rich text',
   fields: [
     { name: 'heading', label: 'Heading', type: 'text' },

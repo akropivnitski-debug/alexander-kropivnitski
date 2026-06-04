@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const FaqBlock: Block = {
   slug: 'faq',
   labels: { singular: 'FAQ', plural: 'FAQ Sections' },
+  imageURL: '/blocks/faq.png',
   imageAltText: 'FAQ block — accordion questions and answers',
   fields: [
     { name: 'heading', label: 'Heading', type: 'text', defaultValue: 'Frequently Asked Questions' },

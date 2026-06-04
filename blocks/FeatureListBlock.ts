@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const FeatureListBlock: Block = {
   slug: 'featureList',
   labels: { singular: 'Feature List', plural: 'Feature List Sections' },
+  imageURL: '/blocks/feature-list.png',
   imageAltText: 'Feature List block — two-column icon + text',
   fields: [
     { name: 'heading', label: 'Heading', type: 'text' },

@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const BannerBlock: Block = {
   slug: 'banner',
   labels: { singular: 'Banner', plural: 'Banner Sections' },
+  imageURL: '/blocks/banner.png',
   imageAltText: 'Banner block — highlight announcement strip',
   fields: [
     { name: 'text', label: 'Text', type: 'text', required: true },

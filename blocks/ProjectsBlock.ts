@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const ProjectsBlock: Block = {
   slug: 'projects',
   labels: { singular: 'Projects', plural: 'Projects Sections' },
+  imageURL: '/blocks/projects.png',
   imageAltText: 'Projects block preview',
   fields: [
     {

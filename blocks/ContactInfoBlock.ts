@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const ContactInfoBlock: Block = {
   slug: 'contactInfo',
   labels: { singular: 'Contact Info', plural: 'Contact Info Sections' },
+  imageURL: '/blocks/contact-info.png',
   imageAltText: 'Contact Info block — contact details display',
   fields: [
     { name: 'heading', label: 'Heading', type: 'text', defaultValue: 'Get in Touch' },

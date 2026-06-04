@@ -4,6 +4,7 @@ import { makeSpacingFields } from '@/fields/spacingFields'
 export const TimelineBlock: Block = {
   slug: 'timeline',
   labels: { singular: 'Timeline', plural: 'Timeline Sections' },
+  imageURL: '/blocks/timeline.png',
   imageAltText: 'Timeline block — vertical event timeline',
   fields: [
     { name: 'heading', label: 'Heading', type: 'text' },
