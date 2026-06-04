@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from 'next/font/google'
+import { Inter, Outfit } from 'next/font/google'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { FontLoader } from '@/components/FontLoader'
@@ -10,6 +10,18 @@ const inter = Inter({
   display: 'swap',
   variable: '--font-inter',
 })
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-outfit',
+})
+
+/** Fonts statically imported via next/font — self-hosted, no render-blocking requests */
+const STATIC_FONTS: Record<string, { variable: string; className: string }> = {
+  Inter: { variable: inter.variable, className: inter.className },
+  Outfit: { variable: outfit.variable, className: outfit.className },
+}
 
 export const metadata: Metadata = {
   title: {
@@ -28,14 +40,32 @@ export default async function AppLayout({
 
   const headingFont = siteSettings.headingFontGoogle || 'Inter'
   const bodyFont = siteSettings.bodyFontGoogle || 'Inter'
-  const isDefaultFont = headingFont === 'Inter' && bodyFont === 'Inter'
+
+  const headingStatic = STATIC_FONTS[headingFont]
+  const bodyStatic = STATIC_FONTS[bodyFont]
+  const allStatic = !!headingStatic && !!bodyStatic
+
+  const fontVars = [
+    headingStatic?.variable,
+    bodyStatic?.variable,
+  ].filter(Boolean).join(' ')
 
   return (
-    <html lang="en" className={`h-full antialiased ${inter.variable}`}>
+    <html lang="en" className={`h-full antialiased ${fontVars}`}>
       <head>
-        {!isDefaultFont && <FontLoader settings={siteSettings} />}
+        {!allStatic && <FontLoader settings={siteSettings} staticFonts={STATIC_FONTS} />}
+        {allStatic && (
+          <style dangerouslySetInnerHTML={{ __html: `
+            :root {
+              --font-heading: var(--font-${headingFont.toLowerCase()}), ui-sans-serif, system-ui, sans-serif;
+              --font-body: var(--font-${bodyFont.toLowerCase()}), ui-sans-serif, system-ui, sans-serif;
+            }
+            body { font-family: var(--font-body); }
+            h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+          `}} />
+        )}
       </head>
-      <body className="min-h-full flex flex-col" style={{ fontFamily: isDefaultFont ? 'var(--font-inter), ui-sans-serif, system-ui, sans-serif' : undefined }}>
+      <body className="min-h-full flex flex-col">
         {children}
       </body>
     </html>

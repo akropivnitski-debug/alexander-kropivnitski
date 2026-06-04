@@ -34,6 +34,7 @@ export function Companies({ data }: { data: CompaniesData }) {
                   alt={item.name}
                   width={400}
                   height={192}
+                  sizes="(min-width: 1024px) 400px, (min-width: 768px) 250px, 150px"
                   className="h-16 w-auto max-w-[150px] object-contain brightness-0 invert opacity-70 transition-all duration-300 hover:opacity-100 md:h-24 md:max-w-[250px] lg:h-48 lg:max-w-[400px]"
                 />
               ) : null}
