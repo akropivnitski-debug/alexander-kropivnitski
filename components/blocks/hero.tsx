@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { resolveImage } from '@/lib/resolveImage'
@@ -49,19 +50,21 @@ export function Hero({ data }: { data: HeroData }) {
             className="absolute z-0 h-[300px] w-[300px] rounded-full md:h-[400px] md:w-[400px] lg:h-[500px] lg:w-[500px]"
             style={{ backgroundColor: circleColor }}
           />
-          <motion.img
-            src={imageSrc}
-            alt={data.overlayPart1 ?? 'Hero image'}
-            className="relative z-10 h-auto w-56 object-cover md:w-64 scale-150 lg:w-72"
+          <motion.div
+            className="relative z-10 h-auto w-56 md:w-64 scale-150 lg:w-72"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
-            onError={(e) => {
-              const target = e.target as HTMLImageElement
-              target.onerror = null
-              target.src = 'https://placehold.co/400x600/eab308/ffffff?text=Image+Not+Found'
-            }}
-          />
+          >
+            <Image
+              src={imageSrc}
+              alt={data.overlayPart1 ?? 'Hero image'}
+              width={400}
+              height={600}
+              priority
+              className="h-auto w-full object-cover"
+            />
+          </motion.div>
           {/* Location Text — anchored to bottom of the circle */}
           {data.locationText && (
             <motion.span

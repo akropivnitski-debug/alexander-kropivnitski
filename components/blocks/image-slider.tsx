@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
 
@@ -37,9 +38,11 @@ export function ImageSlider({ data }: { data: ImageSliderData }) {
                 key={i}
                 className="image-slider-item shrink-0 overflow-hidden rounded-xl shadow-2xl"
               >
-                <img
+                <Image
                   src={src}
                   alt={item.alt || `Gallery image ${(i % items.length) + 1}`}
+                  width={600}
+                  height={400}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />

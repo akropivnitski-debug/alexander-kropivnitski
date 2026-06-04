@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { PlusIcon } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
@@ -34,9 +35,11 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
               isShaded(i) && 'bg-foreground/5',
             )}
           >
-            <img
+            <Image
               src={resolveImage(logo.logo) ?? ''}
               alt={logo.alt}
+              width={160}
+              height={40}
               className={cn(
                 'pointer-events-none h-8 w-auto max-w-[160px] select-none md:h-10',
                 !logo.disableFilter && 'grayscale invert opacity-70',
@@ -109,19 +112,21 @@ export function HeroV4({ data, contentHtml = '' }: { data: HeroV4Data; contentHt
             className="absolute z-0 h-[280px] w-[280px] rounded-full md:h-[380px] md:w-[380px] lg:h-[480px] lg:w-[480px]"
             style={{ backgroundColor: circleColor }}
           />
-          <motion.img
-            src={imageSrc}
-            alt={data.heading ?? 'Hero image'}
-            className="relative z-10 h-auto w-56 object-cover md:w-64 scale-150 lg:w-72"
+          <motion.div
+            className="relative z-10 h-auto w-56 md:w-64 scale-150 lg:w-72"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
-            onError={(e) => {
-              const target = e.target as HTMLImageElement
-              target.onerror = null
-              target.src = 'https://placehold.co/400x600/eab308/ffffff?text=Image+Not+Found'
-            }}
-          />
+          >
+            <Image
+              src={imageSrc}
+              alt={data.heading ?? 'Hero image'}
+              width={400}
+              height={600}
+              priority
+              className="h-auto w-full object-cover"
+            />
+          </motion.div>
         </div>
       </div>
     </section>

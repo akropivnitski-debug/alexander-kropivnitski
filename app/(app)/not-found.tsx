@@ -1,5 +1,6 @@
 import { getPayload } from 'payload'
 import config from '@payload-config'
+import Image from 'next/image'
 import { Press_Start_2P } from 'next/font/google'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -22,7 +23,7 @@ export default async function NotFound() {
         </div>
 
         <div className="flex justify-center -mt-10">
-          <img
+          <Image
             alt="Confused ogre at a computer"
             src="/ogre-404.png"
             width={200}

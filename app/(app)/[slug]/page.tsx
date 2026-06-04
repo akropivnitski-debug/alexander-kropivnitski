@@ -1,5 +1,6 @@
-export const dynamic = 'force-dynamic'
+export const revalidate = 60
 
+import { cache } from 'react'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
@@ -11,7 +12,7 @@ import { resolveImage } from '@/lib/resolveImage'
 
 type Props = { params: Promise<{ slug: string }> }
 
-async function getPage(slug: string) {
+const getPage = cache(async (slug: string) => {
   const payload = await getPayload({ config })
   const [siteSettings, header, footer, result] = await Promise.all([
     payload.findGlobal({ slug: 'site-settings' }),
@@ -29,7 +30,7 @@ async function getPage(slug: string) {
     }),
   ])
   return { page: result.docs[0] ?? null, siteSettings, header, footer }
-}
+})
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params

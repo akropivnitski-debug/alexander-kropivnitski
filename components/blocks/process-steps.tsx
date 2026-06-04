@@ -1,17 +1,7 @@
-import * as LucideIcons from 'lucide-react'
+import { resolveIcon } from '@/lib/iconMap'
 import type { Page } from '@/payload-types'
 
 type ProcessStepsData = Extract<NonNullable<Page['layout']>[number], { blockType: 'processSteps' }>
-
-function resolveIcon(name?: string | null) {
-  if (!name) return null
-  const icons = LucideIcons as Record<string, unknown>
-  const icon = icons[name] || icons[name + 'Icon']
-  if (typeof icon === 'function' || (typeof icon === 'object' && icon !== null)) {
-    return icon as React.ComponentType<{ className?: string; strokeWidth?: number }>
-  }
-  return null
-}
 
 export function ProcessSteps({ data }: { data: ProcessStepsData }) {
   const steps = data.steps ?? []

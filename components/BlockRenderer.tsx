@@ -1,31 +1,34 @@
+import dynamic from 'next/dynamic'
 import type { Page } from '@/payload-types'
 import { Hero } from '@/components/blocks/hero'
 import { Companies } from '@/components/blocks/companies'
-import { Testimonials } from '@/components/blocks/testimonials'
-import { AboutMe } from '@/components/blocks/about-me'
 import { HeroV2 } from '@/components/blocks/hero-v2'
-import { WorldMap } from '@/components/blocks/world-map'
-import { HeroV3 } from '@/components/blocks/hero-v3'
-import { HeroV4 } from '@/components/blocks/hero-v4'
-import { Cta } from '@/components/blocks/cta'
-import { Projects } from '@/components/blocks/projects'
-import { ProjectsV2 } from '@/components/blocks/projects-v2'
-import { AboutSimple } from '@/components/blocks/about-simple'
-import { ImageSlider } from '@/components/blocks/image-slider'
-import { HeroV5 } from '@/components/blocks/hero-v5'
-import { HeroV6 } from '@/components/blocks/hero-v6'
-import { Stats } from '@/components/blocks/stats'
-import { Timeline } from '@/components/blocks/timeline'
-import { Faq } from '@/components/blocks/faq'
-import { Pricing } from '@/components/blocks/pricing'
-import { ProcessSteps } from '@/components/blocks/process-steps'
-import { FeatureList } from '@/components/blocks/feature-list'
-import { Banner } from '@/components/blocks/banner'
-import { ContactInfo } from '@/components/blocks/contact-info'
-import { ContentColumns } from '@/components/blocks/content-columns'
-import { Blockquote } from '@/components/blocks/blockquote'
+import { AboutMe } from '@/components/blocks/about-me'
 import { getSpacingClass } from '@/fields/spacingFields'
 import { lexicalToHtml } from '@/lib/lexicalToHtml'
+
+// Dynamic imports for below-fold blocks
+const Testimonials = dynamic(() => import('@/components/blocks/testimonials').then(m => ({ default: m.Testimonials })))
+const WorldMap = dynamic(() => import('@/components/blocks/world-map').then(m => ({ default: m.WorldMap })))
+const HeroV3 = dynamic(() => import('@/components/blocks/hero-v3').then(m => ({ default: m.HeroV3 })))
+const HeroV4 = dynamic(() => import('@/components/blocks/hero-v4').then(m => ({ default: m.HeroV4 })))
+const Cta = dynamic(() => import('@/components/blocks/cta').then(m => ({ default: m.Cta })))
+const Projects = dynamic(() => import('@/components/blocks/projects').then(m => ({ default: m.Projects })))
+const ProjectsV2 = dynamic(() => import('@/components/blocks/projects-v2').then(m => ({ default: m.ProjectsV2 })))
+const AboutSimple = dynamic(() => import('@/components/blocks/about-simple').then(m => ({ default: m.AboutSimple })))
+const ImageSlider = dynamic(() => import('@/components/blocks/image-slider').then(m => ({ default: m.ImageSlider })))
+const HeroV5 = dynamic(() => import('@/components/blocks/hero-v5').then(m => ({ default: m.HeroV5 })))
+const HeroV6 = dynamic(() => import('@/components/blocks/hero-v6').then(m => ({ default: m.HeroV6 })))
+const Stats = dynamic(() => import('@/components/blocks/stats').then(m => ({ default: m.Stats })))
+const Timeline = dynamic(() => import('@/components/blocks/timeline').then(m => ({ default: m.Timeline })))
+const Faq = dynamic(() => import('@/components/blocks/faq').then(m => ({ default: m.Faq })))
+const Pricing = dynamic(() => import('@/components/blocks/pricing').then(m => ({ default: m.Pricing })))
+const ProcessSteps = dynamic(() => import('@/components/blocks/process-steps').then(m => ({ default: m.ProcessSteps })))
+const FeatureList = dynamic(() => import('@/components/blocks/feature-list').then(m => ({ default: m.FeatureList })))
+const Banner = dynamic(() => import('@/components/blocks/banner').then(m => ({ default: m.Banner })))
+const ContactInfo = dynamic(() => import('@/components/blocks/contact-info').then(m => ({ default: m.ContactInfo })))
+const ContentColumns = dynamic(() => import('@/components/blocks/content-columns').then(m => ({ default: m.ContentColumns })))
+const Blockquote = dynamic(() => import('@/components/blocks/blockquote').then(m => ({ default: m.Blockquote })))
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
 

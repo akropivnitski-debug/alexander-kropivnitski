@@ -1,5 +1,6 @@
-export const dynamic = 'force-dynamic'
+export const revalidate = 60
 
+import { cache } from 'react'
 import type { Metadata } from 'next'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -8,11 +9,12 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { resolveImage } from '@/lib/resolveImage'
 
-export async function generateMetadata(): Promise<Metadata> {
+const getHomeData = cache(async () => {
   const payload = await getPayload({ config })
-
-  const [siteSettings, result] = await Promise.all([
+  const [siteSettings, header, footer, result] = await Promise.all([
     payload.findGlobal({ slug: 'site-settings' }),
+    payload.findGlobal({ slug: 'header' }),
+    payload.findGlobal({ slug: 'footer' }),
     payload.find({
       collection: 'pages',
       where: {
@@ -24,8 +26,12 @@ export async function generateMetadata(): Promise<Metadata> {
       limit: 1,
     }),
   ])
+  return { siteSettings, header, footer, page: result.docs[0] ?? null }
+})
 
-  const meta = result.docs[0]?.meta
+export async function generateMetadata(): Promise<Metadata> {
+  const { siteSettings, page } = await getHomeData()
+  const meta = page?.meta
 
   const title       = meta?.title       || siteSettings.siteName        || 'Alexander Kropivnitski'
   const description = meta?.description || siteSettings.siteDescription || undefined
@@ -58,24 +64,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Home() {
-  const payload = await getPayload({ config })
-
-  const [header, footer, result] = await Promise.all([
-    payload.findGlobal({ slug: 'header' }),
-    payload.findGlobal({ slug: 'footer' }),
-    payload.find({
-      collection: 'pages',
-      where: {
-        and: [
-          { slug: { equals: 'home' } },
-          { _status: { equals: 'published' } },
-        ],
-      },
-      limit: 1,
-    }),
-  ])
-
-  const page = result.docs[0]
+  const { header, footer, page } = await getHomeData()
 
   return (
     <>

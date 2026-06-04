@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { PlusIcon } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
@@ -32,9 +33,11 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV6Data['logos']> }) {
               isShaded(i) && 'bg-foreground/5',
             )}
           >
-            <img
+            <Image
               src={resolveImage(logo.logo) ?? ''}
               alt={logo.alt}
+              width={160}
+              height={40}
               className={cn(
                 'pointer-events-none h-8 w-auto max-w-[160px] select-none md:h-10',
                 !logo.disableFilter && 'grayscale invert opacity-70',
@@ -68,19 +71,21 @@ export function HeroV6({ data, contentHtml = '' }: { data: HeroV6Data; contentHt
       <div className="relative grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
         {/* Left — Image (no circle) */}
         <div className="relative order-1 flex justify-center items-center">
-          <motion.img
-            src={imageSrc}
-            alt={data.heading ?? 'Hero image'}
-            className="relative z-10 h-auto w-full max-w-md rounded-2xl object-cover"
+          <motion.div
+            className="relative z-10 h-auto w-full max-w-md"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-            onError={(e) => {
-              const target = e.target as HTMLImageElement
-              target.onerror = null
-              target.src = 'https://placehold.co/600x600/1a1a1a/ededed?text=Image+Not+Found'
-            }}
-          />
+          >
+            <Image
+              src={imageSrc}
+              alt={data.heading ?? 'Hero image'}
+              width={600}
+              height={600}
+              priority
+              className="h-auto w-full rounded-2xl object-cover"
+            />
+          </motion.div>
         </div>
 
         {/* Right — Heading + Rich Text + Logo Cloud */}

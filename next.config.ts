@@ -4,10 +4,11 @@ import { withPayload } from "@payloadcms/next/withPayload";
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
-      // Payload CMS media uploads (local dev)
       { protocol: 'http', hostname: 'localhost' },
-      // Payload CMS media uploads (production)
       { protocol: 'https', hostname: 'alexander-kropivnitski.vercel.app' },
+      { protocol: 'https', hostname: 'alexanderkropivnitski.com' },
+      { protocol: 'https', hostname: '*.public.blob.vercel-storage.com' },
+      { protocol: 'https', hostname: '*.imgix.net' },
     ],
   },
 };

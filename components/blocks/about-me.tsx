@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
 
@@ -32,9 +33,11 @@ function TimelineEntry({
         </p>
       )}
       {imageSrc && (
-        <img
+        <Image
           src={imageSrc}
           alt={item.title}
+          width={320}
+          height={240}
           className="mt-3 h-auto w-full max-w-xs rounded-lg object-cover"
           loading="lazy"
         />

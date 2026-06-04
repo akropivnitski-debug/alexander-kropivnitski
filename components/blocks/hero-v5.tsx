@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { resolveImage } from '@/lib/resolveImage'
@@ -38,19 +39,21 @@ export function HeroV5({ data, contentHtml = '' }: { data: HeroV5Data; contentHt
 
         {/* Right — Image (no circle) */}
         <div className="relative order-1 md:order-2 flex justify-center items-center">
-          <motion.img
-            src={imageSrc}
-            alt={data.heading ?? 'Hero image'}
-            className="relative z-10 h-auto w-full max-w-md rounded-2xl object-cover"
+          <motion.div
+            className="relative z-10 h-auto w-full max-w-md"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-            onError={(e) => {
-              const target = e.target as HTMLImageElement
-              target.onerror = null
-              target.src = 'https://placehold.co/600x600/1a1a1a/ededed?text=Image+Not+Found'
-            }}
-          />
+          >
+            <Image
+              src={imageSrc}
+              alt={data.heading ?? 'Hero image'}
+              width={600}
+              height={600}
+              priority
+              className="h-auto w-full rounded-2xl object-cover"
+            />
+          </motion.div>
         </div>
       </div>
     </section>

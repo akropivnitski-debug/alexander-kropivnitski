@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
 
@@ -30,16 +31,12 @@ export function Companies({ data }: { data: CompaniesData }) {
               className="flex items-center justify-center"
             >
               {src ? (
-                <img
+                <Image
                   src={src}
                   alt={item.name}
+                  width={400}
+                  height={192}
                   className="h-16 w-auto max-w-[150px] object-contain brightness-0 invert opacity-70 transition-all duration-300 hover:opacity-100 md:h-24 md:max-w-[250px] lg:h-48 lg:max-w-[400px]"
-                  onError={(e) => {
-                    const t = e.target as HTMLImageElement
-                    t.onerror = null
-                    t.style.display = 'none'
-                    t.nextElementSibling?.classList.remove('hidden')
-                  }}
                 />
               ) : null}
               <span
