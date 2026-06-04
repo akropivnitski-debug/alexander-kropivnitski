@@ -1,9 +1,6 @@
-'use client'
-
 import React from 'react'
 import Image from 'next/image'
 import { PlusIcon } from 'lucide-react'
-import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
@@ -71,11 +68,9 @@ export function HeroV6({ data, contentHtml = '' }: { data: HeroV6Data; contentHt
       <div className="relative grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
         {/* Left — Image (no circle) */}
         <div className="relative order-1 flex justify-center items-center">
-          <motion.div
-            className="relative z-10 h-auto w-full max-w-md"
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+          <div
+            className="anim-scale-in relative z-10 h-auto w-full max-w-md"
+            style={{ animationDelay: '0.2s' }}
           >
             <Image
               src={imageSrc}
@@ -85,15 +80,13 @@ export function HeroV6({ data, contentHtml = '' }: { data: HeroV6Data; contentHt
               priority
               className="h-auto w-full rounded-2xl object-cover"
             />
-          </motion.div>
+          </div>
         </div>
 
         {/* Right — Heading + Rich Text + Logo Cloud */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="z-20 order-2"
+        <div
+          className="anim-fade-up z-20 order-2"
+          style={{ animationDelay: '0.3s' }}
         >
           {data.heading && (
             <h1 className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
@@ -107,16 +100,14 @@ export function HeroV6({ data, contentHtml = '' }: { data: HeroV6Data; contentHt
             />
           )}
           {logos.length > 0 && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="mt-10"
+            <div
+              className="anim-fade-up mt-10"
+              style={{ animationDelay: '0.6s' }}
             >
               <LogoCloud logos={logos} />
-            </motion.div>
+            </div>
           )}
-        </motion.div>
+        </div>
       </div>
     </section>
   )

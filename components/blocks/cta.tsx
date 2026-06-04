@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import { motion } from 'framer-motion'
 import { Mail } from 'lucide-react'
+import { useInView } from '@/hooks/useInView'
 import type { Page } from '@/payload-types'
 
 type CtaData = Extract<NonNullable<Page['layout']>[number], { blockType: 'cta' }>
@@ -25,38 +25,30 @@ function LinkedinIcon({ className }: { className?: string }) {
 
 export function Cta({ data }: { data: CtaData }) {
   const buttonColor = data.buttonColor ?? '#facc15'
+  const [ref, inView] = useInView({ threshold: 0.2 })
 
   return (
     <section className="relative w-full overflow-hidden bg-background px-8 py-12 md:px-12 md:py-16">
-      <div className="mx-auto max-w-3xl text-center">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl"
+      <div ref={ref} className="mx-auto max-w-3xl text-center">
+        <h2
+          className="reveal text-4xl font-bold text-foreground md:text-5xl lg:text-6xl"
+          style={inView ? { animation: 'reveal-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards' } : { opacity: 0 }}
         >
           {data.heading}
-        </motion.h2>
+        </h2>
 
         {data.description && (
-          <motion.p
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.15 }}
-            className="mx-auto mt-6 max-w-xl text-lg text-foreground/60"
+          <p
+            className="reveal mx-auto mt-6 max-w-xl text-lg text-foreground/60"
+            style={inView ? { animation: 'reveal-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards' } : { opacity: 0 }}
           >
             {data.description}
-          </motion.p>
+          </p>
         )}
 
-        <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-10 flex flex-col items-center gap-6"
+        <div
+          className="reveal mt-10 flex flex-col items-center gap-6"
+          style={inView ? { animation: 'reveal-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards' } : { opacity: 0 }}
         >
           <a
             href={data.buttonHref}
@@ -94,7 +86,7 @@ export function Cta({ data }: { data: CtaData }) {
               )}
             </div>
           )}
-        </motion.div>
+        </div>
       </div>
     </section>
   )

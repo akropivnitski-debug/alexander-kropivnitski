@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState, useEffect, useCallback } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
@@ -22,16 +21,16 @@ function getInitials(name: string) {
     .slice(0, 2)
 }
 
-function TestimonialSlide({ item }: { item: Testimonial }) {
+function TestimonialSlide({ item, direction }: { item: Testimonial; direction: 'in' | 'out' }) {
   const avatarSrc = resolveImage(item.avatar)
 
   return (
-    <motion.div
-      initial={{ opacity: 0, x: 40 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -40 }}
-      transition={{ duration: 0.4, ease: 'easeInOut' }}
-      className="flex flex-col items-center text-center"
+    <div
+      className="flex flex-col items-center text-center transition-all duration-400 ease-in-out"
+      style={{
+        opacity: direction === 'in' ? 1 : 0,
+        transform: direction === 'in' ? 'translateX(0)' : 'translateX(-40px)',
+      }}
     >
       <blockquote className="space-y-6">
         <p className="text-xl font-medium leading-relaxed md:text-2xl">
@@ -60,7 +59,7 @@ function TestimonialSlide({ item }: { item: Testimonial }) {
           </div>
         </div>
       </blockquote>
-    </motion.div>
+    </div>
   )
 }
 
@@ -91,9 +90,7 @@ export function Testimonials({ data }: { data: TestimonialsData }) {
         </div>
 
         <div className="relative min-h-[200px]">
-          <AnimatePresence mode="wait">
-            <TestimonialSlide key={active} item={items[active]} />
-          </AnimatePresence>
+          <TestimonialSlide key={active} item={items[active]} direction="in" />
         </div>
 
         {items.length > 1 && (

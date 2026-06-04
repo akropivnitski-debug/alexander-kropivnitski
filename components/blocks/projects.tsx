@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import { motion } from 'framer-motion'
 import { ArrowUp, ArrowDown, ArrowRight } from 'lucide-react'
+import { useInView } from '@/hooks/useInView'
 import type { Page } from '@/payload-types'
 
 type ProjectsData = Extract<NonNullable<Page['layout']>[number], { blockType: 'projects' }>
@@ -29,14 +29,11 @@ function StatBadge({ stat }: { stat: Stat }) {
   )
 }
 
-function Card({ project, index }: { project: ProjectCard; index: number }) {
+function Card({ project, index, inView }: { project: ProjectCard; index: number; inView: boolean }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group flex flex-col rounded-2xl border border-foreground/10 bg-foreground/[0.03] p-6 transition-colors hover:border-foreground/20 hover:bg-foreground/[0.05]"
+    <div
+      className="reveal group flex flex-col rounded-2xl border border-foreground/10 bg-foreground/[0.03] p-6 transition-colors hover:border-foreground/20 hover:bg-foreground/[0.05]"
+      style={inView ? { animation: `reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${index * 0.1}s forwards` } : { opacity: 0 }}
     >
       <h3 className="text-xl font-semibold text-foreground">{project.title}</h3>
 
@@ -72,42 +69,38 @@ function Card({ project, index }: { project: ProjectCard; index: number }) {
           </span>
         )}
       </div>
-    </motion.div>
+    </div>
   )
 }
 
 export function Projects({ data }: { data: ProjectsData }) {
+  const [ref, inView] = useInView({ threshold: 0.1 })
+
   return (
-    <section className="relative w-full bg-background px-6 py-12 md:px-12 md:py-16">
+    <section ref={ref} className="relative w-full bg-background px-6 py-12 md:px-12 md:py-16">
       <div className="mx-auto max-w-6xl">
         {data.heading && (
-          <motion.h2
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center text-3xl font-bold text-foreground md:text-4xl"
+          <h2
+            className="reveal text-center text-3xl font-bold text-foreground md:text-4xl"
+            style={inView ? { animation: 'reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards' } : { opacity: 0 }}
           >
             {data.heading}
-          </motion.h2>
+          </h2>
         )}
 
         {data.description && (
-          <motion.p
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="mx-auto mt-4 max-w-2xl text-center text-foreground/60"
+          <p
+            className="reveal mx-auto mt-4 max-w-2xl text-center text-foreground/60"
+            style={inView ? { animation: 'reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards' } : { opacity: 0 }}
           >
             {data.description}
-          </motion.p>
+          </p>
         )}
 
         {data.projects && data.projects.length > 0 && (
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {data.projects.map((project, i) => (
-              <Card key={project.id ?? i} project={project} index={i} />
+              <Card key={project.id ?? i} project={project} index={i} inView={inView} />
             ))}
           </div>
         )}

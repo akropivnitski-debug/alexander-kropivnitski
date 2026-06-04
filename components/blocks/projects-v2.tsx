@@ -1,9 +1,9 @@
 'use client'
 
 import React, { useMemo } from 'react'
-import { motion } from 'framer-motion'
-import * as LucideIcons from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { useInView } from '@/hooks/useInView'
+import { resolveIcon } from '@/lib/iconMap'
 import { TextScramble } from '@/components/ui/text-scramble'
 import type { Page } from '@/payload-types'
 
@@ -12,16 +12,6 @@ type ProjectsV2Data = Extract<
   { blockType: 'projectsV2' }
 >
 type CardData = NonNullable<ProjectsV2Data['cards']>[number]
-
-function resolveIcon(name?: string | null): React.ComponentType<{ className?: string; strokeWidth?: number }> | null {
-  if (!name) return null
-  const icons = LucideIcons as Record<string, unknown>
-  const icon = icons[name] || icons[name + 'Icon']
-  if (typeof icon === 'function' || (typeof icon === 'object' && icon !== null)) {
-    return icon as React.ComponentType<{ className?: string; strokeWidth?: number }>
-  }
-  return null
-}
 
 function GridPattern({
   width,
@@ -76,10 +66,12 @@ function FeatureCard({
   card,
   index,
   className,
+  inView,
 }: {
   card: CardData
   index: number
   className?: string
+  inView: boolean
 }) {
   const Icon = resolveIcon(card.icon)
 
@@ -93,12 +85,9 @@ function FeatureCard({
   )
 
   const content = (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.08 }}
-      className={cn('relative overflow-hidden p-6', className)}
+    <div
+      className={cn('reveal relative overflow-hidden p-6', className)}
+      style={inView ? { animation: `reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${index * 0.08}s forwards` } : { opacity: 0 }}
     >
       <div className="pointer-events-none absolute top-0 left-1/2 -mt-2 -ml-20 h-full w-full [mask-image:linear-gradient(white,transparent)]">
         <div className="from-foreground/5 to-foreground/1 absolute inset-0 bg-gradient-to-r [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] opacity-100">
@@ -119,7 +108,7 @@ function FeatureCard({
           {card.description}
         </p>
       )}
-    </motion.div>
+    </div>
   )
 
   if (card.href) {
@@ -150,54 +139,46 @@ export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
   const cardCount = data.cards?.length ?? 0
   const maxCardsIn2Rows = colCount * 2
   const showButton = cardCount > maxCardsIn2Rows && data.buttonLabel && data.buttonHref
+  const [ref, inView] = useInView({ threshold: 0.1 })
 
   return (
-    <section className="relative w-full bg-background px-6 py-12 md:px-12 md:py-16">
+    <section ref={ref} className="relative w-full bg-background px-6 py-12 md:px-12 md:py-16">
       <div className="mx-auto max-w-6xl">
         {data.heading && (
-          <motion.h2
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center text-3xl font-bold text-foreground md:text-4xl"
+          <h2
+            className="reveal text-center text-3xl font-bold text-foreground md:text-4xl"
+            style={inView ? { animation: 'reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards' } : { opacity: 0 }}
           >
             {data.heading}
-          </motion.h2>
+          </h2>
         )}
 
         {data.description && (
-          <motion.p
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="mx-auto mt-4 max-w-2xl text-center text-foreground/60"
+          <p
+            className="reveal mx-auto mt-4 max-w-2xl text-center text-foreground/60"
+            style={inView ? { animation: 'reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards' } : { opacity: 0 }}
           >
             {data.description}
-          </motion.p>
+          </p>
         )}
 
         {data.cards && data.cards.length > 0 && (
           <div className={cn('mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/10', colsClass[cols])}>
             {data.cards.map((card, i) => (
-              <FeatureCard key={card.id ?? i} card={card} index={i} className="bg-background" />
+              <FeatureCard key={card.id ?? i} card={card} index={i} className="bg-background" inView={inView} />
             ))}
           </div>
         )}
 
         {showButton && (
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-10 flex justify-center"
+          <div
+            className="reveal mt-10 flex justify-center"
+            style={inView ? { animation: 'reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards' } : { opacity: 0 }}
           >
             <a href={data.buttonHref!}>
               <TextScramble text={data.buttonLabel!} />
             </a>
-          </motion.div>
+          </div>
         )}
       </div>
     </section>

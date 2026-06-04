@@ -1,9 +1,6 @@
-'use client'
-
 import React from 'react'
 import Image from 'next/image'
 import { PlusIcon } from 'lucide-react'
-import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { resolveImage } from '@/lib/resolveImage'
 import type { Page } from '@/payload-types'
@@ -13,7 +10,6 @@ type HeroV4Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'her
 function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
   if (logos.length === 0) return null
 
-  // Determine which cells get a shaded background (checkerboard: 0,3,4,7,...)
   const isShaded = (i: number) => i % 4 === 0 || i % 4 === 3
 
   return (
@@ -22,7 +18,6 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
 
       {logos.map((logo, i) => {
         const isLastRow2Col = i >= logos.length - (logos.length % 2 || 2)
-        const isLastRow4Col = i >= logos.length - (logos.length % 4 || 4)
         const isEvenCol = i % 2 === 0
 
         return (
@@ -45,7 +40,6 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
                 !logo.disableFilter && 'grayscale invert opacity-70',
               )}
             />
-            {/* Plus icons at intersections */}
             {isEvenCol && !isLastRow2Col && (
               <PlusIcon
                 className="absolute -right-[12.5px] -bottom-[12.5px] z-10 size-5 text-foreground/20"
@@ -74,11 +68,9 @@ export function HeroV4({ data, contentHtml = '' }: { data: HeroV4Data; contentHt
     >
       <div className="relative grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
         {/* Left — Heading + Rich Text + Logo Cloud */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="z-20 order-2 md:order-1"
+        <div
+          className="anim-fade-up z-20 order-2 md:order-1"
+          style={{ animationDelay: '0.3s' }}
         >
           {data.heading && (
             <h1 className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
@@ -92,31 +84,24 @@ export function HeroV4({ data, contentHtml = '' }: { data: HeroV4Data; contentHt
             />
           )}
           {logos.length > 0 && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="mt-10"
+            <div
+              className="anim-fade-up mt-10"
+              style={{ animationDelay: '0.6s' }}
             >
               <LogoCloud logos={logos} />
-            </motion.div>
+            </div>
           )}
-        </motion.div>
+        </div>
 
         {/* Right — Image with Circle */}
         <div className="relative order-1 md:order-2 flex justify-center items-center h-[300px] md:h-[400px] lg:h-[500px]">
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-            className="absolute z-0 h-[280px] w-[280px] rounded-full md:h-[380px] md:w-[380px] lg:h-[480px] lg:w-[480px]"
-            style={{ backgroundColor: circleColor }}
+          <div
+            className="anim-scale-in absolute z-0 h-[280px] w-[280px] rounded-full md:h-[380px] md:w-[380px] lg:h-[480px] lg:w-[480px]"
+            style={{ backgroundColor: circleColor, animationDelay: '0.2s' }}
           />
-          <motion.div
-            className="relative z-10 h-auto w-56 md:w-64 scale-150 lg:w-72"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
+          <div
+            className="anim-fade-up-large relative z-10 h-auto w-56 md:w-64 scale-150 lg:w-72"
+            style={{ animationDelay: '0.4s' }}
           >
             <Image
               src={imageSrc}
@@ -126,7 +111,7 @@ export function HeroV4({ data, contentHtml = '' }: { data: HeroV4Data; contentHt
               priority
               className="h-auto w-full object-cover"
             />
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
