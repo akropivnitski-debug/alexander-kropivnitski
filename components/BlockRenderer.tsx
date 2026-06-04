@@ -12,6 +12,8 @@ import { Projects } from '@/components/blocks/projects'
 import { ProjectsV2 } from '@/components/blocks/projects-v2'
 import { AboutSimple } from '@/components/blocks/about-simple'
 import { ImageSlider } from '@/components/blocks/image-slider'
+import { HeroV5 } from '@/components/blocks/hero-v5'
+import { HeroV6 } from '@/components/blocks/hero-v6'
 import { getSpacingClass } from '@/fields/spacingFields'
 import { lexicalToHtml } from '@/lib/lexicalToHtml'
 
@@ -45,6 +47,10 @@ function renderBlock(block: LayoutBlock, i: number) {
       return <AboutSimple key={block.id ?? i} data={block} />
     case 'imageSlider':
       return <ImageSlider key={block.id ?? i} data={block} />
+    case 'heroV5':
+      return <HeroV5 key={block.id ?? i} data={block} contentHtml={lexicalToHtml(block.content)} />
+    case 'heroV6':
+      return <HeroV6 key={block.id ?? i} data={block} contentHtml={lexicalToHtml(block.content)} />
     default:
       return null
   }
