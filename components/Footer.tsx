@@ -153,6 +153,7 @@ function SocialIcon({ type, url }: { type: string; url: string }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={type.charAt(0).toUpperCase() + type.slice(1)}
       className="text-foreground/50 transition-colors hover:text-foreground"
     >
       {icons[type]}

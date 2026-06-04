@@ -99,6 +99,7 @@ export function Testimonials({ data }: { data: TestimonialsData }) {
               <button
                 key={i}
                 onClick={() => setActive(i)}
+                aria-label={`Go to testimonial ${i + 1}`}
                 className={`h-2 rounded-full transition-all duration-300 ${
                   i === active
                     ? 'w-6 bg-foreground'

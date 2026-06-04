@@ -69,6 +69,7 @@ export function Cta({ data }: { data: CtaData }) {
                   href={data.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="GitHub"
                   className="flex items-center justify-center rounded-full border border-foreground/10 bg-foreground/5 p-3 text-foreground/50 transition-all hover:border-foreground/20 hover:bg-foreground/10 hover:text-foreground"
                 >
                   <GithubIcon className="size-5" />
@@ -79,6 +80,7 @@ export function Cta({ data }: { data: CtaData }) {
                   href={data.linkedinUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn"
                   className="flex items-center justify-center rounded-full border border-foreground/10 bg-foreground/5 p-3 text-foreground/50 transition-all hover:border-foreground/20 hover:bg-foreground/10 hover:text-foreground"
                 >
                   <LinkedinIcon className="size-5" />

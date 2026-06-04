@@ -78,11 +78,9 @@ export function AboutMe({ data }: { data: AboutMeData }) {
   return (
     <section className="bg-background py-16 md:py-24">
       <div className="mx-auto max-w-4xl px-6">
-        {data.heading && (
-          <h2 className="mb-4 text-center text-4xl font-medium lg:text-5xl">
-            {data.heading}
-          </h2>
-        )}
+        <h2 className={data.heading ? "mb-4 text-center text-4xl font-medium lg:text-5xl" : "sr-only"}>
+          {data.heading || 'About'}
+        </h2>
         {data.description && (
           <p className="mx-auto mb-12 max-w-3xl text-center text-muted-foreground md:mb-16">
             {data.description}
