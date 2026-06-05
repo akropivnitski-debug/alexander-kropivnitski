@@ -90,8 +90,7 @@ export const FormsCollection: CollectionConfig = {
           name: 'label',
           label: 'Label',
           type: 'text',
-          required: true,
-          admin: { description: 'Label shown above the field.' },
+          admin: { description: 'Optional label shown above the field. If empty, no label is rendered.' },
         },
         {
           name: 'type',

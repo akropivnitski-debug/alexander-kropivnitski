@@ -129,7 +129,7 @@ export async function POST(req: NextRequest) {
     const formFields = form.fields ?? []
     for (const field of formFields) {
       if (field.required && !fieldValues[field.name]) {
-        return NextResponse.json({ error: `${field.label} is required.` }, { status: 400 })
+        return NextResponse.json({ error: `${field.label || field.name} is required.` }, { status: 400 })
       }
     }
   }

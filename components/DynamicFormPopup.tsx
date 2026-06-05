@@ -224,13 +224,15 @@ export function DynamicFormPopup({ form, open, onClose }: DynamicFormPopupProps)
 
                   return (
                     <div key={field.name} className={wrapClass}>
-                      <label
-                        htmlFor={`form-${field.name}`}
-                        className="mb-1.5 block text-sm font-medium text-foreground/80"
-                      >
-                        {field.label}
-                        {field.required && <span className="ml-0.5 text-foreground/30">*</span>}
-                      </label>
+                      {field.label && (
+                        <label
+                          htmlFor={`form-${field.name}`}
+                          className="mb-1.5 block text-sm font-medium text-foreground/80"
+                        >
+                          {field.label}
+                          {field.required && <span className="ml-0.5 text-foreground/30">*</span>}
+                        </label>
+                      )}
                       {field.type === 'textarea' ? (
                         <textarea
                           id={`form-${field.name}`}
