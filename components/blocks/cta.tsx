@@ -1,9 +1,8 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Mail } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
-import { ContactFormPopup } from '@/components/ContactFormPopup'
 import type { Page } from '@/payload-types'
 
 type CtaData = Extract<NonNullable<Page['layout']>[number], { blockType: 'cta' }>
@@ -27,8 +26,7 @@ function LinkedinIcon({ className }: { className?: string }) {
 export function Cta({ data }: { data: CtaData }) {
   const buttonColor = data.buttonColor ?? '#facc15'
   const [ref, inView] = useInView({ threshold: 0.2 })
-  const isMailto = data.buttonHref?.startsWith('mailto:')
-  const [popupOpen, setPopupOpen] = useState(false)
+  const isFormLink = data.buttonHref?.startsWith('#form:')
 
   return (
     <section className="relative w-full overflow-hidden bg-background px-8 py-12 md:px-12 md:py-16">
@@ -53,31 +51,18 @@ export function Cta({ data }: { data: CtaData }) {
           className="reveal mt-10 flex flex-col items-center gap-6"
           style={inView ? { animation: 'reveal-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards' } : { opacity: 0 }}
         >
-          {isMailto ? (
-            <button
-              onClick={() => setPopupOpen(true)}
-              className="group inline-flex items-center gap-2.5 rounded-full px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:shadow-lg"
-              style={{
-                backgroundColor: buttonColor,
-                boxShadow: `0 0 20px ${buttonColor}33`,
-              }}
-            >
-              <Mail className="size-5" />
-              {data.buttonLabel}
-            </button>
-          ) : (
-            <a
-              href={data.buttonHref}
-              className="group inline-flex items-center gap-2.5 rounded-full px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:shadow-lg"
-              style={{
-                backgroundColor: buttonColor,
-                boxShadow: `0 0 20px ${buttonColor}33`,
-              }}
-            >
-              <Mail className="size-5" />
-              {data.buttonLabel}
-            </a>
-          )}
+          {/* #form: links are intercepted by FormPopupProvider via the <a> click handler */}
+          <a
+            href={data.buttonHref}
+            className="group inline-flex items-center gap-2.5 rounded-full px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:shadow-lg"
+            style={{
+              backgroundColor: buttonColor,
+              boxShadow: `0 0 20px ${buttonColor}33`,
+            }}
+          >
+            <Mail className="size-5" />
+            {data.buttonLabel}
+          </a>
 
           {(data.linkedinUrl || data.githubUrl) && (
             <div className="flex items-center gap-4">
@@ -107,13 +92,6 @@ export function Cta({ data }: { data: CtaData }) {
           )}
         </div>
       </div>
-      {isMailto && (
-        <ContactFormPopup
-          open={popupOpen}
-          onClose={() => setPopupOpen(false)}
-          buttonColor={buttonColor}
-        />
-      )}
     </section>
   )
 }

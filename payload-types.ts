@@ -69,6 +69,7 @@ export interface Config {
   collections: {
     media: Media;
     pages: Page;
+    forms: Form;
     'form-submissions': FormSubmission;
     'payload-kv': PayloadKv;
     users: User;
@@ -80,6 +81,7 @@ export interface Config {
   collectionsSelect: {
     media: MediaSelect<false> | MediaSelect<true>;
     pages: PagesSelect<false> | PagesSelect<true>;
+    forms: FormsSelect<false> | FormsSelect<true>;
     'form-submissions': FormSubmissionsSelect<false> | FormSubmissionsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     users: UsersSelect<false> | UsersSelect<true>;
@@ -1365,13 +1367,89 @@ export interface Page {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Create forms and use #form:slug in any button link to open them as a popup.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "forms".
+ */
+export interface Form {
+  id: number;
+  /**
+   * Internal name — not shown to visitors.
+   */
+  title: string;
+  /**
+   * Use this in button links as #form:your-slug to open this form as a popup.
+   */
+  slug: string;
+  /**
+   * Optional heading shown at the top of the popup.
+   */
+  heading?: string | null;
+  /**
+   * Optional description below the heading.
+   */
+  description?: string | null;
+  /**
+   * Email shown to the user after successful submission.
+   */
+  recipientEmail: string;
+  /**
+   * Message shown after successful submission.
+   */
+  successMessage?: string | null;
+  submitLabel?: string | null;
+  /**
+   * Hex color (e.g. #facc15).
+   */
+  buttonColor?: string | null;
+  /**
+   * Add fields to the form. Email field is required for submissions.
+   */
+  fields?:
+    | {
+        /**
+         * Internal name (e.g. email, name, message). Must be unique within the form.
+         */
+        name: string;
+        /**
+         * Label shown above the field.
+         */
+        label: string;
+        type: 'text' | 'email' | 'textarea' | 'tel' | 'url' | 'number';
+        /**
+         * Faded hint text shown when the field is empty.
+         */
+        placeholder?: string | null;
+        required?: boolean | null;
+        width?: ('full' | 'half') | null;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "form-submissions".
  */
 export interface FormSubmission {
   id: number;
+  form?: (number | null) | Form;
   email: string;
-  message: string;
+  message?: string | null;
+  /**
+   * Raw JSON of all submitted field values.
+   */
+  data?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
   source?: string | null;
   ip?: string | null;
   blocked?: boolean | null;
@@ -1435,6 +1513,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'pages';
         value: number | Page;
+      } | null)
+    | ({
+        relationTo: 'forms';
+        value: number | Form;
       } | null)
     | ({
         relationTo: 'form-submissions';
@@ -2260,11 +2342,40 @@ export interface PagesSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "forms_select".
+ */
+export interface FormsSelect<T extends boolean = true> {
+  title?: T;
+  slug?: T;
+  heading?: T;
+  description?: T;
+  recipientEmail?: T;
+  successMessage?: T;
+  submitLabel?: T;
+  buttonColor?: T;
+  fields?:
+    | T
+    | {
+        name?: T;
+        label?: T;
+        type?: T;
+        placeholder?: T;
+        required?: T;
+        width?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "form-submissions_select".
  */
 export interface FormSubmissionsSelect<T extends boolean = true> {
+  form?: T;
   email?: T;
   message?: T;
+  data?: T;
   source?: T;
   ip?: T;
   blocked?: T;

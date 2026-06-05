@@ -3,6 +3,7 @@ import { Inter, Outfit } from 'next/font/google'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { FontLoader } from '@/components/FontLoader'
+import { FormPopupProvider } from '@/components/FormPopupProvider'
 import "../globals.css";
 
 const inter = Inter({
@@ -66,7 +67,9 @@ export default async function AppLayout({
         )}
       </head>
       <body className="min-h-full flex flex-col">
-        {children}
+        <FormPopupProvider>
+          {children}
+        </FormPopupProvider>
       </body>
     </html>
   );

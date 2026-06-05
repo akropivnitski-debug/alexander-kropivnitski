@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getPayload } from 'payload'
 import config from '@/payload.config'
 
-// In-memory rate limiter (per-IP, resets on redeploy — good enough for low-traffic portfolio)
+// In-memory rate limiter (per-IP, resets on redeploy)
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
 const RATE_LIMIT_WINDOW = 60_000 // 1 minute
 const RATE_LIMIT_MAX = 5 // 5 submissions per minute per IP
@@ -22,7 +22,7 @@ async function verifyTurnstile(token: string, ip: string): Promise<boolean> {
   const secret = process.env.TURNSTILE_SECRET_KEY
   if (!secret) {
     console.warn('[contact] TURNSTILE_SECRET_KEY not set — skipping verification')
-    return true // allow in dev when key isn't configured
+    return true
   }
   try {
     const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
@@ -54,25 +54,25 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid request body.' }, { status: 400 })
   }
 
-  const { email, message, turnstileToken, source, _hp_name } = body as {
-    email?: string
-    message?: string
+  const { formSlug, turnstileToken, source, _hp_name, ...fieldValues } = body as {
+    formSlug?: string
     turnstileToken?: string
     source?: string
-    _hp_name?: string // honeypot field
+    _hp_name?: string
+    [key: string]: unknown
   }
 
-  // Honeypot check — bots fill hidden fields, humans don't
+  const payload = await getPayload({ config })
+
+  // Honeypot check
   if (_hp_name) {
     console.warn(`[contact] Honeypot triggered from ${ip}`)
-    // Save blocked submission for logging
     try {
-      const payload = await getPayload({ config })
       await payload.create({
         collection: 'form-submissions',
         data: {
-          email: email || 'honeypot@bot.blocked',
-          message: message || '',
+          email: (fieldValues.email as string) || 'honeypot@bot.blocked',
+          data: fieldValues,
           source: source || '',
           ip,
           blocked: true,
@@ -80,19 +80,7 @@ export async function POST(req: NextRequest) {
         },
       })
     } catch { /* best effort */ }
-    // Return fake success to not alert bot
-    return NextResponse.json({ success: true, email: 'a.kropivnitski@digitalnexusstrategy.com' })
-  }
-
-  // Validate inputs
-  if (!email || typeof email !== 'string' || !email.includes('@') || email.length > 320) {
-    return NextResponse.json({ error: 'Valid email is required.' }, { status: 400 })
-  }
-  if (!message || typeof message !== 'string' || message.trim().length < 5) {
-    return NextResponse.json({ error: 'Message must be at least 5 characters.' }, { status: 400 })
-  }
-  if (message.length > 5000) {
-    return NextResponse.json({ error: 'Message too long.' }, { status: 400 })
+    return NextResponse.json({ success: true, recipientEmail: 'blocked@example.com' })
   }
 
   // Turnstile verification
@@ -105,12 +93,11 @@ export async function POST(req: NextRequest) {
   if (!turnstileValid) {
     console.warn(`[contact] Turnstile verification failed for ${ip}`)
     try {
-      const payload = await getPayload({ config })
       await payload.create({
         collection: 'form-submissions',
         data: {
-          email,
-          message: message.slice(0, 500),
+          email: (fieldValues.email as string) || 'turnstile@bot.blocked',
+          data: fieldValues,
           source: source || '',
           ip,
           blocked: true,
@@ -121,14 +108,47 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Bot verification failed. Please try again.' }, { status: 403 })
   }
 
+  // Load form definition if formSlug provided
+  let formId: number | undefined
+  let recipientEmail = 'a.kropivnitski@digitalnexusstrategy.com'
+
+  if (formSlug) {
+    const formResult = await payload.find({
+      collection: 'forms',
+      where: { slug: { equals: formSlug } },
+      limit: 1,
+    })
+    const form = formResult.docs[0]
+    if (!form) {
+      return NextResponse.json({ error: 'Form not found.' }, { status: 404 })
+    }
+    formId = form.id
+    recipientEmail = form.recipientEmail
+
+    // Validate required fields
+    const formFields = form.fields ?? []
+    for (const field of formFields) {
+      if (field.required && !fieldValues[field.name]) {
+        return NextResponse.json({ error: `${field.label} is required.` }, { status: 400 })
+      }
+    }
+  }
+
+  // Validate email
+  const email = fieldValues.email as string | undefined
+  if (!email || typeof email !== 'string' || !email.includes('@') || email.length > 320) {
+    return NextResponse.json({ error: 'Valid email is required.' }, { status: 400 })
+  }
+
   // Save submission
   try {
-    const payload = await getPayload({ config })
     await payload.create({
       collection: 'form-submissions',
       data: {
+        form: formId,
         email,
-        message: message.trim(),
+        message: (fieldValues.message as string) || '',
+        data: fieldValues,
         source: source || '',
         ip,
         blocked: false,
@@ -139,6 +159,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Something went wrong. Please try again.' }, { status: 500 })
   }
 
-  console.log(`[contact] New submission from ${email} (${ip})`)
-  return NextResponse.json({ success: true, email: 'a.kropivnitski@digitalnexusstrategy.com' })
+  console.log(`[contact] New submission from ${email} (${ip}) form=${formSlug || 'default'}`)
+  return NextResponse.json({ success: true, recipientEmail })
 }

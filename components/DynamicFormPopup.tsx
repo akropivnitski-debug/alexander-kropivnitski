@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useRef, useEffect, useCallback } from 'react'
-import { X, Mail, Send, CheckCircle, Loader2 } from 'lucide-react'
+import { X, Send, CheckCircle, Loader2, Mail } from 'lucide-react'
 
 declare global {
   interface Window {
@@ -13,25 +13,45 @@ declare global {
   }
 }
 
-interface ContactFormPopupProps {
-  open: boolean
-  onClose: () => void
-  buttonColor?: string
-  source?: string
+interface FormField {
+  name: string
+  label: string
+  type: string
+  placeholder?: string | null
+  required?: boolean | null
+  width?: string | null
 }
 
-export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', source }: ContactFormPopupProps) {
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+interface FormConfig {
+  slug: string
+  heading?: string | null
+  description?: string | null
+  recipientEmail: string
+  successMessage?: string | null
+  submitLabel?: string | null
+  buttonColor?: string | null
+  fields: FormField[]
+}
+
+interface DynamicFormPopupProps {
+  form: FormConfig
+  open: boolean
+  onClose: () => void
+}
+
+export function DynamicFormPopup({ form, open, onClose }: DynamicFormPopupProps) {
+  const [values, setValues] = useState<Record<string, string>>({})
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [errorMsg, setErrorMsg] = useState('')
-  const [resultEmail, setResultEmail] = useState('')
+  const [recipientEmail, setRecipientEmail] = useState('')
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
   const turnstileRef = useRef<HTMLDivElement>(null)
   const widgetIdRef = useRef<string | null>(null)
   const dialogRef = useRef<HTMLDialogElement>(null)
 
-  // Load Turnstile script
+  const buttonColor = form.buttonColor || '#facc15'
+
+  // Load Turnstile script once
   useEffect(() => {
     if (document.getElementById('cf-turnstile-script')) return
     const script = document.createElement('script')
@@ -53,7 +73,6 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
         if (attempts++ < 50) setTimeout(tryRender, 100)
         return
       }
-      // Clean up previous widget
       if (widgetIdRef.current) {
         try { window.turnstile.remove(widgetIdRef.current) } catch {}
         widgetIdRef.current = null
@@ -81,25 +100,20 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
   useEffect(() => {
     const dialog = dialogRef.current
     if (!dialog) return
-    if (open && !dialog.open) {
-      dialog.showModal()
-    } else if (!open && dialog.open) {
-      dialog.close()
-    }
+    if (open && !dialog.open) dialog.showModal()
+    else if (!open && dialog.open) dialog.close()
   }, [open])
 
-  // Reset form when opened
+  // Reset when opened
   useEffect(() => {
     if (open) {
-      setEmail('')
-      setMessage('')
+      setValues({})
       setStatus('idle')
       setErrorMsg('')
       setTurnstileToken(null)
     }
   }, [open])
 
-  // Close on escape
   const handleCancel = useCallback((e: React.SyntheticEvent) => {
     e.preventDefault()
     onClose()
@@ -115,11 +129,11 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          email,
-          message,
+          formSlug: form.slug,
           turnstileToken,
-          source: source || window.location.pathname,
+          source: window.location.pathname,
           _hp_name: (document.getElementById('_hp_name') as HTMLInputElement)?.value || '',
+          ...values,
         }),
       })
 
@@ -128,7 +142,6 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
       if (!res.ok) {
         setStatus('error')
         setErrorMsg(data.error || 'Something went wrong.')
-        // Reset Turnstile on error
         if (widgetIdRef.current && window.turnstile) {
           window.turnstile.reset(widgetIdRef.current)
           setTurnstileToken(null)
@@ -136,7 +149,7 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
         return
       }
 
-      setResultEmail(data.email)
+      setRecipientEmail(data.recipientEmail)
       setStatus('success')
     } catch {
       setStatus('error')
@@ -146,6 +159,8 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
 
   if (!open) return null
 
+  const inputClass = 'w-full rounded-lg border border-foreground/10 bg-foreground/5 px-4 py-2.5 text-sm text-foreground placeholder:text-foreground/30 focus:border-foreground/30 focus:outline-none focus:ring-1 focus:ring-foreground/20'
+
   return (
     <dialog
       ref={dialogRef}
@@ -153,7 +168,6 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
       className="fixed inset-0 z-50 m-0 flex h-full w-full items-center justify-center bg-transparent p-4 backdrop:bg-black/60 backdrop:backdrop-blur-sm open:flex"
     >
       <div className="relative w-full max-w-md rounded-2xl border border-foreground/10 bg-background p-6 shadow-2xl md:p-8">
-        {/* Close button */}
         <button
           onClick={onClose}
           aria-label="Close"
@@ -163,21 +177,20 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
         </button>
 
         {status === 'success' ? (
-          /* Success state */
           <div className="flex flex-col items-center gap-4 py-6 text-center">
             <div className="flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500/10">
               <CheckCircle className="size-7 text-emerald-400" />
             </div>
             <h3 className="text-xl font-semibold text-foreground">Message Sent!</h3>
             <p className="text-sm text-foreground/60">
-              Thank you for reaching out. I'll get back to you soon at:
+              {form.successMessage || 'Thank you for reaching out. I\'ll get back to you soon.'}
             </p>
             <a
-              href={`mailto:${resultEmail}`}
+              href={`mailto:${recipientEmail}`}
               className="mt-1 flex items-center gap-2 rounded-lg border border-foreground/10 bg-foreground/5 px-4 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-foreground/10"
             >
               <Mail className="size-4 text-foreground/60" />
-              {resultEmail}
+              {recipientEmail}
             </a>
             <button
               onClick={onClose}
@@ -187,58 +200,65 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
             </button>
           </div>
         ) : (
-          /* Form state */
           <>
             <div className="mb-6">
-              <h3 className="text-xl font-semibold text-foreground">Get in Touch</h3>
-              <p className="mt-1.5 text-sm text-foreground/60">
-                Drop me a message and I'll reply within 24 hours.
-              </p>
+              {form.heading && <h3 className="text-xl font-semibold text-foreground">{form.heading}</h3>}
+              {form.description && (
+                <p className={`text-sm text-foreground/60 ${form.heading ? 'mt-1.5' : ''}`}>
+                  {form.description}
+                </p>
+              )}
             </div>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-              {/* Honeypot — hidden from humans, bots fill it */}
+              {/* Honeypot */}
               <div className="absolute -left-[9999px]" aria-hidden="true">
                 <label htmlFor="_hp_name">Name</label>
                 <input type="text" id="_hp_name" name="_hp_name" tabIndex={-1} autoComplete="off" />
               </div>
 
-              <div>
-                <label htmlFor="contact-email" className="mb-1.5 block text-sm font-medium text-foreground/80">
-                  Email
-                </label>
-                <input
-                  id="contact-email"
-                  type="email"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
-                  className="w-full rounded-lg border border-foreground/10 bg-foreground/5 px-4 py-2.5 text-sm text-foreground placeholder:text-foreground/30 focus:border-foreground/30 focus:outline-none focus:ring-1 focus:ring-foreground/20"
-                />
+              <div className="grid grid-cols-2 gap-4">
+                {form.fields.map((field) => {
+                  const isFullWidth = field.width !== 'half'
+                  const wrapClass = isFullWidth ? 'col-span-2' : 'col-span-2 sm:col-span-1'
+
+                  return (
+                    <div key={field.name} className={wrapClass}>
+                      <label
+                        htmlFor={`form-${field.name}`}
+                        className="mb-1.5 block text-sm font-medium text-foreground/80"
+                      >
+                        {field.label}
+                        {field.required && <span className="ml-0.5 text-foreground/30">*</span>}
+                      </label>
+                      {field.type === 'textarea' ? (
+                        <textarea
+                          id={`form-${field.name}`}
+                          required={!!field.required}
+                          rows={4}
+                          placeholder={field.placeholder || undefined}
+                          value={values[field.name] || ''}
+                          onChange={(e) => setValues((v) => ({ ...v, [field.name]: e.target.value }))}
+                          className={`${inputClass} resize-none`}
+                        />
+                      ) : (
+                        <input
+                          id={`form-${field.name}`}
+                          type={field.type || 'text'}
+                          required={!!field.required}
+                          placeholder={field.placeholder || undefined}
+                          value={values[field.name] || ''}
+                          onChange={(e) => setValues((v) => ({ ...v, [field.name]: e.target.value }))}
+                          className={inputClass}
+                        />
+                      )}
+                    </div>
+                  )
+                })}
               </div>
 
-              <div>
-                <label htmlFor="contact-message" className="mb-1.5 block text-sm font-medium text-foreground/80">
-                  Message
-                </label>
-                <textarea
-                  id="contact-message"
-                  required
-                  minLength={5}
-                  rows={4}
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Tell me about your project..."
-                  className="w-full resize-none rounded-lg border border-foreground/10 bg-foreground/5 px-4 py-2.5 text-sm text-foreground placeholder:text-foreground/30 focus:border-foreground/30 focus:outline-none focus:ring-1 focus:ring-foreground/20"
-                />
-              </div>
+              {errorMsg && <p className="text-sm text-red-400">{errorMsg}</p>}
 
-              {errorMsg && (
-                <p className="text-sm text-red-400">{errorMsg}</p>
-              )}
-
-              {/* Turnstile invisible widget container */}
               <div ref={turnstileRef} />
 
               <button
@@ -255,7 +275,7 @@ export function ContactFormPopup({ open, onClose, buttonColor = '#facc15', sourc
                 ) : (
                   <>
                     <Send className="size-4" />
-                    Send Message
+                    {form.submitLabel || 'Send Message'}
                   </>
                 )}
               </button>
