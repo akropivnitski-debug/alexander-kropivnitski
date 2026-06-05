@@ -33,13 +33,16 @@ export function CardGrid({ data }: { data: CardGridData }) {
         <div className={`grid gap-6 ${cols}`}>
           {cards.map((card, i) => {
             const src = resolveImage(card.image)
-            const Wrapper = card.href ? 'a' : 'div'
-            const linkProps = card.href ? { href: card.href } : {}
+            const isFormLink = card.href?.startsWith('#form:')
+            const Wrapper = isFormLink ? 'button' : card.href ? 'a' : 'div'
+            const linkProps = isFormLink
+              ? { type: 'button' as const, 'data-form': card.href!.replace('#form:', '') }
+              : card.href ? { href: card.href } : {}
             return (
               <Wrapper
                 key={card.id ?? i}
-                {...linkProps}
-                className="group overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/[0.02] transition-colors hover:bg-foreground/[0.05]"
+                {...(linkProps as Record<string, string>)}
+                className="group overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/[0.02] text-left transition-colors hover:bg-foreground/[0.05]"
               >
                 {src && (
                   <div className="relative aspect-[16/10] overflow-hidden">

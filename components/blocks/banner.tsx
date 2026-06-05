@@ -19,17 +19,32 @@ export function Banner({ data }: { data: BannerData }) {
           {data.text}
         </p>
         {data.buttonLabel && data.buttonHref && (
-          <a
-            href={data.buttonHref}
-            className={cn(
-              'shrink-0 rounded-lg px-4 py-1.5 text-xs font-medium transition-colors',
-              variant === 'accent'
-                ? 'bg-background text-foreground hover:bg-background/90'
-                : 'bg-foreground text-background hover:bg-foreground/90',
-            )}
-          >
-            {data.buttonLabel}
-          </a>
+          data.buttonHref.startsWith('#form:') ? (
+            <button
+              type="button"
+              data-form={data.buttonHref.replace('#form:', '')}
+              className={cn(
+                'shrink-0 rounded-lg px-4 py-1.5 text-xs font-medium transition-colors',
+                variant === 'accent'
+                  ? 'bg-background text-foreground hover:bg-background/90'
+                  : 'bg-foreground text-background hover:bg-foreground/90',
+              )}
+            >
+              {data.buttonLabel}
+            </button>
+          ) : (
+            <a
+              href={data.buttonHref}
+              className={cn(
+                'shrink-0 rounded-lg px-4 py-1.5 text-xs font-medium transition-colors',
+                variant === 'accent'
+                  ? 'bg-background text-foreground hover:bg-background/90'
+                  : 'bg-foreground text-background hover:bg-foreground/90',
+              )}
+            >
+              {data.buttonLabel}
+            </a>
+          )
         )}
       </div>
     </section>

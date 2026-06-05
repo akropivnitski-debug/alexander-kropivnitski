@@ -42,17 +42,32 @@ export function Pricing({ data }: { data: PricingData }) {
                 </div>
                 {tier.description && <p className="mt-3 text-sm text-foreground/60">{tier.description}</p>}
                 {tier.buttonLabel && tier.buttonHref && (
-                  <a
-                    href={tier.buttonHref}
-                    className={cn(
-                      'mt-6 block rounded-lg px-4 py-2.5 text-center text-sm font-medium transition-colors',
-                      tier.highlighted
-                        ? 'bg-foreground text-background hover:bg-foreground/90'
-                        : 'border border-foreground/20 text-foreground hover:bg-foreground/[0.05]',
-                    )}
-                  >
-                    {tier.buttonLabel}
-                  </a>
+                  tier.buttonHref.startsWith('#form:') ? (
+                    <button
+                      type="button"
+                      data-form={tier.buttonHref.replace('#form:', '')}
+                      className={cn(
+                        'mt-6 block w-full rounded-lg px-4 py-2.5 text-center text-sm font-medium transition-colors',
+                        tier.highlighted
+                          ? 'bg-foreground text-background hover:bg-foreground/90'
+                          : 'border border-foreground/20 text-foreground hover:bg-foreground/[0.05]',
+                      )}
+                    >
+                      {tier.buttonLabel}
+                    </button>
+                  ) : (
+                    <a
+                      href={tier.buttonHref}
+                      className={cn(
+                        'mt-6 block rounded-lg px-4 py-2.5 text-center text-sm font-medium transition-colors',
+                        tier.highlighted
+                          ? 'bg-foreground text-background hover:bg-foreground/90'
+                          : 'border border-foreground/20 text-foreground hover:bg-foreground/[0.05]',
+                      )}
+                    >
+                      {tier.buttonLabel}
+                    </a>
+                  )
                 )}
                 {features.length > 0 && (
                   <>

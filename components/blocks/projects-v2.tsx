@@ -112,6 +112,17 @@ function FeatureCard({
   )
 
   if (card.href) {
+    if (card.href.startsWith('#form:')) {
+      return (
+        <button
+          type="button"
+          data-form={card.href.replace('#form:', '')}
+          className="w-full text-left transition-colors hover:bg-foreground/[0.03]"
+        >
+          {content}
+        </button>
+      )
+    }
     return (
       <a
         href={card.href}
@@ -175,9 +186,15 @@ export function ProjectsV2({ data }: { data: ProjectsV2Data }) {
             className="reveal mt-10 flex justify-center"
             style={inView ? { animation: 'reveal-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards' } : { opacity: 0 }}
           >
-            <a href={data.buttonHref!}>
-              <TextScramble text={data.buttonLabel!} />
-            </a>
+            {data.buttonHref!.startsWith('#form:') ? (
+              <button type="button" data-form={data.buttonHref!.replace('#form:', '')}>
+                <TextScramble text={data.buttonLabel!} />
+              </button>
+            ) : (
+              <a href={data.buttonHref!}>
+                <TextScramble text={data.buttonLabel!} />
+              </a>
+            )}
           </div>
         )}
       </div>

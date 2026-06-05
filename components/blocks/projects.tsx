@@ -53,15 +53,26 @@ function Card({ project, index, inView }: { project: ProjectCard; index: number;
 
       <div className="mt-auto flex justify-end pt-6">
         {project.buttonHref ? (
-          <a
-            href={project.buttonHref}
-            target={project.buttonHref.startsWith('http') ? '_blank' : undefined}
-            rel={project.buttonHref.startsWith('http') ? 'noopener noreferrer' : undefined}
-            className="inline-flex items-center gap-2 rounded-lg border border-foreground/10 bg-foreground/5 px-5 py-2.5 text-sm font-medium text-foreground transition-all hover:border-foreground/20 hover:bg-foreground/10"
-          >
-            {project.buttonLabel || 'Explore'}
-            <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
-          </a>
+          project.buttonHref.startsWith('#form:') ? (
+            <button
+              type="button"
+              data-form={project.buttonHref.replace('#form:', '')}
+              className="inline-flex items-center gap-2 rounded-lg border border-foreground/10 bg-foreground/5 px-5 py-2.5 text-sm font-medium text-foreground transition-all hover:border-foreground/20 hover:bg-foreground/10"
+            >
+              {project.buttonLabel || 'Explore'}
+              <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </button>
+          ) : (
+            <a
+              href={project.buttonHref}
+              target={project.buttonHref.startsWith('http') ? '_blank' : undefined}
+              rel={project.buttonHref.startsWith('http') ? 'noopener noreferrer' : undefined}
+              className="inline-flex items-center gap-2 rounded-lg border border-foreground/10 bg-foreground/5 px-5 py-2.5 text-sm font-medium text-foreground transition-all hover:border-foreground/20 hover:bg-foreground/10"
+            >
+              {project.buttonLabel || 'Explore'}
+              <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </a>
+          )
         ) : (
           <span className="inline-flex items-center gap-2 rounded-lg border border-foreground/10 bg-foreground/5 px-5 py-2.5 text-sm font-medium text-foreground/50">
             {project.buttonLabel || 'Explore'}

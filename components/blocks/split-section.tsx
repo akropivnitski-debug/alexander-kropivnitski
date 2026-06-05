@@ -46,12 +46,22 @@ export function SplitSection({
             />
           )}
           {data.buttonLabel && data.buttonHref && (
-            <a
-              href={data.buttonHref}
-              className="mt-6 inline-flex items-center rounded-lg bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
-            >
-              {data.buttonLabel}
-            </a>
+            data.buttonHref.startsWith('#form:') ? (
+              <button
+                type="button"
+                data-form={data.buttonHref.replace('#form:', '')}
+                className="mt-6 inline-flex items-center rounded-lg bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
+              >
+                {data.buttonLabel}
+              </button>
+            ) : (
+              <a
+                href={data.buttonHref}
+                className="mt-6 inline-flex items-center rounded-lg bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
+              >
+                {data.buttonLabel}
+              </a>
+            )
           )}
         </div>
       </div>

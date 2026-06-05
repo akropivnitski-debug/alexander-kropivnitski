@@ -51,18 +51,32 @@ export function Cta({ data }: { data: CtaData }) {
           className="reveal mt-10 flex flex-col items-center gap-6"
           style={inView ? { animation: 'reveal-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards' } : { opacity: 0 }}
         >
-          {/* #form: links are intercepted by FormPopupProvider via the <a> click handler */}
-          <a
-            href={data.buttonHref}
-            className="group inline-flex items-center gap-2.5 rounded-full px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:shadow-lg"
-            style={{
-              backgroundColor: buttonColor,
-              boxShadow: `0 0 20px ${buttonColor}33`,
-            }}
-          >
-            <Mail className="size-5" />
-            {data.buttonLabel}
-          </a>
+          {isFormLink ? (
+            <button
+              type="button"
+              data-form={data.buttonHref!.replace('#form:', '')}
+              className="group inline-flex items-center gap-2.5 rounded-full px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:shadow-lg"
+              style={{
+                backgroundColor: buttonColor,
+                boxShadow: `0 0 20px ${buttonColor}33`,
+              }}
+            >
+              <Mail className="size-5" />
+              {data.buttonLabel}
+            </button>
+          ) : (
+            <a
+              href={data.buttonHref}
+              className="group inline-flex items-center gap-2.5 rounded-full px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:shadow-lg"
+              style={{
+                backgroundColor: buttonColor,
+                boxShadow: `0 0 20px ${buttonColor}33`,
+              }}
+            >
+              <Mail className="size-5" />
+              {data.buttonLabel}
+            </a>
+          )}
 
           {(data.linkedinUrl || data.githubUrl) && (
             <div className="flex items-center gap-4">
