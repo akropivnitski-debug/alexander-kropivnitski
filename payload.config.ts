@@ -9,6 +9,7 @@ import { FooterGlobal } from './globals/Footer'
 import { SiteSettingsGlobal } from './globals/SiteSettings'
 import { MediaCollection } from './collections/Media'
 import { PagesCollection } from './collections/Pages'
+import { FormSubmissionsCollection } from './collections/FormSubmissions'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -20,7 +21,7 @@ export default buildConfig({
     },
   },
   editor: lexicalEditor(),
-  collections: [MediaCollection, PagesCollection],
+  collections: [MediaCollection, PagesCollection, FormSubmissionsCollection],
   globals: [
     SiteSettingsGlobal,
     HeaderGlobal,
