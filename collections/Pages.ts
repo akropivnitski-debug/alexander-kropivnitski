@@ -25,6 +25,16 @@ import { BannerBlock } from '@/blocks/BannerBlock'
 import { ContactInfoBlock } from '@/blocks/ContactInfoBlock'
 import { ContentColumnsBlock } from '@/blocks/ContentColumnsBlock'
 import { BlockquoteBlock } from '@/blocks/BlockquoteBlock'
+import { BentoGridBlock } from '@/blocks/BentoGridBlock'
+import { LogoMarqueeBlock } from '@/blocks/LogoMarqueeBlock'
+import { TabsContentBlock } from '@/blocks/TabsContentBlock'
+import { SplitSectionBlock } from '@/blocks/SplitSectionBlock'
+import { ChecklistBlock } from '@/blocks/ChecklistBlock'
+import { CardGridBlock } from '@/blocks/CardGridBlock'
+import { VideoSectionBlock } from '@/blocks/VideoSectionBlock'
+import { TextMarqueeBlock } from '@/blocks/TextMarqueeBlock'
+import { IconGridBlock } from '@/blocks/IconGridBlock'
+import { NumberCounterBlock } from '@/blocks/NumberCounterBlock'
 
 export const PagesCollection: CollectionConfig = {
   slug: 'pages',
@@ -86,6 +96,16 @@ export const PagesCollection: CollectionConfig = {
         ContactInfoBlock,
         ContentColumnsBlock,
         BlockquoteBlock,
+        BentoGridBlock,
+        LogoMarqueeBlock,
+        TabsContentBlock,
+        SplitSectionBlock,
+        ChecklistBlock,
+        CardGridBlock,
+        VideoSectionBlock,
+        TextMarqueeBlock,
+        IconGridBlock,
+        NumberCounterBlock,
       ],
     },
     {

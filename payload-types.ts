@@ -1096,6 +1096,244 @@ export interface Page {
             blockName?: string | null;
             blockType: 'blockquote';
           }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            cards?:
+              | {
+                  icon?: string | null;
+                  title: string;
+                  description?: string | null;
+                  size?: ('normal' | 'wide') | null;
+                  /**
+                   * Optional hex color for card accent (e.g. #facc15)
+                   */
+                  accentColor?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'bentoGrid';
+          }
+        | {
+            heading?: string | null;
+            speed?: ('slow' | 'normal' | 'fast') | null;
+            logos?:
+              | {
+                  logo?: {
+                    source?: ('upload' | 'url') | null;
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  name: string;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'logoMarquee';
+          }
+        | {
+            heading?: string | null;
+            tabs?:
+              | {
+                  label: string;
+                  icon?: string | null;
+                  content: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'tabsContent';
+          }
+        | {
+            heading: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            image?: {
+              source?: ('upload' | 'url') | null;
+              upload?: (number | null) | Media;
+              /**
+               * Full URL to an image (JPG, PNG, WebP, SVG)
+               */
+              url?: string | null;
+            };
+            layout?: ('imageRight' | 'imageLeft') | null;
+            buttonLabel?: string | null;
+            buttonHref?: string | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'splitSection';
+          }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            columns?: ('1' | '2') | null;
+            items?:
+              | {
+                  text: string;
+                  /**
+                   * Uncheck to show as excluded (with X icon)
+                   */
+                  included?: boolean | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'checklist';
+          }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            columns?: ('2' | '3' | '4') | null;
+            cards?:
+              | {
+                  image?: {
+                    source?: ('upload' | 'url') | null;
+                    upload?: (number | null) | Media;
+                    /**
+                     * Full URL to an image (JPG, PNG, WebP, SVG)
+                     */
+                    url?: string | null;
+                  };
+                  title: string;
+                  description?: string | null;
+                  tag?: string | null;
+                  href?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cardGrid';
+          }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            /**
+             * YouTube or Vimeo URL (e.g. https://www.youtube.com/watch?v=...)
+             */
+            videoUrl: string;
+            layout?: ('centered' | 'split') | null;
+            aspectRatio?: ('16/9' | '4/3' | '1/1') | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'videoSection';
+          }
+        | {
+            /**
+             * Text that scrolls continuously. Will be repeated.
+             */
+            text: string;
+            /**
+             * Character between repeated text (e.g. •, /, |, ★)
+             */
+            separator?: string | null;
+            speed?: ('slow' | 'normal' | 'fast') | null;
+            size?: ('sm' | 'md' | 'lg' | 'xl') | null;
+            variant?: ('default' | 'outline' | 'muted') | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'textMarquee';
+          }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            columns?: ('3' | '4' | '5' | '6') | null;
+            items?:
+              | {
+                  icon?: string | null;
+                  label: string;
+                  sublabel?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'iconGrid';
+          }
+        | {
+            heading?: string | null;
+            description?: string | null;
+            items?:
+              | {
+                  /**
+                   * The number to count up to (e.g. 150, 400, 25)
+                   */
+                  value: number;
+                  /**
+                   * Text after the number (e.g. +, %, M, K)
+                   */
+                  suffix?: string | null;
+                  /**
+                   * Text before the number (e.g. $, €)
+                   */
+                  prefix?: string | null;
+                  label: string;
+                  /**
+                   * Optional hex color for the number (e.g. #facc15)
+                   */
+                  accentColor?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            spacingTop?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            spacingBottom?: ('none' | 'sm' | 'md' | 'lg' | 'xl') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'numberCounter';
+          }
       )[]
     | null;
   meta?: {
@@ -1785,6 +2023,196 @@ export interface PagesSelect<T extends boolean = true> {
               quote?: T;
               author?: T;
               role?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        bentoGrid?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              cards?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    size?: T;
+                    accentColor?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        logoMarquee?:
+          | T
+          | {
+              heading?: T;
+              speed?: T;
+              logos?:
+                | T
+                | {
+                    logo?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    name?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        tabsContent?:
+          | T
+          | {
+              heading?: T;
+              tabs?:
+                | T
+                | {
+                    label?: T;
+                    icon?: T;
+                    content?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        splitSection?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              image?:
+                | T
+                | {
+                    source?: T;
+                    upload?: T;
+                    url?: T;
+                  };
+              layout?: T;
+              buttonLabel?: T;
+              buttonHref?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        checklist?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              columns?: T;
+              items?:
+                | T
+                | {
+                    text?: T;
+                    included?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        cardGrid?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              columns?: T;
+              cards?:
+                | T
+                | {
+                    image?:
+                      | T
+                      | {
+                          source?: T;
+                          upload?: T;
+                          url?: T;
+                        };
+                    title?: T;
+                    description?: T;
+                    tag?: T;
+                    href?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        videoSection?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              videoUrl?: T;
+              layout?: T;
+              aspectRatio?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        textMarquee?:
+          | T
+          | {
+              text?: T;
+              separator?: T;
+              speed?: T;
+              size?: T;
+              variant?: T;
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        iconGrid?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              columns?: T;
+              items?:
+                | T
+                | {
+                    icon?: T;
+                    label?: T;
+                    sublabel?: T;
+                    id?: T;
+                  };
+              spacingTop?: T;
+              spacingBottom?: T;
+              id?: T;
+              blockName?: T;
+            };
+        numberCounter?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              items?:
+                | T
+                | {
+                    value?: T;
+                    suffix?: T;
+                    prefix?: T;
+                    label?: T;
+                    accentColor?: T;
+                    id?: T;
+                  };
               spacingTop?: T;
               spacingBottom?: T;
               id?: T;

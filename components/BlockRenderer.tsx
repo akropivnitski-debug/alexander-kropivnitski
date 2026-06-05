@@ -29,6 +29,16 @@ const Banner = dynamic(() => import('@/components/blocks/banner').then(m => ({ d
 const ContactInfo = dynamic(() => import('@/components/blocks/contact-info').then(m => ({ default: m.ContactInfo })))
 const ContentColumns = dynamic(() => import('@/components/blocks/content-columns').then(m => ({ default: m.ContentColumns })))
 const Blockquote = dynamic(() => import('@/components/blocks/blockquote').then(m => ({ default: m.Blockquote })))
+const BentoGrid = dynamic(() => import('@/components/blocks/bento-grid').then(m => ({ default: m.BentoGrid })))
+const LogoMarquee = dynamic(() => import('@/components/blocks/logo-marquee').then(m => ({ default: m.LogoMarquee })))
+const TabsContent = dynamic(() => import('@/components/blocks/tabs-content').then(m => ({ default: m.TabsContent })))
+const SplitSection = dynamic(() => import('@/components/blocks/split-section').then(m => ({ default: m.SplitSection })))
+const Checklist = dynamic(() => import('@/components/blocks/checklist').then(m => ({ default: m.Checklist })))
+const CardGrid = dynamic(() => import('@/components/blocks/card-grid').then(m => ({ default: m.CardGrid })))
+const VideoSection = dynamic(() => import('@/components/blocks/video-section').then(m => ({ default: m.VideoSection })))
+const TextMarquee = dynamic(() => import('@/components/blocks/text-marquee').then(m => ({ default: m.TextMarquee })))
+const IconGrid = dynamic(() => import('@/components/blocks/icon-grid').then(m => ({ default: m.IconGrid })))
+const NumberCounter = dynamic(() => import('@/components/blocks/number-counter').then(m => ({ default: m.NumberCounter })))
 
 type LayoutBlock = NonNullable<Page['layout']>[number]
 
@@ -84,6 +94,26 @@ function renderBlock(block: LayoutBlock, i: number) {
       return <ContentColumns key={block.id ?? i} data={block} columnsHtml={(block.columns ?? []).map((col: Record<string, unknown>) => lexicalToHtml(col.content))} />
     case 'blockquote':
       return <Blockquote key={block.id ?? i} data={block} />
+    case 'bentoGrid':
+      return <BentoGrid key={block.id ?? i} data={block} />
+    case 'logoMarquee':
+      return <LogoMarquee key={block.id ?? i} data={block} />
+    case 'tabsContent':
+      return <TabsContent key={block.id ?? i} data={block} tabsHtml={(block.tabs ?? []).map((tab: Record<string, unknown>) => lexicalToHtml(tab.content))} />
+    case 'splitSection':
+      return <SplitSection key={block.id ?? i} data={block} descriptionHtml={lexicalToHtml(block.description)} />
+    case 'checklist':
+      return <Checklist key={block.id ?? i} data={block} />
+    case 'cardGrid':
+      return <CardGrid key={block.id ?? i} data={block} />
+    case 'videoSection':
+      return <VideoSection key={block.id ?? i} data={block} />
+    case 'textMarquee':
+      return <TextMarquee key={block.id ?? i} data={block} />
+    case 'iconGrid':
+      return <IconGrid key={block.id ?? i} data={block} />
+    case 'numberCounter':
+      return <NumberCounter key={block.id ?? i} data={block} />
     default:
       return null
   }
