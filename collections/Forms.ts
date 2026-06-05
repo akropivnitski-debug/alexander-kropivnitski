@@ -31,6 +31,15 @@ export const FormsCollection: CollectionConfig = {
       },
     },
     {
+      name: 'formLink',
+      type: 'ui',
+      admin: {
+        components: {
+          Field: '/components/admin/FormLinkField#FormLinkField',
+        },
+      },
+    },
+    {
       name: 'heading',
       label: 'Popup Heading',
       type: 'text',
