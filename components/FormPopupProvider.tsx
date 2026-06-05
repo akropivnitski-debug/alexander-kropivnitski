@@ -49,7 +49,7 @@ export function FormPopupProvider({ children }: { children: React.ReactNode }) {
       const config: FormConfig = {
         slug: form.slug,
         heading: form.heading,
-        description: form.description,
+        description: form.popupDescription,
         recipientEmail: form.recipientEmail,
         successMessage: form.successMessage,
         submitLabel: form.submitLabel,

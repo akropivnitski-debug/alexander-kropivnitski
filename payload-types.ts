@@ -1389,7 +1389,7 @@ export interface Form {
   /**
    * Optional description below the heading.
    */
-  description?: string | null;
+  popupDescription?: string | null;
   /**
    * Email shown to the user after successful submission.
    */
@@ -1413,9 +1413,9 @@ export interface Form {
          */
         name: string;
         /**
-         * Label shown above the field.
+         * Optional label shown above the field. If empty, no label is rendered.
          */
-        label: string;
+        label?: string | null;
         type: 'text' | 'email' | 'textarea' | 'tel' | 'url' | 'number';
         /**
          * Faded hint text shown when the field is empty.
@@ -2348,7 +2348,7 @@ export interface FormsSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
   heading?: T;
-  description?: T;
+  popupDescription?: T;
   recipientEmail?: T;
   successMessage?: T;
   submitLabel?: T;

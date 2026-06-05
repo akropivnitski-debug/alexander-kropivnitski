@@ -37,7 +37,7 @@ export const FormsCollection: CollectionConfig = {
       admin: { description: 'Optional heading shown at the top of the popup.' },
     },
     {
-      name: 'description',
+      name: 'popupDescription',
       label: 'Popup Description',
       type: 'textarea',
       admin: { description: 'Optional description below the heading.' },
