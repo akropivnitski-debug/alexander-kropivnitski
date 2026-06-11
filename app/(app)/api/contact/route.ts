@@ -135,12 +135,19 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Find email: check field type from form definition first, then fall back to common names
+  // Find email: check field type, then field name containing "email"
   let email: string | undefined
   const emailField = formFields.find(f => f.type === 'email')
+    ?? formFields.find(f => f.name.toLowerCase().includes('email'))
   if (emailField) email = fieldValues[emailField.name] as string | undefined
   if (!email) {
-    email = (fieldValues.email ?? fieldValues.Email) as string | undefined
+    // Last resort: check common key names in fieldValues
+    for (const key of Object.keys(fieldValues)) {
+      if (key.toLowerCase().includes('email') && typeof fieldValues[key] === 'string') {
+        email = fieldValues[key] as string
+        break
+      }
+    }
   }
   if (!email || typeof email !== 'string' || !email.includes('@') || email.length > 320) {
     return NextResponse.json({ error: 'Valid email is required.' }, { status: 400 })
