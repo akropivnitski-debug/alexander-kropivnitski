@@ -111,6 +111,7 @@ export async function POST(req: NextRequest) {
   // Load form definition if formSlug provided
   let formId: number | undefined
   let recipientEmail = 'a.kropivnitski@digitalnexusstrategy.com'
+  let formFields: { name: string; label?: string | null; type: string; required?: boolean | null }[] = []
 
   if (formSlug) {
     const formResult = await payload.find({
@@ -124,9 +125,9 @@ export async function POST(req: NextRequest) {
     }
     formId = form.id
     recipientEmail = form.recipientEmail
+    formFields = form.fields ?? []
 
     // Validate required fields
-    const formFields = form.fields ?? []
     for (const field of formFields) {
       if (field.required && !fieldValues[field.name]) {
         return NextResponse.json({ error: `${field.label || field.name} is required.` }, { status: 400 })
@@ -134,8 +135,13 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Validate email
-  const email = fieldValues.email as string | undefined
+  // Find email: check field type from form definition first, then fall back to common names
+  let email: string | undefined
+  const emailField = formFields.find(f => f.type === 'email')
+  if (emailField) email = fieldValues[emailField.name] as string | undefined
+  if (!email) {
+    email = (fieldValues.email ?? fieldValues.Email) as string | undefined
+  }
   if (!email || typeof email !== 'string' || !email.includes('@') || email.length > 320) {
     return NextResponse.json({ error: 'Valid email is required.' }, { status: 400 })
   }
@@ -147,7 +153,7 @@ export async function POST(req: NextRequest) {
       data: {
         form: formId,
         email,
-        message: (fieldValues.message as string) || '',
+        message: (fieldValues[formFields.find(f => f.type === 'textarea')?.name ?? 'message'] as string) || '',
         data: fieldValues,
         source: source || '',
         ip,
