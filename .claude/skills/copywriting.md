@@ -267,6 +267,338 @@ The content should feel written by a real experienced professional.
 
 ---
 
+# INTERNAL LINKING SYSTEM
+
+Internal linking is mandatory.
+
+Every page must be connected logically to the rest of the website.
+
+The goal is:
+
+* strengthen topical authority
+* improve crawlability
+* help users discover related content
+* support SEO rankings
+* demonstrate expertise naturally
+
+Pages must never feel isolated.
+
+Every page should connect to a meaningful content cluster.
+
+---
+
+# LINKING RULE
+
+Every page must contain 4 types of internal links:
+
+1. Parent hub page
+
+2. Related sibling pages
+
+3. Relevant tools or expertise pages
+
+4. Related educational topic pages
+
+Never link randomly.
+
+Every link must feel logical and useful.
+
+Never force links unnaturally.
+
+Use descriptive anchor text.
+
+Avoid exact same anchor text repeatedly.
+
+---
+
+# 1. PARENT HUB LINKING
+
+Every page must link to its main pillar page.
+
+Examples:
+
+Performance marketing pages →
+
+/performance-marketing
+
+SEO pages →
+
+/seo
+
+Marketing technology pages →
+
+/marketing-technology
+
+Web design pages →
+
+/web-design
+
+This link should appear naturally near the beginning of the page.
+
+Example:
+
+"Performance marketing often overlaps with analytics, SEO, and marketing technology."
+
+---
+
+# 2. SIBLING PAGE LINKING
+
+Each page should link to 3 to 5 closely related pages.
+
+Examples:
+
+SEO Manager →
+
+* Technical SEO Specialist
+* SEO Specialist
+* Organic Growth Manager
+* SEO Consultant
+
+Performance Marketing Manager →
+
+* Growth Marketing Manager
+* Paid Media Manager
+* User Acquisition Manager
+* Head of Growth
+
+Google Ads →
+
+* Meta Ads
+* Google Shopping
+* Marketing Attribution
+* Incrementality Testing
+
+Never link to unrelated pages.
+
+Bad example:
+
+SEO Manager → React
+
+Good example:
+
+SEO Manager → Technical SEO Specialist
+
+---
+
+# 3. TOOL PAGE LINKING
+
+Role pages must link to relevant tools.
+
+Examples:
+
+SEO Manager →
+
+* Google Search Console
+* Ahrefs
+* Semrush
+* Screaming Frog
+
+Performance Marketing Manager →
+
+* Google Ads
+* Meta Ads
+* Google Analytics 4
+* Marketing Attribution
+
+Marketing Technology Manager →
+
+* Google Tag Manager
+* BigQuery
+* SQL for Marketing
+* Server Side Tracking
+
+Tool links should support credibility naturally.
+
+Never force them.
+
+Example:
+
+"I often rely on Google Search Console to identify technical issues and understand how search visibility changes over time."
+
+---
+
+# 4. TOPIC PAGE LINKING
+
+Pages should connect to educational topics.
+
+Examples:
+
+Performance Marketing →
+
+* Marketing Attribution Explained
+* Incrementality Testing Explained
+* A B Testing Explained
+
+SEO →
+
+* Technical SEO Explained
+* What Is SEO
+* Website Performance Optimization
+
+Marketing Technology →
+
+* Server Side Tracking Explained
+* Data Driven Marketing
+* Marketing Technology Stack
+
+This strengthens topical authority.
+
+---
+
+# LINKING VOLUME RULE
+
+Word count below 1200:
+
+5 to 8 internal links
+
+1200 to 2000 words:
+
+8 to 12 internal links
+
+2000+ words:
+
+10 to 15 internal links
+
+Quality matters more than quantity.
+
+Never overlink.
+
+---
+
+# LINK POSITION RULE
+
+Links should appear across the full page.
+
+Include:
+
+* early section
+* middle content
+* related topics sections
+* FAQ section when relevant
+
+Do not place all links at the bottom.
+
+---
+
+# RELATED CONTENT BLOCK
+
+Every page must end with:
+
+"Related topics" section.
+
+Include 4 to 8 relevant internal pages.
+
+Example:
+
+Related topics:
+
+* Technical SEO
+* Google Search Console
+* SEO Specialist
+* Website Performance Optimization
+
+---
+
+# ANCHOR TEXT RULE
+
+Avoid repetitive anchors.
+
+Bad:
+
+"Click here"
+
+Bad:
+
+"SEO Manager"
+
+Good:
+
+"technical SEO practices"
+
+Good:
+
+"Google Search Console insights"
+
+Good:
+
+"growth marketing strategies"
+
+Anchor text should feel natural inside the sentence.
+
+---
+
+# PAGE TYPE LINKING MATRIX
+
+JOB ROLE PAGE:
+
+1 parent page
+
+3 to 5 sibling role pages
+
+3 to 5 tools
+
+2 to 4 educational topics
+
+---
+
+LOCATION PAGE:
+
+1 core role page
+
+1 location hub if exists
+
+2 to 4 sibling location pages
+
+3 to 4 tools
+
+2 to 3 educational topics
+
+---
+
+TOOL PAGE:
+
+1 pillar page
+
+3 related tools
+
+2 to 4 job role pages
+
+2 to 4 topic pages
+
+---
+
+TOPIC PAGE:
+
+1 pillar page
+
+3 tools
+
+2 to 4 role pages
+
+3 sibling educational pages
+
+---
+
+CORE PILLAR PAGE:
+
+Must act as a hub.
+
+Should link to all important child pages.
+
+Should include grouped content sections:
+
+Roles
+
+Tools
+
+Topics
+
+Locations
+
+These pages are the central authority hubs.
+
+---
+
 ## SELF QUALITY CHECK
 
 Before outputting content, verify:
