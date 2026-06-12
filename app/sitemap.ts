@@ -4,6 +4,16 @@ import type { MetadataRoute } from 'next'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 
+const PRIORITY_MAP: Record<string, number> = {
+  pillar: 0.9,
+  pillar_support: 0.8,
+  tool: 0.8,
+  topic: 0.7,
+  job_role: 0.7,
+  job_role_location: 0.6,
+  general: 0.7,
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = (process.env.NEXT_PUBLIC_SERVER_URL ?? 'http://localhost:3000').trim()
 
@@ -12,14 +22,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const result = await payload.find({
     collection: 'pages',
     where: { _status: { equals: 'published' } },
-    limit: 200,
-    select: { slug: true, updatedAt: true },
+    limit: 500,
+    select: { slug: true, pageType: true, updatedAt: true },
   })
 
-  return result.docs.map((page) => ({
-    url: `${base}/${page.slug === 'home' ? '' : page.slug}`,
-    lastModified: page.updatedAt ? new Date(page.updatedAt) : new Date(),
-    changeFrequency: 'weekly',
-    priority: page.slug === 'home' ? 1 : 0.8,
-  }))
+  return result.docs.map((page) => {
+    const isHome = page.slug === 'home'
+    const pageType = (page as { pageType?: string }).pageType ?? 'general'
+
+    return {
+      url: `${base}/${isHome ? '' : page.slug}`,
+      lastModified: page.updatedAt ? new Date(page.updatedAt) : new Date(),
+      changeFrequency: 'weekly',
+      priority: isHome ? 1 : (PRIORITY_MAP[pageType] ?? 0.7),
+    }
+  })
 }

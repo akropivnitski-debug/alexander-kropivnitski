@@ -167,6 +167,10 @@ export interface Page {
    * URL path. Use "home" for the homepage.
    */
   slug: string;
+  /**
+   * Used for sitemap priority and schema markup.
+   */
+  pageType?: ('general' | 'pillar' | 'job_role' | 'job_role_location' | 'tool' | 'topic' | 'pillar_support') | null;
   layout?:
     | (
         | {
@@ -1596,6 +1600,7 @@ export interface MediaSelect<T extends boolean = true> {
 export interface PagesSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
+  pageType?: T;
   layout?:
     | T
     | {

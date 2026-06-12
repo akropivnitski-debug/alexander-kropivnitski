@@ -9,6 +9,7 @@ import { BlockRenderer } from '@/components/BlockRenderer'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { resolveImage } from '@/lib/resolveImage'
+import { generatePageSchema } from '@/lib/generateSchema'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -71,8 +72,24 @@ export default async function Page({ params }: Props) {
 
   if (!page) notFound()
 
+  const pageData = page as typeof page & { pageType?: string }
+  const schemas = generatePageSchema({
+    title: page.meta?.title || page.title,
+    description: page.meta?.description || undefined,
+    slug: page.slug,
+    pageType: pageData.pageType,
+    layout: page.layout ?? undefined,
+  })
+
   return (
     <>
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Header data={header} />
       <main className="bg-background relative min-h-screen w-full">
         <BlockRenderer blocks={page.layout ?? []} />

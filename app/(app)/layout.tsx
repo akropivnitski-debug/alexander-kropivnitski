@@ -4,6 +4,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { FontLoader } from '@/components/FontLoader'
 import { FormPopupProvider } from '@/components/FormPopupProvider'
+import { generatePersonSchema } from '@/lib/generateSchema'
 import "../globals.css";
 
 const inter = Inter({
@@ -54,6 +55,10 @@ export default async function AppLayout({
   return (
     <html lang="en" className={`h-full antialiased ${fontVars}`}>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(generatePersonSchema()) }}
+        />
         {!allStatic && <FontLoader settings={siteSettings} staticFonts={STATIC_FONTS} />}
         {allStatic && (
           <style dangerouslySetInnerHTML={{ __html: `

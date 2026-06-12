@@ -67,6 +67,25 @@ export const PagesCollection: CollectionConfig = {
       },
     },
     {
+      name: 'pageType',
+      label: 'Page Type',
+      type: 'select',
+      defaultValue: 'general',
+      admin: {
+        description: 'Used for sitemap priority and schema markup.',
+        position: 'sidebar',
+      },
+      options: [
+        { label: 'General', value: 'general' },
+        { label: 'Pillar', value: 'pillar' },
+        { label: 'Job Role', value: 'job_role' },
+        { label: 'Job Role + Location', value: 'job_role_location' },
+        { label: 'Tool', value: 'tool' },
+        { label: 'Topic', value: 'topic' },
+        { label: 'Pillar Support', value: 'pillar_support' },
+      ],
+    },
+    {
       name: 'layout',
       label: 'Page Layout',
       type: 'blocks',
