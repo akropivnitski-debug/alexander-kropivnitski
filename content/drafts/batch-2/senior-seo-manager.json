@@ -1,0 +1,653 @@
+{
+  "slug": "senior-seo-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Senior SEO Manager | Alexander Kropivnitski",
+    "description": "How I approach the senior SEO manager role: strategic organic growth leadership, team development, technical oversight, and connecting SEO to business outcomes."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Senior SEO Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The senior SEO manager role goes beyond day to day optimization. It involves setting the organic search strategy for the entire organization, managing a team of SEO practitioners, and ensuring that organic search contributes measurably to business growth. While an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " handles execution across technical, content, and link building workstreams, the senior role adds strategic planning, stakeholder management, and team leadership.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach senior SEO leadership, what makes the role distinct from other ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " positions, and how I connect organic search programs to revenue and business outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#22c55e"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "At the senior level, SEO management shifts from execution to strategy, leadership, and organizational influence.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "SEO Strategy and Roadmapping",
+          "description": "Defining the organic search strategy at the organizational level, including prioritization of technical fixes, content investments, and link building initiatives. Building quarterly and annual SEO roadmaps that align with business planning cycles and revenue targets."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Leadership and Development",
+          "description": "Managing and mentoring SEO team members across technical, content, and outreach disciplines. Building a team culture where experimentation is encouraged and decisions are backed by data rather than opinion or outdated best practices."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Cross Functional Collaboration",
+          "description": "Working with engineering on technical implementations, with content teams on editorial strategy, with product teams on site architecture decisions, and with leadership on budget allocation. SEO at the senior level requires influence across multiple departments."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Measurement and Attribution",
+          "description": "Building reporting frameworks that connect organic search performance to actual business outcomes like revenue, pipeline, and customer acquisition cost. Moving beyond vanity metrics like traffic and rankings to demonstrate real business impact."
+        },
+        {
+          "icon": "Globe",
+          "title": "International and Multi Market SEO",
+          "description": "Overseeing SEO programs across multiple markets, languages, and regions. Managing hreflang implementations, localized content strategies, and market specific keyword research at scale."
+        },
+        {
+          "icon": "Lightbulb",
+          "title": "Technical SEO Oversight",
+          "description": "Reviewing and approving technical SEO recommendations from the team, ensuring site architecture decisions support organic growth, and maintaining quality standards for technical implementations. Knowing when to push back on engineering decisions that would harm organic visibility."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach at the senior level focuses on building sustainable organic growth programs rather than chasing quick wins. I start by establishing a clear measurement framework so every SEO initiative can be evaluated against business impact, not just ranking changes. Too many SEO teams report on metrics that do not connect to revenue. Fixing that disconnect is the first thing I do.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have led ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " programs across multiple markets and industries, using tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-search-console",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Search Console",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/ahrefs",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Ahrefs",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/semrush",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Semrush",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/screaming-frog",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Screaming Frog",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to audit, monitor, and optimize organic performance. At the senior level, tool expertise is table stakes. The real value comes from knowing how to interpret the data and translate it into strategic decisions that move the business forward.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Building the right team is the most impactful thing a senior SEO manager does. I focus on hiring people with strong analytical skills and genuine curiosity about how search works. I also invest time in developing junior team members, creating clear growth paths, and building processes that allow the team to operate effectively without requiring my involvement in every tactical decision.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Stakeholder management becomes critical at this level. Explaining ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/what-is-seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "how SEO works",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to executives who are used to the immediacy of paid channels requires patience and clear communication. I build trust by being transparent about timelines, honest about what is achievable, and consistent in connecting SEO results to the metrics that leadership actually cares about.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One area where I see senior SEO managers struggle is balancing ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/technical-seo-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "technical SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " priorities with content and link building investments. All three matter, but the right allocation depends on the specific situation. A technically broken site needs technical fixes first. A technically sound site with thin content needs content investment. Getting this prioritization right requires looking at the data objectively rather than defaulting to personal preferences.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Senior SEO management follows a strategic cycle of assessment, planning, execution, and measurement.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Strategic Assessment",
+          "description": "Comprehensive audit of the current SEO program including technical health, content gaps, competitive positioning, backlink profile, and team capabilities. This assessment identifies the highest impact opportunities and sets the baseline for measuring progress over time."
+        },
+        {
+          "icon": "Map",
+          "title": "Roadmap and Prioritization",
+          "description": "Build a prioritized SEO roadmap organized by impact and effort. Present the plan to stakeholders with clear expected outcomes and timelines. Ensure the roadmap accounts for engineering dependencies and content production capacity."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Alignment and Execution",
+          "description": "Assign workstreams to team members based on skills and development goals. Establish clear milestones, review cadences, and quality standards. Remove blockers and ensure the team has the resources needed to execute effectively."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Measure and Iterate",
+          "description": "Track progress against the roadmap with regular performance reviews. Adjust priorities based on results, algorithm changes, and shifting business needs. Report outcomes to leadership in terms of business impact, not just SEO metrics."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between an SEO manager and a senior SEO manager?",
+          "answer": "An SEO manager focuses primarily on executing SEO work across technical, content, and link building workstreams. A senior SEO manager adds strategic oversight, team leadership, stakeholder management, and organizational influence. The senior role is less about doing the work personally and more about ensuring the right work gets done by the right people at the right time. Budget management, hiring, and executive communication become significant parts of the job."
+        },
+        {
+          "question": "How does a senior SEO manager measure success?",
+          "answer": "Success at this level is measured by the overall impact of the SEO program on business outcomes. The primary metrics are organic revenue or pipeline contribution, organic traffic growth in commercially valuable segments, and the efficiency of the SEO investment relative to other acquisition channels. I also track team health indicators like velocity of output, quality of work, and retention of strong team members."
+        },
+        {
+          "question": "What skills are most important at the senior SEO level?",
+          "answer": "Strategic thinking, team leadership, stakeholder communication, and the ability to connect SEO work to business outcomes. Technical SEO knowledge and tool expertise are foundational, but at the senior level, they are not differentiators. What separates a good senior SEO manager from a great one is the ability to prioritize correctly, build high performing teams, and earn trust from leadership by delivering consistent, measurable results."
+        },
+        {
+          "question": "How does a senior SEO manager work with other marketing channels?",
+          "answer": "Collaboration with paid search, content marketing, PR, and product teams is a major part of the role. I coordinate with the paid search team to avoid cannibalization and maximize total search visibility. I work with content teams to align editorial calendars with keyword opportunities. I collaborate with PR on link building through digital PR campaigns. And I work with product teams to ensure site changes do not harm organic performance."
+        },
+        {
+          "question": "Is the senior SEO manager role becoming less relevant with AI search?",
+          "answer": "The role is evolving but not becoming less relevant. AI powered search features change how results appear, but they still rely on content from websites. The senior SEO manager now needs to consider generative engine optimization alongside traditional SEO. The strategic skills of the role, prioritization, team leadership, business alignment, are actually more important in a rapidly changing search landscape because the team needs clear direction on where to invest effort."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "SEO",
+          "description": "My broader organic search expertise.",
+          "href": "/seo"
+        },
+        {
+          "title": "SEO Manager",
+          "description": "The core organic search management role.",
+          "href": "/seo-manager"
+        },
+        {
+          "title": "Technical SEO Specialist",
+          "description": "Deep technical search optimization.",
+          "href": "/technical-seo-specialist"
+        },
+        {
+          "title": "SEO Specialist",
+          "description": "Focused SEO execution.",
+          "href": "/seo-specialist"
+        },
+        {
+          "title": "Organic Growth Manager",
+          "description": "Broader organic growth strategy.",
+          "href": "/organic-growth-manager"
+        },
+        {
+          "title": "Google Search Console",
+          "description": "Essential SEO monitoring tool.",
+          "href": "/google-search-console"
+        },
+        {
+          "title": "Ahrefs",
+          "description": "SEO research and analysis.",
+          "href": "/ahrefs"
+        },
+        {
+          "title": "Semrush",
+          "description": "SEO and competitive analysis.",
+          "href": "/semrush"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Senior SEO Manager?",
+      "description": "If you need strategic SEO leadership to build or scale your organic search program, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#22c55e"
+    }
+  ],
+  "internalLinks": {
+    "parent": "seo",
+    "siblings": [
+      "seo-manager",
+      "technical-seo-specialist",
+      "seo-specialist",
+      "organic-growth-manager"
+    ],
+    "tools": [
+      "google-search-console",
+      "ahrefs",
+      "semrush",
+      "screaming-frog",
+      "technical-seo"
+    ],
+    "topics": [
+      "what-is-seo",
+      "technical-seo-explained",
+      "technical-seo-approach",
+      "website-performance-optimization"
+    ],
+    "relatedTopics": [
+      "seo",
+      "seo-manager",
+      "technical-seo-specialist",
+      "seo-specialist",
+      "organic-growth-manager",
+      "google-search-console",
+      "ahrefs",
+      "semrush"
+    ]
+  },
+  "wordCount": 1678,
+  "generatedAt": "2026-06-12T20:38:37.634Z"
+}

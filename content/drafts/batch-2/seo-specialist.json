@@ -1,0 +1,653 @@
+{
+  "slug": "seo-specialist",
+  "pageType": "job_role",
+  "meta": {
+    "title": "SEO Specialist | Alexander Kropivnitski",
+    "description": "How I approach the SEO specialist role: keyword research, on-page optimization, content strategy, link building, and hands-on organic growth execution."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "SEO Specialist",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "An SEO specialist is the hands on practitioner who executes organic search optimization across keyword research, on page optimization, content planning, and link building. While an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " oversees the full program and a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/technical-seo-specialist",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "technical SEO specialist",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " focuses on infrastructure, the SEO specialist role is about doing the daily work that moves rankings and traffic.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page covers how I approach SEO execution, the skills that matter most, and how this role fits within a broader ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " strategy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#16a34a"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "An SEO specialist handles the tactical execution that drives organic growth.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Keyword Research and Mapping",
+          "description": "Conducting thorough keyword research using search volume, competition, and intent analysis. Mapping keywords to existing and planned content to ensure every important search query has a targeted page with no overlap or cannibalization."
+        },
+        {
+          "icon": "FileText",
+          "title": "On Page Optimization",
+          "description": "Optimizing title tags, meta descriptions, heading structures, internal links, and content quality for target keywords. Ensuring each page clearly communicates its topic to both users and search engines."
+        },
+        {
+          "icon": "PenTool",
+          "title": "Content Planning and Briefs",
+          "description": "Creating content briefs based on keyword research, competitive analysis, and search intent. Defining what each piece of content needs to cover, the target keywords, and the internal linking requirements."
+        },
+        {
+          "icon": "Link",
+          "title": "Link Building Execution",
+          "description": "Building backlinks through outreach, digital PR, guest posting, and content partnerships. Identifying link opportunities, conducting outreach, and tracking acquisition progress against targets."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Rank Tracking and Reporting",
+          "description": "Monitoring keyword rankings, organic traffic trends, and conversion performance. Building reports that show progress over time and identify areas that need attention or strategy adjustments."
+        },
+        {
+          "icon": "Users",
+          "title": "Competitor Analysis",
+          "description": "Analyzing what competitors rank for, where their backlinks come from, and what content strategies they use. Identifying gaps and opportunities to gain competitive advantage in organic search."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to SEO execution is systematic. I start with keyword research to understand what people are searching for and how competitive those terms are. Then I map those keywords to pages, either existing or planned, ensuring there is a clear one to one relationship between each target keyword and a specific page. Keyword cannibalization, where multiple pages compete for the same term, is one of the most common problems I find and fix.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "On page optimization is where many SEO specialists stop, but I see it as just the starting point. Good title tags and meta descriptions matter, but they are not enough on their own. The content itself needs to genuinely satisfy the search intent behind the keyword. I evaluate content against what currently ranks, identify gaps, and make specific recommendations for improvement.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I use ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-search-console",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Search Console",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for monitoring actual search performance, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/ahrefs",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Ahrefs",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for backlink analysis and keyword research, and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/semrush",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Semrush",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for competitive intelligence. The specific tools matter less than the ability to extract actionable insights from them and turn those insights into measurable improvements.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Link building is the area of ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " where quality matters most. I focus on acquiring links from relevant, authoritative websites rather than pursuing volume. One link from a strong, relevant site is worth more than dozens of links from low quality directories or unrelated blogs. I approach link building as relationship building, creating content worth linking to and reaching out to people who would genuinely find it useful.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The SEO specialist role is more execution focused than an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/senior-seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "senior SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". I spend most of my time doing the actual work rather than managing teams or presenting to stakeholders. This depth of execution experience gives me practical knowledge that informs better strategic decisions when I do work at a more strategic level.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "SEO execution follows a structured process from research through optimization, content creation, and link building.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Research and Analysis",
+          "description": "Deep keyword research combined with competitor analysis and content gap identification. Build a complete picture of the search landscape for the target market before making any optimization decisions."
+        },
+        {
+          "icon": "FileText",
+          "title": "Optimize Existing Content",
+          "description": "Improve existing pages through better title tags, heading structures, content depth, internal linking, and keyword targeting. Quick wins from on page optimization often produce measurable results within weeks."
+        },
+        {
+          "icon": "PenTool",
+          "title": "Create New Content",
+          "description": "Develop new content targeting identified keyword gaps. Write detailed content briefs, coordinate with writers, and ensure published content meets quality and optimization standards."
+        },
+        {
+          "icon": "Link",
+          "title": "Build Links and Authority",
+          "description": "Execute link building campaigns through outreach, digital PR, and content promotion. Focus on acquiring relevant, high quality links that build topical authority in the target area."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between an SEO specialist and an SEO manager?",
+          "answer": "An SEO specialist is primarily an executor. The role focuses on doing the hands on work: keyword research, on page optimization, content briefs, and link building. An SEO manager covers all of that but also includes strategy, team management, stakeholder communication, and budget oversight. In smaller companies, one person does both. In larger organizations, specialists focus on execution while managers handle the strategic and organizational aspects."
+        },
+        {
+          "question": "What qualifications does an SEO specialist need?",
+          "answer": "Formal qualifications matter less than practical skills and demonstrable results. The most important skills are keyword research methodology, on page optimization knowledge, content evaluation ability, basic HTML understanding, and proficiency with SEO tools like Google Search Console, Ahrefs, and Semrush. Analytical thinking and attention to detail are equally important. Many strong SEO specialists are self taught through practice and continuous learning."
+        },
+        {
+          "question": "How long does it take to see results from SEO work?",
+          "answer": "It depends on the type of work. Technical fixes can show results within days if they resolve critical crawling or indexation issues. On page optimization improvements typically take four to eight weeks to fully impact rankings. New content takes three to six months to mature in search results. Link building has a gradual, compounding effect over months. The key is setting realistic expectations and tracking leading indicators like impressions and click through rate alongside lagging indicators like traffic and revenue."
+        },
+        {
+          "question": "Is link building still important for SEO?",
+          "answer": "Yes. Links remain one of the strongest ranking factors. But the approach has evolved. Search engines have gotten much better at identifying and ignoring low quality or manipulative links. What works now is earning links through genuinely useful content, digital PR, and building real relationships within your industry. I focus on link quality and relevance over volume, which produces more sustainable results and carries no risk of penalties."
+        },
+        {
+          "question": "Can an SEO specialist also handle paid search?",
+          "answer": "Some can, but the roles require different daily workflows and skill sets. SEO is about long term organic visibility through content and technical optimization. Paid search is about managing budgets, bidding strategies, and ad creative in real time. Understanding both is valuable for coordinating search strategy, but specializing in one produces better results than spreading attention too thin across both."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "SEO",
+          "description": "My broader organic search expertise.",
+          "href": "/seo"
+        },
+        {
+          "title": "SEO Manager",
+          "description": "Full program SEO management.",
+          "href": "/seo-manager"
+        },
+        {
+          "title": "Senior SEO Manager",
+          "description": "Strategic SEO leadership.",
+          "href": "/senior-seo-manager"
+        },
+        {
+          "title": "Technical SEO Specialist",
+          "description": "Deep technical optimization.",
+          "href": "/technical-seo-specialist"
+        },
+        {
+          "title": "Organic Growth Manager",
+          "description": "Broader organic growth.",
+          "href": "/organic-growth-manager"
+        },
+        {
+          "title": "Google Search Console",
+          "description": "SEO monitoring tool.",
+          "href": "/google-search-console"
+        },
+        {
+          "title": "Ahrefs",
+          "description": "SEO research and analysis.",
+          "href": "/ahrefs"
+        },
+        {
+          "title": "Semrush",
+          "description": "Competitive analysis platform.",
+          "href": "/semrush"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for an SEO Specialist?",
+      "description": "If you need hands on SEO execution to improve your organic search performance, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#16a34a"
+    }
+  ],
+  "internalLinks": {
+    "parent": "seo",
+    "siblings": [
+      "seo-manager",
+      "senior-seo-manager",
+      "technical-seo-specialist",
+      "organic-growth-manager"
+    ],
+    "tools": [
+      "google-search-console",
+      "ahrefs",
+      "semrush",
+      "screaming-frog",
+      "technical-seo"
+    ],
+    "topics": [
+      "what-is-seo",
+      "technical-seo-explained",
+      "technical-seo-approach",
+      "website-performance-optimization"
+    ],
+    "relatedTopics": [
+      "seo",
+      "seo-manager",
+      "senior-seo-manager",
+      "technical-seo-specialist",
+      "organic-growth-manager",
+      "google-search-console",
+      "ahrefs",
+      "semrush"
+    ]
+  },
+  "wordCount": 1518,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

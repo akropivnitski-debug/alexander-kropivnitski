@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from 'next/font/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { FontLoader } from '@/components/FontLoader'
@@ -54,6 +55,9 @@ export default async function AppLayout({
 
   return (
     <html lang="en" className={`h-full antialiased ${fontVars}`}>
+      {siteSettings.gtmId && (
+        <GoogleTagManager gtmId={siteSettings.gtmId} />
+      )}
       <head>
         <script
           type="application/ld+json"

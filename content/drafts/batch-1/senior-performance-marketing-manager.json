@@ -1,0 +1,587 @@
+{
+  "slug": "senior-performance-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Senior Performance Marketing Manager | Alexander Kropivnitski",
+    "description": "How I approach the senior performance marketing manager role: multi-channel strategy, team leadership, measurement frameworks, and scaling paid programs."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Senior Performance Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The senior performance marketing manager role goes beyond campaign execution. It is about building the strategy that guides every channel, setting measurement frameworks that the whole team relies on, and making decisions about where to invest at a higher level. While a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " focuses on hands on campaign work, the senior role adds strategic oversight and team guidance.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach the role, what makes it different from other ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " positions, and what skills matter most at this level.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "At the senior level, the role shifts from executing campaigns to designing the systems and strategies that make campaigns successful.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "Multi Channel Strategy",
+          "description": "Designing and overseeing paid acquisition strategies across Search, Social, Display, Video, and emerging channels. Deciding where to invest based on incrementality data and business goals, not just platform recommendations."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Mentoring and Development",
+          "description": "Guiding junior and mid level marketers on campaign management, analysis, and strategic thinking. Building a team culture where testing and learning is standard, not optional."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Measurement and Attribution",
+          "description": "Establishing measurement frameworks that go beyond last click attribution. Working with analytics and data teams to build reporting that reflects actual business impact, not just platform metrics."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Budget Planning and Forecasting",
+          "description": "Building annual and quarterly budget plans, forecasting returns at different spend levels, and presenting investment cases to leadership with clear risk and opportunity assessments."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Cross Functional Alignment",
+          "description": "Working with product, creative, engineering, and finance teams to ensure marketing strategy aligns with broader company priorities. Translating marketing performance into language that non marketers understand."
+        },
+        {
+          "icon": "Lightbulb",
+          "title": "Testing Program Design",
+          "description": "Designing structured experimentation programs that go beyond simple A/B tests. Running incrementality tests, geo experiments, and holdout studies to understand true campaign impact."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach at the senior level focuses heavily on measurement quality and strategic decision making. I have seen too many marketing teams scale spend based on misleading platform data. Getting the measurement foundation right before making big budget decisions is the most important thing a senior performance marketing manager can do.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have led ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " programs across multiple markets and channels, including ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". The biggest value I bring at this level is not just knowing how to run campaigns, but knowing how to evaluate whether a channel is genuinely contributing to business growth or simply taking credit for conversions that would have happened anyway.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "At the senior level, I also focus on building repeatable processes. When a team relies on one person's intuition, performance is fragile. When it relies on clear frameworks for testing, analysis, and optimization, it becomes consistent and scalable. That is the difference between a good campaign manager and a strong senior leader.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is especially critical at this level. The senior performance marketing manager is often the person who decides how to allocate millions in annual budget across channels. If attribution is wrong, every downstream decision is wrong too.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have also learned that stakeholder management becomes a larger part of the job at the senior level. Presenting performance data to executives who do not live in the ad platforms every day requires translating complex channel data into clear business narratives. Being able to explain why a channel needs more investment, or why results dipped this quarter, in business terms rather than platform jargon is what earns trust and budget from leadership.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A senior performance marketing manager operates at both the strategic and operational level. Here is how I structure the work.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Strategic Assessment",
+          "description": "Before making changes, I assess the current marketing mix, measurement setup, team capabilities, and competitive landscape. This creates a clear baseline and identifies the highest impact opportunities across all channels."
+        },
+        {
+          "icon": "Layout",
+          "title": "Framework Design",
+          "description": "I build the operational frameworks the team will use: naming conventions, testing protocols, reporting cadences, budget reallocation triggers, and escalation processes. Good frameworks reduce guesswork and speed up decision making."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Enablement",
+          "description": "I work with team members individually to develop their skills and ensure everyone understands both the tactical execution and the strategic rationale behind decisions. A team that understands the why makes better independent decisions."
+        },
+        {
+          "icon": "Gauge",
+          "title": "Performance Oversight",
+          "description": "Regular reviews of channel performance against targets, with a focus on identifying when results are trending off track early enough to course correct. I look at leading indicators, not just lagging results."
+        },
+        {
+          "icon": "Target",
+          "title": "Strategic Optimization",
+          "description": "Based on ongoing data, I adjust the overall channel mix, budget allocation, and testing priorities. At this level, optimization is about portfolio management across channels rather than individual campaign tweaks."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a performance marketing manager and a senior performance marketing manager?",
+          "answer": "The main differences are scope and responsibility. A performance marketing manager typically focuses on executing and optimizing campaigns within specific channels. A senior performance marketing manager oversees the broader strategy across all paid channels, manages or mentors team members, owns the measurement framework, and makes higher level budget allocation decisions. The senior role requires both deep tactical knowledge and the ability to think strategically about how paid marketing fits into the overall business."
+        },
+        {
+          "question": "What skills matter most at the senior level?",
+          "answer": "Beyond platform expertise, the most valuable skills are strategic thinking, measurement and attribution knowledge, communication with leadership, and the ability to build scalable processes. A senior performance marketing manager needs to translate complex data into clear business recommendations and manage upward effectively. Technical skills are the foundation, but strategic and leadership skills are what differentiate this level."
+        },
+        {
+          "question": "How does a senior performance marketing manager measure success?",
+          "answer": "Success at this level is measured by overall program performance against business targets, not individual campaign metrics. This includes total customer acquisition cost, blended return on ad spend across all channels, year over year growth in efficient spend, and the quality of the team and processes being built. I also look at how well the measurement infrastructure supports good decision making across the organization."
+        },
+        {
+          "question": "Do senior performance marketing managers still manage campaigns directly?",
+          "answer": "It depends on the team size and company. In smaller teams, yes, the senior role often includes hands on campaign work alongside strategic responsibilities. In larger organizations, the senior role is more focused on oversight, strategy, and team management. In my experience, staying close to the data and the platforms, even at the senior level, leads to better strategic decisions."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "The broader discipline and strategic context.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "The mid level hands on campaign execution role.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth beyond paid channels.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "Focused on new user growth and CAC.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Paid Media Manager",
+          "description": "Media buying and budget allocation.",
+          "href": "/paid-media-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Primary search and shopping advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Paid social on Facebook and Instagram.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising on the Microsoft network.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Senior Performance Marketing Manager?",
+      "description": "If you are hiring for a senior performance marketing role or want to discuss how I could strengthen your paid acquisition program, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager",
+      "paid-search-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1587,
+  "generatedAt": "2026-06-12T15:08:42.953Z"
+}

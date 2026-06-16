@@ -1,0 +1,526 @@
+{
+  "slug": "lifecycle-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Lifecycle Marketing Manager | Alexander Kropivnitski",
+    "description": "How I approach the lifecycle marketing manager role: designing customer journey programs that improve retention, increase lifetime value, and reduce churn."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Lifecycle Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Lifecycle Marketing Manager designs and executes marketing programs that engage customers throughout their entire relationship with a company: from first purchase through retention, expansion, and win back. While most marketing roles focus on acquiring new customers, lifecycle marketing focuses on making existing customer relationships more valuable.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach lifecycle marketing, what the role involves, and how effective lifecycle programs directly improve customer retention and lifetime value within a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " framework.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#ec4899"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Lifecycle Marketing focuses on the full customer relationship, not just acquisition.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "RefreshCw",
+          "title": "Retention Programs",
+          "description": "Building systematic programs that keep customers engaged and reduce churn. Identifying early warning signals of disengagement and creating automated interventions that address them before customers leave."
+        },
+        {
+          "icon": "Mail",
+          "title": "Lifecycle Email Campaigns",
+          "description": "Designing triggered email programs for every stage of the customer journey: onboarding, activation, engagement, renewal, and win back. Each program is data driven and continuously optimized."
+        },
+        {
+          "icon": "Users",
+          "title": "Customer Segmentation",
+          "description": "Creating actionable customer segments based on behavior, value, and lifecycle stage. Tailoring communication and offers to each segment rather than sending the same message to all customers."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Lifetime Value Optimization",
+          "description": "Identifying and implementing strategies that increase customer lifetime value including cross selling, upselling, and increasing purchase frequency. Making each customer relationship more valuable over time."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Cohort Analysis",
+          "description": "Tracking customer behavior by cohort to understand how different groups perform over time. Using cohort data to identify trends, measure program effectiveness, and predict future performance."
+        },
+        {
+          "icon": "Heart",
+          "title": "Customer Health Scoring",
+          "description": "Building models that predict which customers are at risk of churning based on engagement patterns, usage data, and behavioral signals. Prioritizing retention efforts on customers where intervention will have the most impact."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to lifecycle marketing is grounded in a simple observation: acquiring a new customer costs far more than retaining an existing one, yet most companies spend the majority of their marketing budget on acquisition. Lifecycle marketing corrects this imbalance by investing in programs that make existing customer relationships more valuable.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background, which means I apply the same measurement rigor to retention programs that most companies only apply to acquisition campaigns. Every lifecycle program I build has clear success metrics, A/B testing protocols, and attribution to business outcomes. Retention marketing should not be a cost center running on autopilot. It should be a measurable, optimized function.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The foundation of lifecycle marketing is customer data. I work with ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/bigquery",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "BigQuery",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to build detailed views of customer behavior across the journey. Which customers are most engaged? Where do customers typically drop off? What actions predict long term retention? These questions can only be answered with clean, integrated data.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Segmentation is where lifecycle marketing becomes powerful. Sending the same reengagement email to a customer who purchased once six months ago and a loyal customer who has bought ten times but recently went quiet is a waste. I build segments based on recency, frequency, monetary value, and behavioral signals, then design specific programs for each group.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also believe lifecycle marketing and acquisition marketing should work together, not in silos. The acquisition team at ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " level needs to understand which channels produce customers with the highest lifetime value, not just the lowest acquisition cost. I create feedback loops that help acquisition teams optimize for long term value rather than short term volume.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A data driven approach to making every customer relationship more valuable over time.",
+      "steps": [
+        {
+          "icon": "Map",
+          "title": "Journey Mapping and Data Audit",
+          "description": "Map the complete customer lifecycle and audit available data. Identify which stages have the biggest drop offs and where improved engagement would have the most revenue impact."
+        },
+        {
+          "icon": "Users",
+          "title": "Segmentation Framework",
+          "description": "Build a segmentation model based on customer behavior, value, and lifecycle stage. Create distinct customer groups with specific communication strategies for each."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Program Design and Build",
+          "description": "Design lifecycle programs for priority stages: onboarding, activation, retention, expansion, and win back. Build automated workflows with personalized content for each segment."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Measure and Iterate",
+          "description": "Track program performance against retention, lifetime value, and revenue metrics. Run continuous tests on messaging, timing, and offers. Share insights with acquisition teams to improve full funnel performance."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between lifecycle marketing and CRM marketing?",
+          "answer": "The terms overlap significantly. CRM marketing typically refers to marketing activities that use CRM data to target and personalize communication with customers. Lifecycle marketing is a broader strategic concept that covers the entire customer journey from acquisition through retention and win back. In practice, CRM is often the primary tool for executing lifecycle marketing programs, but lifecycle strategy extends beyond what happens in the CRM."
+        },
+        {
+          "question": "What metrics should a Lifecycle Marketing Manager track?",
+          "answer": "Customer retention rate and churn rate are the primary metrics. Beyond those: customer lifetime value, repeat purchase rate, average order value trends, time between purchases, onboarding completion rate, and engagement scores. Each lifecycle stage has its own key metrics. The most important thing is tracking trends over time rather than looking at snapshots."
+        },
+        {
+          "question": "How does lifecycle marketing work in B2B versus B2C?",
+          "answer": "The principles are the same but the execution differs. B2C lifecycle marketing often involves high volume, automated communication triggered by purchase behavior and engagement patterns. B2B lifecycle marketing involves longer cycles, multiple stakeholders, and closer coordination with customer success teams. B2B programs tend to be more personalized and relationship driven, while B2C programs rely more on automation at scale."
+        },
+        {
+          "question": "When should a company invest in lifecycle marketing?",
+          "answer": "Once the acquisition engine is producing a steady flow of customers. If customer volume is too low, lifecycle programs will not have enough data to optimize or enough impact to justify the investment. Most companies should start investing seriously in lifecycle marketing when they have a few thousand customers and can see patterns in retention and churn data."
+        },
+        {
+          "question": "What is a good customer retention rate?",
+          "answer": "It varies dramatically by industry and business model. SaaS companies typically target annual retention above 85 to 90 percent. E-commerce repeat purchase rates vary from 20 to 40 percent depending on the category. The most useful benchmark is your own historical data and how your rate changes over time. Improving retention by even a few percentage points can have a significant impact on revenue."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Acquisition and growth strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Campaign management expertise.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth strategy.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "New user growth focus.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Bing search advertising.",
+          "href": "/microsoft-ads"
+        },
+        {
+          "title": "Attribution Modeling",
+          "description": "Marketing attribution explained.",
+          "href": "/attribution-modeling-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Want to Improve Customer Retention?",
+      "description": "I build lifecycle marketing programs that reduce churn, increase lifetime value, and make existing customer relationships more profitable.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#ec4899"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1424,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

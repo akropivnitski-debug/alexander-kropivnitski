@@ -1,0 +1,618 @@
+{
+  "slug": "director-of-growth",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Director of Growth | Alexander Kropivnitski",
+    "description": "How I approach the Director of Growth role: leading growth strategy across acquisition, retention, and revenue optimization with a data-driven, experimental approach."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Director of Growth",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Director of Growth leads a company's growth strategy across acquisition, activation, retention, and revenue optimization. The role combines ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " expertise with product thinking, data analysis, and strategic planning. Unlike a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who covers the full marketing function, the Director of Growth is specifically focused on measurable business growth through experimentation and data driven decision making.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach growth leadership, what distinguishes the Director of Growth from other leadership roles, and how the role drives business outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#4f46e5"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Director of Growth leads data driven growth across the full customer lifecycle.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "Growth Strategy",
+          "description": "Defining the growth model for the business including acquisition channels, activation flows, retention strategies, and revenue optimization opportunities. Setting growth targets that are ambitious but achievable based on data."
+        },
+        {
+          "icon": "Beaker",
+          "title": "Experimentation Program",
+          "description": "Building and leading a structured experimentation program that tests growth hypotheses across marketing, product, and user experience. Setting experiment velocity targets and creating processes for learning from both successes and failures."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Acquisition and Retention Balance",
+          "description": "Making strategic decisions about where to invest growth resources between acquiring new customers and retaining existing ones. Understanding when retention improvements generate more value than acquisition spending."
+        },
+        {
+          "icon": "Users",
+          "title": "Cross Functional Team Leadership",
+          "description": "Leading a growth team that may include marketers, analysts, product managers, and engineers. Creating alignment across functions toward shared growth metrics and ensuring collaboration happens naturally."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Growth Analytics",
+          "description": "Building the analytics infrastructure needed for growth decision making. Tracking cohort performance, customer lifetime value, payback periods, and unit economics across acquisition channels and customer segments."
+        },
+        {
+          "icon": "PieChart",
+          "title": "Investment and Portfolio Management",
+          "description": "Treating growth channels and initiatives as a portfolio. Allocating resources across proven channels, scaling experiments, and exploratory tests. Managing risk by diversifying growth sources."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to growth leadership starts with the growth model. Before launching any campaigns or experiments, I map the full customer journey and identify where the biggest opportunities and bottlenecks are. Sometimes the highest impact point is acquisition. Other times it is activation, retention, or monetization. The growth model makes this visible and guides resource allocation.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background with deep experience in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and other paid channels. At the Director of Growth level, I apply that analytical rigor to the full growth stack, not just paid acquisition. Retention programs, referral mechanics, pricing experiments, and onboarding optimization all benefit from the same data driven approach that makes paid marketing effective.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Experimentation is the core operating mechanism of growth. I build teams that run a high volume of experiments with clear hypotheses, measurable success criteria, and disciplined analysis. Not every experiment succeeds, and that is expected. The goal is to learn quickly and scale what works. Over time, the compound effect of hundreds of small experiments produces significant competitive advantage.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Director of Growth role differs from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-growth",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " primarily in organizational context. In some companies, these titles are interchangeable. In others, the Director reports to a VP or Head and focuses more on execution and team management while the senior role focuses on strategy and board communication. In either case, the core competencies are the same: growth modeling, experimentation, cross functional leadership, and data driven decision making.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also believe strongly in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " quality at this level. Growth decisions about where to invest resources depend entirely on understanding which activities actually drive incremental business. If attribution is wrong, resource allocation is wrong. I invest heavily in building reliable measurement systems, including ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/incrementality-testing-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "incrementality testing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " when possible, before making major growth investment decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Growth leadership follows a structured approach from modeling through experimentation to scaling.",
+      "steps": [
+        {
+          "icon": "Map",
+          "title": "Growth Modeling",
+          "description": "Map the full customer journey and build a quantitative growth model. Identify the key levers at each stage, their current performance, and the theoretical ceiling for improvement. This model becomes the foundation for all growth planning."
+        },
+        {
+          "icon": "Target",
+          "title": "Prioritization",
+          "description": "Rank growth opportunities by expected impact and effort using a structured framework. Focus the team on the highest impact initiatives first. Maintain a backlog of ideas for future testing but resist the temptation to spread resources too thin."
+        },
+        {
+          "icon": "Beaker",
+          "title": "Experimentation",
+          "description": "Design and run structured experiments to test growth hypotheses. Each experiment has a clear hypothesis, success metric, required sample size, and timeline. Document learnings regardless of whether the experiment succeeds or fails."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Scale and Systematize",
+          "description": "When experiments prove successful, build repeatable systems around them. A winning acquisition channel becomes a managed program. A successful onboarding flow becomes the default. Growth comes from turning one time wins into ongoing systems."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a Director of Growth and a Head of Growth?",
+          "answer": "In many companies, the titles are used interchangeably. When they are distinct, the Head of Growth typically operates at a more strategic level with broader organizational influence, while the Director focuses more on team execution and day to day growth operations. The Director may report to a VP or Head. In either case, the core responsibilities of growth strategy, experimentation, and cross functional leadership are similar."
+        },
+        {
+          "question": "What background do Directors of Growth typically come from?",
+          "answer": "The most common backgrounds are performance marketing, product management, or data analytics. Each brings different strengths. Performance marketing backgrounds bring strong channel expertise and measurement skills. Product backgrounds bring user experience and product growth thinking. Analytics backgrounds bring data infrastructure and statistical rigor. The best Directors of Growth combine elements of all three."
+        },
+        {
+          "question": "How does a Director of Growth work with the product team?",
+          "answer": "Very closely. Many growth initiatives involve product changes: onboarding flows, referral programs, pricing experiments, feature activation, and conversion optimization all require product and engineering resources. The Director of Growth needs to influence the product roadmap and demonstrate through data why growth investments deserve engineering time. Building trust and showing clear ROI on product growth experiments is key to maintaining this partnership."
+        },
+        {
+          "question": "How do you handle the tension between short term and long term growth?",
+          "answer": "By being explicit about the time horizon for each initiative. Some activities like paid acquisition produce immediate results. Others like SEO, content, and brand building take months to show impact. I present growth plans with clear short term and long term components, showing how current investments in longer term channels reduce future acquisition costs and improve resilience. Leadership needs to understand and buy into this portfolio approach for it to work."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition expertise.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Growth",
+          "description": "Growth leadership.",
+          "href": "/head-of-growth"
+        },
+        {
+          "title": "Head of Marketing",
+          "description": "Full marketing leadership.",
+          "href": "/head-of-marketing"
+        },
+        {
+          "title": "Director of Digital Marketing",
+          "description": "Digital channel leadership.",
+          "href": "/director-of-digital-marketing"
+        },
+        {
+          "title": "Fractional CMO",
+          "description": "Part time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Growth Marketing Explained",
+          "description": "The discipline explained.",
+          "href": "/growth-marketing-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Director of Growth?",
+      "description": "If you need growth leadership that combines strategic thinking with hands on experimentation and data analysis, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#4f46e5"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-digital-marketing",
+      "small-business-cmo",
+      "fractional-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-digital-marketing",
+      "small-business-cmo",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1498,
+  "generatedAt": "2026-06-12T20:38:37.638Z"
+}

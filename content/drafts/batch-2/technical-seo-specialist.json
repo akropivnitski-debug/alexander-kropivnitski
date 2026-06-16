@@ -1,0 +1,653 @@
+{
+  "slug": "technical-seo-specialist",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Technical SEO Specialist | Alexander Kropivnitski",
+    "description": "How I approach technical SEO: site architecture, crawl optimization, Core Web Vitals, structured data, and resolving indexation issues for better organic performance."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Technical SEO Specialist",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A technical SEO specialist focuses on the infrastructure side of organic search. The role is about ensuring that search engines can efficiently discover, crawl, render, and index a website's content. While an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " balances technical work with content strategy and link building, a technical SEO specialist goes deep on site architecture, page speed, crawl budget, structured data, and indexation issues.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/technical-seo-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "technical SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", what the role requires, and how technical optimization supports broader ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " strategy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#14b8a6"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Technical SEO requires deep understanding of how search engines process websites at a technical level.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Crawl and Indexation Management",
+          "description": "Analyzing how search engines crawl a website, identifying crawl waste, managing robots.txt and XML sitemaps, and resolving indexation issues. Ensuring that important pages are crawled frequently and unimportant pages do not waste crawl budget."
+        },
+        {
+          "icon": "Zap",
+          "title": "Core Web Vitals and Page Speed",
+          "description": "Diagnosing and fixing performance issues that affect both user experience and search rankings. Working with developers on LCP, FID, CLS, and INP optimization. Understanding how front end frameworks and rendering methods affect page speed metrics."
+        },
+        {
+          "icon": "Code",
+          "title": "Structured Data Implementation",
+          "description": "Implementing and validating JSON-LD schema markup for products, FAQs, articles, organizations, and other entity types. Structured data helps search engines understand page content and can enable rich results in search."
+        },
+        {
+          "icon": "Layout",
+          "title": "Site Architecture and Internal Linking",
+          "description": "Designing URL structures, navigation hierarchies, and internal linking patterns that distribute authority effectively and help both users and search engines find important content efficiently."
+        },
+        {
+          "icon": "FileCode",
+          "title": "JavaScript SEO and Rendering",
+          "description": "Evaluating how search engines render JavaScript heavy pages, identifying rendering issues, and recommending solutions like server side rendering, static generation, or hybrid approaches."
+        },
+        {
+          "icon": "Shield",
+          "title": "Migration and Redirect Management",
+          "description": "Planning and executing site migrations, domain changes, and URL restructuring with minimal traffic loss. Building redirect maps, monitoring post migration performance, and resolving issues quickly when they appear."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to technical SEO starts with a thorough crawl audit. I use tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/screaming-frog",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Screaming Frog",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-search-console",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Search Console",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and log file analysis to understand exactly how search engines interact with the site. This reveals issues that are invisible from the content side: redirect chains, orphan pages, crawl traps, duplicate content, and rendering problems.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I work closely with development teams to implement fixes. Technical SEO is not just about identifying issues. It is about explaining them in terms that developers understand and prioritizing them based on expected impact. A recommendation that development cannot implement is worthless. I focus on providing clear, actionable specifications with enough context for engineers to understand why the change matters.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The technical SEO specialist role differs from an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/senior-seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "senior SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " in depth versus breadth. While those roles cover content, links, and strategy alongside technical work, a technical SEO specialist goes deep on the infrastructure side. This specialization is especially valuable for large, complex websites where technical issues can have outsized impact on organic performance.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One area where I add particular value is JavaScript ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". Modern web applications built with frameworks like React, Next.js, and Vue create specific challenges for search engines. Understanding how search engine rendering works, when to use server side rendering versus client side rendering, and how to audit rendered output is increasingly important as more websites adopt these frameworks.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also pay careful attention to ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/website-performance-optimization",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Core Web Vitals",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " because Google uses these metrics as ranking signals. But I focus on fixes that actually move the needle for rankings and user experience, not on achieving perfect scores for their own sake. A site with good performance and excellent content will outperform a site with perfect performance scores and mediocre content every time.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Technical SEO follows a disciplined cycle of auditing, prioritizing, implementing, and monitoring.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Crawl and Audit",
+          "description": "Comprehensive technical audit using Screaming Frog, Google Search Console, and server log analysis. Map crawl paths, identify technical issues, assess rendering behavior, and evaluate site architecture. Document every finding with severity and expected impact."
+        },
+        {
+          "icon": "ListOrdered",
+          "title": "Prioritize and Specify",
+          "description": "Rank all findings by expected impact on organic performance and effort required to fix. Create detailed technical specifications for each recommendation that developers can implement without ambiguity. Group related fixes into logical implementation sprints."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Implement and Validate",
+          "description": "Work with the development team to implement fixes, validate changes in staging environments, and monitor the impact after deployment. Ensure redirects resolve correctly, structured data validates, and page speed improvements hold under real traffic."
+        },
+        {
+          "icon": "Gauge",
+          "title": "Monitor and Iterate",
+          "description": "Set up ongoing monitoring for technical health metrics including crawl stats, indexation rates, Core Web Vitals, and structured data validation. Technical SEO is not a one time project. New issues appear as the site evolves, and continuous monitoring catches them early."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a technical SEO specialist and an SEO manager?",
+          "answer": "A technical SEO specialist focuses specifically on the infrastructure and technical aspects of SEO: crawling, indexation, site speed, structured data, and architecture. An SEO manager covers a broader scope including content strategy, link building, and stakeholder management alongside technical work. In larger organizations, these are separate roles with the technical specialist providing deep expertise that the manager oversees strategically. In smaller teams, one person often handles both."
+        },
+        {
+          "question": "What tools does a technical SEO specialist use?",
+          "answer": "The core tools are Screaming Frog for crawl analysis, Google Search Console for indexation and performance data, Chrome DevTools and Lighthouse for page speed auditing, and server log analysis tools for understanding real crawler behavior. Ahrefs and Semrush are used for backlink analysis and competitive research. For JavaScript SEO specifically, tools like Google Rich Results Test, URL Inspection API, and Rendertron help evaluate how search engines process dynamic content."
+        },
+        {
+          "question": "How important is page speed for SEO?",
+          "answer": "Page speed matters but its impact is often overstated. Google uses Core Web Vitals as ranking signals, but they function more as tiebreakers than major ranking factors. A fast site with poor content will not outrank a slightly slower site with excellent content. That said, extremely slow pages do hurt rankings and user experience significantly. I focus on getting performance to a good level rather than obsessing over perfect scores. The biggest SEO performance gains usually come from fixing critical issues like very slow LCP or layout shifts, not from shaving milliseconds off already fast pages."
+        },
+        {
+          "question": "Is technical SEO still relevant with modern CMS platforms?",
+          "answer": "Yes. Modern CMS platforms and frameworks handle some technical basics automatically, but they also introduce new challenges. Server side rendering configuration, dynamic routing, internationalization setup, canonical management in headless architectures, and JavaScript rendering behavior all require technical SEO expertise. The nature of the technical work changes, but the need for someone who understands how search engines process websites at a technical level does not go away."
+        },
+        {
+          "question": "How do you handle site migrations without losing organic traffic?",
+          "answer": "Careful planning is the key. I start by mapping all existing URLs to their new destinations, setting up proper 301 redirects, and creating a monitoring plan. Before launch, I validate the redirect map in a staging environment. After launch, I monitor Google Search Console hourly for the first few days to catch any issues early. Some traffic dip during migration is normal and usually recovers within a few weeks if the redirects are correct. The biggest risks are missed redirects and redirect chains, which I test thoroughly before going live."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "SEO",
+          "description": "My broader organic search expertise.",
+          "href": "/seo"
+        },
+        {
+          "title": "SEO Manager",
+          "description": "Broader organic search management.",
+          "href": "/seo-manager"
+        },
+        {
+          "title": "Senior SEO Manager",
+          "description": "Strategic SEO leadership.",
+          "href": "/senior-seo-manager"
+        },
+        {
+          "title": "SEO Specialist",
+          "description": "Focused SEO execution.",
+          "href": "/seo-specialist"
+        },
+        {
+          "title": "Organic Growth Manager",
+          "description": "Organic growth strategy.",
+          "href": "/organic-growth-manager"
+        },
+        {
+          "title": "Google Search Console",
+          "description": "Essential SEO monitoring.",
+          "href": "/google-search-console"
+        },
+        {
+          "title": "Ahrefs",
+          "description": "SEO research and analysis.",
+          "href": "/ahrefs"
+        },
+        {
+          "title": "Semrush",
+          "description": "SEO and competitive analysis.",
+          "href": "/semrush"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Technical SEO Expertise?",
+      "description": "If your website has technical issues holding back organic performance, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#14b8a6"
+    }
+  ],
+  "internalLinks": {
+    "parent": "seo",
+    "siblings": [
+      "seo-manager",
+      "senior-seo-manager",
+      "seo-specialist",
+      "organic-growth-manager"
+    ],
+    "tools": [
+      "google-search-console",
+      "ahrefs",
+      "semrush",
+      "screaming-frog",
+      "technical-seo"
+    ],
+    "topics": [
+      "what-is-seo",
+      "technical-seo-explained",
+      "technical-seo-approach",
+      "website-performance-optimization"
+    ],
+    "relatedTopics": [
+      "seo",
+      "seo-manager",
+      "senior-seo-manager",
+      "seo-specialist",
+      "organic-growth-manager",
+      "google-search-console",
+      "ahrefs",
+      "semrush"
+    ]
+  },
+  "wordCount": 1667,
+  "generatedAt": "2026-06-12T20:38:37.636Z"
+}

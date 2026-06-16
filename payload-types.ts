@@ -2481,6 +2481,10 @@ export interface SiteSetting {
    */
   googleAnalyticsId?: string | null;
   /**
+   * e.g. GTM-XXXXXXX. Loads GTM on all pages when set.
+   */
+  gtmId?: string | null;
+  /**
    * Hex color code used as the brand primary color.
    */
   primaryColor?: string | null;
@@ -2600,6 +2604,7 @@ export interface SiteSettingsSelect<T extends boolean = true> {
       };
   faviconUrl?: T;
   googleAnalyticsId?: T;
+  gtmId?: T;
   primaryColor?: T;
   twitterHandle?: T;
   headingFontSource?: T;

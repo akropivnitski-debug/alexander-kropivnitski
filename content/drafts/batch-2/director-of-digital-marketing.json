@@ -1,0 +1,650 @@
+{
+  "slug": "director-of-digital-marketing",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Director of Digital Marketing | Alexander Kropivnitski",
+    "description": "How I approach the Director of Digital Marketing role: leading digital strategy across paid, organic, email, and content channels with measurable business impact."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Director of Digital Marketing",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Director of Digital Marketing leads a company's online marketing strategy across paid, organic, email, content, and social channels. The role is broader than a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Performance Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " because it includes organic and content channels, but more focused than a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " because it concentrates on digital channels specifically rather than the full marketing function.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach digital marketing leadership, what the role involves, and how it connects to broader ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " strategy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#be185d"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Director of Digital Marketing leads all online marketing channels with strategic and operational responsibility.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Layers",
+          "title": "Multi Channel Digital Strategy",
+          "description": "Building an integrated digital marketing strategy that coordinates paid search, paid social, SEO, email, content, and social media into a cohesive program. Ensuring channels complement each other rather than operating in silos."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Leadership",
+          "description": "Managing a digital marketing team across multiple disciplines. Hiring specialists, developing generalists, and building a team culture that values data, collaboration, and continuous improvement."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget and Resource Allocation",
+          "description": "Allocating budget and resources across digital channels based on performance data, business priorities, and growth opportunities. Making trade off decisions between immediate paid results and longer term organic investments."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Measurement",
+          "description": "Building reporting and analytics frameworks that connect digital marketing activities to business outcomes. Defining KPIs, building dashboards, and creating a data driven decision making culture across the digital team."
+        },
+        {
+          "icon": "Compass",
+          "title": "Digital Transformation",
+          "description": "Leading digital marketing maturity within the organization. Introducing new channels, technologies, and methodologies as the company grows. Ensuring the digital function evolves with changing market conditions and consumer behavior."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Agency and Vendor Management",
+          "description": "Managing relationships with digital agencies, technology vendors, and freelance specialists. Setting expectations, evaluating performance, and deciding when to bring capabilities in house versus outsourcing."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to digital marketing leadership centers on integration. The biggest opportunity in most digital marketing programs is better coordination between channels. Paid and organic search should share keyword intelligence. Email marketing should use paid media audience data. Content strategy should be informed by paid campaign performance data. These connections happen naturally in a well led digital program but are missing when channels operate independently.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I bring strong ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " expertise from my work with ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", combined with organic search and content marketing experience. This cross channel perspective is valuable at the director level because it allows me to make informed trade off decisions. Should the next dollar go to paid search or to content that will drive organic traffic over time? The answer depends on the business situation, and having depth in both areas makes the decision more informed.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "At the director level, building the right team and establishing clear processes matters more than individual channel tactics. I focus on hiring people who are strong in their specific disciplines and creating an environment where they can do their best work. Clear goals, regular feedback, and the autonomy to make decisions within defined frameworks produce better results than micromanagement.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " across digital channels is critical at this level. When you manage both paid and organic channels, attribution becomes more complex but also more important. Paid search may be getting credit for conversions that organic search or email would have captured. Brand campaigns on social may be lifting search query volume. Without understanding these interactions, budget allocation decisions are based on incomplete information.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also work closely with the ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " function to ensure the digital team has the data and tools they need. The quality of digital marketing decisions is directly proportional to the quality of the data those decisions are based on. Investing in measurement infrastructure consistently pays for itself through better allocation of marketing resources.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Digital marketing leadership requires integrating multiple channels into a cohesive, measurable program.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Digital Audit",
+          "description": "Comprehensive review of all digital channels, team capabilities, technology stack, and competitive positioning. Establish baselines and identify the highest impact opportunities across the digital marketing program."
+        },
+        {
+          "icon": "Map",
+          "title": "Integrated Strategy",
+          "description": "Build a digital marketing strategy that coordinates all channels toward shared business goals. Define budget allocation, team structure, technology requirements, and success metrics for each channel and the program overall."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Execution",
+          "description": "Build the team, establish processes, and drive execution across all digital channels. Create cross channel collaboration points so the team uses shared insights and data rather than operating in silos."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Optimize and Scale",
+          "description": "Regular performance reviews across all channels with cross channel analysis. Reallocate budget toward high performing channels and initiatives. Scale successful strategies while testing new opportunities."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a Director of Digital Marketing and a Head of Marketing?",
+          "answer": "A Director of Digital Marketing focuses specifically on online channels: paid media, SEO, email, content, and social. A Head of Marketing covers the full marketing function including digital but also brand, PR, events, communications, and sometimes product marketing. In companies where digital is the primary marketing channel, the roles may overlap significantly. In companies with significant offline marketing, the Director of Digital Marketing is a subset of the broader marketing leadership team."
+        },
+        {
+          "question": "How does a Director of Digital Marketing allocate budget across channels?",
+          "answer": "I base allocation on historical performance, marginal returns analysis, business priorities, and growth stage. Mature channels with proven returns get the majority of budget. Emerging channels get testing budgets with clear success criteria. I also factor in time horizon: paid channels deliver immediate results, while SEO and content investments take months to mature. A good digital marketing budget balances short term performance with long term organic growth."
+        },
+        {
+          "question": "What skills are most important for this role?",
+          "answer": "Strategic thinking across multiple channels, team leadership, stakeholder communication, and analytical ability. Deep expertise in at least two or three digital channels provides the credibility needed to lead specialists effectively. Budget management and financial acumen are important because the role involves significant spending decisions. And the ability to translate digital marketing performance into business language is essential for executive communication."
+        },
+        {
+          "question": "How does a Director of Digital Marketing stay current with channel changes?",
+          "answer": "By maintaining a learning culture within the team where new developments are discussed and tested. I also stay current through industry publications, platform release notes, peer networks, and selective conference attendance. At the director level, you do not need to know every platform update in detail, but you need to understand the strategic implications of major changes like privacy restrictions, AI features, and algorithm updates."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Growth",
+          "description": "Growth focused leadership.",
+          "href": "/head-of-growth"
+        },
+        {
+          "title": "Head of Marketing",
+          "description": "Full marketing leadership.",
+          "href": "/head-of-marketing"
+        },
+        {
+          "title": "Director of Growth",
+          "description": "Growth at director level.",
+          "href": "/director-of-growth"
+        },
+        {
+          "title": "Fractional CMO",
+          "description": "Part time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Director of Digital Marketing?",
+      "description": "If you need someone to lead your digital marketing program across paid and organic channels, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#be185d"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "small-business-cmo",
+      "fractional-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "small-business-cmo",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1487,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

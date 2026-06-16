@@ -1,0 +1,627 @@
+{
+  "slug": "small-business-cmo",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Small Business CMO | Alexander Kropivnitski",
+    "description": "How I approach the small business CMO role: full-spectrum marketing leadership for companies with limited resources, covering strategy, execution, and measurable growth."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Small Business CMO",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Small Business CMO is a marketing leader who covers the full spectrum of marketing for a company that does not have a large team or agency roster. Unlike a CMO at a large enterprise who delegates to department heads, the small business CMO often handles ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " strategy, brand positioning, content direction, and analytics personally or with a very small team.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach marketing leadership for small businesses, what makes the role different from enterprise marketing, and how to build marketing programs that produce real results on limited budgets.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#f59e0b"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Small Business CMO covers strategy, execution, and measurement across the entire marketing function.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "Full Funnel Strategy",
+          "description": "Building a complete marketing strategy from brand awareness through conversion and retention. In a small business, the CMO owns the entire funnel rather than delegating stages to specialists. Every dollar must be accounted for."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget Optimization",
+          "description": "Making limited marketing budgets work hard. Identifying which channels deliver the best return at small spend levels and knowing when to invest more versus when to pull back. Not every channel that works at scale works at small budgets."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Building and Vendors",
+          "description": "Deciding what to keep in house and what to outsource. Hiring the first marketing team members and managing freelancers or agencies. Knowing which roles to hire first based on business priorities."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Revenue Attribution",
+          "description": "Connecting marketing activities to revenue outcomes. Small businesses cannot afford to run marketing that does not produce measurable results. Building simple but reliable measurement systems."
+        },
+        {
+          "icon": "Target",
+          "title": "Channel Selection",
+          "description": "Choosing which marketing channels to invest in based on the business model, target audience, and competitive landscape. Small businesses cannot be everywhere, so channel selection is a critical strategic decision."
+        },
+        {
+          "icon": "Settings",
+          "title": "Marketing Operations",
+          "description": "Setting up the tools, processes, and workflows that allow a small marketing team to operate efficiently. Choosing the right marketing technology stack without overcomplicating things."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to small business marketing leadership starts with understanding the business model and unit economics. Before building any marketing plans, I need to know the customer acquisition cost the business can support, the lifetime value of a customer, and the growth rate the business needs. These numbers determine everything about the marketing strategy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background with experience across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and other paid channels. In a small business context, I apply that analytical discipline to every marketing decision, not just paid advertising. Content marketing, partnerships, email, and even brand investments should be evaluated based on their contribution to revenue growth.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The biggest mistake I see in small business marketing is trying to do too much. A startup with a three person marketing team should not be running campaigns on six platforms, producing a daily blog, managing a podcast, and posting across five social networks. Focus is the most important strategic decision. I help small businesses identify the two or three channels that will drive the most growth and invest deeply in those before expanding.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also believe that small business marketing leadership requires hands on involvement, especially in the early stages. The ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " at a large company can delegate execution entirely. The small business CMO needs to understand the mechanics of each channel well enough to manage vendors, evaluate results, and step in when needed. This is why my experience running campaigns directly in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is valuable in this role.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Technology decisions matter enormously for small businesses. The wrong marketing technology stack can waste budget and create complexity that slows the team down. I help companies select tools that match their actual needs today rather than buying enterprise solutions they will grow into someday. Simple, reliable ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " that the team actually uses beats sophisticated platforms that sit underutilized.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A practical approach to building marketing programs that work within small business constraints.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Business and Market Assessment",
+          "description": "Understand the business model, unit economics, competitive landscape, and customer profile. Identify what is already working and where the biggest growth opportunities are. This assessment drives every subsequent decision."
+        },
+        {
+          "icon": "Target",
+          "title": "Channel Strategy and Focus",
+          "description": "Select the two or three marketing channels that offer the best opportunity for this specific business. Build a focused plan that concentrates resources rather than spreading them thin across many channels."
+        },
+        {
+          "icon": "Settings",
+          "title": "Infrastructure Setup",
+          "description": "Put the right tools and processes in place: analytics, CRM, marketing automation, and reporting. Keep it simple and functional. Every tool should earn its place by making the team more effective."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Execute and Measure",
+          "description": "Launch campaigns, produce content, and build the marketing engine. Measure results against business metrics, not vanity metrics. Adjust quickly based on what the data shows is working."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Scale What Works",
+          "description": "Once a channel or tactic proves its value, increase investment. Add new channels only after existing ones are optimized. Build the team around proven needs rather than anticipated ones."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a small business CMO and a fractional CMO?",
+          "answer": "The small business CMO is typically a full time role within one company, leading all marketing functions. A fractional CMO splits time across multiple companies, providing strategic guidance on a part time basis. Small businesses that need daily marketing leadership and hands on execution benefit from a dedicated CMO. Those that mainly need strategic direction and can execute independently may be better served by a fractional arrangement."
+        },
+        {
+          "question": "What should a small business CMO prioritize in the first 90 days?",
+          "answer": "Understanding the numbers comes first: customer acquisition cost, lifetime value, conversion rates, and current channel performance. Then audit existing marketing activities to identify what is producing results and what is not. Within 90 days, you should have a focused strategy for the next 6 to 12 months, a clear measurement framework, and have stopped spending money on activities that are not producing returns."
+        },
+        {
+          "question": "How much should a small business spend on marketing?",
+          "answer": "There is no universal percentage. The right budget depends on the business model, growth targets, competitive environment, and margins. A SaaS company investing in rapid growth might spend 30 to 50 percent of revenue on marketing. A local services business with strong referrals might spend 5 to 10 percent. The CMO should build the budget around specific growth targets and expected returns, not arbitrary percentages."
+        },
+        {
+          "question": "When should a small business hire a CMO versus a marketing manager?",
+          "answer": "If the company needs someone to set marketing strategy, choose channels, build the team, manage budgets, and connect marketing to business outcomes, that is a CMO role. If the strategy is already set and the company needs execution, a marketing manager may be sufficient. Companies that are unclear about their go to market strategy or struggling with marketing ROI typically need CMO level thinking."
+        },
+        {
+          "question": "How does a small business CMO work with limited data?",
+          "answer": "By being disciplined about collecting the data that matters most. Small businesses often lack enterprise analytics platforms, but they do not need them. A clean CRM, basic web analytics, and simple attribution tracking provide enough data for good decisions. The key is consistency: track the same metrics weekly, build trends over time, and resist making major changes based on insufficient data."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy and execution.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Growth",
+          "description": "Growth leadership at scale.",
+          "href": "/head-of-growth"
+        },
+        {
+          "title": "Head of Marketing",
+          "description": "Full marketing function leadership.",
+          "href": "/head-of-marketing"
+        },
+        {
+          "title": "Director of Growth",
+          "description": "Data driven growth strategy.",
+          "href": "/director-of-growth"
+        },
+        {
+          "title": "Director of Digital Marketing",
+          "description": "Digital channel leadership.",
+          "href": "/director-of-digital-marketing"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising management.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising expertise.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Bing search advertising.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Marketing Leadership for Your Business?",
+      "description": "I help small businesses build marketing programs that produce measurable growth without wasting budget.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#f59e0b"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "fractional-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1665,
+  "generatedAt": "2026-06-12T21:44:48.083Z"
+}

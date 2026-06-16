@@ -1,0 +1,614 @@
+{
+  "slug": "sem-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "SEM Manager | Alexander Kropivnitski",
+    "description": "How I approach SEM management: search engine marketing strategy, Google Ads and Microsoft Ads optimization, and bridging paid and organic search."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "SEM Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "An SEM manager oversees search engine marketing, which includes paid search advertising and often involves coordination with organic search efforts. The role focuses on maximizing a company's visibility in search engine results pages through strategic use of ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and sometimes collaboration with the SEO team.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "SEM management sits within ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " but with a specific focus on search as a channel. The role requires understanding both how paid search auctions work and how paid and organic search results interact on the same page.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#06b6d4"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "SEM management combines technical search expertise with strategic visibility planning.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Search Strategy Development",
+          "description": "Creating a comprehensive search strategy that covers both paid and organic visibility. Understanding where paid search should fill gaps in organic coverage and where organic is strong enough to reduce paid spend."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Paid Search Campaign Management",
+          "description": "Managing Google Ads and Microsoft Ads campaigns including keyword strategy, bidding, ad copy, and ongoing optimization. The core execution work of SEM."
+        },
+        {
+          "icon": "GitMerge",
+          "title": "Paid and Organic Coordination",
+          "description": "Working with SEO teams to ensure paid and organic efforts complement each other rather than cannibalize. Understanding when to bid on terms where you rank organically and when to save the budget."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Search Market Analysis",
+          "description": "Monitoring competitive landscape in search results, tracking impression share, and identifying new keyword opportunities based on market trends and seasonal patterns."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget and Bid Management",
+          "description": "Allocating search budgets across campaigns, managing automated and manual bidding strategies, and optimizing for the right conversion goals at each stage of the funnel."
+        },
+        {
+          "icon": "FileText",
+          "title": "Search Performance Reporting",
+          "description": "Reporting on paid search performance with context about organic performance, competitive changes, and market trends. Providing a complete view of search visibility."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to SEM management focuses on understanding the full search landscape before making campaign decisions. Paid search does not exist in isolation. It interacts with organic results, shopping listings, local packs, and AI generated summaries. A good SEM manager considers all of these when planning strategy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have managed SEM programs across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for businesses in competitive verticals. One of the most valuable things I do is analyze where paid and organic search overlap. In some cases, bidding on keywords where you already rank first organically wastes money. In other cases, having both a paid and organic listing on the page significantly increases total click share. The right answer depends on the specific keyword, the competitive landscape, and the economics.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What sets SEM management apart from pure ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/paid-search-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "paid search management",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is this broader perspective. An SEM manager thinks about search as a channel, not just paid search as a tactic. This includes understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " well enough to coordinate with organic teams and make informed decisions about budget allocation.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Understanding search ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is also critical. Paid search often receives credit for conversions that organic search would have captured without the paid click. A good SEM manager knows how to identify and account for this cannibalization.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also pay close attention to the evolving search results page itself. Features like shopping listings, local packs, featured snippets, and AI generated summaries all affect how paid and organic results compete for clicks. An effective SEM manager monitors how these SERP features shift over time and adjusts strategy accordingly. What worked in search marketing two years ago may not apply today because the layout and behavior of the results page keeps changing. Staying current on these changes is part of the job.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "SEM management follows a cycle that considers both paid and organic search performance.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Search Landscape Analysis",
+          "description": "Map the current state of paid and organic visibility for all important search terms. Identify gaps, overlaps, and competitive threats across the search results page."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Integrated Strategy",
+          "description": "Build a search strategy that coordinates paid and organic efforts. Define which keywords to target with paid, which to rely on organic for, and which need both."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Campaign Execution",
+          "description": "Build and manage paid search campaigns aligned with the strategy. Ensure tracking, bidding, and targeting are set up correctly from the start."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Continuous Optimization",
+          "description": "Regular optimization cycles covering search term management, bid adjustments, ad testing, and budget reallocation. Adjust paid strategy as organic positions change."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between SEM and SEO?",
+          "answer": "SEO focuses on improving organic search visibility through technical optimization, content, and link building. SEM traditionally covers both paid and organic search but is now commonly used to mean paid search advertising specifically. The two disciplines are complementary. SEO builds long term visibility that does not require ongoing ad spend. SEM provides immediate visibility but stops when you stop paying. A good SEM manager understands both."
+        },
+        {
+          "question": "Is SEM manager the same as a paid search manager?",
+          "answer": "In most companies, yes, the roles are very similar. Both involve managing paid search campaigns on platforms like Google Ads and Microsoft Ads. The SEM manager title sometimes implies a slightly broader scope that includes coordination with organic search efforts, but in practice the day to day work is largely the same. The job title varies by company and region."
+        },
+        {
+          "question": "How do you decide when to bid on branded keywords?",
+          "answer": "I look at several factors: whether competitors are bidding on your brand terms, how strong your organic position is, the incremental lift from having both a paid and organic listing, and the cost relative to the value of protecting those clicks. In competitive markets where rivals actively bid on your brand, brand bidding is usually worthwhile. In less competitive situations, the budget might deliver better returns on non brand keywords."
+        },
+        {
+          "question": "What skills does an SEM manager need beyond platform knowledge?",
+          "answer": "Analytical skills are the most important. Beyond knowing how to use Google Ads and Microsoft Ads, an SEM manager needs to analyze data, identify trends, understand statistical significance, and make budget allocation decisions based on incomplete information. Some understanding of SEO, web analytics, and business strategy also helps significantly. The best SEM managers understand the business context behind the search data, not just the search data itself."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Broader paid channel strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Paid Search Manager",
+          "description": "Specialized search advertising role.",
+          "href": "/paid-search-manager"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Multi channel campaign management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Primary search advertising platform.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising on Bing.",
+          "href": "/microsoft-ads"
+        },
+        {
+          "title": "SEO",
+          "description": "Organic search optimization.",
+          "href": "/seo"
+        },
+        {
+          "title": "Paid Media Manager",
+          "description": "Cross platform media buying.",
+          "href": "/paid-media-manager"
+        },
+        {
+          "title": "What Is Performance Marketing",
+          "description": "Overview of the discipline.",
+          "href": "/what-is-performance-marketing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for an SEM Manager?",
+      "description": "If you need someone with deep search marketing expertise covering both paid and organic coordination, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#06b6d4"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1399,
+  "generatedAt": "2026-06-12T15:08:42.955Z"
+}

@@ -1,0 +1,669 @@
+{
+  "slug": "seo-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "SEO Manager | Alexander Kropivnitski",
+    "description": "How I approach the SEO manager role: technical SEO, content strategy, link building, and organic growth across international markets."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "SEO Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "An SEO manager is responsible for growing a website's organic search visibility and traffic. The role covers technical SEO, content strategy, link building, and performance analysis. Unlike paid channels where you pay for each click, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " builds visibility that compounds over time without ongoing ad spend.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach organic search management, what skills the role requires, and how SEO fits into a broader marketing strategy alongside ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ".",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#22c55e"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "SEO management covers a wide range of technical and strategic skills.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Code",
+          "title": "Technical SEO",
+          "description": "Ensuring websites are properly crawled and indexed by search engines. This includes site architecture, page speed, Core Web Vitals, structured data, internal linking, canonical tags, and resolving crawl errors."
+        },
+        {
+          "icon": "FileText",
+          "title": "Content Strategy",
+          "description": "Developing keyword targeted content plans based on search demand, competitive gaps, and business priorities. Organizing content into topic clusters that build topical authority over time."
+        },
+        {
+          "icon": "Link",
+          "title": "Link Building",
+          "description": "Building high quality backlinks through digital PR, content partnerships, and outreach. Links remain one of the most important ranking factors, and building them sustainably requires a strategic approach."
+        },
+        {
+          "icon": "Globe",
+          "title": "International SEO",
+          "description": "Managing multi language and multi region SEO including hreflang implementation, market specific keyword strategies, and localized content for international audiences."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Analytics and Reporting",
+          "description": "Tracking organic performance using Google Search Console, Google Analytics, and third party tools. Measuring rankings, traffic, and conversions to demonstrate SEO impact on business goals."
+        },
+        {
+          "icon": "Wrench",
+          "title": "SEO Tool Proficiency",
+          "description": "Working with tools like Google Search Console, Ahrefs, Semrush, and Screaming Frog for auditing, keyword research, competitor analysis, and rank tracking."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to SEO management is practical and results focused. I start with the technical foundation because without it, no amount of content or links will rank well. If a website has crawl issues, slow load times, or poor site architecture, those problems need to be fixed first.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I use tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-search-console",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Search Console",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/ahrefs",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Ahrefs",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/semrush",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Semrush",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/screaming-frog",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Screaming Frog",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to audit sites, research keywords, and track performance. The specific tools matter less than the ability to interpret the data and turn it into actionable recommendations.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Content strategy is where SEO connects most directly to business outcomes. I build content plans based on what people are actually searching for, mapped to where they are in the buying journey. Top of funnel informational content builds authority. Bottom of funnel commercial content drives conversions. Both are necessary for a complete ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " program.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What makes the SEO manager role distinct from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/technical-seo-specialist",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "technical SEO specialist",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is the breadth. A technical specialist goes deep on site architecture, crawling, and performance. An SEO manager covers all of that plus content, links, and strategic planning. The manager role requires balancing multiple workstreams and aligning SEO priorities with broader business goals.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "In my experience, the most common SEO mistake is treating it as a one time project rather than an ongoing program. Search algorithms change, competitors publish new content, and technical issues appear over time. Consistent, sustained effort is what produces lasting results. Understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/what-is-seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "how SEO actually works",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " at a fundamental level makes this easier to communicate to stakeholders.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also place a strong emphasis on connecting SEO work to business metrics, not just rankings and traffic. A page that ranks first for a high volume keyword but generates no revenue or leads is not a success. I prioritize content and optimization efforts around keywords and pages that drive actual business value. This commercial focus helps justify ongoing SEO investment to stakeholders who care about revenue, not rankings.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "SEO management follows a structured cycle of auditing, planning, implementing, and measuring.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Technical Audit",
+          "description": "Comprehensive crawl analysis to identify technical issues affecting indexation and rankings. This includes site speed, mobile usability, structured data, internal linking, and crawl efficiency."
+        },
+        {
+          "icon": "Map",
+          "title": "Keyword and Content Planning",
+          "description": "Research search demand, map keywords to pages, identify content gaps, and build a prioritized editorial calendar. Focus on topics where the business can compete and where search intent aligns with business goals."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Implementation",
+          "description": "Execute technical fixes, publish optimized content, and build links. Work with development teams on technical changes and with content teams on editorial production."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Monitor and Iterate",
+          "description": "Track rankings, traffic, and conversions. Identify what is working, double down on successful patterns, and adjust strategy based on results and algorithm changes."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How long does SEO take to show results?",
+          "answer": "Typically three to six months for noticeable improvements, though it depends heavily on the starting point, competition level, and the type of changes being made. Technical fixes can show results faster if they resolve critical crawling or indexation issues. Content and link building take longer because search engines need time to discover, evaluate, and rank new content. SEO is a compounding investment. Results grow over time as content matures and authority builds."
+        },
+        {
+          "question": "What is the difference between an SEO manager and an SEO specialist?",
+          "answer": "An SEO specialist typically focuses on a specific area of SEO, like technical optimization or content creation. An SEO manager oversees the full program: technical, content, links, and strategy. The manager role involves more cross team coordination, stakeholder communication, and strategic planning. In practice, many SEO managers are also hands on practitioners, especially in smaller teams."
+        },
+        {
+          "question": "How does an SEO manager measure success?",
+          "answer": "The primary metrics are organic traffic, keyword rankings, and organic revenue or conversions. I also track technical health metrics like crawl coverage, Core Web Vitals scores, and index status. The most important metric depends on the business. For ecommerce, organic revenue is the north star. For content businesses, traffic and engagement matter more. I always try to connect SEO metrics to actual business outcomes rather than just reporting rankings."
+        },
+        {
+          "question": "Is SEO still worth investing in with AI search changing the landscape?",
+          "answer": "Yes, but the approach is evolving. AI powered search features like Google AI Overviews change how results appear, but they still rely on content from websites. The fundamentals of creating useful, well structured content remain important. Generative engine optimization, or GEO, is becoming an additional consideration. The websites that will do well are those with genuinely useful content that AI systems want to reference and cite."
+        },
+        {
+          "question": "Can an SEO manager also handle paid search?",
+          "answer": "Some do, especially in smaller companies. Understanding both organic and paid search is valuable because they share the same search results page and can inform each other. However, managing both at a high level is difficult as they require different day to day workflows. In my case, I have experience with both organic and paid search, which helps me coordinate SEO efforts with the paid media team effectively."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "SEO",
+          "description": "My broader organic search expertise.",
+          "href": "/seo"
+        },
+        {
+          "title": "Senior SEO Manager",
+          "description": "Strategic SEO leadership.",
+          "href": "/senior-seo-manager"
+        },
+        {
+          "title": "Technical SEO Specialist",
+          "description": "Deep technical search optimization.",
+          "href": "/technical-seo-specialist"
+        },
+        {
+          "title": "SEO Specialist",
+          "description": "Focused SEO execution.",
+          "href": "/seo-specialist"
+        },
+        {
+          "title": "Organic Growth Manager",
+          "description": "Broader organic growth strategy.",
+          "href": "/organic-growth-manager"
+        },
+        {
+          "title": "Google Search Console",
+          "description": "Essential SEO monitoring tool.",
+          "href": "/google-search-console"
+        },
+        {
+          "title": "Ahrefs",
+          "description": "SEO research and analysis tool.",
+          "href": "/ahrefs"
+        },
+        {
+          "title": "Semrush",
+          "description": "SEO and competitive analysis platform.",
+          "href": "/semrush"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for an SEO Manager?",
+      "description": "If you need someone to build or strengthen your organic search program, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#22c55e"
+    }
+  ],
+  "internalLinks": {
+    "parent": "seo",
+    "siblings": [
+      "senior-seo-manager",
+      "technical-seo-specialist",
+      "seo-specialist",
+      "organic-growth-manager"
+    ],
+    "tools": [
+      "google-search-console",
+      "ahrefs",
+      "semrush",
+      "screaming-frog",
+      "technical-seo"
+    ],
+    "topics": [
+      "what-is-seo",
+      "technical-seo-explained",
+      "technical-seo-approach",
+      "website-performance-optimization"
+    ],
+    "relatedTopics": [
+      "seo",
+      "senior-seo-manager",
+      "technical-seo-specialist",
+      "seo-specialist",
+      "organic-growth-manager",
+      "google-search-console",
+      "ahrefs",
+      "semrush"
+    ]
+  },
+  "wordCount": 1486,
+  "generatedAt": "2026-06-12T15:08:42.955Z"
+}

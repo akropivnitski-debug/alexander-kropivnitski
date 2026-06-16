@@ -1,0 +1,245 @@
+{
+  "slug": "performance-marketing-manager-paris",
+  "pageType": "job_role_location",
+  "meta": {
+    "title": "Performance Marketing Manager Paris | Alexander Kropivnitski",
+    "description": "A practical overview of performance marketing management in Paris, with experience in digital marketing, paid media, analytics, and marketing technology across the French market."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Performance Marketing Manager Paris",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "Paris is one of Europe's largest and most competitive digital advertising markets. The city is home to global headquarters, fast growing startups, major ecommerce brands, and a strong pool of digital marketing talent. A "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/performance-marketing-manager", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "performance marketing manager" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " working in Paris needs to understand local market dynamics, French consumer behavior, and the regulatory environment that shapes how digital advertising operates in France."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "This page covers what makes the Paris market distinct for performance marketing, the skills that matter most here, and how my "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/performance-marketing", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "performance marketing experience" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " applies to this specific market."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      },
+      "circleColor": "#002654"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "Key Skills for This Market",
+      "description": "Working effectively in the Paris digital marketing market requires a combination of strong technical performance marketing skills and genuine understanding of local conditions.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "French and International Campaigns",
+          "description": "Managing campaigns in French while also handling English language or multi market programs for companies that operate across Europe from their Paris headquarters. Many companies here need both capabilities in the same person."
+        },
+        {
+          "icon": "Shield",
+          "title": "GDPR and CNIL Compliance",
+          "description": "France's data protection authority, the CNIL, is one of the most active regulators in Europe. Performance marketing in Paris requires careful attention to consent management, cookie tracking, server side solutions, and lawful data processing. Non compliance carries real financial penalties."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Cross Channel Paid Media",
+          "description": "Managing campaigns across Google Ads, Meta Ads, and Microsoft Ads with strategies adapted specifically to French consumer behavior, seasonal patterns, and search habits. French search queries often differ meaningfully from direct English translations."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Ecommerce and Marketplace Expertise",
+          "description": "Paris is home to major ecommerce brands selling through their own sites, Amazon France, Cdiscount, and other French marketplaces. Product feed optimization and shopping campaign management are particularly relevant skills in this market."
+        },
+        {
+          "icon": "Users",
+          "title": "Agency and In House Collaboration",
+          "description": "The Paris market has a strong agency culture with many businesses splitting work between in house teams and external agencies. Understanding how to manage these relationships, maintain quality standards, and bridge strategy between internal and external teams is valuable."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Bilingual Campaign Management",
+          "description": "Many Paris based companies target both French speaking and international audiences simultaneously. Creating and optimizing campaigns in multiple languages requires proper keyword research methodology, not just translation. Ad copy that works in English rarely translates directly into effective French ads."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The Paris Market Context",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "The digital advertising landscape in Paris has specific characteristics that affect how performance marketing works here. France has a mature ecommerce market where consumers are comfortable shopping online across fashion, electronics, food delivery, travel, and professional services. Competition for search visibility is high, especially in sectors like insurance, real estate, travel, and retail where cost per click can be significantly above European averages."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "One of the biggest challenges specific to France is the regulatory environment around data privacy. The CNIL enforces GDPR strictly, and recent enforcement actions have directly impacted how businesses use analytics and tracking tools. Several major rulings have affected Google Analytics usage in particular. This matters for performance marketing because tracking accuracy determines how well you can measure and optimize campaigns. Understanding how to maintain measurement quality within these regulatory constraints is essential for anyone working in this market."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "I have worked with both French and international companies operating in the Paris market. My experience includes managing "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/google-ads", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Google Ads" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " and "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/meta-ads", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Meta Ads" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " campaigns targeting French audiences, adapting creative and messaging for local expectations while keeping performance tightly aligned with business goals. French consumers respond differently to ad creative compared to English speaking markets. Tone, visual style, and value proposition framing all need local adaptation, not just language translation."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "Paris also has one of Europe's strongest startup ecosystems, particularly around Station F and the broader Ile de France region. Startups here often need performance marketing managers who can move fast, manage tight budgets with precision, and prove ROI quickly to investors and stakeholders. That environment aligns well with my approach of focusing on "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/what-is-performance-marketing", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "measurable performance outcomes" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " over vanity metrics or brand awareness spending that cannot be tied back to business results."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What makes performance marketing in Paris different from other European markets?",
+          "answer": "France has stricter data privacy enforcement through the CNIL than most other EU countries, which directly affects tracking and measurement capabilities. French consumers also respond differently to ad creative and messaging compared to English or German speaking markets. Localization truly matters here. It is not just about translating campaigns but adapting the entire approach to how French audiences evaluate products, compare options, and make purchasing decisions. Seasonal patterns also differ, with specific French commercial events like les soldes having a significant impact on campaign planning."
+        },
+        {
+          "question": "Do you need to speak French to work as a performance marketing manager in Paris?",
+          "answer": "For many international companies headquartered in Paris, English is the primary working language for internal communication. But for campaigns targeting French consumers, understanding French is important for keyword research, ad copy writing, and landing page optimization. Working in this market without any French language capability limits what you can effectively manage, especially in ecommerce where product descriptions, customer reviews, and search queries are almost entirely in French."
+        },
+        {
+          "question": "Is remote performance marketing work common in the Paris market?",
+          "answer": "Yes, remote and hybrid work arrangements have become standard in the Paris digital marketing market since 2020. Many companies offer two to three remote days per week, and some roles are fully remote. The tools used in performance marketing are entirely cloud based, so there is no technical barrier. I have worked both on site and remotely for Paris based companies and the quality of output is consistent in both arrangements, provided communication and reporting structures are well established."
+        },
+        {
+          "question": "What salary range can a performance marketing manager expect in Paris?",
+          "answer": "Compensation varies depending on company size, industry, and experience level. Mid level performance marketing managers in Paris typically earn between 45,000 and 65,000 euros gross annually. Senior roles, positions at larger tech companies, or well funded startups can go meaningfully higher. The market has become increasingly competitive for strong candidates with proven, measurable results, which has pushed salaries upward over the last several years."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        { "title": "Performance Marketing Manager", "description": "The core role this location page builds on.", "href": "/performance-marketing-manager" },
+        { "title": "Performance Marketing", "description": "My broader expertise in paid digital marketing.", "href": "/performance-marketing" },
+        { "title": "SEO Manager Paris", "description": "Organic search expertise in the Paris market.", "href": "/seo-manager-paris" },
+        { "title": "Growth Marketing Manager Paris", "description": "Full funnel growth marketing in Paris.", "href": "/growth-marketing-manager-paris" },
+        { "title": "Marketing Technology Manager Paris", "description": "Martech expertise for the Paris market.", "href": "/marketing-technology-manager-paris" },
+        { "title": "Google Ads", "description": "The primary paid search advertising platform.", "href": "/google-ads" },
+        { "title": "Meta Ads", "description": "Paid social advertising on Facebook and Instagram.", "href": "/meta-ads" },
+        { "title": "Microsoft Ads", "description": "Search advertising on the Microsoft network.", "href": "/microsoft-ads" }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Performance Marketing Manager in Paris?",
+      "description": "If you are hiring for a performance marketing role in Paris or the Ile de France region, I would be happy to discuss how I could contribute to your team.",
+      "buttonLabel": "Reach Out",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#002654"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "coreRole": "performance-marketing-manager",
+    "siblings": ["seo-manager-paris", "growth-marketing-manager-paris", "marketing-technology-manager-paris", "head-of-growth-paris", "performance-marketing-manager-ile-de-france"],
+    "tools": ["google-ads", "meta-ads", "microsoft-ads", "google-shopping", "product-feed-optimization"],
+    "topics": ["what-is-performance-marketing", "growth-marketing-explained", "attribution-modeling-explained", "a-b-testing-explained"],
+    "relatedTopics": ["performance-marketing-manager", "performance-marketing", "seo-manager-paris", "growth-marketing-manager-paris", "marketing-technology-manager-paris", "google-ads", "meta-ads", "microsoft-ads"]
+  },
+  "wordCount": 1050,
+  "generatedAt": "2026-06-12T17:15:00.000Z"
+}

@@ -1,0 +1,589 @@
+{
+  "slug": "marketing-operations-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Marketing Operations Manager | Alexander Kropivnitski",
+    "description": "How I approach the marketing operations manager role: building the systems, processes, and data infrastructure that make marketing teams more effective and accountable."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Marketing Operations Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Marketing Operations Manager builds and maintains the systems, processes, and data infrastructure that enable a marketing team to execute effectively. While marketers focus on campaigns and content, marketing operations ensures that everything runs smoothly behind the scenes: data flows correctly between systems, leads are tracked and routed properly, and performance is measurable.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " operations, what the role involves day to day, and how strong marketing operations directly improve campaign performance and revenue outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#0ea5e9"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Marketing Operations builds the infrastructure that makes marketing measurable and scalable.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Settings",
+          "title": "Technology Stack Management",
+          "description": "Selecting, implementing, and maintaining the marketing technology stack. Ensuring tools integrate properly and data flows between them without manual intervention. Managing vendor relationships and platform renewals."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Process Design",
+          "description": "Creating standardized processes for campaign execution, lead management, data governance, and reporting. Documenting workflows so the team can execute consistently regardless of who is involved."
+        },
+        {
+          "icon": "Database",
+          "title": "Data Infrastructure",
+          "description": "Building and maintaining the data pipelines that connect marketing activities to business outcomes. Ensuring data quality, managing integrations, and creating the foundation for accurate reporting and analytics."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Reporting and Dashboards",
+          "description": "Building the reporting infrastructure that gives the marketing team and leadership visibility into performance. Creating dashboards that show the right metrics at the right level of detail for each audience."
+        },
+        {
+          "icon": "Shield",
+          "title": "Compliance and Governance",
+          "description": "Ensuring marketing operations comply with data privacy regulations and internal policies. Managing consent, data retention, and access controls across marketing systems."
+        },
+        {
+          "icon": "Zap",
+          "title": "Efficiency and Automation",
+          "description": "Identifying manual processes that can be automated to save time and reduce errors. Building internal tools and workflows that help the marketing team move faster without sacrificing quality."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to marketing operations starts with understanding how data moves through the organization. Every marketing operation challenge I have encountered ultimately comes back to data: it is missing, it is in the wrong format, it is in a system nobody checks, or it does not connect to the rest of the business. Fixing the data foundation fixes most operational problems.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have deep experience with ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-tag-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Tag Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for tracking implementation, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for web analytics, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/bigquery",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "BigQuery",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for data warehousing, and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/sql-for-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SQL",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for data analysis. This technical background means I can build the data infrastructure directly, not just specify requirements and hope someone else builds it correctly.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "In ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", the temptation is always to add more tools. Marketing operations should resist this. Every new tool adds complexity: new integrations to maintain, new data to reconcile, new vendors to manage, and new training for the team. Before adding a tool, I ask whether the problem can be solved by better using existing tools or by building a simple custom solution.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Process documentation is another area where I invest heavily. The difference between a marketing team that executes consistently and one that produces inconsistent results is almost always process quality. I create clear, written processes for every repeated activity: campaign launches, lead routing, data imports, reporting cycles, and vendor onboarding. These processes ensure quality even when team members change.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The relationship between marketing operations and the ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-analytics-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Marketing Analytics Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " role is particularly important. Operations provides the infrastructure. Analytics provides the insights. When these functions work well together, the marketing team has both reliable systems and accurate intelligence for making decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A systematic approach to building marketing operations that scale with the business.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Operations Audit",
+          "description": "Review existing marketing technology, data flows, processes, and pain points. Identify where the team loses time to manual work, where data breaks, and where process gaps create inconsistency."
+        },
+        {
+          "icon": "Map",
+          "title": "Architecture Design",
+          "description": "Design the target state for marketing operations: which tools stay, which go, how data flows between systems, and what processes need to be created or improved. Prioritize changes by impact and effort."
+        },
+        {
+          "icon": "Settings",
+          "title": "Build and Integrate",
+          "description": "Implement the changes in phases, starting with the highest impact improvements. Build integrations, automate manual processes, create documentation, and train the team on new workflows."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Maintain and Improve",
+          "description": "Marketing operations is ongoing work. Monitor system health, data quality, and process compliance. Make incremental improvements based on team feedback and changing business needs."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between marketing operations and marketing automation?",
+          "answer": "Marketing automation is one component of marketing operations. Marketing operations covers the full scope of systems, processes, data, and infrastructure that support the marketing function. This includes the automation platform, but also CRM integration, data warehousing, analytics, compliance, vendor management, and process design. A Marketing Automation Manager focuses on workflows and campaigns. A Marketing Operations Manager focuses on the entire operational foundation."
+        },
+        {
+          "question": "What technical skills does a Marketing Operations Manager need?",
+          "answer": "Strong proficiency in marketing automation platforms and CRM systems is essential. Data skills including SQL, spreadsheet modeling, and familiarity with data warehousing concepts. Understanding of APIs and integrations. Experience with tag management and analytics platforms. The role does not require software engineering skills, but the ability to work with technical teams and understand data architecture is critical."
+        },
+        {
+          "question": "How does marketing operations improve marketing ROI?",
+          "answer": "By reducing waste and improving measurement. Operations ensures that campaigns launch correctly, leads are tracked accurately, and performance data is reliable. When the marketing team can trust their data, they make better decisions about where to invest. When processes run efficiently, the team spends more time on high value work instead of manual data reconciliation and troubleshooting."
+        },
+        {
+          "question": "How do you handle marketing technology stack sprawl?",
+          "answer": "By establishing clear criteria for adding or keeping tools. Every tool in the stack should have a clear owner, a documented purpose, and measurable value. I conduct regular stack audits to identify tools that are underutilized, redundant, or no longer needed. Before approving a new tool, I require a business case that explains what problem it solves and why existing tools cannot handle it."
+        },
+        {
+          "question": "What is the relationship between marketing operations and sales operations?",
+          "answer": "These functions should work closely together, especially around lead management, CRM data, and shared reporting. Marketing operations owns the marketing technology stack and lead generation process. Sales operations owns the CRM and sales process. The overlap happens at lead handoff, shared data governance, and revenue reporting. In some organizations, both functions report to a single Revenue Operations leader."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "MarTech strategy and stack.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "Marketing Technology Manager",
+          "description": "MarTech stack leadership.",
+          "href": "/marketing-technology-manager"
+        },
+        {
+          "title": "Marketing Analytics Manager",
+          "description": "Data and analytics leadership.",
+          "href": "/marketing-analytics-manager"
+        },
+        {
+          "title": "Marketing Automation Manager",
+          "description": "Automation workflows.",
+          "href": "/marketing-automation-manager"
+        },
+        {
+          "title": "CRM Marketing Manager",
+          "description": "CRM strategy and execution.",
+          "href": "/crm-marketing-manager"
+        },
+        {
+          "title": "Google Tag Manager",
+          "description": "Tag management and tracking.",
+          "href": "/google-tag-manager"
+        },
+        {
+          "title": "Google Analytics 4",
+          "description": "Web and app analytics.",
+          "href": "/google-analytics-4"
+        },
+        {
+          "title": "BigQuery",
+          "description": "Marketing data warehouse.",
+          "href": "/bigquery"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Marketing Operations Expertise?",
+      "description": "I build the operational infrastructure that makes marketing teams more effective, data driven, and accountable.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#0ea5e9"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-technology-manager",
+      "marketing-analytics-manager",
+      "marketing-automation-manager",
+      "crm-marketing-manager"
+    ],
+    "tools": [
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery",
+      "sql-for-marketing",
+      "looker-studio"
+    ],
+    "topics": [
+      "what-is-marketing-technology",
+      "server-side-tracking-explained",
+      "marketing-technology-stack",
+      "data-driven-marketing"
+    ],
+    "relatedTopics": [
+      "marketing-technology",
+      "marketing-technology-manager",
+      "marketing-analytics-manager",
+      "marketing-automation-manager",
+      "crm-marketing-manager",
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery"
+    ]
+  },
+  "wordCount": 1430,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

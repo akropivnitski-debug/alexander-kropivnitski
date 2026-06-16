@@ -1,0 +1,526 @@
+{
+  "slug": "fractional-cmo",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Fractional CMO | Alexander Kropivnitski",
+    "description": "How I approach the fractional CMO role: part-time marketing leadership for companies that need strategic direction without a full-time executive hire."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Fractional CMO",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A Fractional CMO provides senior marketing leadership on a part time basis, typically working with multiple companies simultaneously. The role fills a gap that many growing businesses face: they need strategic marketing guidance at the executive level but cannot justify or afford a full time CMO salary.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach fractional marketing leadership, what makes it different from consulting or full time roles, and how companies can get maximum value from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " focused fractional CMO engagement.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#8b5cf6"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Fractional CMO provides strategic marketing leadership on a flexible, part time basis.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "Strategic Direction",
+          "description": "Setting the marketing strategy and ensuring it aligns with business goals. Defining target audiences, channel priorities, positioning, and growth targets. Providing the strategic thinking that drives all tactical decisions."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Development",
+          "description": "Building and mentoring the internal marketing team. Helping hire the right people, defining roles and responsibilities, and creating processes that work when the fractional CMO is not in the office."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Oversight",
+          "description": "Reviewing marketing performance against business metrics. Identifying what is working, what is not, and where to adjust. Bringing external benchmarks and cross industry experience to performance evaluation."
+        },
+        {
+          "icon": "Settings",
+          "title": "Vendor and Agency Management",
+          "description": "Evaluating, selecting, and managing external marketing partners. Ensuring agencies deliver results and stay aligned with the overall strategy. Many companies overpay for underperforming agency relationships."
+        },
+        {
+          "icon": "Target",
+          "title": "Budget Allocation",
+          "description": "Recommending how to allocate the marketing budget across channels, campaigns, and initiatives. Making tough decisions about where to invest and where to cut based on performance data."
+        },
+        {
+          "icon": "Layers",
+          "title": "Process and Systems Design",
+          "description": "Designing marketing operations processes that allow the team to execute effectively without constant senior oversight. Creating reporting frameworks, approval workflows, and planning cadences."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to fractional CMO work centers on rapid assessment and focused execution. When I join a company in this capacity, the first priority is understanding where marketing is today: what is working, what is not, and what the business actually needs marketing to deliver.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I focus on ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and data driven growth because these areas produce measurable results quickly. Companies hiring a fractional CMO typically need to see impact within the first quarter, not the first year. My experience with ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and paid channels gives me the ability to assess channel performance quickly and identify immediate optimization opportunities.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The fractional model works best when there is a clear internal team or set of vendors who handle day to day execution. My role is to set direction, review results, make strategic decisions, and develop the team. I typically work with a company two to three days per week, which means the team needs to be able to execute independently between sessions. Building that capability is a core part of my work.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One of the biggest advantages of a fractional CMO is cross company experience. I work with multiple businesses across different industries, which means I see what works broadly, not just within one company or market. This pattern recognition helps me identify opportunities and avoid mistakes that a first time CMO might not anticipate. When I see a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or marketing team struggling with attribution, for example, I have seen the same problem solved in different contexts and can recommend an approach quickly.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also help companies decide when they have outgrown the fractional model. At some point, a growing business needs a full time marketing leader. Part of my role is building the foundation that makes that transition smooth, including documenting the strategy, establishing processes, and potentially helping recruit my own replacement.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A structured approach to delivering marketing leadership impact on a part time schedule.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Rapid Assessment",
+          "description": "Evaluate current marketing performance, team capabilities, technology stack, and competitive position within the first two weeks. Identify quick wins and strategic gaps that need immediate attention."
+        },
+        {
+          "icon": "Map",
+          "title": "Strategic Roadmap",
+          "description": "Build a 90 day and 12 month marketing roadmap aligned to business goals. Define priorities, success metrics, and resource requirements. Present to leadership for alignment before execution begins."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Vendor Alignment",
+          "description": "Ensure the internal team and external partners are aligned on strategy and priorities. Adjust roles, reassign vendors, or make staffing recommendations as needed to execute the roadmap."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Execution Oversight",
+          "description": "Provide ongoing strategic guidance and performance review. Meet weekly with the team, review results monthly with leadership, and adjust the plan quarterly based on business performance."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many days per week does a fractional CMO typically work?",
+          "answer": "Most fractional CMO engagements involve two to three days per week. Some companies start with more intensive involvement during the first month to complete the assessment and build the roadmap, then reduce to a steady cadence. The right amount depends on how much internal execution capability already exists."
+        },
+        {
+          "question": "What is the difference between a fractional CMO and a marketing consultant?",
+          "answer": "A marketing consultant typically delivers advice and recommendations. A fractional CMO takes ownership of marketing outcomes. They attend leadership meetings, manage the marketing team, make budget decisions, and are accountable for results. The fractional CMO is part of the leadership team, not an outside advisor."
+        },
+        {
+          "question": "When should a company hire a fractional CMO versus a full time one?",
+          "answer": "Companies with annual marketing budgets under one million dollars or early stage companies building their first marketing function often benefit from fractional CMO support. They get senior strategic thinking without the cost of a full time executive. Once marketing spend, team size, and organizational complexity grow beyond what two to three days per week can manage, it is time for a full time hire."
+        },
+        {
+          "question": "Can a fractional CMO help with hiring a full time marketing leader?",
+          "answer": "Yes, and this is a common part of the engagement. The fractional CMO can define the role, write the job description, participate in interviews, and help onboard the new hire. Having someone who understands the company marketing needs deeply makes the hiring process more effective."
+        },
+        {
+          "question": "How does a fractional CMO handle confidentiality when working with multiple companies?",
+          "answer": "Professional boundaries are essential. I never share proprietary data, strategies, or competitive intelligence between clients. Client agreements include confidentiality terms. In practice, the overlap between companies is in general principles and frameworks, not specific tactics or data. What I learn from one engagement improves my general expertise without compromising any individual client."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition and growth strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Growth",
+          "description": "Growth leadership at scale.",
+          "href": "/head-of-growth"
+        },
+        {
+          "title": "Head of Marketing",
+          "description": "Full marketing function leadership.",
+          "href": "/head-of-marketing"
+        },
+        {
+          "title": "Director of Growth",
+          "description": "Data driven growth operations.",
+          "href": "/director-of-growth"
+        },
+        {
+          "title": "Director of Digital Marketing",
+          "description": "Digital channel leadership.",
+          "href": "/director-of-digital-marketing"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising management.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising expertise.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Bing search advertising.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for Part Time Marketing Leadership?",
+      "description": "I provide fractional CMO services focused on performance marketing, data driven growth, and building effective marketing teams.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#8b5cf6"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "small-business-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1458,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

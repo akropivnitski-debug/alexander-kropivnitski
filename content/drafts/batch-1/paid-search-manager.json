@@ -1,0 +1,614 @@
+{
+  "slug": "paid-search-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Paid Search Manager | Alexander Kropivnitski",
+    "description": "How I approach paid search management: keyword strategy, search campaign optimization, bidding, quality score improvement, and search engine marketing."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Paid Search Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A paid search manager specializes in search engine advertising, primarily on ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". This is one of the most technical and data intensive roles in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". The focus is on capturing demand from people who are actively searching for products, services, or information.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Paid search remains one of the highest converting digital advertising channels because it targets people with clear intent. Managing it well requires deep expertise in keyword strategy, match types, bidding algorithms, ad copy testing, and landing page optimization.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#3b82f6"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Paid search management requires specialized skills that differ from broader paid media management.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Keyword Strategy and Research",
+          "description": "Building comprehensive keyword lists based on search volume, competition, commercial intent, and relevance. Understanding how different match types behave and structuring keywords for maximum control and coverage."
+        },
+        {
+          "icon": "Sliders",
+          "title": "Bidding and Auction Management",
+          "description": "Setting and optimizing bids using manual CPC, target CPA, target ROAS, or maximize conversions strategies depending on account maturity and data volume. Understanding auction dynamics and bid modifiers."
+        },
+        {
+          "icon": "FileText",
+          "title": "Ad Copy Optimization",
+          "description": "Writing and testing responsive search ads, site links, callouts, and structured snippets. Good ad copy improves click through rate, quality score, and ultimately cost per conversion."
+        },
+        {
+          "icon": "Star",
+          "title": "Quality Score Management",
+          "description": "Improving quality scores through better ad relevance, expected click through rate, and landing page experience. Higher quality scores reduce cost per click and improve ad position."
+        },
+        {
+          "icon": "MinusCircle",
+          "title": "Negative Keyword Management",
+          "description": "Systematically reviewing search term reports and building negative keyword lists to prevent wasted spend on irrelevant searches. This is one of the most impactful ongoing optimization tasks in paid search."
+        },
+        {
+          "icon": "LayoutGrid",
+          "title": "Account Structure Design",
+          "description": "Organizing campaigns and ad groups in a way that aligns with business goals, allows for effective budget allocation, and gives bidding algorithms clean signals to optimize against."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to paid search is grounded in account structure and measurement. A well structured account with logical campaign segmentation and tight ad group themes gives you control and lets automated bidding work effectively. A poorly structured account creates noise that even the best algorithms cannot overcome.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have managed search campaigns across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for ecommerce, lead generation, and B2B businesses. The core principles are consistent across verticals: understand the search intent behind every keyword, match that intent to relevant ads and landing pages, and measure results against actual business outcomes rather than just clicks and impressions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Negative keyword management is one of the most underrated aspects of paid search. I have audited accounts where 20 to 30 percent of budget was going to irrelevant searches simply because no one was reviewing search term reports regularly. Fixing that alone can transform account performance overnight.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The paid search manager role is more specialized than a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/paid-media-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "paid media manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". While those roles cover multiple channels, a paid search manager goes deep on search engine advertising specifically. This depth allows for more sophisticated optimization in areas like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/a-b-testing-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "A/B testing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " ad variations, auction insights analysis, and impression share management.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Landing page quality is another area where paid search managers can make a real difference. The connection between keyword intent, ad message, and landing page experience directly affects quality score, conversion rate, and ultimately cost per acquisition. I work closely with design and development teams to ensure landing pages match the specific intent behind each keyword group rather than sending all search traffic to the same generic page. This alignment between search intent and page content is one of the most reliable ways to improve paid search performance.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Effective paid search management follows a structured approach from keyword research through ongoing optimization.",
+      "steps": [
+        {
+          "icon": "Database",
+          "title": "Keyword Foundation",
+          "description": "Build a comprehensive keyword map covering all relevant search terms, organized by intent and business priority. This foundation determines everything else in the account structure."
+        },
+        {
+          "icon": "Layout",
+          "title": "Account Architecture",
+          "description": "Structure campaigns and ad groups to align with keyword themes and business goals. Good structure allows for precise budget control, clear reporting, and effective automated bidding."
+        },
+        {
+          "icon": "PenTool",
+          "title": "Ad Copy and Extensions",
+          "description": "Write compelling ad copy that matches search intent, differentiate from competitors, and use all available ad extensions. Test multiple variations systematically."
+        },
+        {
+          "icon": "Gauge",
+          "title": "Ongoing Optimization",
+          "description": "Regular search term reviews, bid adjustments, quality score improvements, and performance analysis. Paid search requires consistent, disciplined attention to maintain and improve results over time."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between paid search and SEM?",
+          "answer": "SEM, or search engine marketing, is a broader term that historically included both paid search advertising and SEO. Today, SEM is commonly used as a synonym for paid search specifically. A paid search manager and an SEM manager typically do the same job: managing search engine advertising campaigns on platforms like Google Ads and Microsoft Ads."
+        },
+        {
+          "question": "How is paid search different from other paid media?",
+          "answer": "Paid search captures existing demand. When someone types a query into Google, they are actively looking for something. Other paid media channels like social, display, and video typically interrupt users who are not actively searching. This intent based targeting is why paid search often has the highest conversion rates and most predictable returns. The trade off is that search volume is finite. You can not create more demand through search, only capture what already exists."
+        },
+        {
+          "question": "What makes a good paid search manager?",
+          "answer": "Attention to detail, analytical thinking, and patience. Paid search optimization is a continuous process of testing, analyzing, and refining. The best paid search managers are comfortable working with data at a granular level, they check search term reports regularly, they test ad variations systematically, and they understand the connection between keyword intent, ad relevance, and landing page experience."
+        },
+        {
+          "question": "Is paid search still important with AI and automation?",
+          "answer": "Yes, but the role is evolving. Google and Microsoft have automated much of the bidding and targeting. However, human expertise is still essential for strategy, account structure, negative keyword management, creative direction, and interpreting results. Automation works best when given clean inputs and clear goals. The paid search manager role is shifting from manual bid management toward strategic oversight, but the need for search expertise is not going away."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Broader paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Multi channel campaign management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Paid Media Manager",
+          "description": "Cross platform media buying.",
+          "href": "/paid-media-manager"
+        },
+        {
+          "title": "SEM Manager",
+          "description": "Search engine marketing management.",
+          "href": "/sem-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "The primary search advertising platform.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising on Bing.",
+          "href": "/microsoft-ads"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth strategy.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "What Is Performance Marketing",
+          "description": "Overview of the discipline.",
+          "href": "/what-is-performance-marketing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need a Paid Search Specialist?",
+      "description": "If you are looking for someone with deep search advertising expertise, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#3b82f6"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1421,
+  "generatedAt": "2026-06-12T15:08:42.955Z"
+}

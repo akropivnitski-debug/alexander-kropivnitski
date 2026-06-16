@@ -1,0 +1,682 @@
+{
+  "slug": "head-of-marketing",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Head of Marketing | Alexander Kropivnitski",
+    "description": "How I approach the Head of Marketing role: leading the full marketing function including brand, performance, content, and operations with measurable business impact."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Head of Marketing",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Head of Marketing leads the entire marketing function for a company. Unlike a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-growth",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who focuses specifically on acquisition and revenue growth, or a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/director-of-digital-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director of Digital Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who manages online channels, the Head of Marketing owns the full scope: brand, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", content, communications, events, and marketing operations.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach marketing leadership, what the role involves, and how I balance brand building with measurable performance outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#dc2626"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Head of Marketing owns the full marketing function from strategy to execution to measurement.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "Marketing Strategy",
+          "description": "Setting the overall marketing strategy aligned with business goals, market positioning, and competitive dynamics. Defining target audiences, value propositions, channel mix, and investment priorities across the full marketing function."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Building and Management",
+          "description": "Hiring, developing, and leading a marketing team across multiple disciplines: performance, content, brand, and operations. Building the right team structure for the company stage and ensuring each team member has clear goals and growth paths."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget Ownership",
+          "description": "Managing the total marketing budget including headcount, tools, media spend, and program costs. Making allocation decisions across brand and performance activities based on business priorities and expected returns."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Revenue Accountability",
+          "description": "Owning marketing sourced pipeline and revenue targets. Connecting all marketing activities to business outcomes and reporting results to the executive team and board in business terms."
+        },
+        {
+          "icon": "Megaphone",
+          "title": "Brand and Positioning",
+          "description": "Defining and maintaining the company brand, messaging framework, and market positioning. Ensuring consistency across all marketing touchpoints while adapting messaging for different audiences and channels."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Cross Functional Leadership",
+          "description": "Working with sales, product, finance, and executive leadership to align marketing with broader company priorities. Bridging the gap between marketing activities and business outcomes across departments."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to marketing leadership starts with understanding the business deeply. Marketing strategy should be derived from business strategy, not the other way around. Before building a marketing plan, I need to understand the revenue targets, competitive landscape, product roadmap, sales process, and customer journey.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background, which gives me a strong analytical foundation. I apply that rigor to all marketing decisions, including brand investments that are traditionally harder to measure. While not everything can be attributed to a specific click, every marketing initiative should have a clear hypothesis about how it contributes to business outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Building the right team is the most impactful decision a Head of Marketing makes. I focus on hiring people who are strong in their specific disciplines, whether that is ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", content, or brand, and building a culture where collaboration across those disciplines happens naturally.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What distinguishes the Head of Marketing from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-growth",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/director-of-growth",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director of Growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is scope. Growth roles focus on acquisition and revenue optimization through data driven experimentation. The Head of Marketing covers that plus brand, communications, events, partnerships, and sometimes PR. The role requires balancing short term performance metrics with long term brand building, which creates a natural tension that requires careful management.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also place strong emphasis on ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " as an enabler. A well built martech stack with proper tracking and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " allows the team to make better decisions faster. Investing in measurement infrastructure early pays dividends across every other marketing initiative. Without good data, marketing leadership is guesswork. With good data, it is a strategic advantage.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Marketing leadership requires balancing strategic planning with team management and measurable execution.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Business and Market Assessment",
+          "description": "Understand the business goals, competitive landscape, customer segments, and sales process. Assess the current marketing team, tools, and performance baseline. Identify the biggest gaps and opportunities."
+        },
+        {
+          "icon": "Map",
+          "title": "Strategy and Planning",
+          "description": "Build a marketing strategy that aligns with business objectives. Define channel priorities, budget allocation, team structure, and success metrics. Present the plan to leadership with clear expected outcomes and investment requirements."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Execution",
+          "description": "Build or restructure the marketing team to match the strategy. Establish clear goals, processes, and accountability for each team member and function. Remove blockers and ensure the team has the resources to execute."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Measure and Report",
+          "description": "Track marketing performance against business targets. Report results to the executive team in business terms. Adjust strategy based on results and changing business needs. Build trust through consistent, transparent communication."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a Head of Marketing and a CMO?",
+          "answer": "The difference is primarily about company stage and scope. A CMO is typically a C level executive at a larger company with a large team and significant budget, often sitting on the executive committee. A Head of Marketing performs a similar function at a smaller company or as a senior leader reporting to the CEO. In practice, the responsibilities overlap significantly. The Head of Marketing role is common at startups and mid market companies that need marketing leadership but may not have the scale or budget for a full C suite position."
+        },
+        {
+          "question": "How does a Head of Marketing balance brand and performance?",
+          "answer": "This is one of the hardest parts of the role. Performance marketing delivers measurable short term results. Brand building creates long term value but is harder to measure. I approach this by allocating budget across both with clear expectations for each. Performance spend is measured by ROI and customer acquisition cost. Brand spend is measured by awareness, consideration, and share of voice metrics, with a longer evaluation timeline. Both are necessary for sustainable growth."
+        },
+        {
+          "question": "What background is best for becoming a Head of Marketing?",
+          "answer": "Strong Heads of Marketing come from various backgrounds: performance marketing, brand marketing, product marketing, or content marketing. The key is having depth in at least one area plus breadth across the others. In my case, performance marketing and marketing technology provide the analytical foundation, and I have developed brand and content skills over time. What matters most is the ability to think strategically, build teams, and connect marketing to business outcomes."
+        },
+        {
+          "question": "How does a Head of Marketing work with the sales team?",
+          "answer": "Closely and continuously. Marketing and sales alignment is critical for business success. I establish shared metrics like marketing qualified leads, sales accepted leads, and pipeline contribution. Regular meetings between marketing and sales leadership ensure feedback flows in both directions. Marketing needs to understand which leads convert and why. Sales needs to understand the positioning and messaging that marketing is using in the market."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Growth",
+          "description": "Growth focused leadership.",
+          "href": "/head-of-growth"
+        },
+        {
+          "title": "Director of Growth",
+          "description": "Growth at director level.",
+          "href": "/director-of-growth"
+        },
+        {
+          "title": "Director of Digital Marketing",
+          "description": "Digital channel leadership.",
+          "href": "/director-of-digital-marketing"
+        },
+        {
+          "title": "Fractional CMO",
+          "description": "Part time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Paid search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Paid social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Head of Marketing?",
+      "description": "If you need marketing leadership that combines strategic thinking with analytical rigor and team building, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#dc2626"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-growth",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "small-business-cmo",
+      "fractional-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-growth",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "small-business-cmo",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1485,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

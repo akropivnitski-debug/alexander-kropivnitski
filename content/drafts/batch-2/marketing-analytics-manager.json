@@ -1,0 +1,617 @@
+{
+  "slug": "marketing-analytics-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Marketing Analytics Manager | Alexander Kropivnitski",
+    "description": "How I approach marketing analytics: data analysis, attribution modeling, dashboard development, and turning marketing data into actionable business insights."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Marketing Analytics Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A marketing analytics manager turns marketing data into business insights. The role is about understanding what is working, what is not, and why. While a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " builds and maintains the tools and data infrastructure, the analytics manager focuses on interpreting the data those systems produce and guiding better marketing decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach marketing analytics, what skills the role requires, and how proper analytics connects marketing activity to business outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#7c3aed"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Marketing analytics combines data skills with marketing domain knowledge to drive better decisions.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "BarChart3",
+          "title": "Performance Analysis",
+          "description": "Analyzing marketing performance across all channels to identify trends, anomalies, and optimization opportunities. Going beyond surface level metrics to understand the drivers behind results and their business implications."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Attribution Modeling",
+          "description": "Building and maintaining attribution models that fairly credit marketing touchpoints for conversions. Understanding the limitations of different attribution approaches and choosing the right model for the business context."
+        },
+        {
+          "icon": "LineChart",
+          "title": "Dashboard Development",
+          "description": "Creating dashboards in Looker Studio, Tableau, or similar tools that give stakeholders the information they need for decision making. Good dashboards answer specific questions rather than displaying every available metric."
+        },
+        {
+          "icon": "Database",
+          "title": "Data Querying and Manipulation",
+          "description": "Writing SQL queries to extract, transform, and analyze marketing data from data warehouses like BigQuery. Joining data from multiple sources to create unified views of marketing performance."
+        },
+        {
+          "icon": "TestTube",
+          "title": "Experimentation Analysis",
+          "description": "Designing experiments, calculating required sample sizes, analyzing results with statistical rigor, and determining when results are significant enough to act on. Helping marketing teams make evidence based decisions."
+        },
+        {
+          "icon": "PieChart",
+          "title": "Budget and Forecasting",
+          "description": "Using historical data to forecast marketing performance at different budget levels, model scenarios for budget reallocation, and support investment decisions with data backed projections."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to marketing analytics is to focus on the questions that matter to the business rather than producing reports for their own sake. Every dashboard, analysis, and report should help someone make a better decision. If it does not, it is wasted effort.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I work with tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/bigquery",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "BigQuery",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/looker-studio",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Looker Studio",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/sql-for-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SQL",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to build the analytics infrastructure that marketers depend on. Getting the data foundation right is critical. Inaccurate data leads to bad decisions, and bad decisions at scale waste significant budget.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Attribution is the area of marketing analytics that has the biggest impact on budget allocation. Understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "how attribution works",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and where different models break down is essential for making fair budget decisions across channels. I have seen companies dramatically over invest in channels that appear to drive conversions but are actually getting credit for organic demand. Fixing attribution errors often unlocks more value than any campaign optimization.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What makes the marketing analytics manager role different from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is the focus on interpretation rather than infrastructure. The technology manager ensures data is collected and flows correctly. The analytics manager ensures data is understood and acted on correctly. Both roles require technical skills, but the analytics role leans more toward statistical thinking, business context, and communication of insights to non technical stakeholders.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also place strong emphasis on making analytics accessible to the marketing team rather than creating a bottleneck where every question requires an analyst to answer. Self service dashboards, well documented data definitions, and training marketing team members on basic data exploration all help the organization become more data driven without creating dependency on a single analytics person. Building this data literacy across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " teams is one of the most impactful things an analytics manager can do.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Marketing analytics follows a structured approach from question definition through analysis to action.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Understand the Questions",
+          "description": "Start by identifying what business questions need answering. Work with marketing leadership and channel managers to understand their decision making needs. The best analytics work starts with clear questions, not with data exploration."
+        },
+        {
+          "icon": "Database",
+          "title": "Build the Data Foundation",
+          "description": "Ensure data is being collected correctly, stored in accessible formats, and connected across sources. Write SQL queries and build data models that make recurring analyses efficient and reproducible."
+        },
+        {
+          "icon": "LineChart",
+          "title": "Analyze and Visualize",
+          "description": "Conduct analysis to answer the identified questions. Build dashboards that present insights clearly and update automatically. Focus on actionable metrics that drive decisions rather than comprehensive data dumps."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Communicate and Influence",
+          "description": "Present findings in language that non technical stakeholders understand. Make clear recommendations based on the data. Follow up to ensure insights are actually acted on and measure the impact of data driven decisions."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What technical skills does a marketing analytics manager need?",
+          "answer": "SQL is essential for querying data from warehouses and databases. Proficiency with a BI tool like Looker Studio or Tableau is important for dashboard creation. Understanding of Google Analytics 4 and its data model is standard. Basic statistical knowledge for experiment analysis and significance testing is valuable. Some marketing analytics managers also use Python or R for more advanced analysis, but SQL and BI tools cover most daily needs."
+        },
+        {
+          "question": "What is the difference between marketing analytics and business intelligence?",
+          "answer": "Marketing analytics focuses specifically on marketing data and marketing decisions. Business intelligence covers the entire business including finance, operations, sales, and product. In practice, a marketing analytics manager often pulls data from multiple business systems to create a complete picture of how marketing impacts business outcomes. The skills overlap significantly, but marketing analytics requires deep domain knowledge of marketing channels, attribution, and customer journeys."
+        },
+        {
+          "question": "How does a marketing analytics manager handle attribution in a multi touch world?",
+          "answer": "No single attribution model is perfect. I typically use a combination of approaches: platform reported attribution for channel level optimization, multi touch attribution models for cross channel analysis, and incrementality testing for validating the true impact of specific channels or campaigns. The key is being transparent about the limitations of each approach and not over relying on any single model for budget decisions."
+        },
+        {
+          "question": "How do you make analytics useful for non technical marketers?",
+          "answer": "Self service dashboards with clear labels and intuitive navigation are the starting point. I also invest time in training marketing team members on basic data exploration and interpretation. Creating a shared data dictionary so everyone uses the same definitions for metrics like conversion, lead, and revenue helps avoid confusion. The goal is to make data accessible enough that the analytics team can focus on complex analysis rather than answering basic reporting questions repeatedly."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "Broader martech expertise.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "Marketing Technology Manager",
+          "description": "Martech stack management.",
+          "href": "/marketing-technology-manager"
+        },
+        {
+          "title": "Marketing Automation Manager",
+          "description": "Automation platforms.",
+          "href": "/marketing-automation-manager"
+        },
+        {
+          "title": "Google Analytics 4",
+          "description": "Web analytics platform.",
+          "href": "/google-analytics-4"
+        },
+        {
+          "title": "BigQuery",
+          "description": "Data warehouse.",
+          "href": "/bigquery"
+        },
+        {
+          "title": "Looker Studio",
+          "description": "Dashboard and reporting.",
+          "href": "/looker-studio"
+        },
+        {
+          "title": "SQL for Marketing",
+          "description": "Data querying skills.",
+          "href": "/sql-for-marketing"
+        },
+        {
+          "title": "Attribution Modeling Explained",
+          "description": "How attribution works.",
+          "href": "/attribution-modeling-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Marketing Analytics Manager?",
+      "description": "If you need someone to turn your marketing data into actionable business insights, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#7c3aed"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-technology-manager",
+      "marketing-automation-manager",
+      "marketing-operations-manager",
+      "crm-marketing-manager"
+    ],
+    "tools": [
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery",
+      "sql-for-marketing",
+      "looker-studio"
+    ],
+    "topics": [
+      "what-is-marketing-technology",
+      "server-side-tracking-explained",
+      "marketing-technology-stack",
+      "data-driven-marketing"
+    ],
+    "relatedTopics": [
+      "marketing-technology",
+      "marketing-technology-manager",
+      "marketing-automation-manager",
+      "marketing-operations-manager",
+      "crm-marketing-manager",
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery"
+    ]
+  },
+  "wordCount": 1467,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

@@ -1,0 +1,614 @@
+{
+  "slug": "ecommerce-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Ecommerce Marketing Manager | Alexander Kropivnitski",
+    "description": "How I approach ecommerce marketing management: Google Shopping, product feed optimization, conversion rate optimization, and multi channel revenue growth."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Ecommerce Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "An ecommerce marketing manager is responsible for driving online revenue through a combination of paid media, organic traffic, email marketing, and conversion rate optimization. The role is similar to a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/digital-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "digital marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " but with a specific focus on product sales, shopping campaigns, and the metrics that matter in ecommerce: revenue, ROAS, average order value, and customer lifetime value.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Ecommerce marketing sits squarely within ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " because every activity can be tied directly to revenue. This page covers how I approach the role and what makes ecommerce marketing distinct from other marketing management positions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#f97316"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Ecommerce marketing management combines channel expertise with product and revenue focused strategy.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "ShoppingCart",
+          "title": "Shopping Campaign Management",
+          "description": "Managing Google Shopping, Meta product catalogs, and marketplace advertising. Understanding how product feeds power these campaigns and how feed quality directly impacts visibility and cost."
+        },
+        {
+          "icon": "Database",
+          "title": "Product Feed Optimization",
+          "description": "Improving product titles, descriptions, categories, images, and custom labels to increase search relevance and click through rates in shopping results. Feed quality is often the biggest lever in ecommerce advertising."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Conversion Rate Optimization",
+          "description": "Testing and improving the on site experience to increase the percentage of visitors who purchase. This includes product pages, cart flow, checkout process, and mobile experience."
+        },
+        {
+          "icon": "Mail",
+          "title": "Email and Lifecycle Marketing",
+          "description": "Building automated email flows for cart abandonment, post purchase follow up, win back campaigns, and promotional sequences. Email is often the highest ROI channel in ecommerce."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Revenue Analytics",
+          "description": "Tracking revenue by channel, product category, customer segment, and campaign. Understanding unit economics at the product and customer level to optimize marketing spend allocation."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Retention and Repeat Purchase",
+          "description": "Developing strategies to increase customer lifetime value through loyalty programs, personalized recommendations, and targeted re engagement campaigns."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to ecommerce marketing starts with the product feed. In my experience, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/product-feed-optimization",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "product feed optimization",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is the single most impactful thing you can do for ecommerce advertising. Better product titles, descriptions, and categories improve visibility in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-shopping",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Shopping",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " results and reduce wasted spend on irrelevant searches. I have seen feed improvements increase Shopping revenue by 30 to 50 percent without changing bids or budgets.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Beyond the feed, I focus on the full customer journey from ad click to purchase and beyond. This means coordinating ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " campaigns with on site experience, email flows, and retention programs. Ecommerce marketing is most effective when all these pieces work together rather than being managed in isolation.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One area I pay close attention to is understanding the real profitability of campaigns, not just the top line ROAS number. After accounting for product costs, shipping, returns, and customer service, a campaign that looks profitable at first glance may not be. This is why understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and having clear unit economics is essential for ecommerce marketing decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The ecommerce marketing manager role is more revenue focused than a general ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " role. Everything ties back to sales, margins, and customer lifetime value. That focus makes it easier to prove marketing ROI but also raises the bar for accountability.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Marketplace management is another dimension of ecommerce marketing that many companies overlook. Selling on Amazon, Cdiscount, or other marketplace platforms requires separate strategies for product listings, advertising, and pricing. Managing the balance between direct website sales and marketplace sales is an ongoing strategic decision. I have helped companies navigate this by treating each sales channel as its own profit center with dedicated marketing attention while maintaining a coherent overall brand and pricing strategy across all channels.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Ecommerce marketing management follows a structured approach focused on revenue at every step.",
+      "steps": [
+        {
+          "icon": "Database",
+          "title": "Feed and Catalog Audit",
+          "description": "Review product feeds for completeness, accuracy, and optimization opportunities. Fix missing attributes, improve titles and descriptions, and set up custom labels for better campaign segmentation."
+        },
+        {
+          "icon": "ShoppingCart",
+          "title": "Campaign Structure",
+          "description": "Build shopping and search campaigns structured around product categories, margins, and performance tiers. Ensure bid strategies align with the profitability of each product segment."
+        },
+        {
+          "icon": "Mail",
+          "title": "Lifecycle Automation",
+          "description": "Set up or optimize automated email flows for cart abandonment, welcome series, post purchase, and win back. These flows generate revenue with minimal ongoing effort once built correctly."
+        },
+        {
+          "icon": "TestTube",
+          "title": "Test and Optimize",
+          "description": "Continuously test product pages, checkout flow, ad creative, and campaign settings. Ecommerce optimization is an ongoing process, not a one time setup."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the most important skill for an ecommerce marketing manager?",
+          "answer": "Understanding product feed optimization and how it connects to advertising performance. Many ecommerce marketers focus on bidding and targeting while neglecting the feed, which is the foundation of shopping campaigns. Beyond that, analytical skills and the ability to connect marketing spend to actual profitability, after accounting for product costs and returns, separates good ecommerce marketers from great ones."
+        },
+        {
+          "question": "How does ecommerce marketing differ from other digital marketing?",
+          "answer": "The biggest difference is the direct connection to revenue. Every marketing activity in ecommerce can be measured against sales, margins, and customer value. This makes the role more accountable but also more rewarding when things go well. Ecommerce marketing also involves specific tools and channels like product feeds, shopping campaigns, and marketplace advertising that do not exist in other types of digital marketing."
+        },
+        {
+          "question": "Which channels matter most in ecommerce marketing?",
+          "answer": "Google Shopping is typically the highest performing channel for product sales. Paid search captures high intent product searches. Meta Ads works well for discovery and retargeting. Email marketing often has the highest ROI for repeat purchases. SEO builds long term organic traffic to product and category pages. The right mix depends on the products, price point, and target audience."
+        },
+        {
+          "question": "How do you handle seasonality in ecommerce?",
+          "answer": "Planning ahead is essential. I build annual marketing calendars that account for seasonal peaks like Black Friday, holiday periods, and industry specific seasons. Budget allocation shifts significantly during these periods. I also prepare product feeds, ad creative, and email campaigns well in advance of peak periods. Trying to set up campaigns during the rush leads to poor results."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Broader paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Multi channel campaign management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth including retention.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search and shopping advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Google Shopping",
+          "description": "Product listing ads.",
+          "href": "/google-shopping"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Product Feed Optimization",
+          "description": "Improving shopping feed quality.",
+          "href": "/product-feed-optimization"
+        },
+        {
+          "title": "What Is Performance Marketing",
+          "description": "The discipline explained.",
+          "href": "/what-is-performance-marketing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for an Ecommerce Marketing Manager?",
+      "description": "If you need someone to drive ecommerce revenue through data driven marketing, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#f97316"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1372,
+  "generatedAt": "2026-06-12T15:08:42.955Z"
+}

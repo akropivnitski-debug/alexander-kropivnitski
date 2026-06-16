@@ -1,0 +1,590 @@
+{
+  "slug": "digital-strategy-consultant",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Digital Strategy Consultant | Alexander Kropivnitski",
+    "description": "How I approach digital strategy consulting: helping companies build effective digital marketing programs across channels, from paid advertising to analytics and marketing technology."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Digital Strategy Consultant",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A Digital Strategy Consultant helps companies plan and execute their digital marketing presence across channels, platforms, and technologies. The role covers everything from ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " channel selection and budget allocation to analytics infrastructure and digital team structure.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach digital strategy consulting, what separates strategic digital advice from tactical campaign management, and how companies benefit from having a structured digital strategy before investing in execution.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#6366f1"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Digital Strategy Consulting helps companies build effective, integrated digital marketing programs.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Compass",
+          "title": "Digital Strategy Development",
+          "description": "Building comprehensive digital strategies that align with business objectives. Defining which digital channels to invest in, what each channel should deliver, and how they work together as an integrated program."
+        },
+        {
+          "icon": "Search",
+          "title": "Digital Maturity Assessment",
+          "description": "Evaluating a company current digital marketing capabilities across channels, technology, data, and team. Identifying gaps between current state and where the business needs to be to achieve its growth goals."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Channel Performance Analysis",
+          "description": "Analyzing the performance of existing digital channels against benchmarks and potential. Identifying which channels are underperforming and where additional investment would produce the best returns."
+        },
+        {
+          "icon": "Settings",
+          "title": "Technology Recommendations",
+          "description": "Advising on the digital marketing technology stack including analytics, advertising platforms, automation tools, and data infrastructure. Recommending tools that match the company needs and capabilities."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Capability Building",
+          "description": "Advising on digital marketing team structure, skill requirements, and hiring priorities. Helping companies decide what to build in house versus outsource to agencies or freelancers."
+        },
+        {
+          "icon": "Map",
+          "title": "Digital Roadmap Creation",
+          "description": "Creating prioritized implementation roadmaps that sequence digital marketing investments for maximum impact. Balancing quick wins with longer term strategic initiatives."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to digital strategy starts with the business objectives, not the digital tactics. Many companies approach digital marketing channel by channel: we need a Google Ads strategy, we need a social media strategy, we need a content strategy. This leads to fragmented execution without a unifying direction. I start by defining what the business needs from digital marketing overall, then build the channel strategy to support those goals.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I bring hands on experience with ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " channels including ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ". This practical background means my strategy recommendations are grounded in operational reality. I know what channels can deliver, what they cost, and what infrastructure they require because I have managed them directly.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The analytics and measurement strategy is a critical part of every digital strategy engagement. Without proper ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " implementation, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution modeling",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and reporting infrastructure, companies cannot evaluate whether their digital investments are working. I build measurement frameworks as part of the strategy, not as an afterthought.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Integration is the biggest opportunity in most digital strategies. Companies often run channels independently: the paid team does not coordinate with the SEO team, email marketing does not use paid audience data, and content strategy is disconnected from search intent research. I design strategies that create these connections, so each channel amplifies the others rather than operating in isolation.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also help companies avoid two common mistakes in digital strategy. The first is spreading budget too thin across too many channels. A focused strategy that does two or three channels well beats a scattered approach that does eight channels poorly. The second is chasing trends. Not every new platform or feature deserves investment. I help companies evaluate new digital opportunities against clear criteria before committing resources.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A structured approach to building digital strategies that connect business goals to measurable digital outcomes.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Digital Audit",
+          "description": "Comprehensive review of current digital marketing activities, performance, technology, and team capabilities. Benchmark against industry standards and competitor activity. Identify the biggest opportunities and gaps."
+        },
+        {
+          "icon": "Compass",
+          "title": "Strategy Development",
+          "description": "Define the digital strategy: target audiences, channel priorities, budget allocation, measurement framework, and technology requirements. Create a strategy that is specific, actionable, and aligned with business goals."
+        },
+        {
+          "icon": "Map",
+          "title": "Implementation Roadmap",
+          "description": "Prioritize strategy elements into a phased roadmap. Define quick wins for immediate impact and longer term initiatives for sustained growth. Specify resource requirements and timelines for each phase."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Execution Guidance",
+          "description": "Support the team during implementation with ongoing advisory, performance reviews, and strategy adjustments. Ensure execution stays aligned with the strategic direction."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a digital strategy consultant and a digital marketing agency?",
+          "answer": "A digital strategy consultant works at the strategic level: defining what to do, where to invest, and how to measure success. An agency executes: managing campaigns, creating content, and running platforms. Some companies need both. The consultant defines the strategy and the agency executes it. Others have internal teams for execution and only need strategic guidance."
+        },
+        {
+          "question": "How does digital strategy consulting differ from growth strategy consulting?",
+          "answer": "Growth strategy consulting covers all growth levers including product, pricing, partnerships, and marketing. Digital strategy consulting focuses specifically on the digital marketing program: channels, technology, analytics, and digital team capabilities. Digital strategy is often one component of a broader growth strategy. Companies with primarily digital business models may find the two overlap significantly."
+        },
+        {
+          "question": "What deliverables come out of a digital strategy engagement?",
+          "answer": "A comprehensive digital strategy document covering channel strategy, budget allocation, and success metrics. A technology assessment with recommendations. A measurement framework including tracking requirements and reporting structure. A prioritized implementation roadmap with timelines and resource requirements. All deliverables are designed to be actionable by the internal team or agencies."
+        },
+        {
+          "question": "How often should a company update its digital strategy?",
+          "answer": "The foundational strategy should be reviewed annually. Tactical adjustments should happen quarterly based on performance data. Major market changes, new product launches, or significant competitive shifts may require ad hoc strategy updates. The measurement framework built into the strategy provides the data needed to know when adjustments are required."
+        },
+        {
+          "question": "What is the minimum digital marketing budget for strategy consulting to be worthwhile?",
+          "answer": "Companies spending less than a few thousand per month on digital marketing may not need consulting. The strategy matters most when the stakes are higher: annual digital budgets above 100,000 or companies planning significant growth in digital investment. The consulting investment should be proportional to the marketing spend it influences. A strategy engagement that improves ROI on a large budget pays for itself quickly."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Campaign management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Growth and experimentation.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "New user growth.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Bing search advertising.",
+          "href": "/microsoft-ads"
+        },
+        {
+          "title": "Attribution Modeling",
+          "description": "Revenue attribution.",
+          "href": "/attribution-modeling-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Digital Strategy Guidance?",
+      "description": "I help companies build integrated digital marketing strategies that connect business goals to measurable outcomes across channels.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#6366f1"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1397,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

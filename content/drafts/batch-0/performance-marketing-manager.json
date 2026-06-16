@@ -1,0 +1,306 @@
+{
+  "slug": "performance-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Performance Marketing Manager | Alexander Kropivnitski",
+    "description": "Learn how I approach the performance marketing manager role, including strategy, tools, measurement, execution, and business impact."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Performance Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "A performance marketing manager is responsible for planning, executing, and optimizing paid digital campaigns across multiple channels. The role sits at the intersection of data, creative strategy, and business outcomes. Everything in this role comes back to measurable results: cost efficiency, revenue contribution, customer acquisition cost, and scalable "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/growth-marketing-explained", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "growth" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "This page explains how I approach the role, what skills matter most in practice, and how "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/performance-marketing", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "performance marketing" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " fits into a broader business context. Whether you are a recruiter evaluating candidates, a hiring manager defining the role, or someone considering this career path, this page should give you a clear picture of what the job actually involves."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The day to day of a performance marketing manager covers a wide range of responsibilities, from campaign setup to strategic budget decisions. Here are the core areas.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Target",
+          "title": "Campaign Strategy and Planning",
+          "description": "Defining channel mix, audience segmentation, budget allocation, and campaign timelines based on business objectives and current market conditions. This includes selecting which platforms to invest in, setting performance targets for each channel, and building a testing roadmap."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Analysis and Reporting",
+          "description": "Monitoring key performance indicators daily, building dashboards that actually get used, identifying trends early, and translating data into clear recommendations for stakeholders. The best reports connect marketing metrics to business outcomes, not just platform metrics."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget Management and Forecasting",
+          "description": "Allocating spend across channels based on performance signals, adjusting budgets when results change, and forecasting return at different investment levels. Getting this right means understanding diminishing returns and knowing when to shift spend rather than simply increasing it."
+        },
+        {
+          "icon": "Layers",
+          "title": "Multi Channel Execution",
+          "description": "Running campaigns across Google Ads, Meta Ads, Microsoft Ads, programmatic platforms, and other channels simultaneously while maintaining efficiency. Each platform has different optimization levers, and a good performance marketing manager knows which ones to pull and when."
+        },
+        {
+          "icon": "TestTube",
+          "title": "Testing and Experimentation",
+          "description": "Designing structured A/B tests for creatives, landing pages, audiences, and bidding strategies. Testing is not optional in this role. It is how you find what works and avoid making decisions based on assumptions or gut feeling."
+        },
+        {
+          "icon": "Users",
+          "title": "Cross Team Collaboration",
+          "description": "Working with creative teams on ad assets, with product teams on landing pages, with analytics teams on tracking and measurement, and with sales teams on lead quality feedback. Performance marketing does not happen in isolation. Results depend on alignment across departments."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "I approach performance marketing with a strong emphasis on measurement first. Before scaling any campaign, I make sure tracking is accurate, attribution is understood, and reporting reflects what actually happened. Too many teams spend aggressively without knowing which channels are genuinely contributing to revenue. In my experience, fixing measurement issues often has a bigger impact than changing bidding strategies."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "My background spans both hands on execution and strategic planning. I have managed campaigns across "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/google-ads", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Google Ads" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": ", "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/meta-ads", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Meta Ads" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": ", and "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/microsoft-ads", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Microsoft Ads" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " in markets across Europe, North America, and the Middle East. The biggest performance gains rarely come from bidding adjustments alone. They come from improving the full funnel: product feeds, landing pages, audience quality, and creative relevance. Getting all of these working together is what separates good campaigns from great ones."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "The role of a performance marketing manager is different from a "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/senior-performance-marketing-manager", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "senior performance marketing manager" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " in that the focus is more tactical. You are the person building campaigns, managing daily optimizations, and troubleshooting performance issues directly. Strategy matters, but execution is the core of the job. A performance marketing manager who can not get into an account and make changes is missing the most important part of the role."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "I also believe strongly in understanding "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/attribution-modeling-explained", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "attribution" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " before scaling spend. Every ad platform will tell you it drove the conversion. The truth is usually more nuanced. A good performance marketing manager knows how to look beyond platform reported numbers and understand what is actually incremental."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A practical breakdown of how I structure performance marketing work from initial assessment to ongoing optimization.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Audit and Assess",
+          "description": "I start by reviewing the current account structure, tracking setup, and historical performance data. Understanding what has been tried before is essential for avoiding repeated mistakes. Most accounts have hidden inefficiencies that only show up once you look at the data with fresh eyes. I also review the competitive landscape to understand what others in the market are doing."
+        },
+        {
+          "icon": "Layout",
+          "title": "Structure and Build",
+          "description": "Once the audit is complete, I restructure campaigns around clear business goals. This includes audience segmentation, keyword grouping, creative mapping, and budget allocation across channels. Good structure makes ongoing optimization significantly easier. A poorly structured account creates noise that makes it hard to identify what is actually working."
+        },
+        {
+          "icon": "Gauge",
+          "title": "Launch and Monitor",
+          "description": "Campaigns go live with tight monitoring during the initial learning period. I check performance signals frequently in the first two to three weeks and make tactical adjustments to bids, audiences, and placements based on real data rather than assumptions. This phase is about gathering enough data to make informed decisions."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Optimize and Scale",
+          "description": "Once a campaign finds traction, the focus shifts to testing new creatives, expanding audiences, and increasing budgets on proven segments. Scaling responsibly means keeping efficiency stable while growing volume. It does not mean simply spending more. I look for the point where incremental spend stops producing incremental returns and adjust accordingly."
+        },
+        {
+          "icon": "FileText",
+          "title": "Report and Refine",
+          "description": "Regular reporting ties campaign results back to business outcomes. I build reports that stakeholders can actually use to make decisions, not vanity metric dashboards. This step feeds back into the strategy, informing which channels deserve more investment and which need restructuring or pausing."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What does a performance marketing manager do on a typical day?",
+          "answer": "A typical day involves checking campaign performance across platforms, making bid and budget adjustments, reviewing creative test results, analyzing conversion data, and coordinating with other teams on upcoming launches or landing page updates. Some days lean more toward strategy and planning, others toward execution and troubleshooting. The balance depends on campaign maturity and business needs."
+        },
+        {
+          "question": "What is the difference between performance marketing and growth marketing?",
+          "answer": "Performance marketing focuses primarily on paid acquisition channels with clear, measurable outcomes like cost per acquisition and return on ad spend. Growth marketing takes a broader view, covering the full customer lifecycle including retention, activation, and product led growth. A growth marketing manager may work across paid, organic, email, and product channels simultaneously. In practice, the two roles often overlap, but the performance marketing manager role tends to be more focused on paid media execution and optimization."
+        },
+        {
+          "question": "Which tools does a performance marketing manager use most?",
+          "answer": "The core tools include Google Ads, Meta Ads Manager, Google Analytics 4, and a spreadsheet or BI tool for reporting and analysis. Beyond that, tools like Google Tag Manager for tracking implementation, Looker Studio for dashboard visualization, and product feed management platforms for shopping campaigns are common additions. The specific stack depends on the business, the channels being used, and the scale of the campaigns being managed."
+        },
+        {
+          "question": "How do you measure success in performance marketing?",
+          "answer": "Success depends entirely on the business goal. For ecommerce, return on ad spend and cost per acquisition are the primary metrics. For lead generation, cost per qualified lead and pipeline contribution matter more. I always try to connect campaign performance back to actual business outcomes, not just platform reported metrics. Click through rates and impressions tell part of the story, but revenue and profitability tell the complete story."
+        },
+        {
+          "question": "Can a performance marketing manager work remotely?",
+          "answer": "Yes. Performance marketing is highly suited to remote work. The tools are all cloud based, collaboration happens through shared dashboards and regular check ins, and results are measured by output and impact rather than hours at a desk. I have worked remotely across multiple time zones with teams in Europe, North America, and the Middle East. The quality and speed of work is no different than being in an office, provided communication and reporting structures are solid."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        { "title": "Performance Marketing", "description": "My core expertise in paid digital marketing strategy and execution.", "href": "/performance-marketing" },
+        { "title": "Senior Performance Marketing Manager", "description": "The senior role with broader strategic and team responsibilities.", "href": "/senior-performance-marketing-manager" },
+        { "title": "Growth Marketing Manager", "description": "A related role covering the full customer lifecycle beyond paid media.", "href": "/growth-marketing-manager" },
+        { "title": "User Acquisition Manager", "description": "Focused on driving new user growth through paid acquisition channels.", "href": "/user-acquisition-manager" },
+        { "title": "Paid Media Manager", "description": "Specialized in media buying, budget allocation, and platform expertise.", "href": "/paid-media-manager" },
+        { "title": "Google Ads", "description": "The primary platform for search and shopping advertising.", "href": "/google-ads" },
+        { "title": "Meta Ads", "description": "Paid social advertising across Facebook and Instagram.", "href": "/meta-ads" },
+        { "title": "Microsoft Ads", "description": "Search and audience advertising on the Microsoft network.", "href": "/microsoft-ads" }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Interested in Working Together?",
+      "description": "If you are looking for a performance marketing manager or want to discuss how I could help with your paid media strategy, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": ["senior-performance-marketing-manager", "growth-marketing-manager", "user-acquisition-manager", "paid-media-manager", "paid-search-manager"],
+    "tools": ["google-ads", "meta-ads", "microsoft-ads", "google-shopping", "product-feed-optimization"],
+    "topics": ["what-is-performance-marketing", "growth-marketing-explained", "attribution-modeling-explained", "a-b-testing-explained"],
+    "relatedTopics": ["performance-marketing", "senior-performance-marketing-manager", "growth-marketing-manager", "user-acquisition-manager", "paid-media-manager", "google-ads", "meta-ads", "microsoft-ads"]
+  },
+  "wordCount": 1250,
+  "generatedAt": "2026-06-12T17:15:00.000Z"
+}

@@ -1,0 +1,617 @@
+{
+  "slug": "organic-growth-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Organic Growth Manager | Alexander Kropivnitski",
+    "description": "How I approach organic growth management: combining SEO, content marketing, community building, and partnerships to drive sustainable growth without paid media dependency."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Organic Growth Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "An organic growth manager drives sustainable business growth through channels that do not require ongoing advertising spend. The role combines ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", content marketing, community building, partnerships, and sometimes referral programs into a cohesive strategy. Unlike an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who focuses primarily on search engine optimization, an organic growth manager takes a broader view of all non paid growth levers.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach organic growth, what makes it different from SEO management, and how organic channels can reduce a company's dependency on paid acquisition over time.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#059669"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Organic growth management spans multiple non paid channels with a focus on sustainable, compounding results.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "TrendingUp",
+          "title": "Organic Channel Strategy",
+          "description": "Identifying and prioritizing the organic channels that have the highest potential for the specific business: search, content, social, email, referrals, partnerships, or community. Not every organic channel works for every business. The strategy should focus resources on what actually drives results."
+        },
+        {
+          "icon": "FileText",
+          "title": "Content Led Growth",
+          "description": "Building content programs that attract qualified traffic and convert visitors into customers or leads. This goes beyond blog posts to include tools, templates, guides, comparison pages, and any content format that addresses what potential customers are actually searching for."
+        },
+        {
+          "icon": "Search",
+          "title": "SEO as a Growth Foundation",
+          "description": "Using organic search as the primary discovery channel for content. Keyword research, on page optimization, technical SEO, and link building remain core skills but are applied within the context of a broader growth strategy."
+        },
+        {
+          "icon": "Users",
+          "title": "Community and Partnerships",
+          "description": "Building relationships with industry communities, complementary businesses, and influencers that create sustainable referral traffic. These channels take longer to build but often produce the highest quality leads with the lowest acquisition cost."
+        },
+        {
+          "icon": "Mail",
+          "title": "Email and Owned Channels",
+          "description": "Growing and nurturing an email list as an owned audience that does not depend on algorithm changes or platform policies. Building email programs that drive repeat engagement and conversions over time."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Organic Attribution and Measurement",
+          "description": "Tracking the contribution of organic channels to business outcomes. Understanding how organic touchpoints influence the customer journey even when they are not the last click before conversion."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to organic growth starts with understanding which channels have the highest potential for the specific business. Not every company should invest heavily in SEO. Not every company needs a community strategy. The right organic growth plan depends on the target audience, the product, the competitive landscape, and the resources available.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have a strong foundation in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", which is typically the highest volume organic channel. I use tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-search-console",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Search Console",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/ahrefs",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Ahrefs",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/semrush",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Semrush",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to research opportunities, track performance, and optimize content. But I also look beyond search to identify organic channels that competitors are not fully exploiting.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Content is the connective tissue of most organic growth strategies. I focus on creating content that serves a specific purpose in the customer journey rather than producing content for volume. Each piece should either attract new visitors, educate potential customers, or support existing customers. Content without a clear purpose wastes resources and dilutes the overall quality of the site.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What makes the organic growth manager role distinct from an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-specialist",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO specialist",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is the breadth of channels and the focus on sustainability. Organic growth compounds over time. A blog post published today can generate traffic for years. An email list built this quarter generates revenue next quarter and beyond. A community relationship established now produces referrals indefinitely. This compounding effect is the fundamental advantage of organic over paid acquisition.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also believe strongly in reducing paid media dependency as a strategic objective. Companies that rely entirely on paid channels for growth are vulnerable to rising costs, algorithm changes, and competitive pressure. Building organic channels creates a more resilient growth engine. That does not mean eliminating paid media, but rather building a balanced portfolio where organic channels contribute a meaningful share of acquisition.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Organic growth management follows a strategic approach focused on building sustainable, compounding growth.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Channel Assessment",
+          "description": "Evaluate all potential organic channels for the business. Assess current organic performance, competitive landscape, audience behavior, and resource constraints. Identify the two or three channels with the highest potential impact and focus resources there."
+        },
+        {
+          "icon": "FileText",
+          "title": "Content and SEO Foundation",
+          "description": "Build the content and SEO infrastructure needed for organic discovery. This includes keyword targeted content, technical SEO foundations, and the publishing processes needed to sustain consistent output over time."
+        },
+        {
+          "icon": "Users",
+          "title": "Distribution and Relationships",
+          "description": "Develop distribution channels beyond search including email lists, community engagement, partnerships, and social presence. These channels amplify content reach and create direct relationships with the audience."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Measure and Compound",
+          "description": "Track organic growth metrics across all channels, identify what is working, and double down on successful strategies. Organic growth is a long game. Consistent effort over months produces compounding results that paid channels cannot replicate."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between an organic growth manager and an SEO manager?",
+          "answer": "An SEO manager focuses specifically on organic search engine optimization: rankings, traffic from Google and Bing, technical SEO, and link building. An organic growth manager takes a broader view that includes SEO but also encompasses content marketing, email marketing, community building, partnerships, and other non paid growth channels. The organic growth manager role is about growing the business through any channel that does not require ongoing advertising spend."
+        },
+        {
+          "question": "How long does organic growth take to show results?",
+          "answer": "Organic growth typically shows meaningful results within three to six months, with compounding returns over one to two years. SEO improvements can take a few weeks to a few months depending on the specific changes. Content marketing requires several months of consistent publishing before traffic reaches meaningful levels. Email lists and community channels grow gradually but accelerate over time. The key advantage of organic growth is that results compound, unlike paid channels where performance resets when you stop spending."
+        },
+        {
+          "question": "Does an organic growth manager replace the need for paid marketing?",
+          "answer": "Not usually, especially in the short term. Organic growth takes time to build momentum. Paid channels provide immediate results while organic channels ramp up. The ideal scenario is a balanced portfolio where paid channels drive near term growth while organic channels build long term sustainability. Over time, as organic channels mature, the business becomes less dependent on paid acquisition, which improves overall unit economics and resilience."
+        },
+        {
+          "question": "What metrics does an organic growth manager track?",
+          "answer": "The primary metrics are organic traffic by channel, organic conversion rate, customer acquisition cost from organic sources, and the percentage of total revenue attributable to organic channels. I also track leading indicators like keyword rankings, content publication velocity, email list growth rate, and referral traffic trends. The goal is always to connect organic activity to business outcomes, not just traffic or engagement metrics."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "SEO",
+          "description": "Core organic search optimization.",
+          "href": "/seo"
+        },
+        {
+          "title": "SEO Manager",
+          "description": "Focused organic search management.",
+          "href": "/seo-manager"
+        },
+        {
+          "title": "Senior SEO Manager",
+          "description": "Strategic SEO leadership.",
+          "href": "/senior-seo-manager"
+        },
+        {
+          "title": "Technical SEO Specialist",
+          "description": "Technical search optimization.",
+          "href": "/technical-seo-specialist"
+        },
+        {
+          "title": "SEO Specialist",
+          "description": "Hands on SEO execution.",
+          "href": "/seo-specialist"
+        },
+        {
+          "title": "Google Search Console",
+          "description": "Organic search monitoring.",
+          "href": "/google-search-console"
+        },
+        {
+          "title": "Ahrefs",
+          "description": "SEO and content research.",
+          "href": "/ahrefs"
+        },
+        {
+          "title": "Semrush",
+          "description": "Competitive intelligence.",
+          "href": "/semrush"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for an Organic Growth Manager?",
+      "description": "If you want to build sustainable growth channels that reduce paid media dependency, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#059669"
+    }
+  ],
+  "internalLinks": {
+    "parent": "seo",
+    "siblings": [
+      "seo-manager",
+      "senior-seo-manager",
+      "technical-seo-specialist",
+      "seo-specialist"
+    ],
+    "tools": [
+      "google-search-console",
+      "ahrefs",
+      "semrush",
+      "screaming-frog",
+      "technical-seo"
+    ],
+    "topics": [
+      "what-is-seo",
+      "technical-seo-explained",
+      "technical-seo-approach",
+      "website-performance-optimization"
+    ],
+    "relatedTopics": [
+      "seo",
+      "seo-manager",
+      "senior-seo-manager",
+      "technical-seo-specialist",
+      "seo-specialist",
+      "google-search-console",
+      "ahrefs",
+      "semrush"
+    ]
+  },
+  "wordCount": 1582,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

@@ -1,0 +1,589 @@
+{
+  "slug": "crm-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "CRM Marketing Manager | Alexander Kropivnitski",
+    "description": "How I approach the CRM marketing manager role: using customer data to build personalized marketing programs that improve retention, conversion, and customer lifetime value."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "CRM Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The CRM Marketing Manager uses customer data stored in the CRM system to build targeted, personalized marketing programs. The role combines ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " expertise with customer insight to create communication that is relevant to each customer based on their behavior, preferences, and relationship with the company.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach CRM marketing, what distinguishes it from general email marketing, and how effective CRM programs improve customer retention and revenue.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#14b8a6"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "CRM Marketing turns customer data into personalized programs that drive retention and revenue.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Database",
+          "title": "CRM Data Strategy",
+          "description": "Defining what customer data to collect, how to structure it, and how to keep it clean. Building the data foundation that makes all CRM marketing programs possible. Without good data, even the best campaigns underperform."
+        },
+        {
+          "icon": "Users",
+          "title": "Audience Segmentation",
+          "description": "Creating customer segments based on purchase history, engagement level, demographics, and behavioral signals. Building segments that are actionable for marketing campaigns and meaningful for business decisions."
+        },
+        {
+          "icon": "Mail",
+          "title": "Personalized Campaigns",
+          "description": "Designing marketing campaigns that use CRM data to deliver personalized messages. Moving beyond basic name insertion to true personalization based on customer behavior and preferences."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Customer Journey Automation",
+          "description": "Building automated communication flows triggered by customer actions. Welcome series, post purchase follow ups, reengagement campaigns, and milestone communications that run continuously without manual intervention."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Campaign Performance Analysis",
+          "description": "Measuring campaign performance beyond open and click rates. Tracking revenue contribution, customer retention impact, and lifetime value changes attributable to CRM marketing programs."
+        },
+        {
+          "icon": "Shield",
+          "title": "Data Privacy Compliance",
+          "description": "Ensuring CRM marketing programs comply with data privacy regulations including consent management, data access requests, and proper data handling. Building trust with customers through transparent data practices."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to CRM marketing starts with the data. The quality of every CRM program depends on the quality of the underlying customer data. Before building any campaigns, I audit the CRM data: What fields are populated? What is the data quality? What customer behaviors are being tracked? What is missing? This audit almost always reveals gaps that need to be addressed before campaigns can be effective.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I work within the broader ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " ecosystem, connecting CRM data with ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for behavior tracking, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-tag-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Tag Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for event capture, and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/bigquery",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "BigQuery",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for deeper analysis when needed. CRM marketing works best when it draws on data from multiple sources, not just what the sales team enters into the CRM.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The most valuable CRM marketing programs are triggered, not scheduled. A birthday email is nice but has limited business impact. An email sent two days after a customer browses a product category but does not purchase, personalized with the specific products they viewed, drives real revenue. I build programs around customer behaviors that indicate intent or risk, not arbitrary calendar dates.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also focus on the relationship between CRM marketing and the ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-operations-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Marketing Operations Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-automation-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Marketing Automation Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " roles. These three functions share tools and data, and they need to be coordinated. CRM strategy defines what to communicate and to whom. Operations ensures the systems work. Automation builds the technical workflows. When all three are aligned, the results compound.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Measurement in CRM marketing requires looking beyond email metrics. Open rates and click rates are operational indicators, not business metrics. I measure CRM program success by customer retention rates, repeat purchase frequency, average order value trends, and incremental revenue attributable to CRM campaigns versus a holdout group that receives no communication.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A data-first approach to CRM marketing that produces measurable business impact.",
+      "steps": [
+        {
+          "icon": "Database",
+          "title": "Data Audit and Foundation",
+          "description": "Audit existing CRM data quality, identify gaps, and establish data standards. Clean up existing records and build processes to maintain data quality going forward."
+        },
+        {
+          "icon": "Users",
+          "title": "Segmentation and Strategy",
+          "description": "Build customer segments based on available data. Define the communication strategy for each segment: what messages, what frequency, what channels, and what goals."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Campaign Build and Launch",
+          "description": "Build the campaigns and automation flows in the CRM and marketing platforms. Test thoroughly with small audiences before scaling to full segments."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Measure and Optimize",
+          "description": "Track business outcomes, not just email metrics. Run holdout tests to measure incremental impact. Continuously refine segments, messaging, and timing based on results."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between CRM marketing and email marketing?",
+          "answer": "Email marketing sends messages to lists. CRM marketing uses customer data to send personalized, behavior-driven communication through multiple channels. CRM marketing is strategic: it considers the full customer relationship, purchase history, and engagement patterns to determine what to communicate and when. Email marketing is a channel. CRM marketing is a discipline that uses email as one of its tools."
+        },
+        {
+          "question": "What CRM platforms are best for marketing?",
+          "answer": "The best platform depends on the business size, complexity, and existing technology stack. Salesforce is the standard for enterprise B2B. HubSpot works well for mid market companies that want marketing and sales in one platform. Smaller companies often use tools like ActiveCampaign or Klaviyo. The platform matters less than how well it is implemented and maintained. A well managed simple CRM outperforms a poorly used enterprise platform."
+        },
+        {
+          "question": "How does CRM marketing work with performance marketing?",
+          "answer": "CRM data improves performance marketing and vice versa. CRM customer segments can be used to create lookalike audiences for paid acquisition. Performance marketing acquisition data flows into the CRM to track the full customer journey. Understanding which acquisition channels produce the highest lifetime value customers requires connecting CRM and acquisition data together."
+        },
+        {
+          "question": "How do you measure CRM marketing success?",
+          "answer": "The most important metrics are customer retention rate, repeat purchase rate, and customer lifetime value. These show whether CRM marketing is making customer relationships more valuable. I also measure incremental revenue from CRM campaigns using holdout tests: compare the revenue of customers who receive CRM marketing versus a control group that does not. This isolates the true impact of the programs."
+        },
+        {
+          "question": "What is the biggest challenge in CRM marketing?",
+          "answer": "Data quality. Every CRM marketing program is only as good as the data behind it. Incomplete records, duplicate entries, outdated information, and inconsistent formatting all reduce campaign effectiveness. Building and maintaining clean CRM data requires ongoing discipline from every team that touches the system: marketing, sales, and customer support. Without this discipline, even the best campaign strategy will underperform."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "MarTech strategy and tools.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "Marketing Technology Manager",
+          "description": "MarTech stack leadership.",
+          "href": "/marketing-technology-manager"
+        },
+        {
+          "title": "Marketing Analytics Manager",
+          "description": "Data and analytics leadership.",
+          "href": "/marketing-analytics-manager"
+        },
+        {
+          "title": "Marketing Automation Manager",
+          "description": "Automation workflows.",
+          "href": "/marketing-automation-manager"
+        },
+        {
+          "title": "Marketing Operations Manager",
+          "description": "Marketing ops and processes.",
+          "href": "/marketing-operations-manager"
+        },
+        {
+          "title": "Google Tag Manager",
+          "description": "Tag management and tracking.",
+          "href": "/google-tag-manager"
+        },
+        {
+          "title": "Google Analytics 4",
+          "description": "Web and app analytics.",
+          "href": "/google-analytics-4"
+        },
+        {
+          "title": "BigQuery",
+          "description": "Marketing data warehouse.",
+          "href": "/bigquery"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need CRM Marketing Expertise?",
+      "description": "I build CRM programs that use customer data to improve retention, increase lifetime value, and drive measurable revenue growth.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#14b8a6"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-technology-manager",
+      "marketing-analytics-manager",
+      "marketing-automation-manager",
+      "marketing-operations-manager"
+    ],
+    "tools": [
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery",
+      "sql-for-marketing",
+      "looker-studio"
+    ],
+    "topics": [
+      "what-is-marketing-technology",
+      "server-side-tracking-explained",
+      "marketing-technology-stack",
+      "data-driven-marketing"
+    ],
+    "relatedTopics": [
+      "marketing-technology",
+      "marketing-technology-manager",
+      "marketing-analytics-manager",
+      "marketing-automation-manager",
+      "marketing-operations-manager",
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery"
+    ]
+  },
+  "wordCount": 1423,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

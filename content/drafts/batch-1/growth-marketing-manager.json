@@ -1,0 +1,598 @@
+{
+  "slug": "growth-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Growth Marketing Manager | Alexander Kropivnitski",
+    "description": "How I approach the growth marketing manager role: full funnel strategy, experimentation, retention, and cross channel optimization beyond just paid media."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Growth Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A growth marketing manager works across the full customer journey, not just acquisition. The role covers everything from attracting new users through paid and organic channels to improving activation, retention, and revenue per customer. Unlike a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who focuses primarily on paid media, a growth marketing manager thinks about every lever that can move the business forward.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/growth-marketing-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "growth marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", what distinguishes it from other marketing roles, and where my practical experience applies.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#10b981"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Growth marketing covers more ground than traditional performance marketing. Here are the key areas this role touches.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Layers",
+          "title": "Full Funnel Optimization",
+          "description": "Working across acquisition, activation, retention, and revenue. Identifying which stage of the funnel has the biggest impact on overall growth and focusing testing efforts there."
+        },
+        {
+          "icon": "TestTube",
+          "title": "Experimentation at Scale",
+          "description": "Designing and running structured experiments across channels, landing pages, onboarding flows, and pricing. Growth marketing depends on consistent testing, not guessing."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Retention and Lifecycle Marketing",
+          "description": "Building email, push, and in app messaging programs that keep customers engaged after the first purchase or signup. Reducing churn often has a larger impact on revenue than increasing acquisition."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Data Driven Decision Making",
+          "description": "Using analytics, cohort analysis, and funnel metrics to prioritize growth initiatives. Every decision should be backed by data, even when the data is imperfect."
+        },
+        {
+          "icon": "Puzzle",
+          "title": "Cross Channel Coordination",
+          "description": "Aligning paid media, SEO, email, product, and content efforts toward shared growth goals. Growth marketing breaks down the silos between these disciplines."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Product Led Growth Integration",
+          "description": "Collaborating with product teams to improve onboarding, reduce friction, and build viral or referral mechanics into the product itself. The best growth strategies use the product as a marketing channel."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to growth marketing starts with understanding the full customer journey, not just the top of funnel. Many companies spend heavily on acquisition while losing customers further down the funnel. Fixing a leaky bucket is often more profitable than pouring more water in.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background, which means I bring strong paid media skills to the growth role. But I have expanded into areas like email lifecycle programs, conversion rate optimization, and product analytics. In my experience, the most effective growth marketing managers are the ones who can move between paid acquisition and retention seamlessly, prioritizing wherever the biggest opportunity sits.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Working with tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is part of the role, but a growth marketing manager also needs to understand ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " at a deeper level. Tracking user behavior through the funnel, setting up proper ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and connecting marketing data to product data are all essential capabilities.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The difference between a growth marketing manager and a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/senior-performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "senior performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is primarily scope. Performance marketing focuses on paid channels. Growth marketing includes paid, organic, product, email, and anything else that can move the needle.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Growth marketing is fundamentally about experimentation. Here is how I structure the process.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Growth Audit",
+          "description": "I start by mapping the full funnel: acquisition channels, activation rates, retention curves, and revenue metrics. This reveals where the biggest drop offs are and where effort will have the most impact."
+        },
+        {
+          "icon": "Target",
+          "title": "Prioritize Opportunities",
+          "description": "Using an ICE or similar framework, I rank growth opportunities by potential impact, confidence level, and effort required. This prevents the team from working on low impact projects while high value work waits."
+        },
+        {
+          "icon": "Beaker",
+          "title": "Test and Learn",
+          "description": "I design experiments with clear hypotheses, success metrics, and sample sizes. Every test produces a learning, whether it succeeds or fails. Over time, these learnings compound into a significant competitive advantage."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Scale What Works",
+          "description": "When experiments show positive results, I build repeatable systems around them. A successful email sequence becomes a lifecycle program. A winning landing page pattern becomes a template. Growth is about systematizing success."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between growth marketing and performance marketing?",
+          "answer": "Performance marketing focuses on paid acquisition channels with measurable outcomes like cost per acquisition and return on ad spend. Growth marketing takes a broader view, covering the entire customer journey including activation, retention, and revenue optimization. A growth marketing manager might work on paid campaigns one week and email lifecycle flows the next. The role prioritizes whichever lever has the highest impact on overall business growth, regardless of channel."
+        },
+        {
+          "question": "What skills does a growth marketing manager need?",
+          "answer": "A strong growth marketing manager needs paid media expertise, basic data analysis skills, understanding of product analytics, familiarity with email and lifecycle tools, and the ability to design structured experiments. Communication skills are also important because the role requires working across marketing, product, and engineering teams. You do not need to be an expert in every area, but you need to be comfortable enough to identify opportunities and collaborate with specialists."
+        },
+        {
+          "question": "Is growth marketing only for startups?",
+          "answer": "No. Growth marketing originated in the startup world, but the principles apply to companies of all sizes. Larger companies often have dedicated growth teams that sit between marketing and product. The experimentation mindset and full funnel thinking are valuable regardless of company stage. That said, the role tends to be more hands on and varied at smaller companies, and more specialized within a larger team at enterprise organizations."
+        },
+        {
+          "question": "How do you measure growth marketing success?",
+          "answer": "The north star metric depends on the business model. For SaaS, it might be monthly active users or net revenue retention. For ecommerce, it could be customer lifetime value or repeat purchase rate. I track a mix of leading indicators like activation rate and experiment velocity alongside lagging indicators like revenue growth and customer acquisition cost. The key is connecting growth activities to actual business outcomes, not just marketing metrics."
+        },
+        {
+          "question": "Does a growth marketing manager replace a performance marketing manager?",
+          "answer": "Not usually. In larger organizations, both roles exist and complement each other. The performance marketing manager focuses on executing and optimizing paid campaigns, while the growth marketing manager takes a broader view across the funnel. In smaller companies, one person might do both. If you had to choose one role, a growth marketing manager covers more ground, but the depth of paid media expertise might be shallower than a dedicated performance marketing manager."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy and execution.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Hands on paid media campaign management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Senior Performance Marketing Manager",
+          "description": "Strategic leadership of paid programs.",
+          "href": "/senior-performance-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "Focused specifically on new user growth.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Paid Media Manager",
+          "description": "Media buying and budget allocation.",
+          "href": "/paid-media-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search and shopping advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Paid social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising on the Microsoft network.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Growth Marketing Manager?",
+      "description": "If you need someone who can think across the full funnel and drive measurable growth, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#10b981"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager",
+      "paid-search-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1485,
+  "generatedAt": "2026-06-12T15:08:42.954Z"
+}

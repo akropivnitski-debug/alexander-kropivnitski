@@ -41,6 +41,14 @@ export const SiteSettingsGlobal: GlobalConfig = {
       },
     },
     {
+      name: 'gtmId',
+      label: 'Google Tag Manager ID',
+      type: 'text',
+      admin: {
+        description: 'e.g. GTM-XXXXXXX. Loads GTM on all pages when set.',
+      },
+    },
+    {
       name: 'primaryColor',
       label: 'Primary Brand Color',
       type: 'text',

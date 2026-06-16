@@ -1,0 +1,364 @@
+{
+  "slug": "google-ads",
+  "pageType": "tool",
+  "meta": {
+    "title": "Google Ads | Alexander Kropivnitski",
+    "description": "Clear explanation of Google Ads, what it is used for, why it matters, common mistakes, and how I use it in practice."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Google Ads",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "Google Ads is the largest pay per click advertising platform in the world. It allows businesses to show ads across Google Search, YouTube, Gmail, Google Shopping, and millions of partner websites through the Display Network. For most companies investing in "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/performance-marketing", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "performance marketing" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": ", Google Ads is one of the first channels they turn on and one of the last they turn off."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "This page covers what Google Ads is, why it matters for businesses of all sizes, how it works in practice, the campaign types available, and the common mistakes I see when auditing accounts."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      },
+      "circleColor": "#4285F4"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What Google Ads Is and Why It Matters",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "Google Ads is an advertising platform where businesses bid to show their ads to people searching for products, services, or information on Google. The basic principle is straightforward: you choose keywords related to your business, write ads, set a budget, and pay when someone clicks. In reality, it is significantly more complex than that, and the gap between a well managed account and a poorly managed one can mean the difference between profitability and wasted spend."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "The platform matters because it captures intent. When someone searches for \"running shoes for flat feet\" or \"CRM software for small business,\" they are actively looking for a solution. This is fundamentally different from social advertising on platforms like "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/meta-ads", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Meta Ads" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " where you interrupt someone while they scroll through their feed. Intent based advertising tends to convert at higher rates and produce more predictable returns, which is why Google Ads remains the backbone of most paid acquisition strategies."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "Google Ads covers several distinct campaign types. Search campaigns show text ads on Google results pages. Shopping campaigns display product listings with images, prices, and ratings. Display campaigns place banner ads across millions of partner websites. Video campaigns run ads on YouTube. Performance Max is Google's fully automated campaign type that distributes ads across all channels. Demand Gen campaigns focus on visual, social style placements across YouTube, Discover, and Gmail. Each serves a different purpose in the marketing funnel, and choosing the right mix depends on your business model, budget, and goals."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "For ecommerce businesses, "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/google-shopping", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "Google Shopping campaigns" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " are often the single highest performing channel in the entire marketing mix. For lead generation businesses, Search campaigns targeting high intent keywords tend to produce the best cost per qualified lead. Understanding which campaign type to use for which goal is one of the first decisions that separates experienced advertisers from beginners."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "featureList",
+      "heading": "Common Use Cases",
+      "description": "Google Ads is flexible enough to serve many different business models and objectives. Here are the scenarios where I see it work best in practice.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "ShoppingCart",
+          "title": "Ecommerce Product Sales",
+          "description": "Shopping and Search campaigns driving purchases for online stores. Product feed quality and bidding strategy have the biggest impact on results. Getting the feed right is often more important than the campaign settings themselves."
+        },
+        {
+          "icon": "FileText",
+          "title": "Lead Generation",
+          "description": "Search campaigns targeting high intent keywords for B2B or service businesses. The focus should be on cost per qualified lead, not just form fills. Many accounts optimize for volume and end up with low quality leads that never convert."
+        },
+        {
+          "icon": "Globe",
+          "title": "International Market Testing",
+          "description": "Testing demand in new countries or regions before committing larger budgets. Google Ads provides fast, reliable data on search volume, competition levels, and conversion rates by market, making it one of the best tools for international expansion research."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Scaling Beyond Organic",
+          "description": "When organic or referral traffic reaches a ceiling, paid search is the most reliable way to capture additional demand without waiting months for SEO results to compound. It provides immediate visibility for high intent searches."
+        },
+        {
+          "icon": "Eye",
+          "title": "Brand Protection",
+          "description": "Bidding on your own brand terms to prevent competitors from capturing your traffic. This is especially important in competitive industries where rivals actively bid on your brand name. The cost per click on brand terms is usually low, making it a worthwhile investment."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Remarketing and Retargeting",
+          "description": "Bringing back visitors who did not convert on their first visit. Display and YouTube remarketing campaigns can be very efficient when audience segments are well defined and the creative is relevant to where the user dropped off in the purchase journey."
+        },
+        {
+          "icon": "Smartphone",
+          "title": "App Install Campaigns",
+          "description": "Driving app downloads and in app actions through Google's App campaigns across Search, YouTube, Play Store, and Display network. These campaigns are heavily automated and require strong conversion tracking to optimize effectively."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Local Business Advertising",
+          "description": "Targeting customers within a specific geographic area for service businesses, restaurants, retail stores, and other location dependent businesses. Location extensions, local campaigns, and radius targeting help reach nearby customers at the moment they are searching."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Practical Experience with Google Ads",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "I have worked with Google Ads across multiple industries and markets, managing monthly budgets ranging from a few thousand euros to several hundred thousand. My experience covers Search, Shopping, Display, YouTube, Performance Max, and Demand Gen campaigns for both ecommerce and lead generation businesses."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "One thing I have learned consistently is that account structure matters more than most people realize. A well organized account with clear campaign segmentation, tight ad group themes, and relevant landing pages will outperform a messy account with the same budget almost every time. Google's bidding algorithms work significantly better when you give them clean, consistent signals. Many performance problems I see during audits trace back to structural issues, not bidding or budget problems."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "For ecommerce accounts in particular, I have found that "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/product-feed-optimization", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "product feed optimization" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " is often the single biggest lever for improving Shopping performance. Titles, descriptions, product categories, custom labels, and image quality all influence which searches trigger your products and at what cost. I have seen accounts improve Shopping revenue by 30 to 50 percent purely from feed improvements, without changing bids or budgets."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "I have also spent significant time working with "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/attribution-modeling-explained", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "attribution modeling" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " across Google Ads campaigns. The platform's own reporting tends to take credit for conversions that other channels influenced. Understanding where Google Ads genuinely drives incremental value, versus where it simply captures existing demand, is critical for making good budget allocation decisions. Without this understanding, you risk overspending on branded search and underspending on channels that create new demand."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": "The role of a "
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": { "linkType": "custom", "url": "/performance-marketing-manager", "newTab": false },
+                  "children": [
+                    { "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1, "text": "performance marketing manager" }
+                  ],
+                  "direction": "ltr", "format": "", "indent": 0
+                },
+                {
+                  "detail": 0, "format": 0, "mode": "normal", "style": "", "type": "text", "version": 1,
+                  "text": " often centers heavily around Google Ads because it tends to be the largest single line item in the paid media budget. Getting it right has a direct and measurable impact on the business."
+                }
+              ],
+              "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+            }
+          ],
+          "direction": "ltr", "format": "", "indent": 0, "type": "root", "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "Common Mistakes to Avoid",
+      "description": "After years of auditing Google Ads accounts across industries and budgets, these are the problems I see most frequently.",
+      "steps": [
+        {
+          "icon": "AlertTriangle",
+          "title": "Ignoring Search Term Reports",
+          "description": "Many advertisers set up campaigns and never review what actual search queries triggered their ads. Without regular search term reviews, budgets leak to irrelevant clicks. This is one of the fastest ways to waste money on the platform. I recommend reviewing search terms weekly for active campaigns and adding negative keywords consistently."
+        },
+        {
+          "icon": "Layers",
+          "title": "Overcomplicating Account Structure",
+          "description": "Some accounts have hundreds of campaigns with tiny budgets, making it impossible for Google's automated bidding to learn or optimize effectively. Simplifying structure and consolidating campaigns where possible often improves performance immediately. Google's algorithms need sufficient conversion volume per campaign to work well."
+        },
+        {
+          "icon": "Link",
+          "title": "Sending Traffic to Wrong Landing Pages",
+          "description": "Generic homepage or broad category pages rarely convert well for specific keyword searches. Matching ad intent to a relevant, focused landing page makes a significant difference in both conversion rates and quality scores. The landing page experience is one of the three factors Google uses to determine ad rank."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Trusting Platform Metrics Blindly",
+          "description": "Google Ads counts conversions using its own attribution model, and the numbers rarely match what you see in your analytics tool or CRM. Always cross reference platform data with a source of truth outside the ad platform before making big budget decisions. This is especially true for longer sales cycles where multiple touchpoints are involved."
+        },
+        {
+          "icon": "Clock",
+          "title": "Not Allowing Enough Learning Time",
+          "description": "Automated bidding strategies need data to optimize. Changing strategy, budgets, or targets every few days prevents the algorithm from stabilizing. Most campaigns need two to four weeks of consistent data before you can reliably evaluate whether a strategy is working. Patience during the learning phase is one of the hardest disciplines in paid search."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How much does Google Ads cost?",
+          "answer": "There is no fixed cost. You set a daily or monthly budget and bid for each click. Cost per click varies enormously by industry, keyword competition, and geographic location. Some B2B keywords cost over 50 euros per click, while some local service keywords cost less than one euro. The real question is not how much it costs, but what return you get on the spend. A campaign that costs 10,000 euros per month but generates 50,000 euros in revenue is far more valuable than one that costs 1,000 euros and generates nothing."
+        },
+        {
+          "question": "How long does it take to see results from Google Ads?",
+          "answer": "You can start getting clicks within hours of launching a campaign. But meaningful performance data usually requires two to four weeks. If you are using automated bidding strategies, the algorithm needs time to learn which audiences, placements, and times of day perform best. For brand new accounts without any conversion history, expect a longer initial learning period. I typically advise clients not to judge results before at least 30 days of data."
+        },
+        {
+          "question": "Is Google Ads better than Meta Ads?",
+          "answer": "They serve different purposes and work best when used together. Google Ads captures existing demand from people who are actively searching for something specific. Meta Ads creates demand by reaching people based on interests, behaviors, and demographics. If someone is already looking for your product, Google Ads is typically the more efficient channel to reach them. If you need to build awareness or reach people who do not yet know your product exists, Meta has a stronger advantage. Most businesses benefit from investing in both."
+        },
+        {
+          "question": "What is Performance Max and should I use it?",
+          "answer": "Performance Max is Google's automated campaign type that runs ads across all Google properties: Search, Shopping, YouTube, Display, Discover, and Gmail. It uses machine learning to optimize placements and bidding across all channels simultaneously. It can work well for businesses with strong conversion tracking and sufficient conversion volume. For smaller accounts or businesses with limited historical data, traditional campaign types like Search and Shopping often give you more control, better visibility into what is working, and more predictable results."
+        },
+        {
+          "question": "Do I need an agency to manage Google Ads?",
+          "answer": "It depends on scale and complexity. Small businesses with straightforward campaigns and modest budgets can learn to manage them in house with some investment in education. But as budgets grow, campaign structures become more complex, and the stakes get higher, having someone with deep experience can save significant money and accelerate results. The key is finding someone who understands your business and your margins, not just the platform mechanics."
+        },
+        {
+          "question": "How do I know if my Google Ads campaigns are performing well?",
+          "answer": "Compare your actual cost per acquisition or return on ad spend against your specific business targets. If you are spending 30 euros to acquire a customer worth 200 euros in lifetime value, that is strong performance regardless of what industry benchmarks say. The important thing is to measure against your own unit economics, not generic averages. I also look at trend lines over time rather than individual days, since daily fluctuations are normal and rarely meaningful on their own."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        { "title": "Performance Marketing", "description": "Broader context on how paid channels fit into a performance strategy.", "href": "/performance-marketing" },
+        { "title": "Meta Ads", "description": "Paid social advertising on Facebook and Instagram.", "href": "/meta-ads" },
+        { "title": "Microsoft Ads", "description": "Search advertising on the Bing and Microsoft network.", "href": "/microsoft-ads" },
+        { "title": "Google Shopping", "description": "Product listing ads powered by product feed data.", "href": "/google-shopping" },
+        { "title": "Performance Marketing Manager", "description": "The role responsible for managing campaigns at this level.", "href": "/performance-marketing-manager" },
+        { "title": "Senior Performance Marketing Manager", "description": "The strategic lead overseeing multi channel paid programs.", "href": "/senior-performance-marketing-manager" },
+        { "title": "Growth Marketing Manager", "description": "A broader role covering full funnel growth beyond paid.", "href": "/growth-marketing-manager" },
+        { "title": "What Is Performance Marketing", "description": "A clear explanation of the discipline and how it works.", "href": "/what-is-performance-marketing" }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Questions About Google Ads?",
+      "description": "If you want to discuss Google Ads strategy, campaign management, or anything related to paid search, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#4285F4"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": ["meta-ads", "microsoft-ads", "google-shopping", "product-feed-optimization", "marketing-attribution"],
+    "tools": ["meta-ads", "microsoft-ads", "google-shopping", "product-feed-optimization", "marketing-attribution"],
+    "topics": ["what-is-performance-marketing", "growth-marketing-explained", "attribution-modeling-explained", "a-b-testing-explained"],
+    "roles": ["performance-marketing-manager", "senior-performance-marketing-manager", "growth-marketing-manager", "user-acquisition-manager"],
+    "relatedTopics": ["performance-marketing", "meta-ads", "microsoft-ads", "google-shopping", "performance-marketing-manager", "senior-performance-marketing-manager", "growth-marketing-manager", "what-is-performance-marketing"]
+  },
+  "wordCount": 1820,
+  "generatedAt": "2026-06-12T17:15:00.000Z"
+}

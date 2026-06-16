@@ -1,0 +1,621 @@
+{
+  "slug": "marketing-technology-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Marketing Technology Manager | Alexander Kropivnitski",
+    "description": "How I approach marketing technology management: building martech stacks, managing data infrastructure, and connecting marketing tools to business outcomes."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Marketing Technology Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A marketing technology manager is responsible for selecting, implementing, and maintaining the technology stack that powers a company's marketing operations. The role sits at the intersection of marketing and technology, requiring both domain knowledge of how marketing teams work and technical skills to evaluate, integrate, and optimize tools.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " management, what the role involves, and how a well managed martech stack enables better marketing execution and measurement.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#8b5cf6"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Marketing technology management covers the tools, data, and systems that power modern marketing.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Layers",
+          "title": "Martech Stack Architecture",
+          "description": "Evaluating, selecting, and integrating marketing technology tools into a cohesive stack. Understanding how tools connect through APIs, data flows, and integration platforms. Avoiding tool sprawl while ensuring the team has what it needs."
+        },
+        {
+          "icon": "Database",
+          "title": "Data Infrastructure",
+          "description": "Building the data pipelines that connect marketing tools to analytics platforms and business intelligence systems. Ensuring marketing data flows reliably from collection to storage to reporting."
+        },
+        {
+          "icon": "Code",
+          "title": "Tag Management and Tracking",
+          "description": "Implementing and maintaining tracking through Google Tag Manager, server side tracking solutions, and custom integrations. Ensuring data collection is accurate, compliant with privacy regulations, and complete."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Analytics and Reporting Systems",
+          "description": "Setting up Google Analytics 4, building Looker Studio dashboards, and creating reporting infrastructure that gives marketing teams reliable, actionable data for decision making."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Marketing Automation",
+          "description": "Implementing and optimizing marketing automation platforms for email workflows, lead scoring, nurturing sequences, and customer lifecycle management. Connecting automation to CRM systems and sales processes."
+        },
+        {
+          "icon": "Shield",
+          "title": "Privacy and Compliance",
+          "description": "Ensuring all marketing technology complies with GDPR, CCPA, and other privacy regulations. Managing consent platforms, data processing agreements, and data retention policies across the martech stack."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to marketing technology management starts with understanding what the marketing team actually needs to do their jobs well. Too many companies accumulate martech tools without a clear plan, leading to overlapping functionality, poor data flow, and wasted budget. I start by auditing the existing stack, identifying gaps and redundancies, and building a rationalized architecture that serves real business needs.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I work extensively with tools like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-tag-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Tag Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/bigquery",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "BigQuery",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/looker-studio",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Looker Studio",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to build the measurement and reporting layer that marketing teams depend on. Getting this layer right is critical because every marketing decision is only as good as the data it is based on. If tracking is incomplete, attribution is flawed, or reports are inaccurate, the entire marketing operation makes suboptimal decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Data infrastructure is the area where I add the most value. Many marketing teams have excellent tools but poor data connections between them. Customer data sits in the CRM but is not available for ad targeting. Campaign results are tracked in platform dashboards but are not connected to revenue in the BI system. Email engagement data is not used to inform paid media audiences. Solving these data flow problems through proper integrations, ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/sql-for-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SQL",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " queries, and ETL processes unlocks significantly better marketing performance.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The marketing technology manager role is different from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-analytics-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing analytics manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " in that it covers the full stack, not just the analytics layer. I manage the tools, the integrations, the data flows, and the technical implementations. The analytics manager typically focuses on interpreting data and producing insights. Both roles are essential, and in smaller organizations, one person often handles both.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Privacy compliance is a growing part of the role. With GDPR enforcement becoming stricter and third party cookies disappearing, the martech stack needs to support ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/server-side-tracking-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "server side tracking",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", first party data strategies, and proper consent management. I ensure all implementations meet regulatory requirements without sacrificing the data quality that marketers need.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Marketing technology management follows a cycle of auditing, designing, implementing, and optimizing.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Stack Audit",
+          "description": "Review all existing marketing technology tools, their usage, costs, integrations, and data flows. Identify redundancies, gaps, and data quality issues. Map how data moves from collection through to reporting and decision making."
+        },
+        {
+          "icon": "Layout",
+          "title": "Architecture Design",
+          "description": "Design the target martech architecture based on business needs, budget constraints, and team capabilities. Prioritize integrations that solve the most impactful data flow problems. Create a migration plan for tools that need to be added, replaced, or removed."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Implementation",
+          "description": "Implement new tools, build integrations, configure tracking, and set up reporting. Work with vendors, developers, and marketing team members to ensure implementations meet specifications and data flows correctly."
+        },
+        {
+          "icon": "Gauge",
+          "title": "Optimization and Maintenance",
+          "description": "Monitor tool performance, data quality, and integration health. Continuously optimize the stack as business needs evolve, new tools become available, and privacy requirements change. Maintain documentation so the team can use tools effectively."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a marketing technology manager and a marketing analytics manager?",
+          "answer": "A marketing technology manager is responsible for the tools and systems: selecting them, integrating them, maintaining them, and ensuring data flows correctly between them. A marketing analytics manager focuses on analyzing the data those tools produce and turning it into actionable insights. The technology manager builds the infrastructure. The analytics manager uses that infrastructure to drive decisions. In smaller companies, one person often handles both responsibilities."
+        },
+        {
+          "question": "What technical skills does a marketing technology manager need?",
+          "answer": "Proficiency with tag management systems like Google Tag Manager, understanding of web analytics platforms like GA4, basic SQL for querying data, familiarity with APIs and integration patterns, and knowledge of privacy and consent management. You do not need to be a full software engineer, but you need enough technical depth to evaluate tools, write tracking specifications, troubleshoot data issues, and communicate effectively with developers."
+        },
+        {
+          "question": "How do you evaluate whether a new marketing tool is worth adding?",
+          "answer": "I evaluate new tools against four criteria: does it solve a real problem that the team currently has, does it integrate with the existing stack without creating data silos, is the total cost of ownership justified by the expected impact, and does the team have the capacity to adopt and use it effectively. Most tool purchases fail not because the tool is bad, but because the team does not have the bandwidth to implement and use it properly."
+        },
+        {
+          "question": "How important is server side tracking versus client side tracking?",
+          "answer": "Server side tracking is becoming increasingly important as browsers restrict third party cookies and ad blockers become more prevalent. Client side tracking through browser tags is being degraded by privacy changes. Server side tracking sends data directly from the server, bypassing these restrictions. I recommend a hybrid approach: client side for basic analytics and consent management, server side for conversion tracking and audience data that needs to be reliable for marketing optimization."
+        },
+        {
+          "question": "What does a typical martech stack look like?",
+          "answer": "A typical mid market stack includes analytics (Google Analytics 4), tag management (Google Tag Manager), CRM (HubSpot or Salesforce), email marketing and automation (integrated into the CRM or standalone), a BI or dashboard tool (Looker Studio or Tableau), and various advertising platforms with their tracking pixels. The specific tools vary, but the architecture follows a similar pattern: data collection, data storage and processing, and data activation and reporting."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "My broader martech expertise.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "Marketing Analytics Manager",
+          "description": "Data analysis and insights.",
+          "href": "/marketing-analytics-manager"
+        },
+        {
+          "title": "Marketing Automation Manager",
+          "description": "Automation platform management.",
+          "href": "/marketing-automation-manager"
+        },
+        {
+          "title": "Google Tag Manager",
+          "description": "Tag management platform.",
+          "href": "/google-tag-manager"
+        },
+        {
+          "title": "Google Analytics 4",
+          "description": "Web analytics platform.",
+          "href": "/google-analytics-4"
+        },
+        {
+          "title": "BigQuery",
+          "description": "Data warehouse for marketing.",
+          "href": "/bigquery"
+        },
+        {
+          "title": "Looker Studio",
+          "description": "Dashboard and reporting.",
+          "href": "/looker-studio"
+        },
+        {
+          "title": "SQL for Marketing",
+          "description": "Data querying for marketers.",
+          "href": "/sql-for-marketing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Marketing Technology Manager?",
+      "description": "If you need someone to build, optimize, or manage your marketing technology stack, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#8b5cf6"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-analytics-manager",
+      "marketing-automation-manager",
+      "marketing-operations-manager",
+      "crm-marketing-manager"
+    ],
+    "tools": [
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery",
+      "sql-for-marketing",
+      "looker-studio"
+    ],
+    "topics": [
+      "what-is-marketing-technology",
+      "server-side-tracking-explained",
+      "marketing-technology-stack",
+      "data-driven-marketing"
+    ],
+    "relatedTopics": [
+      "marketing-technology",
+      "marketing-analytics-manager",
+      "marketing-automation-manager",
+      "marketing-operations-manager",
+      "crm-marketing-manager",
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery"
+    ]
+  },
+  "wordCount": 1595,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

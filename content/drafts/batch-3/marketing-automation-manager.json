@@ -1,0 +1,525 @@
+{
+  "slug": "marketing-automation-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Marketing Automation Manager | Alexander Kropivnitski",
+    "description": "How I approach the marketing automation manager role: building automated workflows that nurture leads, improve conversion rates, and connect marketing to revenue."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Marketing Automation Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Marketing Automation Manager designs, builds, and optimizes automated marketing workflows that move prospects through the buying journey. The role sits at the intersection of ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and campaign strategy, requiring both technical platform expertise and a deep understanding of customer behavior.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach marketing automation, what distinguishes effective automation from simple email scheduling, and how automation connects to measurable business outcomes.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#06b6d4"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Marketing Automation Manager builds and optimizes the automated systems that connect marketing to revenue.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "GitBranch",
+          "title": "Workflow Design",
+          "description": "Building multistep automated workflows that respond to customer behavior. Designing branching logic that delivers the right message at the right time based on actions, demographics, and engagement patterns."
+        },
+        {
+          "icon": "Mail",
+          "title": "Email Program Management",
+          "description": "Managing the full email marketing program including nurture sequences, onboarding flows, reengagement campaigns, and transactional messages. Maintaining deliverability and list health."
+        },
+        {
+          "icon": "Target",
+          "title": "Lead Scoring and Routing",
+          "description": "Creating lead scoring models that identify when a prospect is ready for sales outreach. Designing routing rules that connect qualified leads to the right sales team members at the right moment."
+        },
+        {
+          "icon": "Database",
+          "title": "Data Management",
+          "description": "Maintaining clean, structured marketing data across platforms. Managing integrations between the marketing automation platform, CRM, analytics, and other tools in the marketing technology stack."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Analysis",
+          "description": "Measuring automation performance against business metrics. Tracking conversion rates through each stage of the funnel, identifying bottlenecks, and running tests to improve results over time."
+        },
+        {
+          "icon": "Layers",
+          "title": "Platform Administration",
+          "description": "Managing the marketing automation platform including user access, integrations, templates, and technical configuration. Ensuring the platform is used effectively across the marketing team."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to marketing automation starts with the customer journey, not the technology. Before building any workflow, I map the stages a prospect moves through from first touch to purchase and beyond. Each stage has specific questions, objections, and information needs. Good automation addresses these systematically rather than blasting the same message to everyone.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/marketing-technology",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "marketing technology",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background with experience in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-analytics-4",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Analytics 4",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-tag-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Tag Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for tracking, and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/bigquery",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "BigQuery",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " for data analysis. This technical foundation helps me build automation programs that are properly instrumented and measurable. Too many automation programs run without clear attribution, making it impossible to know what is working.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The most common mistake in marketing automation is building complexity too early. I start with simple, high impact workflows: a welcome series for new subscribers, a lead nurture sequence for prospects who download content, and a reengagement flow for inactive contacts. These three workflows often produce more revenue impact than dozens of complex branching sequences.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also focus heavily on the integration between marketing automation and the CRM. The handoff from marketing to sales is where many programs break down. Lead scoring must reflect actual buying behavior, not just email opens. Routing rules must get leads to the right person quickly. And feedback loops from sales back to marketing are essential for refining the entire process.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Data quality is the foundation of effective automation. Dirty data, duplicate records, and inconsistent fields make every workflow less effective. I build regular data hygiene processes and create clear data standards that the entire marketing and sales team follows.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A systematic approach to building marketing automation that produces measurable business results.",
+      "steps": [
+        {
+          "icon": "Map",
+          "title": "Journey Mapping",
+          "description": "Map the customer journey from first touch through purchase and retention. Identify the key moments where automation can add value by delivering the right information at the right time."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Workflow Architecture",
+          "description": "Design the automation workflow structure including triggers, conditions, actions, and timing. Start with the highest impact workflows first and build complexity gradually based on results."
+        },
+        {
+          "icon": "Settings",
+          "title": "Build and Integrate",
+          "description": "Implement workflows in the automation platform. Connect to the CRM, analytics, and other tools. Set up tracking so every step is measurable. Test thoroughly before launching to live audiences."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Measure and Optimize",
+          "description": "Monitor performance against business metrics. Test subject lines, timing, content, and branching logic. Make incremental improvements based on data rather than assumptions."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between marketing automation and email marketing?",
+          "answer": "Email marketing is one component of marketing automation, but automation is much broader. Marketing automation includes behavior based triggers, lead scoring, CRM integration, multi channel workflows, and personalization based on data. Email marketing sends messages to lists. Marketing automation responds to individual behavior across channels with the right message at the right moment."
+        },
+        {
+          "question": "How long does it take to see results from marketing automation?",
+          "answer": "Simple workflows like welcome series and lead nurture sequences can show results within 30 to 60 days. More complex programs involving lead scoring, sales integration, and multi touch attribution typically take three to six months to fully implement and optimize. The key is starting with high impact, simple workflows and adding complexity over time."
+        },
+        {
+          "question": "What skills does a Marketing Automation Manager need?",
+          "answer": "The role requires a combination of technical and strategic skills. Platform expertise in at least one major automation tool is essential. Understanding of CRM systems, data management, and basic HTML for email templates. On the strategic side, understanding customer journeys, content strategy, and how marketing connects to sales outcomes. SQL and basic data analysis skills are increasingly important."
+        },
+        {
+          "question": "How do you measure marketing automation ROI?",
+          "answer": "The most meaningful metrics are pipeline contribution and revenue influence. Track how many leads enter automation workflows, what percentage reach sales qualified status, and how many convert to customers. Compare conversion rates and sales cycle length for leads that went through automation versus those that did not. This shows the actual business impact, not just email open rates."
+        },
+        {
+          "question": "What is the biggest mistake companies make with marketing automation?",
+          "answer": "Building too much complexity too soon. Companies buy an automation platform and try to build dozens of workflows before validating that the basics work. The result is a complicated system that nobody fully understands, with poor data flowing through untested logic. Start with three to five core workflows, get those working well, then expand based on what the data tells you."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "Marketing technology strategy and stack.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "Marketing Technology Manager",
+          "description": "MarTech stack leadership.",
+          "href": "/marketing-technology-manager"
+        },
+        {
+          "title": "Marketing Analytics Manager",
+          "description": "Data and analytics leadership.",
+          "href": "/marketing-analytics-manager"
+        },
+        {
+          "title": "Marketing Operations Manager",
+          "description": "Marketing ops and processes.",
+          "href": "/marketing-operations-manager"
+        },
+        {
+          "title": "CRM Marketing Manager",
+          "description": "CRM strategy and execution.",
+          "href": "/crm-marketing-manager"
+        },
+        {
+          "title": "Google Tag Manager",
+          "description": "Tag management and tracking.",
+          "href": "/google-tag-manager"
+        },
+        {
+          "title": "Google Analytics 4",
+          "description": "Web and app analytics.",
+          "href": "/google-analytics-4"
+        },
+        {
+          "title": "BigQuery",
+          "description": "Marketing data warehouse.",
+          "href": "/bigquery"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Help with Marketing Automation?",
+      "description": "I build marketing automation programs that nurture leads, improve conversion rates, and connect marketing to revenue outcomes.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#06b6d4"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-technology-manager",
+      "marketing-analytics-manager",
+      "marketing-operations-manager",
+      "crm-marketing-manager"
+    ],
+    "tools": [
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery",
+      "sql-for-marketing",
+      "looker-studio"
+    ],
+    "topics": [
+      "what-is-marketing-technology",
+      "server-side-tracking-explained",
+      "marketing-technology-stack",
+      "data-driven-marketing"
+    ],
+    "relatedTopics": [
+      "marketing-technology",
+      "marketing-technology-manager",
+      "marketing-analytics-manager",
+      "marketing-operations-manager",
+      "crm-marketing-manager",
+      "google-tag-manager",
+      "google-analytics-4",
+      "bigquery"
+    ]
+  },
+  "wordCount": 1394,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

@@ -1,0 +1,714 @@
+{
+  "slug": "head-of-performance-marketing",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Head of Performance Marketing | Alexander Kropivnitski",
+    "description": "How I approach the Head of Performance Marketing role: leading paid acquisition strategy, building performance teams, and driving measurable revenue growth."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Head of Performance Marketing",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Head of Performance Marketing leads the paid acquisition function at a company. This role focuses exclusively on channels with measurable, direct response outcomes: search, social, display, video, and shopping advertising. Unlike a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who covers the full marketing function including brand, the Head of Performance Marketing is singularly focused on driving efficient, scalable customer acquisition through ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " channels.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach performance marketing leadership and what distinguishes it from other leadership roles like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-growth",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/director-of-digital-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director of Digital Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ".",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#ea580c"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Head of Performance Marketing leads the paid acquisition function with full accountability for results.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Target",
+          "title": "Performance Strategy",
+          "description": "Designing the paid acquisition strategy across all performance channels. Setting channel mix, budget allocation, targeting approach, and performance targets based on business goals and unit economics. Making decisions about where to invest and where to cut."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Leadership",
+          "description": "Building and managing a team of performance marketing specialists across search, social, programmatic, and other paid channels. Creating career paths, establishing quality standards, and developing the next generation of performance marketers."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget and P&L Ownership",
+          "description": "Owning the performance marketing budget and being accountable for the return it generates. Making investment decisions with clear visibility into marginal returns and diminishing returns across channels and campaigns."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Measurement and Attribution",
+          "description": "Building the measurement infrastructure that the team relies on for decision making. Establishing attribution frameworks, incrementality testing programs, and reporting standards that go beyond platform reported metrics."
+        },
+        {
+          "icon": "Zap",
+          "title": "Testing and Innovation",
+          "description": "Driving a culture of structured experimentation across the team. Evaluating new channels, ad formats, and targeting approaches. Ensuring the team stays current with platform changes and emerging opportunities."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Executive Communication",
+          "description": "Translating performance marketing results into business language for the executive team and board. Building confidence in the performance marketing investment through clear, honest reporting and strategic recommendations."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to performance marketing leadership is built on measurement first. Before scaling any channel or making any significant budget decision, I ensure the measurement infrastructure is reliable. This means proper tracking, thoughtful ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and a clear understanding of incrementality. Too many performance teams scale spend based on inflated platform numbers without testing whether the spend is actually generating incremental business.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have led ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " programs across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and programmatic channels. At the leadership level, the job is less about managing individual campaigns and more about building the systems, processes, and team that produce consistently strong results. A high performing team with clear frameworks will outperform a brilliant individual every time.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Building the right team is where this role has the most impact. I hire for analytical thinking and curiosity rather than just platform certification. Performance marketing changes constantly, and team members who can adapt and learn quickly are more valuable than those who only know the current version of a platform. I also invest in developing team members through structured mentoring and clear career progression.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Head of Performance Marketing role is more focused than a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", which covers brand, content, and communications alongside performance. And it is more operationally involved than a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/head-of-growth",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Head of Growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", which often includes product growth and retention alongside acquisition. This focus allows for deeper expertise in paid channels and more precise measurement of results.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One area I prioritize is the relationship between performance marketing and the rest of the organization. Performance marketing does not happen in isolation. Creative teams need clear performance data to make better ads. Product teams need acquisition cost data for pricing decisions. Finance needs accurate forecasts for planning. Building these cross functional relationships ensures performance marketing is integrated into the business rather than operating as a separate function.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Performance marketing leadership follows a strategic cycle from assessment through execution and scaling.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Assessment and Baseline",
+          "description": "Audit the current performance marketing program including channel performance, team capabilities, measurement quality, and competitive position. Establish clear baselines for every key metric so progress can be measured objectively."
+        },
+        {
+          "icon": "Map",
+          "title": "Strategy and Roadmap",
+          "description": "Build the performance marketing strategy including channel priorities, budget allocation, team structure, measurement approach, and testing roadmap. Align the strategy with business revenue targets and customer acquisition goals."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Systems",
+          "description": "Build or restructure the team to match the strategy. Establish operational processes for campaign management, testing, reporting, and budget reallocation. Create the frameworks that enable the team to operate effectively and consistently."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Execute and Scale",
+          "description": "Drive execution through the team while maintaining strategic oversight. Review results regularly, adjust channel mix and budget allocation based on data, and continuously push for better efficiency and scale."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a Head of Performance Marketing and a Head of Growth?",
+          "answer": "The Head of Performance Marketing focuses specifically on paid acquisition channels: search, social, display, video, and programmatic advertising. The Head of Growth takes a broader view that includes paid acquisition but also covers organic channels, product growth, retention, and lifecycle marketing. The performance marketing role goes deeper on paid media expertise. The growth role goes wider across the full customer journey."
+        },
+        {
+          "question": "How does a Head of Performance Marketing handle increasing costs per acquisition?",
+          "answer": "Rising CPAs are a constant challenge in performance marketing. I address this through channel diversification to reduce dependency on any single platform, creative testing to improve ad performance, landing page optimization to increase conversion rates, audience refinement to target higher value prospects, and incrementality testing to eliminate spend that is not actually driving incremental conversions. Often the biggest lever is cutting spend on channels or campaigns that appear to be working but are actually just taking credit for organic conversions."
+        },
+        {
+          "question": "How big of a team does a Head of Performance Marketing typically manage?",
+          "answer": "Team size varies significantly by company. At a mid market company, the team might be three to five people covering search, social, and analytics. At a larger company, it could be 10 to 20 people with specialists in each channel plus analysts and creative strategists. The right team size depends on the number of channels, geographic markets, and the total budget being managed. I structure teams around channels with shared services for analytics and creative."
+        },
+        {
+          "question": "What metrics matter most at this level?",
+          "answer": "At the leadership level, the metrics that matter are blended customer acquisition cost, lifetime value to CAC ratio, marketing sourced revenue, and efficient growth rate. Individual channel metrics like cost per click and click through rate are important for the team but are too granular for leadership reporting. I report on business impact metrics and drill into channel level metrics only when explaining performance changes or making specific recommendations."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "The core discipline.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Growth",
+          "description": "Broader growth leadership.",
+          "href": "/head-of-growth"
+        },
+        {
+          "title": "Head of Marketing",
+          "description": "Full marketing leadership.",
+          "href": "/head-of-marketing"
+        },
+        {
+          "title": "Director of Growth",
+          "description": "Growth at director level.",
+          "href": "/director-of-growth"
+        },
+        {
+          "title": "Director of Digital Marketing",
+          "description": "Digital channel leadership.",
+          "href": "/director-of-digital-marketing"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Head of Performance Marketing?",
+      "description": "If you need leadership for your paid acquisition program that combines deep channel expertise with strategic business thinking, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#ea580c"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "small-business-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-growth",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1549,
+  "generatedAt": "2026-06-12T20:38:37.637Z"
+}

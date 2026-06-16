@@ -1,0 +1,614 @@
+{
+  "slug": "paid-media-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Paid Media Manager | Alexander Kropivnitski",
+    "description": "How I approach paid media management: media buying, budget allocation across channels, platform expertise, and campaign optimization for measurable business results."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Paid Media Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A paid media manager is responsible for buying and optimizing advertising across digital platforms. The role is fundamentally about spending money wisely: choosing the right platforms, targeting the right audiences, and continuously optimizing to get the best return on every euro or dollar spent.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This role is a core part of any ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " team. While a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/growth-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "growth marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " thinks about the full funnel and a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/user-acquisition-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "user acquisition manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " focuses on new user growth, a paid media manager brings deep platform expertise and hands on media buying skill.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#f59e0b"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "A paid media manager handles the execution layer of paid advertising. Here are the core responsibilities.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "CreditCard",
+          "title": "Media Buying and Negotiation",
+          "description": "Purchasing ad inventory across platforms including search, social, display, video, and programmatic channels. Understanding the buying mechanics and auction dynamics of each platform."
+        },
+        {
+          "icon": "PieChart",
+          "title": "Budget Allocation Strategy",
+          "description": "Distributing budgets across channels and campaigns based on performance data, business priorities, and seasonal patterns. Knowing when to shift spend from one channel to another."
+        },
+        {
+          "icon": "Monitor",
+          "title": "Platform Expertise",
+          "description": "Deep knowledge of advertising platforms including Google Ads, Meta Ads, Microsoft Ads, LinkedIn Ads, TikTok, and programmatic DSPs. Each platform has unique optimization levers and best practices."
+        },
+        {
+          "icon": "Target",
+          "title": "Audience Strategy",
+          "description": "Building and refining audience segments using first party data, platform signals, lookalike modeling, and contextual targeting. Reaching the right people is as important as the creative and the bid."
+        },
+        {
+          "icon": "LineChart",
+          "title": "Performance Optimization",
+          "description": "Daily monitoring and optimization of campaigns including bid adjustments, placement management, audience refinement, and creative rotation based on performance data."
+        },
+        {
+          "icon": "FileText",
+          "title": "Reporting and Insights",
+          "description": "Building clear, actionable reports that show campaign performance against business goals. Translating platform data into business insights that stakeholders can act on."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to paid media management is rooted in understanding platform mechanics deeply. Each advertising platform has its own auction system, bidding strategies, and optimization algorithms. Knowing how these work at a technical level gives me an advantage when making campaign decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I have managed paid media across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and programmatic platforms. Budget sizes have ranged from modest to substantial, and the principles remain the same: start with clear goals, build proper tracking, structure campaigns logically, and optimize based on data rather than guesswork.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One area where I see many paid media managers underperform is budget allocation. Too many teams set budgets at the start of the month and let them run without adjustment. In my experience, actively reallocating budget based on weekly performance data, shifting spend toward what is working and away from what is not, has a larger impact than most individual campaign optimizations.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The paid media manager role overlaps with a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " role, but the emphasis is more on the media buying and platform expertise side. A paid media manager is the person who knows the platforms inside and out. Understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " across these platforms is critical for making correct budget allocation decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Another area I focus on is platform diversification. Concentrating all spend on one platform creates risk. When Google changes its auction mechanics or Meta adjusts its algorithm, teams that depend entirely on one channel scramble. I maintain expertise across multiple platforms so that budgets can shift quickly when performance dynamics change. This flexibility has saved campaigns during several major platform updates that caught competitors off guard.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Paid media management follows a disciplined cycle of planning, executing, optimizing, and reporting.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Platform and Account Audit",
+          "description": "Review the current state of all advertising accounts, tracking setup, and historical performance. Identify structural issues, wasted spend, and quick optimization opportunities across each platform."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget Planning and Allocation",
+          "description": "Set channel level budgets based on historical performance, business goals, and market opportunity. Build a flexible allocation framework that allows for mid period adjustments based on results."
+        },
+        {
+          "icon": "Sliders",
+          "title": "Campaign Optimization",
+          "description": "Execute daily and weekly optimizations including bid management, audience refinement, creative rotation, placement exclusions, and search term management. Each platform requires specific optimization techniques."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Reporting",
+          "description": "Build weekly and monthly reports that connect platform metrics to business outcomes. Highlight what is working, what needs attention, and what budget changes are recommended for the next period."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a paid media manager and a performance marketing manager?",
+          "answer": "The roles overlap significantly. A paid media manager tends to be more focused on the media buying execution side, with deep platform expertise and hands on campaign management. A performance marketing manager often has a slightly broader scope, including strategy, measurement, and cross channel coordination. In some companies, the titles are used interchangeably. In larger organizations, paid media managers might specialize in specific platforms while the performance marketing manager oversees the overall strategy."
+        },
+        {
+          "question": "Which advertising platforms should a paid media manager know?",
+          "answer": "At minimum, Google Ads and Meta Ads are essential. Microsoft Ads, LinkedIn Ads, TikTok Ads, and programmatic platforms are increasingly important depending on the business and audience. I also think understanding how different platforms complement each other is more valuable than being an expert on every single one. A strong paid media manager knows which platform to use for which objective."
+        },
+        {
+          "question": "How do you decide how to allocate budget across channels?",
+          "answer": "I base allocation on historical performance data, marginal return analysis, and business priorities. Channels that deliver the best return on ad spend or cost per acquisition at current spend levels generally deserve more budget, up to the point of diminishing returns. I also reserve a testing budget, typically 10 to 15 percent, for experimenting with new channels or strategies. Budget allocation should be dynamic, not set once and forgotten."
+        },
+        {
+          "question": "How important is creative in paid media?",
+          "answer": "Very important, especially on social and display channels. On search platforms, ad copy and landing pages matter more than visual creative. On social platforms, the creative is often the single biggest performance variable. A paid media manager does not necessarily create the ads, but they need to understand what makes creative perform well and provide clear direction to creative teams based on performance data."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "The broader paid acquisition discipline.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Broader campaign management and strategy.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Senior Performance Marketing Manager",
+          "description": "Strategic leadership of paid programs.",
+          "href": "/senior-performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth including paid and organic.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "Focused on new user growth and CAC.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search, shopping, and display advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising on Facebook and Instagram.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising on the Microsoft network.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Paid Media Manager?",
+      "description": "If you need someone with deep platform expertise and proven media buying skills, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#f59e0b"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-search-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1431,
+  "generatedAt": "2026-06-12T15:08:42.954Z"
+}

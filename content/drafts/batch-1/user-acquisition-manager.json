@@ -1,0 +1,582 @@
+{
+  "slug": "user-acquisition-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "User Acquisition Manager | Alexander Kropivnitski",
+    "description": "How I approach user acquisition management: driving new user growth through paid channels, optimizing customer acquisition cost, and scaling mobile and web campaigns."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "User Acquisition Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A user acquisition manager is focused on one primary objective: bringing new users or customers into the business as efficiently as possible. The role is highly data driven and closely tied to unit economics. Every campaign, every channel, and every creative is evaluated through the lens of customer acquisition cost and long term value.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This role is common in mobile apps, SaaS, ecommerce, and subscription businesses where ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/growth-marketing-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "growth",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " depends on a steady pipeline of new users. It sits within the broader ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " discipline but with a sharper focus on the top of the funnel.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#8b5cf6"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "User acquisition management is focused specifically on bringing new users into the business efficiently.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "UserPlus",
+          "title": "New User Growth",
+          "description": "Designing and executing campaigns specifically aimed at acquiring new customers or users. This includes identifying the right channels, targeting strategies, and creative approaches for each audience segment."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "CAC Optimization",
+          "description": "Continuously improving customer acquisition cost through bid management, audience refinement, creative testing, and funnel optimization. The goal is acquiring users at a cost that leaves room for the business to be profitable."
+        },
+        {
+          "icon": "Smartphone",
+          "title": "Mobile and App Campaigns",
+          "description": "Running app install campaigns, managing mobile measurement partners, and optimizing for in app events. Mobile user acquisition has its own ecosystem of tools and metrics."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Cohort and LTV Analysis",
+          "description": "Tracking user cohorts over time to understand which acquisition channels produce the most valuable customers, not just the cheapest ones. A user acquired cheaply who churns in a week has negative value."
+        },
+        {
+          "icon": "Globe",
+          "title": "Multi Market Scaling",
+          "description": "Expanding acquisition efforts into new geographic markets while managing local differences in competition, cost, and user behavior."
+        },
+        {
+          "icon": "Zap",
+          "title": "Creative Performance Testing",
+          "description": "Working with creative teams to rapidly test ad variations. In user acquisition, creative is often the biggest performance lever after targeting and bidding."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to user acquisition starts with understanding the unit economics of the business. Before spending on any channel, I need to know the target customer acquisition cost, the expected lifetime value, and the payback period. Without these numbers, there is no way to know if a campaign is truly successful.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I work across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and app specific channels depending on the business. For mobile products, I have experience with app install campaigns and working with mobile measurement platforms to track post install events accurately.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The difference between a user acquisition manager and a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is focus. Performance marketing covers all paid channels and objectives. User acquisition is specifically about bringing new users in. This narrower scope allows for deeper specialization in areas like creative testing velocity, LTV modeling, and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " at the user level.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "In my experience, the biggest lever in user acquisition is not bidding strategy. It is understanding which users are worth acquiring and which are not. Many teams optimize for the lowest cost acquisition without checking whether those users actually generate revenue over time. Shifting focus from volume to quality changes the economics dramatically.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Channel diversification is another area where I see user acquisition managers underperform. Relying on a single acquisition channel creates fragility. When that channel's algorithm changes, costs spike, or a policy update disrupts targeting, performance drops overnight. I build acquisition programs that spread risk across multiple channels while maintaining efficiency, so that a disruption in one source does not derail the entire growth plan.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "User acquisition follows a structured process from economics definition to scaling.",
+      "steps": [
+        {
+          "icon": "Calculator",
+          "title": "Define Unit Economics",
+          "description": "Establish target CAC, expected LTV, and acceptable payback period. These numbers set the guardrails for every campaign and budget decision that follows."
+        },
+        {
+          "icon": "Target",
+          "title": "Channel Testing",
+          "description": "Test multiple channels with controlled budgets to understand which ones deliver users within target economics. Not every channel works for every business. Data should guide the channel mix, not assumptions."
+        },
+        {
+          "icon": "Image",
+          "title": "Creative Iteration",
+          "description": "Launch multiple creative concepts and iterate based on performance data. In user acquisition, creative fatigue is real. Maintaining a pipeline of fresh creative is essential for sustained performance."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Scale and Diversify",
+          "description": "Once profitable channels are identified, scale spend while maintaining efficiency. Simultaneously test new channels and markets to reduce dependency on any single source."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between user acquisition and growth marketing?",
+          "answer": "User acquisition focuses specifically on the top of funnel, bringing new users into the product. Growth marketing covers the full funnel including activation, retention, and revenue. A user acquisition manager is more specialized, often going deeper on paid channel expertise and creative testing. A growth marketing manager takes a broader view and might deprioritize acquisition if retention or activation is a bigger lever at the time."
+        },
+        {
+          "question": "Which channels work best for user acquisition?",
+          "answer": "It depends entirely on the product and audience. For mobile apps, Meta Ads and Google App campaigns are often the starting point. For SaaS, Google Search and LinkedIn can work well. For ecommerce, Google Shopping and Meta product catalogs tend to perform. The right channel is the one where your target users are and where you can acquire them within your unit economics. Testing is the only way to know for certain."
+        },
+        {
+          "question": "How important is creative in user acquisition?",
+          "answer": "Extremely important, especially on social and video channels. On platforms like Meta and TikTok, creative is often the single biggest driver of performance variation. The same targeting and bidding can produce wildly different results depending on the ad creative. I typically aim to test at least 5 to 10 new creative concepts per month in active acquisition campaigns."
+        },
+        {
+          "question": "How do you measure user acquisition success beyond cost per install?",
+          "answer": "Cost per install or signup is just the starting metric. What matters more is cost per activated user, cost per paying customer, and the ratio of customer acquisition cost to lifetime value. I track user cohorts by acquisition source and date to understand which channels produce users that stick around and generate revenue. A channel with a higher cost per acquisition but better retention can be more valuable than a cheap channel with high churn."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "The broader paid acquisition discipline.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Campaign management across all paid channels.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Senior Performance Marketing Manager",
+          "description": "Strategic oversight of paid programs.",
+          "href": "/senior-performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth beyond just acquisition.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "Paid Media Manager",
+          "description": "Media buying and platform expertise.",
+          "href": "/paid-media-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search, shopping, and app advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising on Facebook and Instagram.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Search advertising on the Bing network.",
+          "href": "/microsoft-ads"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need a User Acquisition Manager?",
+      "description": "If you are looking for someone to build or optimize your user acquisition program, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#8b5cf6"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "paid-media-manager",
+      "paid-search-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "paid-media-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1431,
+  "generatedAt": "2026-06-12T15:08:42.954Z"
+}

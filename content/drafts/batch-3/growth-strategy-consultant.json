@@ -1,0 +1,526 @@
+{
+  "slug": "growth-strategy-consultant",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Growth Strategy Consultant | Alexander Kropivnitski",
+    "description": "How I approach growth strategy consulting: helping companies identify growth opportunities, build marketing strategies, and implement programs that produce measurable results."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Growth Strategy Consultant",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A Growth Strategy Consultant helps companies identify and capture growth opportunities through strategic analysis, marketing planning, and implementation guidance. Unlike an in house role, the consultant brings external perspective, cross industry experience, and the ability to focus on high impact strategic questions without being pulled into daily operations.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach growth strategy consulting, what distinguishes strategic consulting from tactical marketing services, and how companies benefit from external ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " expertise applied at the strategy level.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#f97316"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Growth Strategy Consulting provides external expertise to identify and capture growth opportunities.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Growth Opportunity Assessment",
+          "description": "Analyzing the business, market, and competitive landscape to identify the highest impact growth opportunities. Prioritizing opportunities based on potential revenue impact, feasibility, and alignment with business strengths."
+        },
+        {
+          "icon": "Compass",
+          "title": "Marketing Strategy Development",
+          "description": "Building comprehensive marketing strategies that connect business goals to specific channels, tactics, and investment levels. Creating strategies that are actionable, not theoretical."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Benchmarking",
+          "description": "Evaluating current marketing performance against industry benchmarks and best practices. Identifying specific areas where performance is below potential and recommending targeted improvements."
+        },
+        {
+          "icon": "Map",
+          "title": "Go to Market Planning",
+          "description": "Helping companies plan market entry or expansion. Defining target audiences, positioning, channel strategy, and launch timelines for new products, markets, or business lines."
+        },
+        {
+          "icon": "Target",
+          "title": "Channel Strategy and Investment",
+          "description": "Recommending which marketing channels to invest in based on the business model, competitive dynamics, and growth targets. Providing budget allocation frameworks that optimize for revenue growth."
+        },
+        {
+          "icon": "Layers",
+          "title": "Organizational Design",
+          "description": "Advising on marketing team structure, roles, and capabilities. Recommending whether to build in house, hire agencies, or use a hybrid model. Helping companies build the marketing organization they need."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to growth strategy consulting starts with listening. Before recommending anything, I need to understand the business deeply: the revenue model, unit economics, competitive position, customer profile, and organizational capabilities. Strategy recommendations that ignore business reality are useless.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I bring a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background to consulting work, which means my strategies are grounded in measurable channels and quantifiable outcomes. I have hands on experience managing ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/microsoft-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Microsoft Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " campaigns, which gives me practical understanding of what channels can realistically deliver. Consultants who only work at the strategy level sometimes recommend approaches that do not survive contact with operational reality.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The most valuable thing an external consultant brings is pattern recognition across companies and industries. I have seen what works and what does not across different business models, market stages, and competitive environments. This cross pollination of ideas helps companies avoid common mistakes and adopt proven approaches faster than they would discover them independently.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also believe strongly in building internal capability, not creating dependency. My goal in every consulting engagement is to make myself unnecessary. I document strategies, train teams, build frameworks, and create processes that the company can execute independently after the engagement ends. A consultant who creates dependency is solving for their own revenue, not the client outcome.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Measurement and accountability are central to my consulting practice. Every strategy I develop includes clear success metrics and review points. If a strategy is not producing results within the expected timeframe, we adjust. I do not charge for months of analysis before any action is taken. Rapid assessment, focused strategy, and measurable execution is the approach that produces results for clients.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A structured consulting approach that moves from assessment to measurable results quickly.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Discovery and Assessment",
+          "description": "Deep dive into the business, market, and current marketing performance. Interview stakeholders, review data, and analyze the competitive landscape. Complete within two to three weeks."
+        },
+        {
+          "icon": "Map",
+          "title": "Strategy Development",
+          "description": "Build the growth strategy based on assessment findings. Define target markets, channel priorities, investment levels, and success metrics. Present to leadership for alignment."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Implementation Planning",
+          "description": "Create a detailed implementation plan with timelines, responsibilities, and milestones. Identify resource requirements and organizational changes needed to execute the strategy."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Execution Support and Review",
+          "description": "Provide ongoing advisory support during implementation. Review progress against milestones, help solve problems that arise, and adjust strategy based on results."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "When should a company hire a growth strategy consultant?",
+          "answer": "When the company faces a strategic inflection point: entering a new market, launching a new product, scaling marketing spend significantly, restructuring the marketing team, or when existing approaches have plateaued. Consultants are also valuable when internal teams are too close to the problem to see it objectively or when the company needs expertise it does not have internally."
+        },
+        {
+          "question": "How is growth strategy consulting different from hiring an agency?",
+          "answer": "Agencies typically execute campaigns within specific channels. Consultants work at the strategy level: defining which channels to invest in, how to allocate budget, how to structure the team, and what the overall marketing approach should be. A consultant might recommend which agencies to hire and how to manage them. The relationship is strategic guidance versus tactical execution."
+        },
+        {
+          "question": "How long does a typical growth strategy engagement last?",
+          "answer": "The initial strategy phase usually takes four to eight weeks, from discovery through final strategy presentation. Many engagements then continue with implementation support for three to six months. Some companies retain ongoing advisory relationships for quarterly strategy reviews and ad hoc guidance. The structure depends on how much implementation support the internal team needs."
+        },
+        {
+          "question": "What results should a company expect from growth strategy consulting?",
+          "answer": "A clear, actionable growth strategy with specific channel recommendations, budget allocations, and success metrics. Performance improvement targets based on benchmarking. An implementation roadmap with priorities and timelines. Most importantly, the strategy should be executable by the internal team or agencies, not dependent on the consultant for ongoing execution."
+        },
+        {
+          "question": "How do you ensure consulting recommendations actually get implemented?",
+          "answer": "By making recommendations practical and specific. Abstract strategy documents collect dust. I create detailed implementation plans with clear responsibilities, timelines, and milestones. I stay involved during early implementation to help solve problems and maintain momentum. And I design strategies that match the organization capabilities rather than recommending approaches the team cannot actually execute."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Campaign management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Growth and experimentation.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "New user growth.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Bing search advertising.",
+          "href": "/microsoft-ads"
+        },
+        {
+          "title": "Attribution Modeling",
+          "description": "Revenue attribution.",
+          "href": "/attribution-modeling-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Growth Strategy Guidance?",
+      "description": "I help companies identify growth opportunities and build marketing strategies that produce measurable results.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#f97316"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1340,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

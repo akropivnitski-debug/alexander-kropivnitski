@@ -71,6 +71,10 @@ function extractText(blocks: any[]): string {
       if (obj.cards) walk(obj.cards)
       if (obj.steps) walk(obj.steps)
       if (obj.features) walk(obj.features)
+      if (obj.root) walk(obj.root)
+      if (obj.blocks) walk(obj.blocks)
+      if (obj.content && typeof obj.content === 'object') walk(obj.content)
+      if (obj.description && typeof obj.description === 'object') walk(obj.description)
     }
   }
 

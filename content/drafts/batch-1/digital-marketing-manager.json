@@ -1,0 +1,646 @@
+{
+  "slug": "digital-marketing-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Digital Marketing Manager | Alexander Kropivnitski",
+    "description": "How I approach the digital marketing manager role: managing paid, organic, email, and content channels with a focus on measurable business results."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Digital Marketing Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A digital marketing manager oversees a company's online marketing efforts across multiple channels. The role is broader than a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " or an SEO specialist because it often covers paid media, organic search, email marketing, content, and sometimes social media. It is the generalist role in digital marketing.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach digital marketing management, what makes the role valuable, and how it connects to more specialized disciplines like ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ".",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#ec4899"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "Digital marketing management covers a broad range of channels and responsibilities.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Layers",
+          "title": "Multi Channel Management",
+          "description": "Overseeing paid search, paid social, SEO, email marketing, content, and sometimes offline channels. The digital marketing manager connects all of these into a coherent strategy rather than managing them in silos."
+        },
+        {
+          "icon": "Target",
+          "title": "Campaign Planning and Execution",
+          "description": "Planning integrated marketing campaigns that use multiple channels to reach audiences at different stages of the buying journey. Coordinating timing, messaging, and budgets across channels."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Performance Measurement",
+          "description": "Tracking and reporting on marketing performance across all channels. Building a clear picture of what is driving results and where resources should be allocated for maximum impact."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Budget Management",
+          "description": "Allocating marketing budgets across channels and campaigns, adjusting based on performance, and ensuring spend aligns with business priorities and revenue targets."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Agency Coordination",
+          "description": "Managing internal marketing team members and external agencies or freelancers. Ensuring consistent quality, clear briefs, and aligned goals across all contributors."
+        },
+        {
+          "icon": "Compass",
+          "title": "Marketing Strategy",
+          "description": "Translating business goals into marketing plans with clear objectives, channel strategies, timelines, and KPIs. Communicating strategy and results to leadership."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I approach digital marketing management as a coordination and prioritization challenge. With limited budget and time, the question is always: which channels and activities will have the biggest impact on the business right now? The answer changes depending on the company stage, market, and competitive landscape.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My background in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " gives me strong analytical skills that I apply across all digital channels. Whether I am managing ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " campaigns, reviewing SEO performance, or analyzing email conversion rates, the approach is the same: set clear goals, measure rigorously, and optimize based on data.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What makes a digital marketing manager different from a specialist is the breadth of responsibility. I do not go as deep into ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " as a dedicated ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/paid-search-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "paid search manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " would, and I do not do as much technical SEO as an ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/seo-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "SEO manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " would. But I understand enough about each channel to make smart strategic decisions, hire and manage the right specialists, and ensure all channels work together rather than in isolation.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "In my experience, the biggest value of a strong digital marketing manager is the ability to see the big picture. Many companies have good individual channel execution but poor coordination between channels. A digital marketing manager who understands ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and can evaluate the true contribution of each channel adds significant value by directing resources where they matter most.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One challenge specific to the digital marketing manager role is managing the tension between short term performance and long term brand building. Paid campaigns deliver immediate measurable results. SEO and content marketing take months to build momentum. Email lists grow gradually. A good digital marketing manager maintains a balanced portfolio of activities across these time horizons rather than chasing only what produces results this week. That balance requires discipline, clear communication with stakeholders about expected timelines, and confidence in the longer term strategy even when short term pressure mounts.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Digital marketing management requires balancing strategy with daily execution across multiple channels.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Marketing Audit",
+          "description": "Review all existing marketing channels, campaigns, and performance data. Understand what is working, what is not, and where the gaps are."
+        },
+        {
+          "icon": "Map",
+          "title": "Strategy Development",
+          "description": "Build an integrated marketing plan with clear channel strategies, budget allocation, timelines, and success metrics. Ensure the plan aligns with business goals and realistic resource constraints."
+        },
+        {
+          "icon": "Play",
+          "title": "Execution and Coordination",
+          "description": "Launch campaigns, manage team members and agencies, and ensure consistent execution across all channels. Monitor performance daily and make tactical adjustments as needed."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Analysis and Optimization",
+          "description": "Regular performance reviews across all channels. Identify what is driving results, reallocate budget toward high performers, and refine strategies for underperforming areas."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a digital marketing manager and a performance marketing manager?",
+          "answer": "A digital marketing manager typically covers a broader set of channels including SEO, email, content, and sometimes brand activities alongside paid media. A performance marketing manager focuses specifically on paid channels with measurable ROI. In practice, the roles overlap significantly, and many companies use the titles interchangeably. The key difference is usually scope: digital marketing managers tend to manage more channels but may go less deep into each one."
+        },
+        {
+          "question": "What skills does a digital marketing manager need?",
+          "answer": "A solid understanding of all major digital channels: paid search, paid social, SEO, email, content marketing, and analytics. You do not need to be an expert in every area, but you need enough knowledge to evaluate performance, give direction to specialists, and make strategic trade offs between channels. Analytical skills, project management, and stakeholder communication are equally important."
+        },
+        {
+          "question": "Is this a strategic or tactical role?",
+          "answer": "Both. In smaller companies, a digital marketing manager is highly hands on, managing campaigns directly across multiple channels. In larger companies, the role is more strategic, focused on planning, coordination, and managing a team of specialists. Most digital marketing managers, regardless of company size, operate somewhere between strategy and execution on any given day."
+        },
+        {
+          "question": "How does a digital marketing manager handle so many channels?",
+          "answer": "Prioritization and delegation. No one can be equally good at every channel. A smart digital marketing manager identifies which channels have the highest potential impact, focuses personal attention there, and uses specialists, agencies, or automation to manage the rest. The key is knowing enough about each channel to make good decisions and evaluate quality, even when someone else does the daily execution."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Focused paid acquisition strategy.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Dedicated paid media management.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Senior Performance Marketing Manager",
+          "description": "Strategic paid program leadership.",
+          "href": "/senior-performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Full funnel growth optimization.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search and shopping advertising.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "SEO",
+          "description": "Organic search optimization.",
+          "href": "/seo"
+        },
+        {
+          "title": "Marketing Technology",
+          "description": "Martech tools and systems.",
+          "href": "/marketing-technology"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Digital Marketing Manager?",
+      "description": "If you need someone who can manage and coordinate marketing across multiple digital channels, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#ec4899"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1360,
+  "generatedAt": "2026-06-12T15:08:42.955Z"
+}

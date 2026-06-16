@@ -1,0 +1,549 @@
+{
+  "slug": "revenue-growth-manager",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Revenue Growth Manager | Alexander Kropivnitski",
+    "description": "How I approach the revenue growth manager role: connecting marketing activities directly to revenue outcomes through data analysis, funnel optimization, and cross functional collaboration."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Revenue Growth Manager",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Revenue Growth Manager focuses on connecting marketing and sales activities directly to revenue outcomes. Unlike a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Performance Marketing Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who optimizes campaigns, or a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/growth-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Growth Marketing Manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who focuses on acquisition and retention, the Revenue Growth Manager takes an end to end view of how the business generates and grows revenue.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach revenue growth, what makes this role distinct from other marketing roles, and how the position bridges marketing, sales, and product to drive measurable business results.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#10b981"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Revenue Growth Manager connects marketing activities to business revenue through analysis, optimization, and cross functional collaboration.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "DollarSign",
+          "title": "Revenue Attribution",
+          "description": "Building systems that connect marketing activities to actual revenue. Moving beyond lead counting to understand which channels, campaigns, and content pieces contribute to closed deals and recurring revenue."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Funnel Optimization",
+          "description": "Analyzing and improving every stage of the revenue funnel from initial awareness through purchase and expansion. Identifying where revenue leaks occur and fixing them systematically."
+        },
+        {
+          "icon": "PieChart",
+          "title": "Channel Economics",
+          "description": "Understanding the unit economics of each marketing channel: customer acquisition cost, payback period, and lifetime value by channel. Allocating investment based on revenue contribution, not just lead volume."
+        },
+        {
+          "icon": "Users",
+          "title": "Sales and Marketing Alignment",
+          "description": "Creating shared definitions, processes, and goals between marketing and sales teams. Ensuring that marketing generates leads that sales can actually close, and that sales provides feedback that improves marketing effectiveness."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Revenue Forecasting",
+          "description": "Building models that predict revenue based on pipeline data, historical conversion rates, and marketing activity levels. Providing leadership with reliable forward looking projections."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Expansion Revenue",
+          "description": "Identifying opportunities to grow revenue from existing customers through upselling, cross selling, and reducing churn. Customer expansion is often more profitable than new customer acquisition."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to revenue growth starts with understanding the full revenue picture. Most marketing teams measure leads, clicks, and conversion rates. Revenue Growth Managers measure pipeline value, win rates, customer lifetime value, and revenue per marketing dollar spent. This shift in perspective changes every decision.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I bring a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " foundation with deep experience in ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " campaign management. At the revenue growth level, I apply that measurement discipline to the entire customer journey, not just paid acquisition. The question changes from how many leads did this campaign generate to how much revenue did this campaign contribute over 12 months.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Attribution modeling",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " is central to this work. Simple last touch attribution dramatically undervalues top of funnel activities and overvalues bottom of funnel conversions. I build multi touch attribution models that give a more accurate picture of how marketing touchpoints contribute to revenue. This changes budget allocation in meaningful ways.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The relationship between marketing and sales is where revenue growth happens or stalls. I have seen companies where marketing celebrates generating thousands of leads while sales complains about lead quality. The Revenue Growth Manager fixes this disconnect by creating shared definitions of qualified leads, establishing feedback loops, and aligning both teams around revenue metrics rather than departmental vanity metrics.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I also focus heavily on existing customer revenue. Many companies invest almost all their marketing budget in new customer acquisition while ignoring the customers they already have. Expansion revenue, reduced churn, and improved customer lifetime value often produce better returns than acquiring new customers. A balanced revenue growth strategy includes both acquisition and retention.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "A revenue first approach to marketing that connects every activity to business outcomes.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Revenue Analysis",
+          "description": "Map the complete revenue picture including new customer acquisition, expansion, retention, and churn. Identify the biggest opportunities and bottlenecks across the entire revenue lifecycle."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Attribution and Measurement",
+          "description": "Build the attribution framework that connects marketing activities to revenue outcomes. Implement tracking across the full funnel and create reporting that shows true revenue contribution by channel."
+        },
+        {
+          "icon": "Target",
+          "title": "Funnel Optimization",
+          "description": "Identify and fix revenue leaks at each funnel stage. Test improvements to conversion rates, sales handoff processes, and customer onboarding. Every percentage point improvement compounds over time."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Scale and Forecast",
+          "description": "Once the measurement framework is solid and key bottlenecks are addressed, increase investment in proven channels. Build revenue forecasting models that help leadership plan with confidence."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a Revenue Growth Manager and a Growth Marketing Manager?",
+          "answer": "The Growth Marketing Manager typically focuses on acquisition and top of funnel growth, often with a strong emphasis on experimentation and new channels. The Revenue Growth Manager takes a broader view that includes the full revenue lifecycle: acquisition, conversion, retention, expansion, and revenue forecasting. The revenue focus means this role works more closely with sales and success teams than a typical growth marketer."
+        },
+        {
+          "question": "What tools does a Revenue Growth Manager use?",
+          "answer": "CRM systems are the primary tool, since they contain the revenue data. Marketing automation platforms for tracking lead progression. Analytics tools like Google Analytics 4 for campaign tracking. Data warehouses and BI tools for revenue modeling and reporting. Attribution platforms for understanding multi touch contribution. The specific tools matter less than the ability to connect data across systems to build a complete revenue picture."
+        },
+        {
+          "question": "How does revenue growth management differ from sales operations?",
+          "answer": "Revenue growth management sits between marketing and sales, focused on optimizing the full revenue funnel. Sales operations focuses specifically on sales team efficiency: CRM management, territory planning, compensation design, and sales process optimization. The Revenue Growth Manager works upstream of sales operations, ensuring that the pipeline feeding into sales is healthy and that marketing activities are aligned with revenue goals."
+        },
+        {
+          "question": "How do you handle the tension between short term revenue and long term growth?",
+          "answer": "By making the tradeoff explicit and measurable. Some marketing activities produce revenue this quarter, like paid search for high intent keywords. Others build pipeline for next quarter or next year, like content marketing and brand investment. I present both types of investment to leadership with expected timelines and returns so they can make informed decisions about the balance."
+        },
+        {
+          "question": "What background is best for a Revenue Growth Manager?",
+          "answer": "The most effective Revenue Growth Managers combine marketing expertise with strong analytical skills and business acumen. Common backgrounds include performance marketing, marketing analytics, product marketing, or sales operations. The critical requirement is the ability to think about marketing in revenue terms and communicate in the language of business outcomes, not marketing metrics."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition and measurement.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Performance Marketing Manager",
+          "description": "Campaign management and optimization.",
+          "href": "/performance-marketing-manager"
+        },
+        {
+          "title": "Growth Marketing Manager",
+          "description": "Growth strategy and experimentation.",
+          "href": "/growth-marketing-manager"
+        },
+        {
+          "title": "User Acquisition Manager",
+          "description": "User growth and CAC optimization.",
+          "href": "/user-acquisition-manager"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Search advertising management.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Social advertising expertise.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Microsoft Ads",
+          "description": "Bing search advertising.",
+          "href": "/microsoft-ads"
+        },
+        {
+          "title": "Attribution Modeling",
+          "description": "Revenue attribution explained.",
+          "href": "/attribution-modeling-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Need Help Connecting Marketing to Revenue?",
+      "description": "I help companies build the systems and processes that connect marketing activities directly to revenue outcomes.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#10b981"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "paid-media-manager"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "performance-marketing-manager",
+      "senior-performance-marketing-manager",
+      "growth-marketing-manager",
+      "user-acquisition-manager",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1444,
+  "generatedAt": "2026-06-12T21:44:48.085Z"
+}

@@ -1,0 +1,614 @@
+{
+  "slug": "head-of-growth",
+  "pageType": "job_role",
+  "meta": {
+    "title": "Head of Growth | Alexander Kropivnitski",
+    "description": "How I approach the Head of Growth role: building growth teams, designing acquisition and retention strategies, and connecting marketing to business outcomes."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Head of Growth",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The Head of Growth is a leadership role responsible for driving company growth through a combination of marketing, product, and data initiatives. Unlike a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who focuses on paid channels, or a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/growth-marketing-manager",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "growth marketing manager",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " who handles full funnel execution, the Head of Growth sets the growth strategy, builds the team, and owns the results at a business level.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This page explains how I approach growth leadership, what the role involves, and how it connects to broader ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and business strategy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "circleColor": "#6366f1"
+    },
+    {
+      "blockType": "featureList",
+      "heading": "What This Role Involves",
+      "description": "The Head of Growth operates at the intersection of marketing, product, and business strategy.",
+      "columns": "2",
+      "items": [
+        {
+          "icon": "Users",
+          "title": "Team Building and Leadership",
+          "description": "Hiring, developing, and leading a growth team that covers acquisition, retention, analytics, and experimentation. Building the right team structure for the company stage and growth goals."
+        },
+        {
+          "icon": "Compass",
+          "title": "Growth Strategy",
+          "description": "Designing the overall growth strategy including channel selection, budget allocation, experimentation roadmap, and metrics framework. Aligning growth initiatives with company objectives and board expectations."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Revenue Accountability",
+          "description": "Owning growth targets and being accountable for metrics like revenue growth, customer acquisition cost, lifetime value, and net revenue retention. Translating these into actionable plans for the team."
+        },
+        {
+          "icon": "Beaker",
+          "title": "Experimentation Culture",
+          "description": "Building a culture of structured experimentation across the organization. Designing testing frameworks, setting velocity targets, and ensuring learnings are documented and shared."
+        },
+        {
+          "icon": "GitBranch",
+          "title": "Cross Functional Coordination",
+          "description": "Working with product, engineering, sales, and finance teams to align growth initiatives with company priorities. Breaking down silos between marketing and product."
+        },
+        {
+          "icon": "PieChart",
+          "title": "Investment and Resource Allocation",
+          "description": "Making decisions about where to invest growth resources for maximum impact. Balancing short term revenue targets with long term growth investments."
+        }
+      ]
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "My Approach",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "My approach to growth leadership starts with understanding the business model deeply. Before deciding which channels to invest in or which experiments to run, I need to understand the unit economics, the competitive landscape, the product strengths and weaknesses, and the company's strategic priorities. Growth strategy without business context is just tactics.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I come from a ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/performance-marketing",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "performance marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " background, which gives me strong analytical skills and channel expertise across ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/google-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Google Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/meta-ads",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Meta Ads",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", and other paid platforms. At the Head of Growth level, I apply that analytical rigor to broader business questions: Where is the biggest growth opportunity? What is the most efficient path to the next revenue milestone? Where should we invest more, and where should we cut?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The most important thing a Head of Growth does is build the right team and the right processes. Individual campaigns and experiments matter, but the system that produces those campaigns and experiments matters more. I focus on building teams that can run experiments at high velocity, analyze results quickly, and scale what works without needing my direct involvement in every decision.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "At this level, I also spend significant time communicating with leadership and, in some cases, investors. Translating ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/growth-marketing-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "growth marketing",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " results into business language and building confidence in the growth strategy is a critical part of the role. Understanding ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "link",
+                  "version": 3,
+                  "fields": {
+                    "linkType": "custom",
+                    "url": "/attribution-modeling-explained",
+                    "newTab": false
+                  },
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "attribution",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " and being able to explain the true incremental impact of marketing spend is essential for credible growth leadership.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "One area where I add particular value as a Head of Growth is connecting marketing and product development. Many companies treat these as separate functions, but the most effective growth comes from integrating them. Product improvements that reduce friction in the conversion funnel can have a bigger impact than any marketing campaign. Referral programs built into the product can lower acquisition costs permanently. When marketing and product teams work together with shared metrics and aligned incentives, the compound effect on growth is substantial. Building that alignment is one of the most impactful things a Head of Growth can do.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "processSteps",
+      "heading": "How I Work in This Role",
+      "description": "Growth leadership requires balancing strategic planning with operational execution.",
+      "steps": [
+        {
+          "icon": "Telescope",
+          "title": "Growth Assessment",
+          "description": "Evaluate the current growth engine: what is working, what is not, where the biggest opportunities are, and what the team needs to execute against them. This assessment informs the entire strategy."
+        },
+        {
+          "icon": "Map",
+          "title": "Strategy and Roadmap",
+          "description": "Build a growth roadmap that balances quick wins with longer term strategic investments. Set clear targets, assign ownership, and establish the metrics and review cadence for accountability."
+        },
+        {
+          "icon": "Users",
+          "title": "Team and Systems",
+          "description": "Build or restructure the growth team to match the strategy. Establish experimentation frameworks, reporting systems, and decision making processes that scale."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Execute and Iterate",
+          "description": "Drive execution while maintaining strategic oversight. Review results regularly, adjust the roadmap based on learnings, and continuously improve the growth engine."
+        }
+      ]
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between a Head of Growth and a Head of Marketing?",
+          "answer": "A Head of Marketing typically covers the full marketing function including brand, communications, PR, and sometimes events alongside digital marketing. A Head of Growth is more narrowly focused on measurable business growth through acquisition, retention, and revenue optimization. The Head of Growth role tends to be more data driven and experimental, often sitting closer to the product team than traditional marketing leadership. In some companies, particularly smaller ones, one person does both."
+        },
+        {
+          "question": "What background does a Head of Growth typically have?",
+          "answer": "Most come from performance marketing, growth marketing, or product management backgrounds. Some come from data or analytics roles. The common thread is strong analytical skills, comfort with experimentation, and the ability to connect marketing activities to business outcomes. Experience building and managing teams is also essential. The best Heads of Growth combine deep channel expertise with strategic thinking and leadership skills."
+        },
+        {
+          "question": "Does the Head of Growth manage both acquisition and retention?",
+          "answer": "In most organizations, yes. The role is responsible for the full growth loop: acquiring new customers efficiently, activating them, retaining them, and increasing their lifetime value. Some companies split acquisition and retention into separate teams, but the Head of Growth typically owns the strategy and metrics for both. In my experience, the most impactful growth improvements often come from retention and activation rather than acquisition."
+        },
+        {
+          "question": "How does a Head of Growth work with the product team?",
+          "answer": "Closely. Many growth initiatives involve product changes: improving onboarding, adding referral mechanics, optimizing pricing, or reducing friction in the purchase flow. The Head of Growth needs to influence the product roadmap and collaborate with product managers and engineers. In some organizations, the growth team includes engineers and product managers who work specifically on growth related product features."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition strategy and execution.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Head of Marketing",
+          "description": "Broader marketing leadership.",
+          "href": "/head-of-marketing"
+        },
+        {
+          "title": "Director of Growth",
+          "description": "Growth leadership at director level.",
+          "href": "/director-of-growth"
+        },
+        {
+          "title": "Director of Digital Marketing",
+          "description": "Digital marketing leadership.",
+          "href": "/director-of-digital-marketing"
+        },
+        {
+          "title": "Fractional CMO",
+          "description": "Part time strategic marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "Google Ads",
+          "description": "Primary paid search platform.",
+          "href": "/google-ads"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Paid social advertising.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Growth Marketing Explained",
+          "description": "The discipline behind growth roles.",
+          "href": "/growth-marketing-explained"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Looking for a Head of Growth?",
+      "description": "If you are looking for growth leadership that combines strategic thinking with hands on channel expertise, feel free to reach out.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#6366f1"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "small-business-cmo",
+      "fractional-cmo"
+    ],
+    "tools": [
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads",
+      "google-shopping",
+      "product-feed-optimization"
+    ],
+    "topics": [
+      "what-is-performance-marketing",
+      "growth-marketing-explained",
+      "attribution-modeling-explained",
+      "a-b-testing-explained"
+    ],
+    "relatedTopics": [
+      "performance-marketing",
+      "head-of-marketing",
+      "director-of-growth",
+      "director-of-digital-marketing",
+      "small-business-cmo",
+      "google-ads",
+      "meta-ads",
+      "microsoft-ads"
+    ]
+  },
+  "wordCount": 1436,
+  "generatedAt": "2026-06-12T15:08:42.955Z"
+}
