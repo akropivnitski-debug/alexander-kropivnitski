@@ -8,6 +8,7 @@ import { BlockRenderer } from '@/components/BlockRenderer'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { resolveImage } from '@/lib/resolveImage'
+import { normalizeTitle } from '@/lib/normalizeTitle'
 
 const getHomeData = cache(async () => {
   const payload = await getPayload({ config })
@@ -33,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const { siteSettings, page } = await getHomeData()
   const meta = page?.meta
 
-  const title       = meta?.title       || siteSettings.siteName        || 'Alexander Kropivnitski'
+  const title       = normalizeTitle(meta?.title || siteSettings.siteName || 'Alexander Kropivnitski', siteSettings.siteName ?? undefined)
   const description = meta?.description || siteSettings.siteDescription || undefined
   const ogImageUrl  = resolveImage(meta?.ogImage) ?? resolveImage(siteSettings.defaultOgImage) ?? undefined
 

@@ -10,6 +10,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { resolveImage } from '@/lib/resolveImage'
 import { generatePageSchema } from '@/lib/generateSchema'
+import { normalizeTitle } from '@/lib/normalizeTitle'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!page) return {}
 
   const meta = page.meta
-  const title       = meta?.title       || siteSettings.siteName        || 'Alexander Kropivnitski'
+  const title       = normalizeTitle(meta?.title || siteSettings.siteName || 'Alexander Kropivnitski', siteSettings.siteName ?? undefined)
   const description = meta?.description || siteSettings.siteDescription || undefined
   const ogImageUrl  = resolveImage(meta?.ogImage) ?? resolveImage(siteSettings.defaultOgImage) ?? undefined
   const noIndex     = meta?.noIndex ?? false
