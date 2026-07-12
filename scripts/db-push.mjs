@@ -32,7 +32,7 @@ process.env.NODE_ENV = 'development'
 
 try {
   const { getPayload } = await import('payload')
-  const config = (await import('../payload.config.js')).default
+  const config = (await import('../payload.config.ts')).default
 
   const payload = await getPayload({ config })
   console.log('[db-push] Schema push complete.')
