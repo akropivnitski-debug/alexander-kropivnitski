@@ -634,6 +634,10 @@ export interface Page {
               };
               [k: string]: unknown;
             };
+            /**
+             * Renders the heading as <h1>. Turn off when this block is stacked below another hero on the same page, so only one <h1> exists per page.
+             */
+            isPageHeading?: boolean | null;
             image?: {
               source?: ('upload' | 'url') | null;
               upload?: (number | null) | Media;
@@ -1774,6 +1778,7 @@ export interface PagesSelect<T extends boolean = true> {
           | {
               heading?: T;
               content?: T;
+              isPageHeading?: T;
               image?:
                 | T
                 | {

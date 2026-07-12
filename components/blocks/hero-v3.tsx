@@ -9,6 +9,7 @@ type HeroV3Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'her
 export function HeroV3({ data, contentHtml = '' }: { data: HeroV3Data; contentHtml?: string }) {
   const imageSrc = resolveImage(data.image) ?? 'https://placehold.co/400x600/eab308/ffffff?text=Hero'
   const circleColor = data.circleColor ?? '#facc15'
+  const HeadingTag = data.isPageHeading === false ? 'h2' : 'h1'
 
   return (
     <section
@@ -22,9 +23,9 @@ export function HeroV3({ data, contentHtml = '' }: { data: HeroV3Data; contentHt
           className="anim-fade-up z-20 order-2 md:order-1"
           style={{ animationDelay: '0.3s' }}
         >
-          <h1 className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
+          <HeadingTag className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
             {data.heading}
-          </h1>
+          </HeadingTag>
           <div
             className="mt-6 prose prose-invert max-w-none text-foreground/80 prose-li:marker:text-foreground/50"
             dangerouslySetInnerHTML={{ __html: contentHtml }}

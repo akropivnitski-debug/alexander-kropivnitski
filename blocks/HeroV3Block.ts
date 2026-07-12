@@ -21,6 +21,16 @@ export const HeroV3Block: Block = {
       type: 'richText',
       required: true,
     },
+    {
+      name: 'isPageHeading',
+      label: 'Use as page H1',
+      type: 'checkbox',
+      defaultValue: true,
+      admin: {
+        description:
+          'Renders the heading as <h1>. Turn off when this block is stacked below another hero on the same page, so only one <h1> exists per page.',
+      },
+    },
     imageField('image', 'Hero Image'),
     {
       name: 'circleColor',
