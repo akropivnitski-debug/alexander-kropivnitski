@@ -21,7 +21,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const result = await payload.find({
     collection: 'pages',
-    where: { _status: { equals: 'published' } },
+    where: {
+      _status: { equals: 'published' },
+      'meta.noIndex': { not_equals: true },
+    },
     limit: 500,
     select: { slug: true, pageType: true, updatedAt: true },
   })

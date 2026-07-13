@@ -58,6 +58,7 @@ function WorldMapCanvas({
         src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}
         className="h-full w-full [mask-image:linear-gradient(to_bottom,white,white_90%,transparent)] pointer-events-none select-none object-cover [will-change:transform] [transform:translateZ(0)]"
         alt="world map"
+        loading="lazy"
         draggable={false}
       />
       <svg
