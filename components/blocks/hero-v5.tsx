@@ -43,6 +43,7 @@ export function HeroV5({ data, contentHtml = '' }: { data: HeroV5Data; contentHt
               alt={data.heading ?? 'Hero image'}
               width={600}
               height={600}
+              sizes="(min-width: 768px) 448px, 100vw"
               priority
               className="h-auto w-full rounded-2xl object-cover"
             />

@@ -36,6 +36,7 @@ function TimelineEntry({
           alt={item.title}
           width={320}
           height={240}
+          sizes="320px"
           className="mt-3 h-auto w-full max-w-xs rounded-lg object-cover"
           loading="lazy"
         />

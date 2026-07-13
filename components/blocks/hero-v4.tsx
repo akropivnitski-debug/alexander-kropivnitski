@@ -35,6 +35,7 @@ function LogoCloud({ logos }: { logos: NonNullable<HeroV4Data['logos']> }) {
               alt={logo.alt}
               width={160}
               height={40}
+              sizes="160px"
               className={cn(
                 'pointer-events-none h-8 w-auto max-w-[160px] select-none md:h-10',
                 !logo.disableFilter && 'grayscale invert opacity-70',
@@ -108,6 +109,7 @@ export function HeroV4({ data, contentHtml = '' }: { data: HeroV4Data; contentHt
               alt={data.heading ?? 'Hero image'}
               width={400}
               height={600}
+              sizes="(min-width: 1024px) 288px, (min-width: 768px) 256px, 224px"
               priority
               className="h-auto w-full object-cover"
             />

@@ -43,6 +43,7 @@ export function ImageSlider({ data }: { data: ImageSliderData }) {
                   alt={item.alt || `Gallery image ${(i % items.length) + 1}`}
                   width={600}
                   height={400}
+                  sizes="(min-width: 768px) 320px, 256px"
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />

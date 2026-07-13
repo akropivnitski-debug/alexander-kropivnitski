@@ -51,6 +51,7 @@ export function Hero({ data }: { data: HeroData }) {
               alt={data.overlayPart1 ?? 'Hero image'}
               width={400}
               height={600}
+              sizes="(min-width: 1024px) 288px, (min-width: 768px) 256px, 224px"
               priority
               className="h-auto w-full object-cover"
             />
