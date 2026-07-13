@@ -11,18 +11,20 @@ import { MediaCollection } from './collections/Media'
 import { PagesCollection } from './collections/Pages'
 import { FormsCollection } from './collections/Forms'
 import { FormSubmissionsCollection } from './collections/FormSubmissions'
+import { UsersCollection } from './collections/Users'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
 export default buildConfig({
   admin: {
+    user: UsersCollection.slug,
     importMap: {
       baseDir: path.resolve(dirname),
     },
   },
   editor: lexicalEditor(),
-  collections: [MediaCollection, PagesCollection, FormsCollection, FormSubmissionsCollection],
+  collections: [UsersCollection, MediaCollection, PagesCollection, FormsCollection, FormSubmissionsCollection],
   globals: [
     SiteSettingsGlobal,
     HeaderGlobal,
