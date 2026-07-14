@@ -173,6 +173,7 @@ export function generatePersonSchema(): object {
       'https://www.linkedin.com/in/alexander-kropivnitski/',
       'https://www.crunchbase.com/person/alexander-kropivnitski',
       'https://wellfound.com/u/alexander-kropivnitski',
+      'https://contra.com/alexander_kropivnitski_ijp2mgw9',
     ],
     hasCredential: CREDENTIALS.map((c) => ({
       '@type': 'EducationalOccupationalCredential',
