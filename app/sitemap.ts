@@ -3,6 +3,7 @@ export const dynamic = 'force-dynamic'
 import type { MetadataRoute } from 'next'
 import { getPayload } from 'payload'
 import config from '@payload-config'
+import { ALL_MERGED_SLUGS } from '@/lib/roleRedirects'
 
 const PRIORITY_MAP: Record<string, number> = {
   pillar: 0.9,
@@ -29,7 +30,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     select: { slug: true, pageType: true, updatedAt: true },
   })
 
-  return result.docs.map((page) => {
+  return result.docs
+    .filter((page) => !(page.slug in ALL_MERGED_SLUGS))
+    .map((page) => {
     const isHome = page.slug === 'home'
     const pageType = (page as { pageType?: string }).pageType ?? 'general'
 
