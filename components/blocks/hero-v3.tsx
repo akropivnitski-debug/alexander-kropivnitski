@@ -7,7 +7,7 @@ import type { Page } from '@/payload-types'
 type HeroV3Data = Extract<NonNullable<Page['layout']>[number], { blockType: 'heroV3' }>
 
 export function HeroV3({ data, contentHtml = '' }: { data: HeroV3Data; contentHtml?: string }) {
-  const imageSrc = resolveImage(data.image) ?? 'https://placehold.co/400x600/eab308/ffffff?text=Hero'
+  const imageSrc = resolveImage(data.image)
   const circleColor = data.circleColor ?? '#facc15'
   const HeadingTag = data.isPageHeading === false ? 'h2' : 'h1'
 
@@ -17,10 +17,15 @@ export function HeroV3({ data, contentHtml = '' }: { data: HeroV3Data; contentHt
         'relative flex w-full flex-col items-center justify-center overflow-hidden bg-background px-8 py-16 font-sans md:px-12 md:py-24'
       )}
     >
-      <div className="relative grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
+      <div
+        className={cn(
+          'relative grid w-full max-w-7xl items-center gap-12',
+          imageSrc ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 max-w-4xl text-center'
+        )}
+      >
         {/* Left — Heading + Rich Text */}
         <div
-          className="anim-fade-up z-20 order-2 md:order-1"
+          className={cn('anim-fade-up z-20', imageSrc && 'order-2 md:order-1')}
           style={{ animationDelay: '0.3s' }}
         >
           <HeadingTag className="text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
@@ -32,27 +37,29 @@ export function HeroV3({ data, contentHtml = '' }: { data: HeroV3Data; contentHt
           />
         </div>
 
-        {/* Right — Image with Circle */}
-        <div className="relative order-1 md:order-2 flex justify-center items-center h-[300px] md:h-[400px] lg:h-[500px]">
-          <div
-            className="anim-scale-in absolute z-0 h-[280px] w-[280px] rounded-full md:h-[380px] md:w-[380px] lg:h-[480px] lg:w-[480px]"
-            style={{ backgroundColor: circleColor, animationDelay: '0.2s' }}
-          />
-          <div
-            className="anim-fade-up-large relative z-10 h-auto w-56 md:w-64 scale-150 lg:w-72"
-            style={{ animationDelay: '0.4s' }}
-          >
-            <Image
-              src={imageSrc}
-              alt={data.heading ?? 'Hero image'}
-              width={400}
-              height={600}
-              sizes="(min-width: 1024px) 288px, (min-width: 768px) 256px, 224px"
-              priority
-              className="h-auto w-full object-cover"
+        {/* Right — Image with Circle (only when a real image is set) */}
+        {imageSrc && (
+          <div className="relative order-1 md:order-2 flex justify-center items-center h-[300px] md:h-[400px] lg:h-[500px]">
+            <div
+              className="anim-scale-in absolute z-0 h-[280px] w-[280px] rounded-full md:h-[380px] md:w-[380px] lg:h-[480px] lg:w-[480px]"
+              style={{ backgroundColor: circleColor, animationDelay: '0.2s' }}
             />
+            <div
+              className="anim-fade-up-large relative z-10 h-auto w-56 md:w-64 scale-150 lg:w-72"
+              style={{ animationDelay: '0.4s' }}
+            >
+              <Image
+                src={imageSrc}
+                alt={data.heading ?? 'Hero image'}
+                width={400}
+                height={600}
+                sizes="(min-width: 1024px) 288px, (min-width: 768px) 256px, 224px"
+                priority
+                className="h-auto w-full object-cover"
+              />
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   )
