@@ -134,6 +134,34 @@ export function generatePageSchema(input: SchemaInput): object[] {
   return schemas
 }
 
+const CREDENTIALS: { name: string; url?: string; recognizedBy?: string }[] = [
+  { name: 'Claude Code', url: 'https://verify.skilljar.com/c/2pn5ts2adtn3', recognizedBy: 'Anthropic' },
+  { name: 'Claude 101', url: 'https://verify.skilljar.com/c/doiwoovpvmfd', recognizedBy: 'Anthropic' },
+  {
+    name: 'AI Powered Performance Ads Certification',
+    url: 'https://skillshop.credential.net/30f5c94a-4983-469c-94b4-f019352f8c22',
+    recognizedBy: 'Google',
+  },
+  {
+    name: 'Microsoft Advertising Search Certification',
+    url: 'https://www.credly.com/badges/b4a6477b-834a-4051-8a25-3b0e88ae0fbe/public_url',
+    recognizedBy: 'Microsoft',
+  },
+  {
+    name: 'Google Analytics Certification',
+    url: 'https://skillshop.credential.net/927cf410-eeea-4815-a2e0-de6a18aade31',
+    recognizedBy: 'Google',
+  },
+  { name: 'SQL Certification', recognizedBy: 'Stanford University' },
+  { name: 'Tableau Certification', recognizedBy: 'Tableau' },
+  {
+    name: 'Google Ads Search Certification',
+    url: 'https://skillshop.credential.net/005153ea-ebbe-4476-8db3-688271e6a775',
+    recognizedBy: 'Google',
+  },
+  { name: 'Certified Marketing Analyst (MCP)', recognizedBy: 'Google' },
+]
+
 export function generatePersonSchema(): object {
   return {
     '@context': 'https://schema.org',
@@ -142,5 +170,11 @@ export function generatePersonSchema(): object {
     jobTitle: 'Head of Marketing',
     url: SITE_URL,
     sameAs: ['https://www.linkedin.com/in/alexander-kropivnitski/'],
+    hasCredential: CREDENTIALS.map((c) => ({
+      '@type': 'EducationalOccupationalCredential',
+      name: c.name,
+      ...(c.url ? { url: c.url } : {}),
+      ...(c.recognizedBy ? { recognizedBy: { '@type': 'Organization', name: c.recognizedBy } } : {}),
+    })),
   }
 }
