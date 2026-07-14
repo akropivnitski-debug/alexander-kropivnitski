@@ -1,5 +1,5 @@
 import {
-  BarChart3, Blocks, Bot, Brain, Bug, Camera, Cloud, Code, Container,
+  Award, BarChart3, Blocks, Bot, Brain, Bug, Camera, Cloud, Code, Container,
   Database, Eye, FileCode, FileText, Gauge, GitBranch, Globe,
   Hammer, Layers, Layout, Link, Mail, Map, Monitor, Music,
   Paintbrush, PenTool, PieChart, Plug, Radar, Repeat, Rocket,
@@ -10,7 +10,7 @@ import {
 type IconComponent = React.ComponentType<{ className?: string; strokeWidth?: number }>
 
 export const ICON_MAP: Record<string, IconComponent> = {
-  BarChart3, Blocks, Bot, Brain, Bug, Camera, Cloud, Code, Container,
+  Award, BarChart3, Blocks, Bot, Brain, Bug, Camera, Cloud, Code, Container,
   Database, Eye, FileCode, FileText, Gauge, GitBranch, Globe,
   Hammer, Layers, Layout, Link, Mail, Map, Monitor, Music,
   Paintbrush, PenTool, PieChart, Plug, Radar, Repeat, Rocket,
