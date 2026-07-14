@@ -8,6 +8,7 @@ import config from '@payload-config'
 import { BlockRenderer } from '@/components/BlockRenderer'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { RelatedPages } from '@/components/RelatedPages'
 import { resolveImage } from '@/lib/resolveImage'
 import { generatePageSchema } from '@/lib/generateSchema'
 import { normalizeTitle } from '@/lib/normalizeTitle'
@@ -95,6 +96,7 @@ export default async function Page({ params }: Props) {
       <main className="bg-background relative min-h-screen w-full">
         <BlockRenderer blocks={page.layout ?? []} />
       </main>
+      <RelatedPages slug={page.slug} pageType={pageData.pageType} />
       <Footer data={footer} />
     </>
   )
