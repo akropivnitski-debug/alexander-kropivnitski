@@ -169,7 +169,10 @@ export function generatePersonSchema(): object {
     name: 'Alexander Kropivnitski',
     jobTitle: 'Head of Marketing',
     url: SITE_URL,
-    sameAs: ['https://www.linkedin.com/in/alexander-kropivnitski/'],
+    sameAs: [
+      'https://www.linkedin.com/in/alexander-kropivnitski/',
+      'https://www.crunchbase.com/person/alexander-kropivnitski',
+    ],
     hasCredential: CREDENTIALS.map((c) => ({
       '@type': 'EducationalOccupationalCredential',
       name: c.name,
