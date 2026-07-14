@@ -34,16 +34,18 @@ function AccordionItem({ question, answer }: { question: string; answer: string 
 
   return (
     <div>
-      <button
-        className="flex w-full items-center justify-between px-6 py-5 text-left text-base font-medium text-foreground transition-colors hover:text-foreground/80"
-        onClick={() => setOpen(!open)}
-        type="button"
-      >
-        {question}
-        <ChevronDown
-          className={`size-4 shrink-0 text-foreground/40 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
-        />
-      </button>
+      <h3 className="m-0">
+        <button
+          className="flex w-full items-center justify-between px-6 py-5 text-left text-base font-medium text-foreground transition-colors hover:text-foreground/80"
+          onClick={() => setOpen(!open)}
+          type="button"
+        >
+          {question}
+          <ChevronDown
+            className={`size-4 shrink-0 text-foreground/40 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+          />
+        </button>
+      </h3>
       <div
         className="grid transition-all duration-200"
         style={{ gridTemplateRows: open ? '1fr' : '0fr' }}

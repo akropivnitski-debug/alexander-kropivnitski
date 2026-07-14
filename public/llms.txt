@@ -1,0 +1,16 @@
+# Alexander Kropivnitski
+
+> Marketing and growth consultant based in France, working across performance marketing, SEO/GEO, marketing technology, and web development. Fractional CMO engagements available.
+
+## Core Pages
+
+- [Home](https://alexanderkropivnitski.com/): Overview, career timeline, and results.
+- [SEO & GEO](https://alexanderkropivnitski.com/seo): Technical SEO and Generative Engine Optimization services.
+- [Performance Marketing](https://alexanderkropivnitski.com/performance-marketing): Paid media strategy and execution across channels.
+- [Marketing Technology](https://alexanderkropivnitski.com/marketing-technology): Tag management, data warehousing, and marketing infrastructure.
+- [Web Development](https://alexanderkropivnitski.com/web-development): Next.js and React web application development.
+- [Fractional CMO](https://alexanderkropivnitski.com/fractional-cmo): Part-time marketing leadership engagements.
+
+## Full Site Index
+
+For the complete list of pages, see [sitemap.xml](https://alexanderkropivnitski.com/sitemap.xml).

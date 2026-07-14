@@ -81,6 +81,7 @@ export default async function Page({ params }: Props) {
     slug: page.slug,
     pageType: pageData.pageType,
     layout: page.layout ?? undefined,
+    updatedAt: page.updatedAt,
   })
 
   return (

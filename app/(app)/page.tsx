@@ -9,6 +9,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { resolveImage } from '@/lib/resolveImage'
 import { normalizeTitle } from '@/lib/normalizeTitle'
+import { generatePageSchema } from '@/lib/generateSchema'
 
 const getHomeData = cache(async () => {
   const payload = await getPayload({ config })
@@ -65,10 +66,25 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Home() {
-  const { header, footer, page } = await getHomeData()
+  const { header, footer, page, siteSettings } = await getHomeData()
+
+  const schemas = generatePageSchema({
+    title: page?.meta?.title || siteSettings.siteName || 'Alexander Kropivnitski',
+    description: page?.meta?.description || undefined,
+    slug: 'home',
+    layout: page?.layout ?? undefined,
+    updatedAt: page?.updatedAt,
+  })
 
   return (
     <>
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Header data={header} />
       <main className="bg-background relative min-h-screen w-full">
         {page && <BlockRenderer blocks={page.layout ?? []} />}

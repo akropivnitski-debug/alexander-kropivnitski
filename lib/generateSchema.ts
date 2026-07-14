@@ -3,6 +3,16 @@ import type { Page } from '@/payload-types'
 const SITE_URL = 'https://alexanderkropivnitski.com'
 const SITE_NAME = 'Alexander Kropivnitski'
 
+// Pages that describe an actual service offering, not a topic/tool explainer.
+// pageType alone isn't precise enough here - most of these are 'general'.
+const SERVICE_SLUGS = new Set([
+  'seo',
+  'web-development',
+  'marketing-technology',
+  'performance-marketing',
+  'fractional-cmo',
+])
+
 type FaqBlock = Extract<NonNullable<Page['layout']>[number], { blockType: 'faq' }>
 
 interface SchemaInput {
@@ -13,6 +23,7 @@ interface SchemaInput {
   parentHubSlug?: string
   parentHubTitle?: string
   layout?: Page['layout']
+  updatedAt?: string
 }
 
 export function generatePageSchema(input: SchemaInput): object[] {
@@ -26,12 +37,34 @@ export function generatePageSchema(input: SchemaInput): object[] {
     name: input.title,
     ...(input.description ? { description: input.description } : {}),
     url: pageUrl,
+    ...(input.updatedAt ? { dateModified: input.updatedAt } : {}),
+    author: {
+      '@type': 'Person',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
     isPartOf: {
       '@type': 'WebSite',
       name: SITE_NAME,
       url: SITE_URL,
     },
   })
+
+  // ProfessionalService schema — only on pages that describe an actual service
+  if (SERVICE_SLUGS.has(input.slug)) {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'ProfessionalService',
+      name: input.title,
+      ...(input.description ? { description: input.description } : {}),
+      url: pageUrl,
+      provider: {
+        '@type': 'Person',
+        name: SITE_NAME,
+        url: SITE_URL,
+      },
+    })
+  }
 
   // BreadcrumbList schema
   const breadcrumbItems: object[] = [
