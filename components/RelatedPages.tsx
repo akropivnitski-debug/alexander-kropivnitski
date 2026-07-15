@@ -2,7 +2,22 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 
-const CORE_PAGES = ['seo', 'web-development', 'marketing-technology', 'performance-marketing']
+const CORE_PAGES = ['seo', 'web-development', 'marketing-technology', 'performance-marketing', 'fractional-cmo']
+
+// Industry/location spoke pages (e.g. seo-for-appliance-repair, seo-agency-paris) all
+// share the same generic pageType, so grouping by pageType alone can't tell them apart —
+// it just alphabetically picks whichever prefix sorts first, regardless of the page you're
+// on. Cluster by the service slug prefix instead, which also lets a core service page
+// (e.g. /seo) surface its own spokes.
+function getClusterKey(slug: string): string | null {
+  if (CORE_PAGES.includes(slug)) return slug
+  for (const service of CORE_PAGES) {
+    if (slug.startsWith(`${service}-for-`) || slug.startsWith(`${service}-agency-`)) {
+      return service
+    }
+  }
+  return null
+}
 
 export async function RelatedPages({ slug, pageType }: { slug: string; pageType?: string }) {
   const payload = await getPayload({ config })
@@ -28,14 +43,18 @@ export async function RelatedPages({ slug, pageType }: { slug: string; pageType?
     pageType?: string | null
   }>
 
-  const sameType = pageType
+  const clusterKey = getClusterKey(slug)
+  const sameCluster = clusterKey
+    ? docs.filter((d) => getClusterKey(d.slug) === clusterKey).sort((a, b) => a.slug.localeCompare(b.slug))
+    : []
+  const sameType = !clusterKey && pageType
     ? docs.filter((d) => d.pageType === pageType).sort((a, b) => a.slug.localeCompare(b.slug))
     : []
 
   const seen = new Set<string>()
   const picks: typeof docs = []
 
-  for (const d of sameType) {
+  for (const d of [...sameCluster, ...sameType]) {
     if (picks.length >= 4) break
     if (seen.has(d.slug)) continue
     seen.add(d.slug)
@@ -49,6 +68,20 @@ export async function RelatedPages({ slug, pageType }: { slug: string; pageType?
     if (!doc) continue
     seen.add(coreSlug)
     picks.push(doc)
+  }
+
+  // Fill any remaining slots with GEO/SEO pillar content — broadly relevant "further
+  // reading" for any commercial page once cluster-specific links are exhausted.
+  if (picks.length < 6) {
+    const pillars = docs
+      .filter((d) => d.pageType === 'pillar_support')
+      .sort((a, b) => a.slug.localeCompare(b.slug))
+    for (const d of pillars) {
+      if (picks.length >= 6) break
+      if (seen.has(d.slug)) continue
+      seen.add(d.slug)
+      picks.push(d)
+    }
   }
 
   if (picks.length === 0) return null
