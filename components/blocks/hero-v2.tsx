@@ -99,10 +99,15 @@ export function HeroV2({ data }: { data: HeroV2Data }) {
           className="anim-fade-up z-20 order-3 flex items-center justify-center text-center md:justify-start"
           style={{ animationDelay: '0.8s' }}
         >
-          <h1 className="text-[clamp(2.75rem,8vw,8rem)] font-extrabold leading-none text-foreground">
-            {data.overlayPart1}
-            <br />
-            {data.overlayPart2}
+          <h1
+            className="text-[clamp(2.75rem,8vw,8rem)] font-extrabold leading-none text-foreground"
+            aria-label={`${data.overlayPart1}${data.overlayPart2}`}
+          >
+            <span aria-hidden="true">
+              {data.overlayPart1}
+              <br />
+              {data.overlayPart2}
+            </span>
           </h1>
         </div>
       </div>

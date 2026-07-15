@@ -19,6 +19,23 @@ function getClusterKey(slug: string): string | null {
   return null
 }
 
+// Real case study projects, matched to the industry their client is in — lets a case
+// study surface the matching industry pages and vice versa, without per-page curation.
+const CASE_STUDY_INDUSTRY: Record<string, string> = {
+  'case-study-abc-appliance-repair': 'appliance-repair',
+  'case-study-pro-appliance-repair': 'appliance-repair',
+  'case-study-thermador-appliance-repair': 'appliance-repair',
+  'case-study-headwall-partners': 'investment-banks',
+  'case-study-luxury-boat-hire': 'yacht-charter',
+  'case-study-tour-operator-certification': 'tour-operators',
+}
+
+function getIndustryKey(slug: string): string | null {
+  if (CASE_STUDY_INDUSTRY[slug]) return CASE_STUDY_INDUSTRY[slug]
+  const match = slug.match(/-for-([a-z-]+)$/)
+  return match ? match[1] : null
+}
+
 export async function RelatedPages({ slug, pageType }: { slug: string; pageType?: string }) {
   const payload = await getPayload({ config })
 
@@ -50,11 +67,15 @@ export async function RelatedPages({ slug, pageType }: { slug: string; pageType?
   const sameType = !clusterKey && pageType
     ? docs.filter((d) => d.pageType === pageType).sort((a, b) => a.slug.localeCompare(b.slug))
     : []
+  const industryKey = getIndustryKey(slug)
+  const sameIndustry = industryKey
+    ? docs.filter((d) => getIndustryKey(d.slug) === industryKey).sort((a, b) => a.slug.localeCompare(b.slug))
+    : []
 
   const seen = new Set<string>()
   const picks: typeof docs = []
 
-  for (const d of [...sameCluster, ...sameType]) {
+  for (const d of [...sameIndustry, ...sameCluster, ...sameType]) {
     if (picks.length >= 4) break
     if (seen.has(d.slug)) continue
     seen.add(d.slug)
