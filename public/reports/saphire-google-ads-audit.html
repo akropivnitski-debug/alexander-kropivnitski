@@ -157,36 +157,38 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
     <span class="step done">15 Findings &amp; Roadmap</span>
   </div>
 
+  <p class="dek" style="max-width:none;font-size:13px;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px 16px;margin-bottom:36px;"><strong>Data limitation.</strong> Google Ads reports attributed conversion value, not profit. Contribution margin, fulfilment costs, refunds, and breakeven ROAS are unavailable in this data. Figures in this report labeled "attributed conversion value" or "attributed ROAS" describe media efficiency, not business profitability.</p>
+
   <div class="section" id="section-01">
     <div class="section-head"><span class="section-num">01</span><h2>Account snapshot and hierarchy</h2></div>
     <p class="dek">67 campaigns have run since September 2025 across Search, Shopping, Performance Max, and Demand Gen. The two windows below (full period vs. last 30 days) are shown side by side because the account's channel mix has shifted meaningfully in recent weeks, and recent behavior carries more weight throughout this report.</p>
 
-    <h3>Full period (11 months)</h3>
+    <h3>Full-period historical average (Sep 1, 2025 to Jul 28, 2026)</h3>
     <div class="stat-row">
       <div class="metric"><span class="stat">$333,230</span><span class="lbl">Total spend</span></div>
       <div class="metric"><span class="stat">9,651</span><span class="lbl">Conversions</span></div>
-      <div class="metric"><span class="stat">$615,359</span><span class="lbl">Conv. value</span></div>
-      <div class="metric"><span class="stat">1.85x</span><span class="lbl">Blended ROAS</span></div>
+      <div class="metric"><span class="stat">$615,359</span><span class="lbl">Attributed conv. value</span></div>
+      <div class="metric"><span class="stat">1.85x</span><span class="lbl">Attributed ROAS</span></div>
     </div>
 
-    <h3>Last 30 days <span class="h3-note">vs. full-period daily average</span></h3>
+    <h3>Last 30 days</h3>
     <div class="stat-row">
-      <div class="metric"><span class="stat">$56,107<span class="trend up">&#9650; 85.8%</span></span><span class="lbl">Total spend</span></div>
-      <div class="metric"><span class="stat">1,600<span class="trend up">&#9650; 82.9%</span></span><span class="lbl">Conversions</span></div>
-      <div class="metric"><span class="stat">$101,104<span class="trend up">&#9650; 81.3%</span></span><span class="lbl">Conv. value</span></div>
-      <div class="metric"><span class="stat">1.80x<span class="trend down">&#9660; 2.4%</span></span><span class="lbl">Blended ROAS</span></div>
+      <div class="metric"><span class="stat">$56,107</span><span class="lbl">Total spend</span></div>
+      <div class="metric"><span class="stat">1,600</span><span class="lbl">Conversions</span></div>
+      <div class="metric"><span class="stat">$101,104</span><span class="lbl">Attributed conv. value</span></div>
+      <div class="metric"><span class="stat">1.80x</span><span class="lbl">Attributed ROAS</span></div>
     </div>
-    <p class="dek" style="font-size:12.5px;margin-top:6px;">Full-period average is the $333,230 spent over 331 days, scaled to a 30-day equivalent ($30,202/mo, 875 conversions/mo, $55,773/mo), so the comparison is like for like against the last 30 days.</p>
+    <p class="dek" style="font-size:12.5px;margin-top:6px;"><strong>Data limitation.</strong> The full-period row is a historical average across an 11-month window with a different campaign mix than the last 30 days, it is shown for context, not as a like-for-like baseline. A true previous-30-days comparison window has not been pulled for this report. Further validation is required before treating the difference between these two rows as a trend.</p>
 
     <h3>Hierarchy by campaign type</h3>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Type</th><th>Spend share (full)</th><th>ROAS (full)</th><th>Spend share (30d)</th><th>ROAS (30d)</th><th>Trend</th></tr></thead>
         <tbody>
-          <tr class="hi"><td>Search</td><td class="num">42.2%</td><td class="num">2.70x</td><td class="num">34.8%</td><td class="num">2.52x</td><td>Still the profit engine, share slipping</td></tr>
-          <tr><td>Shopping</td><td class="num">13.0%</td><td class="num">2.02x</td><td class="num">16.6%</td><td class="num">2.54x</td><td class="trend-up">Efficiency improving, gaining share</td></tr>
-          <tr><td>Performance Max</td><td class="num">20.3%</td><td class="num">1.64x</td><td class="num">39.0%</td><td class="num">1.22x</td><td class="trend-down">Now the largest channel, efficiency falling</td></tr>
-          <tr class="lo"><td>Demand Gen</td><td class="num">24.5%</td><td class="num">0.45x</td><td class="num">9.5%</td><td class="num">0.27x</td><td class="trend-down">Being cut, still losing money on every dollar</td></tr>
+          <tr class="hi"><td>Search</td><td class="num">42.2%</td><td class="num">2.70x</td><td class="num">34.8%</td><td class="num">2.52x</td><td>Highest observed attributed ROAS, share slipping</td></tr>
+          <tr><td>Shopping</td><td class="num">13.0%</td><td class="num">2.02x</td><td class="num">16.6%</td><td class="num">2.54x</td><td class="trend-up">Attributed ROAS improving, gaining share</td></tr>
+          <tr><td>Performance Max</td><td class="num">20.3%</td><td class="num">1.64x</td><td class="num">39.0%</td><td class="num">1.22x</td><td class="trend-down">Now the largest channel, attributed ROAS falling</td></tr>
+          <tr class="lo"><td>Demand Gen</td><td class="num">24.5%</td><td class="num">0.45x</td><td class="num">9.5%</td><td class="num">0.27x</td><td class="trend-down">Being cut, attributed ROAS remains below 1.00x</td></tr>
         </tbody>
       </table>
     </div>
@@ -204,7 +206,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       </table>
     </div>
 
-    <h3>Structural drag (min. $2,000 spend, full period, all five are Demand Gen)</h3>
+    <h3>Lowest attributed ROAS campaigns (min. $2,000 spend, full period, all five are Demand Gen)</h3>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Campaign</th><th>ROAS</th><th>Spend</th><th>Value</th></tr></thead>
@@ -217,7 +219,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
         </tbody>
       </table>
     </div>
-    <p class="pullquote">Every campaign on the "structural drag" list is Demand Gen. Not one Search, Shopping, or PMax campaign at meaningful spend loses money outright. This is not scattered underperformance, it is one channel.</p>
+    <p class="pullquote"><strong>Confirmed finding.</strong> Every campaign on the lowest-attributed-ROAS list above is Demand Gen. No Search, Shopping, or PMax campaign at meaningful spend shows attributed ROAS below 1.00x in this data. The pattern concentrates in one channel, not scattered across the account.</p>
   </div>
 
   <div class="section">
@@ -233,36 +235,36 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       <div class="callout threat">
         <span class="rank">2</span>
         <div class="body">
-          <strong>Demand Gen is a structural loss, not a soft spot.</strong>
-          <span>$81,523 spent lifetime for $36,617 back (0.45x), and still running at 0.27x in the last 30 days despite the team already cutting its budget share from 24.5% to 9.5%. Detail in <a class="xref" href="#section-08">Section 08</a>.</span>
+          <strong>Confirmed finding: Demand Gen shows persistently low attributed efficiency.</strong>
+          <span>$81,523 spent lifetime for $36,617 in attributed conversion value (0.45x attributed ROAS), and still at 0.27x in the last 30 days despite the team already cutting its budget share from 24.5% to 9.5%. Google Ads cannot confirm whether Demand Gen creates value outside what it measures. Detail in <a class="xref" href="#section-08">Section 08</a>.</span>
         </div>
       </div>
       <div class="callout threat">
         <span class="rank">3</span>
         <div class="body">
-          <strong>PMax cracked in July specifically, after four straight months of growing profit.</strong>
-          <span>Broken down by month (<a class="xref" href="#section-02">Section 02</a>), PMax generated positive and climbing Net Ad Revenue every month from March through June ($2,091 to $14,862). In July it dropped to $3,847 at 1.19x ROAS on similar spend, a one-month break, not a slow slide. PMax also now carries 39.0% of last-30-day spend, the largest share of any channel, so a break in this specific format matters more than it would have in March. PMax leans on audience signals more than any other format, and Risk 1 means it currently has almost none to work with. Detail in <a class="xref" href="#section-07">Section 07</a>.</span>
+          <strong>Confirmed finding: PMax attributed efficiency declined in July.</strong>
+          <span>Broken down by month (<a class="xref" href="#section-02">Section 02</a>), PMax's attributed conversion value after ad spend climbed every month from March through June ($2,091 to $14,862). In July it dropped to $3,847 at 1.19x attributed ROAS on similar spend. PMax also now carries 39.0% of last-30-day spend, the largest share of any channel. The cause is not established from this data alone, timing alone does not prove causality. Several hypotheses, including the audience-signal restriction in Risk 1, are outlined for investigation in <a class="xref" href="#section-07">Section 07</a>.</span>
         </div>
       </div>
       <div class="callout threat">
         <span class="rank">4</span>
         <div class="body">
-          <strong>The primary conversion action has a broken Enhanced Conversions feed.</strong>
-          <span>"Google Shopping App Purchase," the one Smart Bidding actually optimizes against, is flagged for an API setup issue limiting enhanced conversions data received. Every automated bid strategy in the account is bidding on a degraded signal. Detail in <a class="xref" href="#section-04">Section 04</a>.</span>
+          <strong>Google Ads flags the primary conversion action for an Enhanced Conversions setup issue.</strong>
+          <span>"Google Shopping App Purchase," the primary purchase action Smart Bidding optimizes against, is flagged by Google Ads for an Enhanced Conversions setup issue. Signal quality on automated bid strategies may be affected; this data does not show that every strategy is materially degraded. Detail in <a class="xref" href="#section-04">Section 04</a>.</span>
         </div>
       </div>
       <div class="callout threat">
         <span class="rank">5</span>
         <div class="body">
-          <strong>Brand equity is leaking to Amazon and affiliate content farms.</strong>
-          <span>Up to 62% query overlap and a 90%+ top-of-page rate from amazon.com against the brand Search campaign, plus a cluster of "best saffron gummies" and "is it a scam" content sites intercepting comparison-stage demand. Full detail in the Competitive Intelligence Brief, referenced again in <a class="xref" href="#section-11">Section 11</a>.</span>
+          <strong>Amazon frequently appears in the same auctions as the Brand Search campaign and often ranks above it.</strong>
+          <span>58.4% to 63.5% search overlap rate and a 90.98% to 93.00% top-of-page rate from amazon.com against the two Brand Search campaigns (period: Sep 1, 2025 to Jul 28, 2026), plus a cluster of "best saffron gummies" and "is it a scam" content sites appearing for comparison-stage searches. Auction Insights shows auction competition, not clicks won or lost. Full detail in the Competitive Intelligence Brief and <a class="xref" href="#section-11">Section 11</a>.</span>
         </div>
       </div>
       <div class="callout threat">
         <span class="rank">6</span>
         <div class="body">
-          <strong>No automation or monitoring layer exists.</strong>
-          <span>Zero Ads Scripts, zero automated rules, on a $333,230 account. Nothing is watching auction insights, budget pacing, or search term quality between manual check-ins. Detail in <a class="xref" href="#section-12">Section 12</a>.</span>
+          <strong>No Google Ads scripts or automated rules were observed.</strong>
+          <span>Zero Ads Scripts, zero automated rules, on a $333,230 account. This data cannot confirm whether budget pacing, auction activity, or search term quality are monitored through means outside Google Ads. Detail in <a class="xref" href="#section-12">Section 12</a>.</span>
         </div>
       </div>
     </div>
@@ -281,22 +283,22 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       <div class="callout opp">
         <span class="rank">2</span>
         <div class="body">
-          <strong>Reallocate, do not just trim, Demand Gen.</strong>
-          <span>The team has already cut its share by more than half. The remaining spend is still losing money. Moving it fully into Search or Shopping, or rebuilding it from scratch around a different creative and targeting logic, converts an ongoing loss into ongoing profit at the same budget level.</span>
+          <strong>Reduce Demand Gen exposure and separate testing budgets, do not just trim.</strong>
+          <span>The team has already cut its share by more than half. The remaining spend still shows attributed ROAS below 1.00x. This may indicate that moving spend fully into Search or Shopping, or rebuilding Demand Gen from scratch around a different creative and targeting logic, improves attributed media efficiency at the same budget level. Search cannot be assumed to absorb all reallocated spend at its current efficiency, further validation is required.</span>
         </div>
       </div>
       <div class="callout opp">
         <span class="rank">3</span>
         <div class="body">
-          <strong>Scale the DSA campaign.</strong>
-          <span>7.24x ROAS on only $6,161 of spend, the most efficient thing in the account by a wide margin, and clearly budget-constrained rather than demand-constrained.</span>
+          <strong>Investigate scaling the DSA campaign after addressing its rank-constrained impression share.</strong>
+          <span>7.24x attributed ROAS on only $6,161 of spend, the highest observed attributed ROAS in the account. Search lost impression share (<a class="xref" href="#section-05">Section 05</a>) shows this campaign is rank-constrained, not budget-constrained. Further validation of rank drivers is required before scaling budget.</span>
         </div>
       </div>
       <div class="callout opp">
         <span class="rank">4</span>
         <div class="body">
-          <strong>Fix the Purchase action's Enhanced Conversions API issue.</strong>
-          <span>A contained, technical fix (order ID, OAuth credentials, hashed user data via the API) that improves bidding signal quality on every tROAS and Max Conversion Value campaign in the account simultaneously.</span>
+          <strong>Review the Enhanced Conversions diagnostic details for the Purchase action.</strong>
+          <span>Confirm data quality and implementation ownership before changing bidding. Google Ads flags this action for a setup issue; the exact cause has not been confirmed from this data.</span>
         </div>
       </div>
       <div class="callout opp">
@@ -317,33 +319,29 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
   </div>
 
   <div class="section">
-    <div class="section-head"><span class="section-num">04</span><h2>Projected impact estimate</h2></div>
-    <p class="dek">Directional, order-of-magnitude figures from reallocating spend that is already happening, not a promise of new budget or guaranteed returns. Real-world reallocation runs into diminishing returns at scale, these are ceilings to aim toward, not committed numbers.</p>
+    <div class="section-head"><span class="section-num">04</span><h2>Illustrative attributed conversion value scenario</h2></div>
+    <p class="dek"><strong>Hypothesis.</strong> These are not incremental revenue or profit forecasts. They are calculated only from Google Ads attributed conversion value data, at three levels of efficiency-gap realization. They assume Demand Gen spend moves toward Search's last-30-day attributed ROAS and PMax returns toward its own pre-decline attributed ROAS. Google Ads cannot confirm that Search can absorb all reallocated spend at its current efficiency, or that historical attributed ROAS will hold if spend increases. Further validation is required before treating any of these numbers as expected.</p>
 
-    <div class="impact-box">
-      <div class="impact-row">
-        <span class="l">Demand Gen reallocated to Search-level efficiency, at last 30 days' spend ($5,346 at 2.52x instead of 0.27x)</span>
-        <span class="v">≈ +$12,000 / month</span>
-      </div>
-      <div class="impact-row">
-        <span class="l">PMax recovering to its own earlier 1.64x (pre-decline) on current $21,905 / month spend</span>
-        <span class="v">≈ +$9,000 / month</span>
-      </div>
-      <div class="impact-total">
-        <span class="l">Combined monthly opportunity, current spend levels, no new budget</span>
-        <span class="v">≈ $20,000 / month</span>
-      </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Scenario</th><th>Demand Gen gap closed</th><th>PMax gap closed</th><th>Illustrative monthly total</th></tr></thead>
+        <tbody>
+          <tr><td>25% efficiency-gap realization</td><td class="num">≈ +$3,000</td><td class="num">≈ +$2,250</td><td class="num">≈ $5,250</td></tr>
+          <tr><td>50% efficiency-gap realization</td><td class="num">≈ +$6,000</td><td class="num">≈ +$4,500</td><td class="num">≈ $9,000</td></tr>
+          <tr><td>75% efficiency-gap realization</td><td class="num">≈ +$9,000</td><td class="num">≈ +$6,750</td><td class="num">≈ $14,000</td></tr>
+        </tbody>
+      </table>
     </div>
-    <p class="dek">Held over a year, that is in the neighborhood of a quarter-million dollars in recovered value, and it is worth noting the Demand Gen drag alone has already cost roughly $183,000 in opportunity cost over the full 11-month period (actual $36,617 back against what that same $81,523 would have returned at Search's lifetime 2.70x). Both estimates depend on fixing the audience-signal gap and the conversion feed issue (Risks 1 and 4), since PMax's decline and Demand Gen's underlying targeting logic both trace back to those two problems.</p>
+    <p class="dek">The 100% reference points behind these scenarios: Demand Gen at last 30 days' spend ($5,346) moving from 0.27x to Search's last-30-day 2.52x attributed ROAS is worth approximately $12,000 in additional monthly attributed conversion value if fully realized. PMax returning from its July 1.19x to its earlier 1.64x attributed ROAS on its current $21,905 monthly spend is worth approximately $9,000 if fully realized. Both are illustrative attributed conversion value scenarios, not annualized, and not commercial profit estimates. Both depend on resolving the audience-signal restriction and the conversion feed issue (Risks 1 and 4); the connection between those fixes and these specific outcomes is a hypothesis, not a confirmed finding.</p>
   </div>
 
   <div class="section">
-    <div class="section-head"><span class="section-num">05</span><h2>Did revenue growth cover the ROAS drop</h2></div>
+    <div class="section-head"><span class="section-num">05</span><h2>Did attributed conversion value growth cover the drop in attributed ROAS</h2></div>
     <div class="stat-row" style="grid-template-columns:1fr 1fr;">
       <div class="metric"><span class="stat">$22,002/mo</span><span class="lbl">Search-only era (Sep to Feb)</span></div>
       <div class="metric"><span class="stat">$29,278/mo</span><span class="lbl">Multi-channel era (Apr to Jul)</span></div>
     </div>
-    <p class="dek"><strong>Yes, on average, but unevenly.</strong> Net Ad Revenue, attributed order value minus ad spend, before cost of goods or any other cost, averaged higher per month once the account scaled, even though blended ROAS fell from 3.70x to 1.45x over the same comparison. That average hides a real two-month dip. Full breakdown, by channel and by month, in <a class="xref" href="#section-02">Section 02</a>.</p>
+    <p class="dek"><strong>Directional finding.</strong> The data suggests yes, on average, but unevenly. Attributed conversion value after ad spend (Google Ads conversion value minus media spend; this is not revenue reconciliation or profit) averaged higher per month once the account scaled, even though blended attributed ROAS fell from 3.70x to 1.45x over the same comparison. That average hides a real two-month dip. Full breakdown, by channel and by month, in <a class="xref" href="#section-02">Section 02</a>.</p>
   </div>
 
   <div class="section" id="section-02">
@@ -353,7 +351,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
     <p class="dek">Full detail lives in the <a href="/reports/saphire-competitive-intelligence-brief.html">Competitive Intelligence Brief</a>, cited here rather than repeated. Two findings from that brief matter most:</p>
     <ul class="pts">
       <li><strong>Amazon resellers overlap up to 62%</strong> of Brand Search query traffic, with a 90%+ top-of-page rate.</li>
-      <li><strong>Affiliate content sites</strong> ("best saffron gummies," comparison-stage searches) intercept demand Saphire has no owned page competing for.</li>
+      <li><strong>Affiliate content sites</strong> ("best saffron gummies," comparison-stage searches) rank for queries where Saphire has no owned page competing.</li>
     </ul>
     <p class="dek">Both are still visible in this account's own Auction Insights. Neither has been addressed since.</p>
 
@@ -446,7 +444,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
 <line x1="46" y1="25.6" x2="784" y2="25.6" stroke="var(--line)" stroke-width="1"/>
 <text x="38" y="28.6" text-anchor="end" font-size="9" fill="var(--ink-soft)">5x</text>
 <line x1="46" y1="102.7" x2="784" y2="102.7" stroke="var(--threat)" stroke-width="1" stroke-dasharray="3,3"/>
-<text x="784" y="98.7" text-anchor="end" font-size="8.5" fill="var(--threat)">breakeven (1.0x)</text>
+<text x="784" y="98.7" text-anchor="end" font-size="8.5" fill="var(--threat)">Conversion value equals media spend</text>
 <path d="M 79.5 30.8 L 146.6 29.5 L 213.7 48.6 L 280.8 63.2 L 347.9 55.1 L 415.0 50.1 L 482.1 75.2 L 549.2 97.5 L 616.3 97.3 L 683.4 92.3 L 750.5 87.5" fill="none" stroke="var(--saffron-strong)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="79.5" cy="30.8" r="3" fill="var(--saffron-strong)"/>
 <text x="79.5" y="22.8" text-anchor="middle" font-size="9.5" font-weight="700" fill="var(--ink)">4.73x</text>
@@ -477,13 +475,13 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
     </div>
     <p class="pullquote">From September through February the account was Search-only and ran at 3.05x to 4.80x ROAS. The moment Shopping, PMax, and Demand Gen were switched on together in March and scaled hard in April, blended ROAS fell to 1.27x, the worst month in the dataset, and has only partly recovered since as Demand Gen got cut back. This was not a slow drift. It happened in one month.</p>
 
-    <h3>Net Ad Revenue by channel and month</h3>
-    <p class="dek">Net Ad Revenue: attributed order value minus ad spend, before cost of goods or any other cost. Not profit, the dollar version of ROAS.</p>
+    <h3>Attributed conversion value after ad spend, by channel and month</h3>
+    <p class="dek">Attributed conversion value after ad spend: Google Ads conversion value minus media spend. This is not revenue reconciliation or profit.</p>
     <div class="table-wrap">
       <table>
         <thead>
           <tr><th>Month</th><th colspan="2">Search</th><th colspan="2">Shopping</th><th colspan="2">PMax</th><th colspan="2">Demand Gen</th></tr>
-          <tr><th></th><th>Net Ad Rev.</th><th>ROAS</th><th>Net Ad Rev.</th><th>ROAS</th><th>Net Ad Rev.</th><th>ROAS</th><th>Net Ad Rev.</th><th>ROAS</th></tr>
+          <tr><th></th><th>Attr. conv. value after spend</th><th>ROAS</th><th>Attr. conv. value after spend</th><th>ROAS</th><th>Attr. conv. value after spend</th><th>ROAS</th><th>Attr. conv. value after spend</th><th>ROAS</th></tr>
         </thead>
         <tbody>
           <tr><td>Mar</td><td class="num">$34,015</td><td class="num">2.88x</td><td class="num">$0</td><td class="num">N/A</td><td class="num">$2,091</td><td class="num">3.40x</td><td class="num lo">-$3,102</td><td class="num lo">0.27x</td></tr>
@@ -494,7 +492,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
         </tbody>
       </table>
     </div>
-    <p class="dek">Spend grew fast and diversified across four campaign types starting in March. That diversification is what pulled blended ROAS down, more channels meant more spend chasing the same core demand at lower initial efficiency. Net Ad Revenue tells a different story: three of the four channels grew or held steady through the same period. Demand Gen is the exception, negative every month, no exceptions. In the last 30 days specifically, both Net Ad Revenue and ROAS are recovering as Demand Gen spend gets cut.</p>
+    <p class="dek">Spend grew fast and diversified across four campaign types starting in March. This may indicate that diversification pulled blended attributed ROAS down, more channels meant more spend chasing the same core demand at lower initial efficiency, though this data cannot confirm causality. Attributed conversion value after ad spend tells a different story: three of the four channels grew or held steady through the same period. Demand Gen is the exception, negative every month in this window. In the last 30 days specifically, both attributed conversion value after ad spend and attributed ROAS are trending up as Demand Gen spend gets cut.</p>
   </div>
 
   <div class="section" id="section-03">
@@ -538,19 +536,21 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       <li>2 run Target CPA</li>
     </ul>
     <p class="dek">Several campaign names track a tROAS ladder that implies graduation over time, for example "tROAS - 2.5x&gt;2x&gt;1.8x&gt;1.4x&gt;1.8x&gt;1.5x." But the Bid Strategy Type field for most of these still reads Maximize Conversions, not Target ROAS. The name documents a progression the account hasn't actually made. With no portfolio strategies anywhere, each bid strategy learns from only its own, often thin, conversion volume. The same fragmentation visible at the campaign level (<a class="xref" href="#section-01">Section 01</a>, <a class="xref" href="#section-03">Section 03</a>) repeats one level down inside Smart Bidding.</p>
+    <p class="dek"><strong>Recommendation:</strong> Evaluate portfolio strategies only for campaigns that are eligible and share aligned goals and sufficient conversion volume. Pooling is not automatically superior, and not every campaign type supports it. Assess campaign type, conversion objective, target compatibility, conversion volume, and budget ownership before consolidating.</p>
   </div>
 
   <div class="section" id="section-04">
     <div class="section-head"><span class="section-num">04</span><h2>Tracking and measurement</h2></div>
 
     <h3>Enhanced conversions match rate</h3>
-    <p class="dek"><strong>The primary conversion action has a data quality problem, and it's the one Smart Bidding relies on most.</strong></p>
+    <p class="dek"><strong>Confirmed finding.</strong> Google Ads flags the primary purchase action for an Enhanced Conversions setup issue.</p>
     <ul class="pts">
       <li>11 conversion actions total: 7 rated Excellent, 4 flagged Needs attention.</li>
-      <li>"Google Shopping App Purchase (1)," the primary action, is limited by an API setup issue: missing order ID, OAuth credentials, or hashed user data.</li>
+      <li>"Google Shopping App Purchase (1)," the primary action, is flagged Needs attention for an Enhanced Conversions setup issue. The exact cause has not been confirmed from this data; possible contributing factors visible in the diagnostic panel include order ID, OAuth credentials, or hashed user data, but these are hypotheses, not a confirmed diagnosis.</li>
       <li>Three secondary tag-based actions (View Item, Add To Cart, Page View) are missing user-provided data on 30 to 95 percent of events.</li>
       <li>Offline conversion import is the exception: active and healthy, no action needed.</li>
     </ul>
+    <p class="dek"><strong>Recommendation:</strong> Review the diagnostic details and implementation ownership for the Purchase action. Confirm data quality before changing bidding. Signal quality on automated bid strategies may be affected; this data does not show that every bid strategy in the account is materially degraded.</p>
 
     <h3>Consent Mode v2 and the Restricted Targeting policy</h3>
     <p class="dek"><strong>Two separate issues here, and the second is the single biggest structural problem in the account.</strong></p>
@@ -582,64 +582,23 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       <li>One ad in Brand PM/EM runs on 10 headlines. It's rated Average.</li>
       <li>Descriptions are close to full everywhere, 3 ads sit at 3 of 4 slots.</li>
     </ul>
-    <p class="dek">Filling the missing headline slots is the fastest, lowest-effort fix in this entire audit.</p>
+    <p class="dek"><strong>Directional finding.</strong> Many RSAs have unused headline capacity. This data does not show that using all 15 slots automatically improves performance, the Brand PM/EM ad rated Poor is the second-best attributed ROAS in the account (see Gap and best performers below). Filling slots is worth testing, not assumed to be an automatic fix.</p>
 
-    <h3>Copy narrative clusters</h3>
-    <p class="dek">Four clusters, built from the Targeted Audience Analysis persona and this account's own strongest, most defensible advantages:</p>
+    <h3>Copy narrative directions</h3>
+    <p class="dek"><strong>Hypothesis.</strong> Two message directions, built from the Targeted Audience Analysis persona and this account's own strongest, most defensible advantages, are worth testing. Neither direction below includes health, medication, outcome, or timeframe claims, any such claim requires separate compliance approval before it can be tested. A third direction the account could theoretically pursue, direct claims about clinical study results versus medication, is not included here: it requires compliance and legal review before any copy is written, not just before it launches.</p>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Cluster</th><th>Competitive advantage</th><th>Maps to</th></tr></thead>
+        <thead><tr><th>Direction</th><th>What it draws on</th><th>Maps to</th></tr></thead>
         <tbody>
-          <tr><td>Clinical proof vs. medication</td><td>A published trial against methylphenidate, no competitor claims this</td><td>ADHD Theme</td></tr>
-          <tr><td>Parent trust and social proof</td><td>4.85/5, 2,000+ reviews, 60-day guarantee, counters the "is it a scam" content from <a class="xref" href="#section-11">Section 11</a></td><td>Brand</td></tr>
-          <tr><td>Fast, visible behavior change</td><td>Specific outcomes parents want: fewer school calls, easier homework</td><td>Kids Theme, Mood Theme</td></tr>
-          <tr><td>Natural without the guilt</td><td>Validates the choice itself, the emotional core of the persona</td><td>Gummies &amp; Supplement Theme</td></tr>
+          <tr><td>Parent trust and social proof</td><td>4.85/5, 2,000+ reviews, money-back guarantee already in use, counters the "is it a scam" content from <a class="xref" href="#section-11">Section 11</a></td><td>Brand</td></tr>
+          <tr><td>Natural-choice framing</td><td>Speaks to the decision itself rather than a specific outcome, aligned with the persona's stated tension in the Targeted Audience Analysis</td><td>Gummies &amp; Supplement Theme, Kids Theme, Mood Theme</td></tr>
         </tbody>
       </table>
     </div>
-
-    <p class="dek"><strong>Clinical proof vs. medication</strong></p>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
-        <tbody>
-          <tr><td>Saffron vs. Ritalin Study<br>Clinically Studied Focus Help<br>A Non-Stimulant Path to Focus<br>Focus Support, No Med Crash<br>Backed by a Published Trial</td><td>A 2019 trial compared saffron to methylphenidate for ADHD symptoms. See the results.<br>Skip the appetite loss and afternoon crash. A studied, non-stimulant daily option.</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p class="dek"><strong>Parent trust and social proof</strong></p>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
-        <tbody>
-          <tr><td>4.85 Stars, 2,000+ Reviews<br>Trusted By Thousands of Moms<br>60-Day Money-Back Guarantee<br>Real Reviews, Real Results<br>Not Sure? Read Reviews First</td><td>Over 2,000 parents rate Happy Chews 4.85/5. See why before you decide.<br>Risk-free 60-day guarantee. If it doesn't help, get your money back, no questions.</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p class="dek"><strong>Fast, visible behavior change</strong></p>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
-        <tbody>
-          <tr><td>Calmer Evenings in Weeks<br>Homework Without the Fight<br>Fewer Calls From School<br>See a Difference in 2-4 Weeks<br>Focus Support Kids Ask For</td><td>Most parents notice calmer evenings and easier homework time within 2 to 4 weeks.<br>A daily gummy for focus and mood, kids actually want to take it.</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p class="dek"><strong>Natural without the guilt</strong></p>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
-        <tbody>
-          <tr><td>Natural Support That Works<br>You Don't Have to Choose<br>A Gentler First Step<br>Try Natural Before Medication<br>Support Focus, Naturally</td><td>You don't have to choose between natural and effective. See what the research says.<br>A natural first step for focus and mood, before or alongside anything else.</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <p class="dek"><strong>Recommendation:</strong> Test approved message variations within these two directions, using only claims already approved for this account. Do not introduce new health, medication, outcome, or timeframe claims without separate compliance approval. Prioritize improving headline diversity and testing trust-focused and product-format language using existing eligible assets.</p>
 
     <h3>Gap and best performers</h3>
-    <p class="dek">None of the four clusters above show up in the sampled headline set today. Even the weakest overlap, parent trust, has no explicit review or guarantee callout in the ads reviewed. All four are net-new copy to write and test, not a rewrite of something already close.</p>
+    <p class="dek">The sampled headline set today does not show explicit review or guarantee callouts, or natural-choice framing distinct from generic supplement language. This is a gap worth testing against, not a rewrite of something already close.</p>
     <p class="dek">Ad Strength doesn't reliably predict real performance, worth keeping in mind before chasing the label itself:</p>
     <div class="table-wrap">
       <table>
@@ -670,9 +629,10 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
     </div>
     <p class="dek">Search term waste is low: $2,010 across 26 zero-conversion terms, against $333,230 total spend. A short tail of category-adjacent terms (hemp gummies, mushroom gummies, bergamot gummies, "best gummies to replace alcohol") are worth adding to the negative list, small dollars, easy cleanup.</p>
 
-    <h3>Keyword cannibalization</h3>
-    <p class="dek"><strong>Keyword cannibalization is widespread.</strong> 6,394 of 30,914 distinct search terms triggered ads in more than one campaign, 20.7% of all search term volume. 2,911 terms span 3 or more campaigns at once. Core terms like "saffron gummies," "saffron for adhd," and "best saffron for adhd" each trigger ads across 9 separate campaigns simultaneously.</p>
-    <p class="dek">Kids Theme, Mood Theme, ADHD Theme, and Gummies &amp; Supplement Theme are routinely bidding against each other for the same query. Each campaign's Smart Bidding strategy learns from a contested, overlapping pool instead of a distinct one, on top of the fragmentation already flagged in <a class="xref" href="#section-03">Section 03</a> and <a class="xref" href="#section-09">Section 09</a>.</p>
+    <h3>Cross-campaign query-routing overlap</h3>
+    <p class="dek"><strong>Confirmed finding.</strong> 6,394 of 30,914 distinct search terms, 20.7% of distinct search terms, triggered ads in more than one campaign. This figure is a count of distinct terms, not spend-weighted or impression-weighted overlap. 2,911 terms span 3 or more campaigns at once. Core terms like "saffron gummies," "saffron for adhd," and "best saffron for adhd" each trigger ads across 9 separate campaigns simultaneously.</p>
+    <p class="dek">Kids Theme, Mood Theme, ADHD Theme, and Gummies &amp; Supplement Theme routinely route the same query to more than one campaign at once. This may indicate that each campaign's Smart Bidding strategy learns from an overlapping pool instead of a distinct one, on top of the fragmentation already flagged in <a class="xref" href="#section-03">Section 03</a> and <a class="xref" href="#section-09">Section 09</a>.</p>
+    <p class="dek"><strong>Recommendation:</strong> Measure overlapping-query spend to size the overlap in dollar terms, not just term count. Compare routed campaign performance for the overlapping terms. Define campaign intent ownership for each theme. Add negatives only where overlap is confirmed unwanted, and preserve useful routing flexibility elsewhere.</p>
 
     <h3>Negative keywords</h3>
     <p class="dek">Two negative keyword lists exist in the account:</p>
@@ -710,8 +670,9 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
         </tbody>
       </table>
     </div>
-    <p class="dek">The DSA campaign is the most efficient thing in the entire account at 7.24x lifetime ROAS (<a class="xref" href="#section-01">Section 01</a>), and it is the single worst campaign for impression share, showing on only 12.3% of eligible searches, losing 87.7% purely to rank. Ad Rank is bid times Quality Score, and the account's Quality Score distribution (mostly 5, 7, and 8, almost nothing at 9 or 10) is the direct, measurable cause.</p>
-    <p class="dek">This is exactly the diagnostic <a href="https://github.com/google-marketing-solutions/arba">arba</a> (<a class="xref" href="#section-12">Section 12</a>) is built for: it traces impression-share loss back to the specific Quality Score component, landing page experience, ad relevance, or expected CTR, causing it, rather than just telling the account to raise bids. Fixing DSA's rank-based loss is the single highest-leverage lever in the account, it is already the proof that the core offer converts, it is just not being allowed to show.</p>
+    <p class="dek"><strong>Confirmed finding.</strong> The DSA campaign has the highest observed attributed ROAS in the account at 7.24x lifetime (<a class="xref" href="#section-01">Section 01</a>), and it is the single worst campaign for impression share, showing on only 12.3% of eligible searches, losing 87.7% to rank. DSA appears rank-constrained, not budget-constrained. Ad Rank is bid times Quality Score, and the account's Quality Score distribution (mostly 5, 7, and 8, almost nothing at 9 or 10) is a likely contributing factor, this data suggests it but does not isolate it as the sole cause.</p>
+    <p class="dek">This is exactly the diagnostic <a href="https://github.com/google-marketing-solutions/arba">arba</a> (<a class="xref" href="#section-12">Section 12</a>) is built for: it traces impression-share loss back to a specific Quality Score component, landing page experience, ad relevance, or expected CTR, rather than just telling the account to raise bids.</p>
+    <p class="dek"><strong>Recommendation:</strong> Before scaling DSA's budget, review recent performance, search terms, brand-query share, conversion volume, landing pages, search lost impression share, and marginal efficiency at higher spend. Improve rank drivers and validate query quality first.</p>
   </div>
 
   <div class="section" id="section-06">
@@ -738,23 +699,24 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       <li>"Different LPs" also has 35 search themes, covering the saffron, kids, and ADHD query space thoroughly, including "smartkidz saffron gummies," a direct competitor's name used to conquest. SmartKidz shows up in this account's own Shopping Auction Insights.</li>
       <li>"Bed Wetting Angle" runs 2 asset groups (Broad, Monster Match) and has zero search themes. Nothing is steering it toward the bed-wetting query space. That may explain why bedwetting-brand domains (Goodnites, Ninjamas) showed up next to this account's auction insights in the Competitive Brief.</li>
     </ul>
-    <p class="dek"><strong>Recommendation:</strong> Add search themes to "Bed Wetting Angle" at the same specificity already used on "Different LPs." Expected result: tighter targeting, less bleed into unrelated bedwetting-brand queries, and performance closer to "Different LPs."</p>
+    <p class="dek">Search themes are additive signals for PMax. This may indicate that they do not restrict matching the way negative keywords or brand exclusions do.</p>
+    <p class="dek"><strong>Recommendation:</strong> Add search themes to "Bed Wetting Angle" at the same specificity already used on "Different LPs," as an additive guidance signal. Use negative keywords for control over unrelated bedwetting-brand queries, and brand exclusions where appropriate. Monitor Search Term Insights afterward to see whether delivery shifts.</p>
 
     <h3>Brand protection and search visibility</h3>
     <p class="dek"><strong>Brand is protected internally. What PMax actually matches on is not visible.</strong></p>
     <ul class="pts">
       <li>The shared brand list is applied as a Negative exclusion on 2 campaigns, keeps PMax's non-brand campaigns from bidding against the account's own brand terms.</li>
-      <li>PMax doesn't expose a search terms report the way Search does. There's no visibility into what queries actually trigger PMax ads.</li>
+      <li>PMax search-term visibility is more limited than Search reporting. Standard account exports don't include a PMax search terms report.</li>
     </ul>
-    <p class="dek"><strong>Recommendation:</strong> Check Search Term Insights in the UI on a standing monthly basis, not a one-time look. Expected result: earlier detection of irrelevant or competitor query leakage that account exports alone can't show.</p>
+    <p class="dek"><strong>Recommendation:</strong> Review search terms where available, Search Term Insights, search categories, account-level negatives, and brand exclusions, on a standing monthly basis in the UI, not a one-time look. This may surface irrelevant or competitor query activity that account exports alone don't show.</p>
 
     <h3>New customer bidding</h3>
-    <p class="dek"><strong>PMax bids the same for a new customer as a repeat one, even though they're worth different amounts.</strong></p>
+    <p class="dek"><strong>Data limitation.</strong> New-customer reporting requires validation before any bidding change. The weighted new-customer count is larger than total conversions for the full period, this mismatch needs an explanation before the figure is used to set a bid value.</p>
     <ul class="pts">
-      <li>Customer acquisition is tracked: 27,016 weighted new customers across the account.</li>
+      <li>27,016 weighted new customers are tracked across the account, against 9,651 total conversions for the same full period (<a class="xref" href="#section-01">Section 01</a>). Google Ads cannot confirm from this data alone why the weighted new-customer figure exceeds total conversions.</li>
       <li>New Customer Lifetime Value is $0.00 on every conversion action.</li>
     </ul>
-    <p class="dek"><strong>Recommendation:</strong> Set a New Customer Lifetime Value bid modifier. Expected result: Smart Bidding starts favoring acquisition specifically, which should improve blended customer acquisition cost in a subscription model like this one.</p>
+    <p class="dek"><strong>Recommendation:</strong> Review Google Ads customer-acquisition settings, the existing-customer list definition, and possible conversion duplication before setting a bid value. Confirm what the weighted-customer figure actually measures. Do not assign an arbitrary New Customer Lifetime Value without this validation.</p>
 
     <h3>AI Max and auto-created assets</h3>
     <p class="dek"><strong>A deliberate, conservative setting, not an oversight, but worth testing now.</strong></p>
@@ -765,12 +727,28 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
     <p class="dek"><strong>Recommendation:</strong> Run a small-budget, time-boxed test with AI Max enabled on one lower-risk non-brand campaign. Expected result: a real read on whether AI Max's expanded targeting and asset generation help here, without risking the account's better-performing campaigns.</p>
 
     <h3>Data exclusions check</h3>
-    <p class="dek">No data exclusion window is currently configured. Worth setting one given the near-total spend gap on July 5 through 8 (<a class="xref" href="#section-13">Section 13</a>), an unexplained multi-day dip like that is exactly the kind of anomaly a data exclusion should be protecting Smart Bidding's training data from.</p>
+    <p class="dek">No data exclusion window is currently configured. Low spend alone does not justify a data exclusion.</p>
+    <p class="dek"><strong>Recommendation:</strong> Investigate the July 5 through 8 spend gap (<a class="xref" href="#section-13">Section 13</a>) through Change History first. Only add a data exclusion if that investigation confirms Google Ads conversion data was incorrect during that window.</p>
+
+    <h3>PMax attributed efficiency decline in July</h3>
+    <p class="dek"><strong>Conclusion.</strong> PMax attributed efficiency declined in July.</p>
+    <p class="dek"><strong>Proof.</strong> July versus June, PMax on similar spend:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Month</th><th>Spend</th><th>Attr. conv. value</th><th>ROAS</th></tr></thead>
+        <tbody>
+          <tr><td>Jun</td><td class="num">$8,493</td><td class="num">$14,862</td><td class="num">1.75x</td></tr>
+          <tr class="lo"><td>Jul</td><td class="num">$3,232</td><td class="num">$3,847</td><td class="num">1.19x</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek">Attributed conversion value after ad spend fell from a positive $14,862 in June to $3,847 in July at a materially lower attributed ROAS. The data shows this decline; it does not establish why it happened.</p>
+    <p class="dek"><strong>Recommendation.</strong> Investigate the following as hypotheses, not confirmed causes: Change History for this period, budget changes, target changes, asset group changes, product mix changes, Search Term Insights, and conversion reporting changes (including the Enhanced Conversions setup issue in <a class="xref" href="#section-04">Section 04</a>). The audience-signal restriction in <a class="xref" href="#section-01">Section 01</a> Risk 1 is one hypothesis worth checking given PMax's reliance on audience signals, it is not established as the cause from this data alone.</p>
   </div>
 
   <div class="section" id="section-08">
     <div class="section-head"><span class="section-num">08</span><h2>Demand Gen</h2></div>
-    <p class="dek"><a class="xref" href="#section-01">Section 01</a> already established Demand Gen as a structural loss (0.45x lifetime ROAS, 0.27x last 30 days). This section is about why.</p>
+    <p class="dek"><strong>Confirmed finding.</strong> <a class="xref" href="#section-01">Section 01</a> already established that Demand Gen shows persistently low attributed efficiency during the observed period (0.45x lifetime attributed ROAS, 0.27x last 30 days). This data cannot confirm whether Demand Gen creates value outside what Google Ads measures, incremental or assisted effects are outside what this data can show. This section looks at contributing factors visible in Google Ads.</p>
 
     <h3>Audience signal quality</h3>
     <p class="dek">77.6% of the tagged view of Demand Gen delivery falls into "People not in audiences." That means it served users who matched none of the campaigns' configured audience signals.</p>
@@ -783,7 +761,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
     </ul>
     <p class="dek">The exception is "Converted Search Terms," the one segment that functions like a remarketing signal. It's the worst performer at 0.40x.</p>
     <p class="dek">Optimized Targeting is turned on for 52 of the account's ad groups and campaigns. This setting lets Google show ads to people outside the audiences that were actually selected. Without strong audience signals to guide it (<a class="xref" href="#section-04">Section 04</a>'s policy restriction), the system explores broadly and mostly reaches people who don't match any set audience. Results are worse, though not a total loss.</p>
-    <p class="dek"><strong>Recommendation:</strong> Turn off Optimized Targeting on Demand Gen campaigns until real audience signals exist, either first-party lists once the policy restriction is resolved, or strong in-market and affinity signals in the meantime. Expected result: delivery narrows to people more likely to convert, which should lift Demand Gen's ROAS toward the 2.0x-plus range already seen when a real audience segment is matched.</p>
+    <p class="dek"><strong>Recommendation:</strong> Turn off Optimized Targeting on Demand Gen campaigns until real audience signals exist, either first-party lists once the policy restriction is resolved, or strong in-market and affinity signals in the meantime. This data suggests delivery would narrow to people more likely to convert, moving attributed ROAS toward the 2.0x-plus range already seen when a real audience segment is matched; this is not guaranteed. More broadly for the channel: reduce exposure while testing, separate testing budgets from scaled spend, define clear attributed-ROAS success thresholds before testing, test creative and targeting variables against those thresholds, and stop tests that miss them.</p>
 
     <h3>Creative diversity</h3>
     <ul class="pts">
@@ -817,24 +795,39 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
       <li>The "AdWords optimized list" custom combination segment. Open but empty, under 1,000 users on every channel, and not targeted by a single ad group or campaign.</li>
     </ul>
 
-    <h3>Zero-party data capture</h3>
-    <p class="dek">The account runs an active Quiz Funnel Demand Gen program, 11 numbered batches. That implies an on-site quiz collecting explicit, self-reported parent and child information. This is zero-party data, and it isn't restricted the way remarketing audiences are. Nothing in the account shows that data flowing back into a Customer Match list, a CRM, or a bidding signal. If the <a class="xref" href="#section-04">Section 04</a> policy restriction turns out to be permanent, this quiz is the account's best remaining path to a first-party signal PMax and Demand Gen could actually use. Right now it looks like a missed connection, not a built pipeline.</p>
+    <h3>Personalized audience options</h3>
+    <p class="dek">The account runs an active Quiz Funnel Demand Gen program, 11 numbered batches. This implies an on-site quiz collecting parent and child information, which is outside the Google Ads evidence available to this audit and may involve sensitive user information. This audit does not have visibility into what the quiz collects, how it is stored, or whether it is connected to any Google Ads or CRM system, and does not recommend connecting it to Customer Match or a CRM.</p>
+    <p class="dek">Personalized audience options are restricted account-wide by the policy citation in <a class="xref" href="#section-04">Section 04</a>. Build the Demand Gen and PMax targeting strategy around the eligible contextual, query, creative, and first-party options that are visible in Google Ads today, rather than assuming quiz data is available or unrestricted for advertising use.</p>
   </div>
 
   <div class="section" id="section-11">
     <div class="section-head"><span class="section-num">11</span><h2>Competitive landscape</h2></div>
     <p class="dek">Full detail lives in the <a href="/reports/saphire-competitive-intelligence-brief.html">Competitive Intelligence Brief</a>, referenced rather than repeated here. Two updates since that brief was written:</p>
     <ul class="pts">
-      <li>Three new low-view YouTube videos, published in the last week, are explicitly titled around "is Saphire Happy Chews a scam." Channels like ScamGuider and Review Empire. Same affiliate-content-farm pattern the brief already flagged (10best-choices.com and similar), now spreading to a second content format.</li>
-      <li>The account's own Shopping Auction Insights, cross-referenced against <a class="xref" href="#section-07">Section 07</a>'s search themes, confirms SmartKidz specifically as a named, direct competitor. Not just a generic category peer, the account is already conquesting against it by name.</li>
+      <li>Three new low-view YouTube videos, published in the last week, are titled around "is Saphire Happy Chews a scam." Channels like ScamGuider and Review Empire. Same affiliate-content pattern the brief already flagged (10best-choices.com and similar), now appearing in a second content format.</li>
+      <li>The account's own Shopping Auction Insights, cross-referenced against <a class="xref" href="#section-07">Section 07</a>'s search themes, shows SmartKidz appearing as a named competitor in this account's own PMax search theme configuration, not just a generic category peer.</li>
     </ul>
+
+    <h3>Auction Insights against the Brand Search campaigns</h3>
+    <p class="dek">Auction Insights shows auction competition, it does not show clicks won or lost, and it does not measure brand equity. amazon.com frequently appears in the same auctions as both Brand Search campaigns and often ranks above them. Period: Sep 1, 2025 through Jul 28, 2026.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Brand campaign</th><th>Impr. share</th><th>Overlap rate</th><th>Position-above rate</th><th>Top-of-page rate</th><th>Abs.-top rate</th></tr></thead>
+        <tbody>
+          <tr><td>Brand, mCPC</td><td class="num">51.1%</td><td class="num">58.4%</td><td class="num">24.4%</td><td class="num">91.0%</td><td class="num">24.7%</td></tr>
+          <tr><td>Brand, mCPC tROAS Exp.</td><td class="num">57.1%</td><td class="num">63.5%</td><td class="num">11.9%</td><td class="num">93.0%</td><td class="num">13.7%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek"><strong>Recommendation:</strong> Monitor branded auction pressure from amazon.com on a standing basis. Review lost Search impression share on the Brand campaigns alongside this table. Test approved brand messaging that reinforces trust and official-source signals. Adjust bids only where the combination of overlap rate, position-above rate, and impression share supports it.</p>
   </div>
 
   <div class="section" id="section-12">
     <div class="section-head"><span class="section-num">12</span><h2>Automation and AI signals</h2></div>
 
     <h3>Scripts inventory and AI Max</h3>
-    <p class="dek">Zero Ads Scripts, zero automated rules. AI Max is Disabled account-wide (<a class="xref" href="#section-07">Section 07</a>). This is a $333,230 account with no automation layer of any kind watching it between manual check-ins, and the change history in the export backs that up, the top-changed campaigns show 150 to 280-plus manual changes each over the period (budget, bid, keyword, and status changes combined), real, ongoing manual effort that a lightweight automation layer would meaningfully reduce.</p>
+    <p class="dek"><strong>Confirmed finding.</strong> No Google Ads scripts or automated rules were observed. AI Max is Disabled account-wide (<a class="xref" href="#section-07">Section 07</a>). This data cannot confirm whether the account is monitored through means outside Google Ads. The change history in the export shows the top-changed campaigns had 150 to 280-plus manual changes each over the period (budget, bid, keyword, and status changes combined).</p>
+    <p class="dek"><strong>Recommendation:</strong> Consider budget alerts, spend-anomaly alerts, conversion-anomaly alerts, standing Auction Insights reviews, and standing search-term reviews, using Google Ads' own automation and reporting capabilities.</p>
 
     <h3>The Branding keywords switch</h3>
     <p class="dek">This is the account's proposed first automation asset: an hourly check against Auction Insights that reacts when Amazon or an affiliate domain starts overlapping or outranking the Brand campaign, adjusting bids or campaign status in response. It directly targets the leakage already confirmed in the Competitive Brief and <a class="xref" href="#section-11">Section 11</a>. It would also double as the account's first piece of always-on monitoring.</p>
@@ -868,7 +861,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
 <text x="760.2" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">07-26</text>
 </svg>
     </div>
-    <p class="dek">Daily spend over the last 60 days swings hard. A June 6 to 9 spike near $4,300 to $4,500 a day, down to roughly $1,400 to $1,900 a day for most of late June and early July. That's a near-4x swing, not steady pacing. More notable: spend drops to $135 on July 5, then effectively zero for July 6 through 8, three days with no recorded spend at all, before restarting July 9. Deliberate pause or unplanned outage, either way, this is exactly the kind of window <a class="xref" href="#section-07">Section 07</a>'s recommended data exclusion should be protecting Smart Bidding from.</p>
+    <p class="dek"><strong>Confirmed finding.</strong> Daily spend over the last 60 days swings hard. A June 6 to 9 spike near $4,300 to $4,500 a day, down to roughly $1,400 to $1,900 a day for most of late June and early July, a near-4x swing, not steady pacing. More notable: spend drops to $135 on July 5, then effectively zero for July 6 through 8, three days with no recorded spend at all, before restarting July 9. This may indicate a deliberate pause or an unplanned outage; Google Ads cannot confirm which from spend data alone. See <a class="xref" href="#section-07">Section 07</a> for the recommended next step, investigating this window through Change History.</p>
 
     <h3>Lost impression share and Planner vs. actuals</h3>
     <p class="dek"><a class="xref" href="#section-05">Section 05</a> already covers Search impression share loss to rank in detail. Pull a parallel lost-to-budget view (as opposed to lost-to-rank) directly in the UI alongside a Performance Planner comparison for the full budget-vs-actuals picture.</p>
@@ -891,10 +884,8 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
         </tbody>
       </table>
     </div>
-    <p class="pullquote">The two largest-spend landing pages in the account are also two of its worst performers. "5-reasons-gummies" is the single biggest destination by spend, $63,538, and converts at 5.0% for a 1.36x ROAS. The bare product page is second by spend, $51,694, and is actually losing money at 0.78x ROAS. Meanwhile the homepage, at less than a third of that spend, converts at 13.1% and returns 5.39x. This is a message-match problem more than a traffic-quality problem, the same budget currently pointed at the two weak pages, pointed at the homepage or the quiz instead, is directionally worth more than the entire PMax reallocation discussed in <a class="xref" href="#section-01">Section 01</a>.</p>
-
-    <h3>Page speed and mobile experience</h3>
-    <p class="dek">A live check of trysaphire.com found first contentful paint at 12.7 seconds, total page weight of 6.3MB across 353 resources including 120 separate scripts. That is a slow page by any standard, and it matters more than usual here because 90.8% of the account's spend is on mobile (<a class="xref" href="#section-01">Section 01</a> device data), where that weight is felt hardest. The page does render cleanly once loaded, this is a load-time problem, not a design problem, but on a cold mobile connection a meaningful share of paid clicks are likely abandoning before first paint.</p>
+    <p class="pullquote"><strong>Directional finding.</strong> The two largest-spend landing pages in the account are also two of its worst performers by attributed ROAS. "5-reasons-gummies" is the single biggest destination by spend, $63,538, at a 1.36x attributed ROAS. The bare product page is second by spend, $51,694, at a 0.78x attributed ROAS, below the point where attributed conversion value equals media spend. The homepage, at less than a third of that spend, converts at 13.1% and returns 5.39x. These differences identify testing priorities, they are not proven page effects, the pages may receive different campaigns, query intent, devices, or brand-vs-non-brand traffic, and this data does not control for those factors.</p>
+    <p class="dek"><strong>Recommendation:</strong> Compare landing pages only within similar campaigns and similar query intent. Control for device and for brand status when comparing. Run Google Ads experiments where possible before redirecting traffic based on aggregate attributed ROAS alone.</p>
   </div>
 
   <div class="section" id="section-15">
@@ -911,19 +902,18 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
           <li>Fill the missing RSA headline slots, only 13 of 48 ads use all 15 today (<a class="xref" href="#section-05">Section 05</a>).</li>
           <li>Add search themes to the Bed Wetting Angle PMax campaign, it currently has none (<a class="xref" href="#section-07">Section 07</a>).</li>
           <li>Configure New Customer Lifetime Value in bid strategies, it's $0 everywhere today (<a class="xref" href="#section-07">Section 07</a>).</li>
-          <li>Investigate the July 5 to 8 near-zero spend gap and set a data exclusion around it (<a class="xref" href="#section-13">Section 13</a>).</li>
+          <li>Investigate the July 5 to 8 near-zero spend gap through Change History; only add a data exclusion if that investigation confirms conversion data was incorrect (<a class="xref" href="#section-13">Section 13</a>, <a class="xref" href="#section-07">Section 07</a>).</li>
         </ol>
       </div>
       <div class="col">
         <h4>Structural fixes (30 to 90 days)</h4>
         <ol>
           <li>Get a definitive answer on the Restricted Targeting policy citation, then rebuild the PMax and Demand Gen audience strategy around it (<a class="xref" href="#section-04">Section 04</a>, <a class="xref" href="#section-07">07</a>, <a class="xref" href="#section-08">08</a>, <a class="xref" href="#section-10">10</a>).</li>
-          <li>Fix keyword cannibalization across the four non-brand Search campaigns, they're bidding against each other on the same terms today (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Measure spend-weighted cross-campaign query-routing overlap across the four non-brand Search campaigns, then add negatives only where overlap is confirmed unwanted (<a class="xref" href="#section-05">Section 05</a>).</li>
           <li>Turn off Optimized Targeting on Demand Gen until real audience signals exist (<a class="xref" href="#section-08">Section 08</a>).</li>
-          <li>Write and test the four new RSA copy clusters against the current generic supplement-aisle copy (<a class="xref" href="#section-05">Section 05</a>).</li>
-          <li>Either rebuild Demand Gen around a genuinely different targeting and creative logic, or stop funding it, 0.27x to 0.45x ROAS is not a scale problem (<a class="xref" href="#section-08">Section 08</a>).</li>
-          <li>Consolidate the account's 68 standalone bid strategies into portfolio strategies where conversion volume supports it (<a class="xref" href="#section-03">Section 03</a>, <a class="xref" href="#section-09">09</a>).</li>
-          <li>Connect the Quiz Funnel's zero-party data collection to a Customer Match list or CRM feed (<a class="xref" href="#section-10">Section 10</a>).</li>
+          <li>Test approved message variations in the parent-trust and natural-choice directions against the current generic supplement-aisle copy; any new health, medication, outcome, or timeframe claim requires separate compliance approval first (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Define clear attributed-ROAS thresholds for Demand Gen testing, separate testing budgets from scaled spend, and stop tests that miss thresholds (<a class="xref" href="#section-08">Section 08</a>).</li>
+          <li>Evaluate portfolio bid strategies for eligible campaigns with aligned goals and sufficient conversion volume, not as a blanket consolidation of all 68 (<a class="xref" href="#section-03">Section 03</a>, <a class="xref" href="#section-09">09</a>).</li>
           <li>Rewrite the campaign naming taxonomy to one consistent template, and archive the 56 paused campaigns (<a class="xref" href="#section-03">Section 03</a>).</li>
         </ol>
       </div>
@@ -935,14 +925,14 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
         <ol>
           <li>Build and ship the Branding keywords switch as the account's first automation layer (<a class="xref" href="#section-12">Section 12</a>).</li>
           <li>Evaluate arba for the DSA and NB Search Quality Score problem behind the account's worst impression-share loss (<a class="xref" href="#section-05">Section 05</a>, <a class="xref" href="#section-12">12</a>).</li>
-          <li>Scale the DSA campaign's budget once its rank-based impression share loss is fixed, it's the account's most efficient campaign (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Review rank drivers and query quality on the DSA campaign, the account's highest observed attributed ROAS, before scaling its budget (<a class="xref" href="#section-05">Section 05</a>).</li>
           <li>Build the continuous ABCD testing loop for Demand Gen video, score before launch, test in batches, promote and repeat (<a class="xref" href="#section-08">Section 08</a>).</li>
-          <li>Address the 6.3MB, 12.7-second landing page load, it touches every single campaign type at once (<a class="xref" href="#section-14">Section 14</a>).</li>
+          <li>Run controlled landing-page experiments within similar campaigns and query intent before redirecting traffic based on aggregate attributed ROAS (<a class="xref" href="#section-14">Section 14</a>).</li>
         </ol>
       </div>
       <div class="col">
-        <h4>Expected ROI impact</h4>
-        <p style="font-size:14px;color:var(--ink-soft);margin:0 0 10px;">The Demand Gen reallocation and PMax recovery opportunity sized in the Executive Summary, roughly $20,000 a month, about a quarter million a year, holds at current spend levels. Three more items compound on top of it directionally: redirecting spend from the two weak landing pages (<a class="xref" href="#section-14">Section 14</a>), recovering a fraction of the DSA campaign's 87.7% rank-based impression share loss (<a class="xref" href="#section-05">Section 05</a>), and fixing the keyword cannibalization eating into Search efficiency (<a class="xref" href="#section-05">Section 05</a>). None of the three have a precise dollar figure attached, all three point the same direction as the original estimate.</p>
+        <h4>Illustrative attributed conversion value impact</h4>
+        <p style="font-size:14px;color:var(--ink-soft);margin:0 0 10px;"><strong>Hypothesis.</strong> The scenario range sized in <a class="xref" href="#section-01">Section 01</a>, roughly $5,000 to $14,000 a month in illustrative attributed conversion value depending on how much of the efficiency gap closes, holds at current spend levels; it is not a revenue or profit forecast. Three more items point the same direction without a precise dollar figure attached: recovering some of the two weaker landing pages' attributed ROAS through controlled testing (<a class="xref" href="#section-14">Section 14</a>), recovering some of the DSA campaign's 87.7% rank-based impression share loss (<a class="xref" href="#section-05">Section 05</a>), and reducing cross-campaign query-routing overlap in Search (<a class="xref" href="#section-05">Section 05</a>). Further validation is required for all three before they can be sized.</p>
       </div>
     </div>
   </div>
