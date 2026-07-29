@@ -19,6 +19,7 @@ export function middleware(request: NextRequest) {
     headers: {
       "WWW-Authenticate": 'Basic realm="Reports"',
       "Cache-Control": "private, no-store",
+      "X-Auth-Debug": `userSet=${expectedUser !== undefined},userLen=${expectedUser?.length ?? 0},passSet=${expectedPass !== undefined},passLen=${expectedPass?.length ?? 0}`,
     },
   });
 }
