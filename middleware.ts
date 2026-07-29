@@ -8,13 +8,18 @@ export function middleware(request: NextRequest) {
   if (auth?.startsWith("Basic ")) {
     const [user, pass] = atob(auth.slice(6)).split(":");
     if (user === expectedUser && pass === expectedPass) {
-      return NextResponse.next();
+      const res = NextResponse.next();
+      res.headers.set("Cache-Control", "private, no-store");
+      return res;
     }
   }
 
   return new NextResponse("Authentication required", {
     status: 401,
-    headers: { "WWW-Authenticate": 'Basic realm="Reports"' },
+    headers: {
+      "WWW-Authenticate": 'Basic realm="Reports"',
+      "Cache-Control": "private, no-store",
+    },
   });
 }
 
