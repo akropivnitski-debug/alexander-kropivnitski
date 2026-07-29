@@ -1,0 +1,955 @@
+<title>Google Ads Audit: Saphire Saffron</title>
+<style>
+:root{
+  --paper:#f6f5f1;
+  --ink:#1b1c20;
+  --ink-soft:#53555c;
+  --line:#dcd9d0;
+  --saffron:#b8791f;
+  --saffron-strong:#8f5e15;
+  --threat:#a63f2c;
+  --opp:#3f6b4a;
+  --card:#ffffff;
+  --tag-data-bg:#eee2c9;
+  --tag-data-fg:#6b4f14;
+  --tag-research-bg:#e2e6df;
+  --tag-research-fg:#3c4a3e;
+  --tag-threat-bg:#f2ded8;
+  --tag-threat-fg:#7a2c1d;
+  --tag-pending-bg:#e7e5e0;
+  --tag-pending-fg:#6b6d72;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#15161a; --ink:#ece9e0; --ink-soft:#a5a7ad; --line:#33353b;
+    --saffron:#e3a83e; --saffron-strong:#f0bd5e; --threat:#e08874; --opp:#7cb589;
+    --card:#1c1e23; --tag-data-bg:#3a2f14; --tag-data-fg:#e3bd6e; --tag-research-bg:#25302a; --tag-research-fg:#9fc2a8;
+    --tag-threat-bg:#3a221c; --tag-threat-fg:#e6a190; --tag-pending-bg:#26272c; --tag-pending-fg:#9a9ca2;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15161a; --ink:#ece9e0; --ink-soft:#a5a7ad; --line:#33353b;
+  --saffron:#e3a83e; --saffron-strong:#f0bd5e; --threat:#e08874; --opp:#7cb589;
+  --card:#1c1e23; --tag-data-bg:#3a2f14; --tag-data-fg:#e3bd6e; --tag-research-bg:#25302a; --tag-research-fg:#9fc2a8;
+  --tag-threat-bg:#3a221c; --tag-threat-fg:#e6a190; --tag-pending-bg:#26272c; --tag-pending-fg:#9a9ca2;
+}
+:root[data-theme="light"]{
+  --paper:#f6f5f1; --ink:#1b1c20; --ink-soft:#53555c; --line:#dcd9d0;
+  --saffron:#b8791f; --saffron-strong:#8f5e15; --threat:#a63f2c; --opp:#3f6b4a;
+  --card:#ffffff; --tag-data-bg:#eee2c9; --tag-data-fg:#6b4f14; --tag-research-bg:#e2e6df; --tag-research-fg:#3c4a3e;
+  --tag-threat-bg:#f2ded8; --tag-threat-fg:#7a2c1d; --tag-pending-bg:#e7e5e0; --tag-pending-fg:#6b6d72;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  line-height:1.55; font-size:16px; -webkit-font-smoothing:antialiased;
+}
+.doc{max-width:920px;margin:0 auto;padding:56px 24px 96px;}
+
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:22px;margin-bottom:36px;border-bottom:2px solid var(--ink);}
+.masthead .eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--saffron-strong);font-weight:700;margin-bottom:10px;}
+.masthead h1{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-size:clamp(26px,4vw,38px);font-weight:600;margin:0;letter-spacing:-.01em;text-wrap:balance;}
+.masthead .meta{text-align:right;font-size:12.5px;color:var(--ink-soft);font-variant-numeric:tabular-nums;line-height:1.6;white-space:nowrap;}
+
+.roadmap{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:44px;}
+.roadmap .step{font-size:11px;padding:4px 9px;border-radius:20px;border:1px solid var(--line);color:var(--ink-soft);white-space:nowrap;}
+.roadmap .step.done{background:var(--tag-data-bg);color:var(--tag-data-fg);border-color:transparent;font-weight:700;}
+
+.section{margin-top:52px;}
+.section-head{display:flex;align-items:baseline;gap:12px;margin-bottom:18px;}
+.section-num{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--saffron-strong);font-weight:700;}
+.section h2{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-size:23px;font-weight:600;margin:0;letter-spacing:-.005em;}
+.section h3{font-size:14.5px;font-weight:700;margin:26px 0 6px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-soft);}
+.section > p.dek{color:var(--ink-soft);max-width:70ch;}
+
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0;}
+@media (max-width:760px){.stat-row{grid-template-columns:repeat(2,1fr);}}
+.metric{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 16px;text-align:left;}
+.metric .stat{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:23px;font-weight:600;color:var(--saffron-strong);display:block;margin-bottom:4px;font-variant-numeric:tabular-nums;}
+.metric .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);}
+.metric .trend{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;font-weight:700;margin-left:8px;white-space:nowrap;}
+.metric .trend.up{color:var(--opp);}
+.metric .trend.down{color:var(--threat);}
+.h3-note{font-size:11px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--ink-soft);}
+.stat-caption{font-size:11.5px;color:var(--ink-soft);margin:-8px 0 6px;letter-spacing:.02em;text-transform:uppercase;font-weight:700;}
+
+.tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;margin:0 6px 6px 0;vertical-align:middle;}
+.tag-data{background:var(--tag-data-bg);color:var(--tag-data-fg);}
+.tag-threat{background:var(--tag-threat-bg);color:var(--tag-threat-fg);}
+.tag-pending{background:var(--tag-pending-bg);color:var(--tag-pending-fg);}
+
+.callout-list{display:flex;flex-direction:column;gap:10px;margin:18px 0;}
+.callout{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--threat);border-radius:6px;padding:14px 18px;display:flex;gap:14px;align-items:baseline;}
+.callout.opp{border-left-color:var(--opp);}
+.callout .rank{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;font-weight:700;color:var(--ink-soft);flex-shrink:0;width:16px;}
+.callout .body strong{display:block;font-size:14.5px;margin-bottom:2px;}
+.callout .body span{font-size:13.5px;color:var(--ink-soft);}
+
+.section ul.pts,.section ol.pts{margin:8px 0 14px;padding-left:20px;max-width:70ch;}
+.section ul.pts li,.section ol.pts li{margin:5px 0;color:var(--ink-soft);}
+.section ul.pts li strong,.section ol.pts li strong{color:var(--ink);}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:14px 0;}
+.table-wrap{overflow-x:auto;margin:14px 0;}
+.table-wrap table{margin:0;min-width:640px;}
+th{text-align:left;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;padding:8px 12px;border-bottom:1.5px solid var(--ink);white-space:nowrap;}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+td.num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+tr:last-child td{border-bottom:1.5px solid var(--ink);}
+tr.hi td{background:var(--tag-data-bg);}
+tr.lo td{background:var(--tag-threat-bg);}
+td.lo{color:var(--threat);font-weight:700;}
+.trend-up{color:var(--opp);font-weight:700;}
+.trend-down{color:var(--threat);font-weight:700;}
+
+.profile{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px;margin:16px 0;}
+.profile p{margin:6px 0;font-size:14.5px;color:var(--ink);}
+.profile .label{color:var(--ink-soft);font-weight:600;}
+
+.pullquote{border-left:3px solid var(--saffron);padding:4px 0 4px 20px;margin:22px 0;font-family:Georgia,serif;font-style:italic;font-size:17px;color:var(--ink);max-width:66ch;}
+
+.impact-box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 24px;margin:18px 0;}
+.impact-row{display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line);gap:12px;flex-wrap:wrap;}
+.impact-row:last-of-type{border-bottom:none;}
+.impact-row .l{font-size:14px;color:var(--ink-soft);}
+.impact-row .v{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;}
+.impact-total{margin-top:14px;padding-top:14px;border-top:2px solid var(--ink);display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:12px;}
+.impact-total .l{font-size:15px;font-weight:700;}
+.impact-total .v{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:22px;font-weight:700;color:var(--saffron-strong);}
+
+.chart-svg{width:100%;height:auto;display:block;}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;background:var(--tag-data-bg);color:var(--tag-data-fg);padding:1px 5px;border-radius:3px;}
+.xref{font-style:italic;text-decoration:underline;text-underline-offset:2px;color:var(--ink-soft);}
+.xref:hover{color:var(--ink);}
+.foot{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+</style>
+
+<div class="doc">
+
+  <div class="masthead">
+    <div>
+      <div class="eyebrow">Google Ads Account Audit</div>
+      <h1>Saphire Saffron: Executive Summary</h1>
+    </div>
+    <div class="meta">
+      trysaphire.com (Happy Chews)<br>
+      Period: Sep 1, 2025 through Jul 28, 2026<br>
+      Total spend: $333,230
+    </div>
+  </div>
+
+  <div class="roadmap">
+    <span class="step done">01 Executive Summary</span>
+    <span class="step done">02 Fundamentals</span>
+    <span class="step done">03 Account Architecture</span>
+    <span class="step done">04 Tracking &amp; Measurement</span>
+    <span class="step done">05 Search</span>
+    <span class="step done">06 Shopping</span>
+    <span class="step done">07 Performance Max</span>
+    <span class="step done">08 Demand Gen</span>
+    <span class="step done">09 Bidding Strategy</span>
+    <span class="step done">10 First-Party Data</span>
+    <span class="step done">11 Competitive Landscape</span>
+    <span class="step done">12 Automation &amp; AI Signals</span>
+    <span class="step done">13 Budget &amp; Pacing</span>
+    <span class="step done">14 Landing Page &amp; CRO</span>
+    <span class="step done">15 Findings &amp; Roadmap</span>
+  </div>
+
+  <div class="section" id="section-01">
+    <div class="section-head"><span class="section-num">01</span><h2>Account snapshot and hierarchy</h2></div>
+    <p class="dek">67 campaigns have run since September 2025 across Search, Shopping, Performance Max, and Demand Gen. The two windows below (full period vs. last 30 days) are shown side by side because the account's channel mix has shifted meaningfully in recent weeks, and recent behavior carries more weight throughout this report.</p>
+
+    <h3>Full period (11 months)</h3>
+    <div class="stat-row">
+      <div class="metric"><span class="stat">$333,230</span><span class="lbl">Total spend</span></div>
+      <div class="metric"><span class="stat">9,651</span><span class="lbl">Conversions</span></div>
+      <div class="metric"><span class="stat">$615,359</span><span class="lbl">Conv. value</span></div>
+      <div class="metric"><span class="stat">1.85x</span><span class="lbl">Blended ROAS</span></div>
+    </div>
+
+    <h3>Last 30 days <span class="h3-note">vs. full-period daily average</span></h3>
+    <div class="stat-row">
+      <div class="metric"><span class="stat">$56,107<span class="trend up">&#9650; 85.8%</span></span><span class="lbl">Total spend</span></div>
+      <div class="metric"><span class="stat">1,600<span class="trend up">&#9650; 82.9%</span></span><span class="lbl">Conversions</span></div>
+      <div class="metric"><span class="stat">$101,104<span class="trend up">&#9650; 81.3%</span></span><span class="lbl">Conv. value</span></div>
+      <div class="metric"><span class="stat">1.80x<span class="trend down">&#9660; 2.4%</span></span><span class="lbl">Blended ROAS</span></div>
+    </div>
+    <p class="dek" style="font-size:12.5px;margin-top:6px;">Full-period average is the $333,230 spent over 331 days, scaled to a 30-day equivalent ($30,202/mo, 875 conversions/mo, $55,773/mo), so the comparison is like for like against the last 30 days.</p>
+
+    <h3>Hierarchy by campaign type</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Type</th><th>Spend share (full)</th><th>ROAS (full)</th><th>Spend share (30d)</th><th>ROAS (30d)</th><th>Trend</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>Search</td><td class="num">42.2%</td><td class="num">2.70x</td><td class="num">34.8%</td><td class="num">2.52x</td><td>Still the profit engine, share slipping</td></tr>
+          <tr><td>Shopping</td><td class="num">13.0%</td><td class="num">2.02x</td><td class="num">16.6%</td><td class="num">2.54x</td><td class="trend-up">Efficiency improving, gaining share</td></tr>
+          <tr><td>Performance Max</td><td class="num">20.3%</td><td class="num">1.64x</td><td class="num">39.0%</td><td class="num">1.22x</td><td class="trend-down">Now the largest channel, efficiency falling</td></tr>
+          <tr class="lo"><td>Demand Gen</td><td class="num">24.5%</td><td class="num">0.45x</td><td class="num">9.5%</td><td class="num">0.27x</td><td class="trend-down">Being cut, still losing money on every dollar</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Best performers (min. $2,000 spend, full period)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Campaign</th><th>Type</th><th>ROAS</th><th>Spend</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>NB DSA, mCPC &gt; tROAS</td><td>Search</td><td class="num">7.24x</td><td class="num">$6,161</td><td class="num">$44,611</td></tr>
+          <tr><td>Brand, mCPC</td><td>Search</td><td class="num">5.66x</td><td class="num">$18,421</td><td class="num">$104,232</td></tr>
+          <tr><td>Brand, mCPC &gt; tROAS 3.00x &gt; 5.00x</td><td>Shopping</td><td class="num">3.51x</td><td class="num">$10,493</td><td class="num">$36,878</td></tr>
+          <tr><td>NB Kids Theme, tROAS ladder</td><td>Search</td><td class="num">2.17x</td><td class="num">$74,462</td><td class="num">$161,688</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Structural drag (min. $2,000 spend, full period, all five are Demand Gen)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Campaign</th><th>ROAS</th><th>Spend</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr class="lo"><td>Test Campaign, Broad, Batch 18 to 20</td><td class="num">0.20x</td><td class="num">$3,625</td><td class="num">$715</td></tr>
+          <tr class="lo"><td>7 Reasons ADHD, Batch 2</td><td class="num">0.42x</td><td class="num">$2,347</td><td class="num">$996</td></tr>
+          <tr class="lo"><td>PDP, Batch 1</td><td class="num">0.51x</td><td class="num">$11,471</td><td class="num">$5,883</td></tr>
+          <tr class="lo"><td>Natural Alternative, Batch 1</td><td class="num">0.56x</td><td class="num">$22,097</td><td class="num">$12,306</td></tr>
+          <tr class="lo"><td>10 Reasons ADHD, Batch 1</td><td class="num">0.60x</td><td class="num">$4,170</td><td class="num">$2,492</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="pullquote">Every campaign on the "structural drag" list is Demand Gen. Not one Search, Shopping, or PMax campaign at meaningful spend loses money outright. This is not scattered underperformance, it is one channel.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">02</span><h2>Top risks flagged</h2></div>
+    <div class="callout-list">
+      <div class="callout threat">
+        <span class="rank">1</span>
+        <div class="body">
+          <strong>Remarketing is effectively switched off account-wide.</strong>
+          <span>Every system-defined audience (all visitors, product viewers, cart abandoners, past buyers) is closed under a Restricted Targeting in Personalized Advertising policy citation, tied to the health-adjacent, children's-focus content the brand is built on. The only open segments are a generic Google-engaged list and an empty custom combination list with zero campaign usage. Full detail in <a class="xref" href="#section-04">Section 04</a> and <a class="xref" href="#section-10">Section 10</a>.</span>
+        </div>
+      </div>
+      <div class="callout threat">
+        <span class="rank">2</span>
+        <div class="body">
+          <strong>Demand Gen is a structural loss, not a soft spot.</strong>
+          <span>$81,523 spent lifetime for $36,617 back (0.45x), and still running at 0.27x in the last 30 days despite the team already cutting its budget share from 24.5% to 9.5%. Detail in <a class="xref" href="#section-08">Section 08</a>.</span>
+        </div>
+      </div>
+      <div class="callout threat">
+        <span class="rank">3</span>
+        <div class="body">
+          <strong>PMax cracked in July specifically, after four straight months of growing profit.</strong>
+          <span>Broken down by month (<a class="xref" href="#section-02">Section 02</a>), PMax generated positive and climbing Net Ad Revenue every month from March through June ($2,091 to $14,862). In July it dropped to $3,847 at 1.19x ROAS on similar spend, a one-month break, not a slow slide. PMax also now carries 39.0% of last-30-day spend, the largest share of any channel, so a break in this specific format matters more than it would have in March. PMax leans on audience signals more than any other format, and Risk 1 means it currently has almost none to work with. Detail in <a class="xref" href="#section-07">Section 07</a>.</span>
+        </div>
+      </div>
+      <div class="callout threat">
+        <span class="rank">4</span>
+        <div class="body">
+          <strong>The primary conversion action has a broken Enhanced Conversions feed.</strong>
+          <span>"Google Shopping App Purchase," the one Smart Bidding actually optimizes against, is flagged for an API setup issue limiting enhanced conversions data received. Every automated bid strategy in the account is bidding on a degraded signal. Detail in <a class="xref" href="#section-04">Section 04</a>.</span>
+        </div>
+      </div>
+      <div class="callout threat">
+        <span class="rank">5</span>
+        <div class="body">
+          <strong>Brand equity is leaking to Amazon and affiliate content farms.</strong>
+          <span>Up to 62% query overlap and a 90%+ top-of-page rate from amazon.com against the brand Search campaign, plus a cluster of "best saffron gummies" and "is it a scam" content sites intercepting comparison-stage demand. Full detail in the Competitive Intelligence Brief, referenced again in <a class="xref" href="#section-11">Section 11</a>.</span>
+        </div>
+      </div>
+      <div class="callout threat">
+        <span class="rank">6</span>
+        <div class="body">
+          <strong>No automation or monitoring layer exists.</strong>
+          <span>Zero Ads Scripts, zero automated rules, on a $333,230 account. Nothing is watching auction insights, budget pacing, or search term quality between manual check-ins. Detail in <a class="xref" href="#section-12">Section 12</a>.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">03</span><h2>Top opportunities found</h2></div>
+    <div class="callout-list">
+      <div class="callout opp">
+        <span class="rank">1</span>
+        <div class="body">
+          <strong>Resolve the personalized advertising restriction, or build the strategy around it deliberately.</strong>
+          <span>Either the policy citation is fixable (content or categorization change) or it is permanent, in which case every PMax and Demand Gen recommendation here needs to lean on contextual and product-feed signals instead of audience signals. Confirming which one it is changes how both channels should be targeted going forward.</span>
+        </div>
+      </div>
+      <div class="callout opp">
+        <span class="rank">2</span>
+        <div class="body">
+          <strong>Reallocate, do not just trim, Demand Gen.</strong>
+          <span>The team has already cut its share by more than half. The remaining spend is still losing money. Moving it fully into Search or Shopping, or rebuilding it from scratch around a different creative and targeting logic, converts an ongoing loss into ongoing profit at the same budget level.</span>
+        </div>
+      </div>
+      <div class="callout opp">
+        <span class="rank">3</span>
+        <div class="body">
+          <strong>Scale the DSA campaign.</strong>
+          <span>7.24x ROAS on only $6,161 of spend, the most efficient thing in the account by a wide margin, and clearly budget-constrained rather than demand-constrained.</span>
+        </div>
+      </div>
+      <div class="callout opp">
+        <span class="rank">4</span>
+        <div class="body">
+          <strong>Fix the Purchase action's Enhanced Conversions API issue.</strong>
+          <span>A contained, technical fix (order ID, OAuth credentials, hashed user data via the API) that improves bidding signal quality on every tROAS and Max Conversion Value campaign in the account simultaneously.</span>
+        </div>
+      </div>
+      <div class="callout opp">
+        <span class="rank">5</span>
+        <div class="body">
+          <strong>Stand up the Branding keywords switch as the account's first automation layer.</strong>
+          <span>An hourly auction-insights check that reacts to Amazon or affiliate encroachment on brand terms directly targets Risk 5, and gives the account its first piece of always-on monitoring at the same time.</span>
+        </div>
+      </div>
+      <div class="callout opp">
+        <span class="rank">6</span>
+        <div class="body">
+          <strong>Protect and extend what is already working.</strong>
+          <span>Both Brand campaigns (Search 5.66x lifetime, 4.80x last 30 days; Shopping 3.51x lifetime, 3.18x last 30 days) and the Kids Theme NB Search campaign are proven, scaled winners. They don't need fixing, they are the floor the rest of the account should be measured against.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">04</span><h2>Projected impact estimate</h2></div>
+    <p class="dek">Directional, order-of-magnitude figures from reallocating spend that is already happening, not a promise of new budget or guaranteed returns. Real-world reallocation runs into diminishing returns at scale, these are ceilings to aim toward, not committed numbers.</p>
+
+    <div class="impact-box">
+      <div class="impact-row">
+        <span class="l">Demand Gen reallocated to Search-level efficiency, at last 30 days' spend ($5,346 at 2.52x instead of 0.27x)</span>
+        <span class="v">≈ +$12,000 / month</span>
+      </div>
+      <div class="impact-row">
+        <span class="l">PMax recovering to its own earlier 1.64x (pre-decline) on current $21,905 / month spend</span>
+        <span class="v">≈ +$9,000 / month</span>
+      </div>
+      <div class="impact-total">
+        <span class="l">Combined monthly opportunity, current spend levels, no new budget</span>
+        <span class="v">≈ $20,000 / month</span>
+      </div>
+    </div>
+    <p class="dek">Held over a year, that is in the neighborhood of a quarter-million dollars in recovered value, and it is worth noting the Demand Gen drag alone has already cost roughly $183,000 in opportunity cost over the full 11-month period (actual $36,617 back against what that same $81,523 would have returned at Search's lifetime 2.70x). Both estimates depend on fixing the audience-signal gap and the conversion feed issue (Risks 1 and 4), since PMax's decline and Demand Gen's underlying targeting logic both trace back to those two problems.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">05</span><h2>Did revenue growth cover the ROAS drop</h2></div>
+    <div class="stat-row" style="grid-template-columns:1fr 1fr;">
+      <div class="metric"><span class="stat">$22,002/mo</span><span class="lbl">Search-only era (Sep to Feb)</span></div>
+      <div class="metric"><span class="stat">$29,278/mo</span><span class="lbl">Multi-channel era (Apr to Jul)</span></div>
+    </div>
+    <p class="dek"><strong>Yes, on average, but unevenly.</strong> Net Ad Revenue, attributed order value minus ad spend, before cost of goods or any other cost, averaged higher per month once the account scaled, even though blended ROAS fell from 3.70x to 1.45x over the same comparison. That average hides a real two-month dip. Full breakdown, by channel and by month, in <a class="xref" href="#section-02">Section 02</a>.</p>
+  </div>
+
+  <div class="section" id="section-02">
+    <div class="section-head"><span class="section-num">02</span><h2>Fundamentals</h2></div>
+
+    <h3>Competitive brief scan</h3>
+    <p class="dek">Full detail lives in the <a href="https://claude.ai/code/artifact/519b2928-5824-4f12-8a6d-9bffa325d59d">Competitive Intelligence Brief</a>, cited here rather than repeated. Two findings from that brief matter most:</p>
+    <ul class="pts">
+      <li><strong>Amazon resellers overlap up to 62%</strong> of Brand Search query traffic, with a 90%+ top-of-page rate.</li>
+      <li><strong>Affiliate content sites</strong> ("best saffron gummies," comparison-stage searches) intercept demand Saphire has no owned page competing for.</li>
+    </ul>
+    <p class="dek">Both are still visible in this account's own Auction Insights. Neither has been addressed since.</p>
+
+    <h3>Audience analysis review</h3>
+    <p class="dek">Full detail lives in the <a href="https://claude.ai/code/artifact/42ff5453-7deb-4edb-a006-360da8a93bf8">Targeted Audience Analysis</a>. The persona, Sarah Whitfield, decides under guilt and time pressure: natural alternative vs. being pushed toward medication. That tension shows up twice elsewhere in this account.</p>
+    <ul class="pts">
+      <li><strong>Best-converting pages lead with it.</strong> The homepage and quiz funnel (<a class="xref" href="#section-14">Section 14</a>) speak directly to that tension.</li>
+      <li><strong>Underperforming pages don't.</strong> 5-reasons-gummies and the bare product page lead with product features instead.</li>
+      <li><strong>Ad copy doesn't either.</strong> The RSA copy in <a class="xref" href="#section-05">Section 05</a> leans on generic supplement language, "Premium," "Organic," "Shop," not the fear-versus-relief language the persona actually responds to.</li>
+    </ul>
+
+    <h3>Business goals alignment</h3>
+    <p class="dek"><strong>The account counts new customers but doesn't bid for them.</strong> That's a mismatch between the stated growth goal and how spend actually gets allocated.</p>
+    <ul class="pts">
+      <li>Customer acquisition is the stated goal. The conversion flag is active, 27,016 weighted new customers tracked across the period.</li>
+      <li>New Customer Lifetime Value is $0.00 on every conversion action. Bid strategies don't weight for it.</li>
+    </ul>
+    <p class="dek">Full detail in <a class="xref" href="#section-07">Section 07</a> and <a class="xref" href="#section-09">Section 09</a>.</p>
+
+    <h3>Historical spend trend</h3>
+    <p class="dek">Spend by campaign type, month by month, tells the whole story on its own. Read alongside blended ROAS underneath it, and nothing else in this report needs to be read first.</p>
+    <div class="table-wrap">
+      <svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,Menlo,monospace" class="chart-svg">
+<line x1="46" y1="232.0" x2="784" y2="232.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="235.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$0k</text>
+<line x1="46" y1="160.0" x2="784" y2="160.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="163.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$25k</text>
+<line x1="46" y1="88.0" x2="784" y2="88.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="91.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$50k</text>
+<line x1="46" y1="16.0" x2="784" y2="16.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="19.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$75k</text>
+<rect x="58.7" y="227.6" width="41.6" height="4.4" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="58.7" y="226.6" width="41.6" height="1.1" fill="var(--opp)" rx="1.5"/>
+<text x="79.5" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Sep</text>
+<rect x="125.8" y="216.9" width="41.6" height="15.1" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="125.8" y="216.1" width="41.6" height="0.8" fill="var(--threat)" rx="1.5"/>
+<text x="146.6" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Oct</text>
+<rect x="192.9" y="209.7" width="41.6" height="22.3" fill="var(--saffron-strong)" rx="1.5"/>
+<text x="213.7" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Nov</text>
+<rect x="260.0" y="205.3" width="41.6" height="26.7" fill="var(--saffron-strong)" rx="1.5"/>
+<text x="280.8" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Dec</text>
+<rect x="327.1" y="197.1" width="41.6" height="34.9" fill="var(--saffron-strong)" rx="1.5"/>
+<text x="347.9" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Jan</text>
+<rect x="394.2" y="196.5" width="41.6" height="35.5" fill="var(--saffron-strong)" rx="1.5"/>
+<text x="415.0" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Feb</text>
+<rect x="461.3" y="180.0" width="41.6" height="52.0" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="461.3" y="177.5" width="41.6" height="2.5" fill="#6b7fb8" rx="1.5"/>
+<rect x="461.3" y="165.3" width="41.6" height="12.2" fill="var(--threat)" rx="1.5"/>
+<text x="482.1" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Mar</text>
+<rect x="528.4" y="157.1" width="41.6" height="74.9" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="528.4" y="117.5" width="41.6" height="39.6" fill="var(--opp)" rx="1.5"/>
+<rect x="528.4" y="86.4" width="41.6" height="31.2" fill="#6b7fb8" rx="1.5"/>
+<rect x="528.4" y="38.4" width="41.6" height="47.9" fill="var(--threat)" rx="1.5"/>
+<text x="549.2" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Apr</text>
+<rect x="595.5" y="195.4" width="41.6" height="36.6" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="595.5" y="168.4" width="41.6" height="27.0" fill="var(--opp)" rx="1.5"/>
+<rect x="595.5" y="124.1" width="41.6" height="44.3" fill="#6b7fb8" rx="1.5"/>
+<rect x="595.5" y="23.6" width="41.6" height="100.5" fill="var(--threat)" rx="1.5"/>
+<text x="616.3" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">May</text>
+<rect x="662.6" y="182.1" width="41.6" height="49.9" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="662.6" y="149.3" width="41.6" height="32.9" fill="var(--opp)" rx="1.5"/>
+<rect x="662.6" y="92.2" width="41.6" height="57.0" fill="#6b7fb8" rx="1.5"/>
+<rect x="662.6" y="33.7" width="41.6" height="58.5" fill="var(--threat)" rx="1.5"/>
+<text x="683.4" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Jun</text>
+<rect x="729.7" y="178.7" width="41.6" height="53.3" fill="var(--saffron-strong)" rx="1.5"/>
+<rect x="729.7" y="154.5" width="41.6" height="24.2" fill="var(--opp)" rx="1.5"/>
+<rect x="729.7" y="94.7" width="41.6" height="59.8" fill="#6b7fb8" rx="1.5"/>
+<rect x="729.7" y="79.9" width="41.6" height="14.8" fill="var(--threat)" rx="1.5"/>
+<text x="750.5" y="252" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Jul</text>
+</svg>
+    </div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--ink-soft);margin:6px 0 18px;">
+      <span><span style="display:inline-block;width:9px;height:9px;background:var(--saffron-strong);border-radius:2px;margin-right:5px;"></span>Search</span>
+      <span><span style="display:inline-block;width:9px;height:9px;background:var(--opp);border-radius:2px;margin-right:5px;"></span>Shopping</span>
+      <span><span style="display:inline-block;width:9px;height:9px;background:#6b7fb8;border-radius:2px;margin-right:5px;"></span>Performance Max</span>
+      <span><span style="display:inline-block;width:9px;height:9px;background:var(--threat);border-radius:2px;margin-right:5px;"></span>Demand Gen</span>
+    </div>
+    <div class="table-wrap">
+      <svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,Menlo,monospace" class="chart-svg">
+<line x1="46" y1="122.0" x2="784" y2="122.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="125.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">0x</text>
+<line x1="46" y1="102.7" x2="784" y2="102.7" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="105.7" text-anchor="end" font-size="9" fill="var(--ink-soft)">1x</text>
+<line x1="46" y1="83.5" x2="784" y2="83.5" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="86.5" text-anchor="end" font-size="9" fill="var(--ink-soft)">2x</text>
+<line x1="46" y1="64.2" x2="784" y2="64.2" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="67.2" text-anchor="end" font-size="9" fill="var(--ink-soft)">3x</text>
+<line x1="46" y1="44.9" x2="784" y2="44.9" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="47.9" text-anchor="end" font-size="9" fill="var(--ink-soft)">4x</text>
+<line x1="46" y1="25.6" x2="784" y2="25.6" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="28.6" text-anchor="end" font-size="9" fill="var(--ink-soft)">5x</text>
+<line x1="46" y1="102.7" x2="784" y2="102.7" stroke="var(--threat)" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="784" y="98.7" text-anchor="end" font-size="8.5" fill="var(--threat)">breakeven (1.0x)</text>
+<path d="M 79.5 30.8 L 146.6 29.5 L 213.7 48.6 L 280.8 63.2 L 347.9 55.1 L 415.0 50.1 L 482.1 75.2 L 549.2 97.5 L 616.3 97.3 L 683.4 92.3 L 750.5 87.5" fill="none" stroke="var(--saffron-strong)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="79.5" cy="30.8" r="3" fill="var(--saffron-strong)"/>
+<text x="79.5" y="22.8" text-anchor="middle" font-size="9.5" font-weight="700" fill="var(--ink)">4.73x</text>
+<text x="79.5" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Sep</text>
+<circle cx="146.6" cy="29.5" r="3" fill="var(--saffron-strong)"/>
+<text x="146.6" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Oct</text>
+<circle cx="213.7" cy="48.6" r="3" fill="var(--saffron-strong)"/>
+<text x="213.7" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Nov</text>
+<circle cx="280.8" cy="63.2" r="3" fill="var(--saffron-strong)"/>
+<text x="280.8" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Dec</text>
+<circle cx="347.9" cy="55.1" r="3" fill="var(--saffron-strong)"/>
+<text x="347.9" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Jan</text>
+<circle cx="415.0" cy="50.1" r="3" fill="var(--saffron-strong)"/>
+<text x="415.0" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Feb</text>
+<circle cx="482.1" cy="75.2" r="3" fill="var(--saffron-strong)"/>
+<text x="482.1" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Mar</text>
+<circle cx="549.2" cy="97.5" r="3" fill="var(--saffron-strong)"/>
+<text x="549.2" y="89.5" text-anchor="middle" font-size="9.5" font-weight="700" fill="var(--ink)">1.27x</text>
+<text x="549.2" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Apr</text>
+<circle cx="616.3" cy="97.3" r="3" fill="var(--saffron-strong)"/>
+<text x="616.3" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">May</text>
+<circle cx="683.4" cy="92.3" r="3" fill="var(--saffron-strong)"/>
+<text x="683.4" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Jun</text>
+<circle cx="750.5" cy="87.5" r="3" fill="var(--saffron-strong)"/>
+<text x="750.5" y="79.5" text-anchor="middle" font-size="9.5" font-weight="700" fill="var(--ink)">1.79x</text>
+<text x="750.5" y="142" text-anchor="middle" font-size="9.5" fill="var(--ink-soft)">Jul</text>
+</svg>
+    </div>
+    <p class="pullquote">From September through February the account was Search-only and ran at 3.05x to 4.80x ROAS. The moment Shopping, PMax, and Demand Gen were switched on together in March and scaled hard in April, blended ROAS fell to 1.27x, the worst month in the dataset, and has only partly recovered since as Demand Gen got cut back. This was not a slow drift. It happened in one month.</p>
+
+    <h3>Net Ad Revenue by channel and month</h3>
+    <p class="dek">Net Ad Revenue: attributed order value minus ad spend, before cost of goods or any other cost. Not profit, the dollar version of ROAS.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Month</th><th colspan="2">Search</th><th colspan="2">Shopping</th><th colspan="2">PMax</th><th colspan="2">Demand Gen</th></tr>
+          <tr><th></th><th>Net Ad Rev.</th><th>ROAS</th><th>Net Ad Rev.</th><th>ROAS</th><th>Net Ad Rev.</th><th>ROAS</th><th>Net Ad Rev.</th><th>ROAS</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Mar</td><td class="num">$34,015</td><td class="num">2.88x</td><td class="num">$0</td><td class="num">N/A</td><td class="num">$2,091</td><td class="num">3.40x</td><td class="num lo">-$3,102</td><td class="num lo">0.27x</td></tr>
+          <tr><td>Apr</td><td class="num">$18,098</td><td class="num">1.70x</td><td class="num">-$1,072</td><td class="num">0.92x</td><td class="num">$9,382</td><td class="num">1.87x</td><td class="num lo">-$7,974</td><td class="num lo">0.52x</td></tr>
+          <tr><td>May</td><td class="num">$9,363</td><td class="num">1.74x</td><td class="num">$16,723</td><td class="num">2.78x</td><td class="num">$13,122</td><td class="num">1.85x</td><td class="num lo">-$19,283</td><td class="num lo">0.45x</td></tr>
+          <tr><td>Jun</td><td class="num">$17,869</td><td class="num">2.03x</td><td class="num">$15,083</td><td class="num">2.32x</td><td class="num">$14,862</td><td class="num">1.75x</td><td class="num lo">-$10,719</td><td class="num lo">0.47x</td></tr>
+          <tr class="hi"><td>Jul</td><td class="num">$28,656</td><td class="num">2.55x</td><td class="num">$12,882</td><td class="num">2.53x</td><td class="num">$3,847</td><td class="num">1.19x</td><td class="num lo">-$3,725</td><td class="num lo">0.28x</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek">Spend grew fast and diversified across four campaign types starting in March. That diversification is what pulled blended ROAS down, more channels meant more spend chasing the same core demand at lower initial efficiency. Net Ad Revenue tells a different story: three of the four channels grew or held steady through the same period. Demand Gen is the exception, negative every month, no exceptions. In the last 30 days specifically, both Net Ad Revenue and ROAS are recovering as Demand Gen spend gets cut.</p>
+  </div>
+
+  <div class="section" id="section-03">
+    <div class="section-head"><span class="section-num">03</span><h2>Account architecture</h2></div>
+
+    <h3>Naming taxonomy check</h3>
+    <p class="dek">Campaign names carry real information: channel, brand or non-brand, angle, bid strategy history. But the delimiter convention isn't consistent, three examples, each bracketed and piped differently: <code>[V] [Search] US | Brand | mCPC</code>, <code>[V] | [DG] | US | [PDP] | Batch 1//AD1</code>, <code>[V] [PMAX| AO] US | NB | Different LPs</code>. That makes filtering or scripting against campaign names harder than it should be, which matters directly for the proposed Branding keywords switch. A one-time rename to a single fixed template (channel, brand flag, angle, bid strategy) would pay for itself the first time anyone automates against these names.</p>
+
+    <h3>Campaign count sanity</h3>
+    <p class="dek">67 campaigns exist in the account's history.</p>
+    <ul class="pts">
+      <li><strong>11 are Enabled.</strong></li>
+      <li><strong>56 are Paused.</strong> 52 of those are Demand Gen batch tests: 10 Reasons ADHD, 7 Reasons ADHD, Natural Alternative, PDP, Quiz Funnel, Bed Wetting, each split into 8 to 11 numbered batches.</li>
+    </ul>
+    <p class="dek">Losers were actually turned off rather than left to bleed, that's disciplined testing. But it's left a large graveyard sitting in the account. None of it spends, but it's real housekeeping debt for anyone reading this account cold.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Type</th><th>Enabled</th><th>Paused</th><th>Ended</th></tr></thead>
+        <tbody>
+          <tr><td>Search</td><td class="num">4</td><td class="num">2</td><td class="num">1</td></tr>
+          <tr><td>Shopping</td><td class="num">3</td><td class="num">2</td><td class="num">0</td></tr>
+          <tr><td>Performance Max</td><td class="num">2</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr class="lo"><td>Demand Gen</td><td class="num">2</td><td class="num">52</td><td class="num">0</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Budget allocation logic and shared budgets audit</h3>
+    <ul class="pts">
+      <li><strong>Enabled campaigns carry $3,656/day of combined budget cap</strong>, about $111,000 a month. Actual recent spend is roughly $56,000 a month, half the headroom sits unused at the account level. Specific campaigns (<a class="xref" href="#section-13">Section 13</a>) are still individually losing impression share to budget.</li>
+      <li><strong>Paused campaigns still carry $5,040.60/day of dead budget</strong> sitting on record. Harmless while paused, but worth clearing so nobody accidentally reactivates a $110 or $500 daily test campaign.</li>
+      <li><strong>46 campaigns share the identical $50.00 daily budget figure</strong>, almost entirely the Demand Gen batch tests, likely spun up from the same template.</li>
+    </ul>
+
+    <h3>Bid strategy hierarchy</h3>
+    <p class="dek">Every one of the 68 campaigns with a recorded bid strategy runs its own standalone strategy. None are pooled into a portfolio bid strategy.</p>
+    <ul class="pts">
+      <li>52 run Maximize Conversions</li>
+      <li>10 run Target ROAS</li>
+      <li>4 run Manual CPC</li>
+      <li>2 run Target CPA</li>
+    </ul>
+    <p class="dek">Several campaign names track a tROAS ladder that implies graduation over time, for example "tROAS - 2.5x&gt;2x&gt;1.8x&gt;1.4x&gt;1.8x&gt;1.5x." But the Bid Strategy Type field for most of these still reads Maximize Conversions, not Target ROAS. The name documents a progression the account hasn't actually made. With no portfolio strategies anywhere, each bid strategy learns from only its own, often thin, conversion volume. The same fragmentation visible at the campaign level (<a class="xref" href="#section-01">Section 01</a>, <a class="xref" href="#section-03">Section 03</a>) repeats one level down inside Smart Bidding.</p>
+  </div>
+
+  <div class="section" id="section-04">
+    <div class="section-head"><span class="section-num">04</span><h2>Tracking and measurement</h2></div>
+
+    <h3>Enhanced conversions match rate</h3>
+    <p class="dek"><strong>The primary conversion action has a data quality problem, and it's the one Smart Bidding relies on most.</strong></p>
+    <ul class="pts">
+      <li>11 conversion actions total: 7 rated Excellent, 4 flagged Needs attention.</li>
+      <li>"Google Shopping App Purchase (1)," the primary action, is limited by an API setup issue: missing order ID, OAuth credentials, or hashed user data.</li>
+      <li>Three secondary tag-based actions (View Item, Add To Cart, Page View) are missing user-provided data on 30 to 95 percent of events.</li>
+      <li>Offline conversion import is the exception: active and healthy, no action needed.</li>
+    </ul>
+
+    <h3>Consent Mode v2 and the Restricted Targeting policy</h3>
+    <p class="dek"><strong>Two separate issues here, and the second is the single biggest structural problem in the account.</strong></p>
+    <ul class="pts">
+      <li>Default consent labels tag data as not granted. Restricted data processing for the 20 US privacy-law states is switched off, covering 46.9% of total spend ($156,148), California alone 6.4%.</li>
+      <li>The Consent Mode tag itself works and reports "Excellent" for Web. This is a defaults and policy question, not a broken integration.</li>
+      <li>Every system-defined remarketing audience is closed under a confirmed <strong>Restricted Targeting in Personalized Advertising</strong> policy citation, tied to the product's health-adjacent, children's-focus content.</li>
+      <li>Treat it as a policy question, not a bug. Full detail in <a class="xref" href="#section-07">Section 07</a>, <a class="xref" href="#section-08">Section 08</a>, and <a class="xref" href="#section-10">Section 10</a>.</li>
+    </ul>
+  </div>
+
+  <div class="section" id="section-05">
+    <div class="section-head"><span class="section-num">05</span><h2>Search campaigns</h2></div>
+
+    <h3>Ad strength</h3>
+    <p class="dek">48 rated Search RSA ads across 15 ad groups:</p>
+    <ul class="pts">
+      <li><strong>19 Good</strong> (39.6%)</li>
+      <li><strong>22 Average</strong> (45.8%)</li>
+      <li><strong>7 Poor</strong> (14.6%)</li>
+    </ul>
+
+    <h3>Current RSA copy</h3>
+    <p class="dek">Headlines repeat the same handful of phrases account-wide, not just in one ad group: "Premium Saffron Gummies," "Shop Premium Saffron Gummies," "Premium Vegan Saffron Gummies," "Shop Organic Saffron Gummies," "Organic ADHD Support Gummies." That's generic supplement-aisle language. None of it uses the account's strongest lever, the natural-alternative-vs-medication, decided-under-guilt hook the Targeted Audience Analysis identified.</p>
+    <p class="dek">Headline and description slots aren't full everywhere, and it lines up directly with Ad Strength:</p>
+    <ul class="pts">
+      <li>Only 13 of 48 ads (27%) use the full 15 headline slots.</li>
+      <li>One ad in the Kids - EM+PM ad group runs on just 6 headlines. It's rated Poor.</li>
+      <li>One ad in Brand PM/EM runs on 10 headlines. It's rated Average.</li>
+      <li>Descriptions are close to full everywhere, 3 ads sit at 3 of 4 slots.</li>
+    </ul>
+    <p class="dek">Filling the missing headline slots is the fastest, lowest-effort fix in this entire audit.</p>
+
+    <h3>Copy narrative clusters</h3>
+    <p class="dek">Four clusters, built from the Targeted Audience Analysis persona and this account's own strongest, most defensible advantages:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Cluster</th><th>Competitive advantage</th><th>Maps to</th></tr></thead>
+        <tbody>
+          <tr><td>Clinical proof vs. medication</td><td>A published trial against methylphenidate, no competitor claims this</td><td>ADHD Theme</td></tr>
+          <tr><td>Parent trust and social proof</td><td>4.85/5, 2,000+ reviews, 60-day guarantee, counters the "is it a scam" content from <a class="xref" href="#section-11">Section 11</a></td><td>Brand</td></tr>
+          <tr><td>Fast, visible behavior change</td><td>Specific outcomes parents want: fewer school calls, easier homework</td><td>Kids Theme, Mood Theme</td></tr>
+          <tr><td>Natural without the guilt</td><td>Validates the choice itself, the emotional core of the persona</td><td>Gummies &amp; Supplement Theme</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="dek"><strong>Clinical proof vs. medication</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
+        <tbody>
+          <tr><td>Saffron vs. Ritalin Study<br>Clinically Studied Focus Help<br>A Non-Stimulant Path to Focus<br>Focus Support, No Med Crash<br>Backed by a Published Trial</td><td>A 2019 trial compared saffron to methylphenidate for ADHD symptoms. See the results.<br>Skip the appetite loss and afternoon crash. A studied, non-stimulant daily option.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="dek"><strong>Parent trust and social proof</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
+        <tbody>
+          <tr><td>4.85 Stars, 2,000+ Reviews<br>Trusted By Thousands of Moms<br>60-Day Money-Back Guarantee<br>Real Reviews, Real Results<br>Not Sure? Read Reviews First</td><td>Over 2,000 parents rate Happy Chews 4.85/5. See why before you decide.<br>Risk-free 60-day guarantee. If it doesn't help, get your money back, no questions.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="dek"><strong>Fast, visible behavior change</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
+        <tbody>
+          <tr><td>Calmer Evenings in Weeks<br>Homework Without the Fight<br>Fewer Calls From School<br>See a Difference in 2-4 Weeks<br>Focus Support Kids Ask For</td><td>Most parents notice calmer evenings and easier homework time within 2 to 4 weeks.<br>A daily gummy for focus and mood, kids actually want to take it.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="dek"><strong>Natural without the guilt</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Headlines</th><th>Descriptions</th></tr></thead>
+        <tbody>
+          <tr><td>Natural Support That Works<br>You Don't Have to Choose<br>A Gentler First Step<br>Try Natural Before Medication<br>Support Focus, Naturally</td><td>You don't have to choose between natural and effective. See what the research says.<br>A natural first step for focus and mood, before or alongside anything else.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Gap and best performers</h3>
+    <p class="dek">None of the four clusters above show up in the sampled headline set today. Even the weakest overlap, parent trust, has no explicit review or guarantee callout in the ads reviewed. All four are net-new copy to write and test, not a rewrite of something already close.</p>
+    <p class="dek">Ad Strength doesn't reliably predict real performance, worth keeping in mind before chasing the label itself:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Ad group</th><th>Strength</th><th>Spend</th><th>Conv.</th><th>ROAS</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>Brand - Exact (Brand mCPC)</td><td>Average</td><td class="num">$6,147</td><td class="num">681</td><td class="num">7.02x</td></tr>
+          <tr class="hi"><td>Brand PM/EM</td><td>Poor</td><td class="num">$7,912</td><td class="num">636</td><td class="num">5.04x</td></tr>
+          <tr><td>Kids - EM+PM (paused)</td><td>Good</td><td class="num">$38,028</td><td class="num">1,416</td><td class="num">2.32x</td></tr>
+          <tr><td>Kids - EM+PM</td><td>Good</td><td class="num">$20,706</td><td class="num">674</td><td class="num">2.09x</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek">The Brand PM/EM ad rated Poor is the second-best ROAS in the account. Ad Strength measures copy diversity, not proven performance, both matter, but they're not the same thing.</p>
+
+    <h3>Keywords and search terms</h3>
+    <p class="dek">Below is the data on keyword match type and search term distribution.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Match type</th><th>% of spend</th><th>% of conv.</th><th>ROAS</th><th>Distinct terms</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>Exact match</td><td class="num">68.6%</td><td class="num">68.6%</td><td class="num">2.67x</td><td class="num">29,950</td></tr>
+          <tr><td>Exact match (close variant)</td><td class="num">16.9%</td><td class="num">15.7%</td><td class="num">2.51x</td><td class="num">760</td></tr>
+          <tr><td>Phrase match (close variant)</td><td class="num">13.1%</td><td class="num">14.3%</td><td class="num">2.89x</td><td class="num">2,744</td></tr>
+          <tr><td>Phrase match</td><td class="num">1.0%</td><td class="num">1.2%</td><td class="num">3.17x</td><td class="num">413</td></tr>
+          <tr class="lo"><td>Broad match</td><td class="num">0.5%</td><td class="num">0.2%</td><td class="num">1.24x</td><td class="num">1,493</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek">Search term waste is low: $2,010 across 26 zero-conversion terms, against $333,230 total spend. A short tail of category-adjacent terms (hemp gummies, mushroom gummies, bergamot gummies, "best gummies to replace alcohol") are worth adding to the negative list, small dollars, easy cleanup.</p>
+
+    <h3>Keyword cannibalization</h3>
+    <p class="dek"><strong>Keyword cannibalization is widespread.</strong> 6,394 of 30,914 distinct search terms triggered ads in more than one campaign, 20.7% of all search term volume. 2,911 terms span 3 or more campaigns at once. Core terms like "saffron gummies," "saffron for adhd," and "best saffron for adhd" each trigger ads across 9 separate campaigns simultaneously.</p>
+    <p class="dek">Kids Theme, Mood Theme, ADHD Theme, and Gummies &amp; Supplement Theme are routinely bidding against each other for the same query. Each campaign's Smart Bidding strategy learns from a contested, overlapping pool instead of a distinct one, on top of the fragmentation already flagged in <a class="xref" href="#section-03">Section 03</a> and <a class="xref" href="#section-09">Section 09</a>.</p>
+
+    <h3>Negative keywords</h3>
+    <p class="dek">Two negative keyword lists exist in the account:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>List</th><th>Keywords</th><th>Campaigns</th><th>What it excludes</th></tr></thead>
+        <tbody>
+          <tr><td>Brand Terms For NB Campaigns | NGKW List</td><td class="num">128</td><td class="num">10</td><td>Brand misspellings (sapphire, saphire, and variants), plus trust queries: "is sapphire saffron legit," "sapphire saffron gummies reviews and complaints," "are sapphire happy chews safe"</td></tr>
+          <tr><td>[V] NB Negatives for Brand Campaigns</td><td class="num">16</td><td class="num">1</td><td>Generic category terms (saffron, saffron gummy, saffron vitamin, saffron for adhd) excluded from the Brand campaign specifically</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek"><strong>The 128-keyword list excludes the exact trust-query language <a class="xref" href="#section-11">Section 11</a>'s affiliate content farms are winning right now.</strong> "Is it legit," "is it a scam," "reviews," "safe" searches are correctly kept out of non-brand campaigns, but nothing else is targeting them either. That's a real gap in paid coverage, sitting exactly where the competitive threat already is.</p>
+
+    <h3>Negative list architecture</h3>
+    <p class="dek"><strong>Well organized for internal separation. Not built to catch the account's biggest external threat.</strong></p>
+    <ul class="pts">
+      <li>The two lists work in opposite, complementary directions: non-brand campaigns exclude brand terms, the Brand campaign excludes generic category terms. That's the correct structure, not a gap.</li>
+      <li>What it can't do, and doesn't attempt to do, is stop Amazon or an affiliate site from bidding on those same brand terms externally. That's addressed in <a class="xref" href="#section-11">Section 11</a> and <a class="xref" href="#section-12">Section 12</a>'s Branding keywords switch.</li>
+      <li>Worth adding a third list: a standing Category Drift list (hemp gummies, mushroom gummies, bergamot gummies, and similar), so this cleanup happens once, centrally, instead of per-campaign.</li>
+    </ul>
+
+    <h3>Impression share loss</h3>
+    <p class="dek">Last 30 days, impression share by Search campaign, worst to best:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Campaign</th><th>Impr. share</th><th>Lost to rank</th></tr></thead>
+        <tbody>
+          <tr class="lo"><td>DSA, NB</td><td class="num">12.3%</td><td class="num">87.7%</td></tr>
+          <tr><td>Mood Theme, NB</td><td class="num">27.5%</td><td class="num">72.5%</td></tr>
+          <tr><td>ADHD Theme, NB</td><td class="num">35.4%</td><td class="num">60.1%</td></tr>
+          <tr><td>Gummies &amp; Supplement Theme, NB</td><td class="num">51.0%</td><td class="num">45.1%</td></tr>
+          <tr><td>Kids Theme, NB</td><td class="num">58.5%</td><td class="num">36.1%</td></tr>
+          <tr class="hi"><td>Brand</td><td class="num">79.1%</td><td class="num">15.4%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dek">The DSA campaign is the most efficient thing in the entire account at 7.24x lifetime ROAS (<a class="xref" href="#section-01">Section 01</a>), and it is the single worst campaign for impression share, showing on only 12.3% of eligible searches, losing 87.7% purely to rank. Ad Rank is bid times Quality Score, and the account's Quality Score distribution (mostly 5, 7, and 8, almost nothing at 9 or 10) is the direct, measurable cause.</p>
+    <p class="dek">This is exactly the diagnostic <a href="https://github.com/google-marketing-solutions/arba">arba</a> (<a class="xref" href="#section-12">Section 12</a>) is built for: it traces impression-share loss back to the specific Quality Score component, landing page experience, ad relevance, or expected CTR, causing it, rather than just telling the account to raise bids. Fixing DSA's rank-based loss is the single highest-leverage lever in the account, it is already the proof that the core offer converts, it is just not being allowed to show.</p>
+  </div>
+
+  <div class="section" id="section-06">
+    <div class="section-head"><span class="section-num">06</span><h2>Shopping campaigns</h2></div>
+
+    <h3>Feed quality audit</h3>
+    <p class="dek">14 distinct products in the feed. Spend concentrates in the top 2: Saphire Saffron Gummies and Saphire Happy Chews, 79% of Shopping spend combined, both healthy at 2.2x to 2.5x ROAS. Below that, real problems:</p>
+    <ul class="pts">
+      <li><strong>"Happy Chews for Mood &amp; Focus":</strong> $4,663 spend, 0.26x ROAS.</li>
+      <li><strong>"Gummies 3-Pack":</strong> $1,027 spend, 0.17x ROAS.</li>
+      <li><strong>"Chaos to Calm, Parents Guide for ADHD Kids":</strong> a non-gummy item, reads like a lead-magnet or guide, not a physical product. Spending with zero conversions.</li>
+    </ul>
+    <p class="dek">There also appear to be duplicate or near-duplicate listings for the powder capsule product under separate item IDs, one converting, one not. Worth a feed consolidation pass.</p>
+  </div>
+
+  <div class="section" id="section-07">
+    <div class="section-head"><span class="section-num">07</span><h2>Performance Max</h2></div>
+
+    <h3>Asset group and search theme structure</h3>
+    <p class="dek"><strong>Structure is good where it exists. One live campaign has none of it.</strong></p>
+    <ul class="pts">
+      <li>7 asset groups total, across the account's 2 enabled PMax campaigns.</li>
+      <li>"Different LPs" runs 5, split by messaging angle: 10 Reasons ADHD, 7 Reasons Why, Natural Alternative Broad, Natural Alternative Search Themes, Natural Alternative Parents. Segmenting by angle, not by duplication, is the right approach.</li>
+      <li>"Different LPs" also has 35 search themes, covering the saffron, kids, and ADHD query space thoroughly, including "smartkidz saffron gummies," a direct competitor's name used to conquest. SmartKidz shows up in this account's own Shopping Auction Insights.</li>
+      <li>"Bed Wetting Angle" runs 2 asset groups (Broad, Monster Match) and has zero search themes. Nothing is steering it toward the bed-wetting query space. That may explain why bedwetting-brand domains (Goodnites, Ninjamas) showed up next to this account's auction insights in the Competitive Brief.</li>
+    </ul>
+    <p class="dek"><strong>Recommendation:</strong> Add search themes to "Bed Wetting Angle" at the same specificity already used on "Different LPs." Expected result: tighter targeting, less bleed into unrelated bedwetting-brand queries, and performance closer to "Different LPs."</p>
+
+    <h3>Brand protection and search visibility</h3>
+    <p class="dek"><strong>Brand is protected internally. What PMax actually matches on is not visible.</strong></p>
+    <ul class="pts">
+      <li>The shared brand list is applied as a Negative exclusion on 2 campaigns, keeps PMax's non-brand campaigns from bidding against the account's own brand terms.</li>
+      <li>PMax doesn't expose a search terms report the way Search does. There's no visibility into what queries actually trigger PMax ads.</li>
+    </ul>
+    <p class="dek"><strong>Recommendation:</strong> Check Search Term Insights in the UI on a standing monthly basis, not a one-time look. Expected result: earlier detection of irrelevant or competitor query leakage that account exports alone can't show.</p>
+
+    <h3>New customer bidding</h3>
+    <p class="dek"><strong>PMax bids the same for a new customer as a repeat one, even though they're worth different amounts.</strong></p>
+    <ul class="pts">
+      <li>Customer acquisition is tracked: 27,016 weighted new customers across the account.</li>
+      <li>New Customer Lifetime Value is $0.00 on every conversion action.</li>
+    </ul>
+    <p class="dek"><strong>Recommendation:</strong> Set a New Customer Lifetime Value bid modifier. Expected result: Smart Bidding starts favoring acquisition specifically, which should improve blended customer acquisition cost in a subscription model like this one.</p>
+
+    <h3>AI Max and auto-created assets</h3>
+    <p class="dek"><strong>A deliberate, conservative setting, not an oversight, but worth testing now.</strong></p>
+    <ul class="pts">
+      <li>AI Max: Disabled on every campaign.</li>
+      <li>Final URL expansion: Disabled on every campaign.</li>
+    </ul>
+    <p class="dek"><strong>Recommendation:</strong> Run a small-budget, time-boxed test with AI Max enabled on one lower-risk non-brand campaign. Expected result: a real read on whether AI Max's expanded targeting and asset generation help here, without risking the account's better-performing campaigns.</p>
+
+    <h3>Data exclusions check</h3>
+    <p class="dek">No data exclusion window is currently configured. Worth setting one given the near-total spend gap on July 5 through 8 (<a class="xref" href="#section-13">Section 13</a>), an unexplained multi-day dip like that is exactly the kind of anomaly a data exclusion should be protecting Smart Bidding's training data from.</p>
+  </div>
+
+  <div class="section" id="section-08">
+    <div class="section-head"><span class="section-num">08</span><h2>Demand Gen</h2></div>
+    <p class="dek"><a class="xref" href="#section-01">Section 01</a> already established Demand Gen as a structural loss (0.45x lifetime ROAS, 0.27x last 30 days). This section is about why.</p>
+
+    <h3>Audience signal quality</h3>
+    <p class="dek">77.6% of the tagged view of Demand Gen delivery falls into "People not in audiences." That means it served users who matched none of the campaigns' configured audience signals.</p>
+    <p class="dek">Where a real audience segment IS matched, results are meaningfully better:</p>
+    <ul class="pts">
+      <li>Beauty &amp; Wellness: 2.07x</li>
+      <li>Family-Focused: 2.16x</li>
+      <li>Parents of Teens: 2.61x</li>
+      <li>Childcare &amp; Education: 2.16x to 2.92x</li>
+    </ul>
+    <p class="dek">The exception is "Converted Search Terms," the one segment that functions like a remarketing signal. It's the worst performer at 0.40x.</p>
+    <p class="dek">Optimized Targeting is turned on for 52 of the account's ad groups and campaigns. This setting lets Google show ads to people outside the audiences that were actually selected. Without strong audience signals to guide it (<a class="xref" href="#section-04">Section 04</a>'s policy restriction), the system explores broadly and mostly reaches people who don't match any set audience. Results are worse, though not a total loss.</p>
+    <p class="dek"><strong>Recommendation:</strong> Turn off Optimized Targeting on Demand Gen campaigns until real audience signals exist, either first-party lists once the policy restriction is resolved, or strong in-market and affinity signals in the meantime. Expected result: delivery narrows to people more likely to convert, which should lift Demand Gen's ROAS toward the 2.0x-plus range already seen when a real audience segment is matched.</p>
+
+    <h3>Creative diversity</h3>
+    <ul class="pts">
+      <li>60 distinct video IDs referenced across 11-plus named creative batches and angles: 10 Reasons ADHD, 7 Reasons ADHD, Natural Alternative, PDP, Quiz Funnel, Bed Wetting.</li>
+    </ul>
+    <p class="dek"><strong>Recommendation:</strong> Move from batch testing to a continuous testing loop, current industry best practice for video-heavy Demand Gen accounts. It works in three steps:</p>
+    <ul class="pts">
+      <li><strong>Score before launch.</strong> Run every new video against Google's ABCD framework (Attention, Branding, Connection, Direction) before it goes live. This catches weak creative before it spends any budget.</li>
+      <li><strong>Test in batches.</strong> Run several scored videos against each other at the same time, not one after another. This is a multivariable test, it finds a real winner faster than sequential testing does.</li>
+      <li><strong>Promote and repeat.</strong> Keep the winner running as the champion, retire the rest, and feed new challenger creative into the loop against it on an ongoing basis.</li>
+    </ul>
+    <p class="dek">Expected result: fewer weak videos reach paid spend, winners get identified and scaled faster, and the channel keeps improving on its own instead of waiting for a quarterly review.</p>
+  </div>
+
+  <div class="section" id="section-09">
+    <div class="section-head"><span class="section-num">09</span><h2>Bidding strategy</h2></div>
+
+    <h3>tROAS and tCPA history</h3>
+    <p class="dek">Campaign names document an intended tightening ladder over time, for example "tROAS - 2.5x&gt;2x&gt;1.8x&gt;1.4x&gt;1.8x&gt;1.5x" and "Max Conv &gt; tROAS 1.8 &gt;tROAS 1.50x (22/6) &gt; 1.30x (15/7)." That is good discipline as a testing log, but as noted in <a class="xref" href="#section-03">Section 03</a>, the campaigns' actual current Bid Strategy Type often still reads Maximize Conversions rather than Target ROAS, meaning several of these campaigns have not actually made the graduation their own name describes.</p>
+
+  </div>
+
+  <div class="section" id="section-10">
+    <div class="section-head"><span class="section-num">10</span><h2>First-party data</h2></div>
+
+    <h3>Customer Match hygiene</h3>
+    <p class="dek">The Audience segment list report confirms what <a class="xref" href="#section-04">Section 04</a> already flagged. Essentially every system-defined remarketing segment (All visitors, Product viewers, Shopping cart abandoners, Past buyers, General visitors) shows Closed, stuck at "Populating..." forever.</p>
+    <p class="dek">Only two segments are open:</p>
+    <ul class="pts">
+      <li>A generic Google-engaged audience, 28 million users. Not first-party data, a pre-built Google segment.</li>
+      <li>The "AdWords optimized list" custom combination segment. Open but empty, under 1,000 users on every channel, and not targeted by a single ad group or campaign.</li>
+    </ul>
+
+    <h3>Zero-party data capture</h3>
+    <p class="dek">The account runs an active Quiz Funnel Demand Gen program, 11 numbered batches. That implies an on-site quiz collecting explicit, self-reported parent and child information. This is zero-party data, and it isn't restricted the way remarketing audiences are. Nothing in the account shows that data flowing back into a Customer Match list, a CRM, or a bidding signal. If the <a class="xref" href="#section-04">Section 04</a> policy restriction turns out to be permanent, this quiz is the account's best remaining path to a first-party signal PMax and Demand Gen could actually use. Right now it looks like a missed connection, not a built pipeline.</p>
+  </div>
+
+  <div class="section" id="section-11">
+    <div class="section-head"><span class="section-num">11</span><h2>Competitive landscape</h2></div>
+    <p class="dek">Full detail lives in the <a href="https://claude.ai/code/artifact/519b2928-5824-4f12-8a6d-9bffa325d59d">Competitive Intelligence Brief</a>, referenced rather than repeated here. Two updates since that brief was written:</p>
+    <ul class="pts">
+      <li>Three new low-view YouTube videos, published in the last week, are explicitly titled around "is Saphire Happy Chews a scam." Channels like ScamGuider and Review Empire. Same affiliate-content-farm pattern the brief already flagged (10best-choices.com and similar), now spreading to a second content format.</li>
+      <li>The account's own Shopping Auction Insights, cross-referenced against <a class="xref" href="#section-07">Section 07</a>'s search themes, confirms SmartKidz specifically as a named, direct competitor. Not just a generic category peer, the account is already conquesting against it by name.</li>
+    </ul>
+  </div>
+
+  <div class="section" id="section-12">
+    <div class="section-head"><span class="section-num">12</span><h2>Automation and AI signals</h2></div>
+
+    <h3>Scripts inventory and AI Max</h3>
+    <p class="dek">Zero Ads Scripts, zero automated rules. AI Max is Disabled account-wide (<a class="xref" href="#section-07">Section 07</a>). This is a $333,230 account with no automation layer of any kind watching it between manual check-ins, and the change history in the export backs that up, the top-changed campaigns show 150 to 280-plus manual changes each over the period (budget, bid, keyword, and status changes combined), real, ongoing manual effort that a lightweight automation layer would meaningfully reduce.</p>
+
+    <h3>The Branding keywords switch</h3>
+    <p class="dek">This is the account's proposed first automation asset: an hourly check against Auction Insights that reacts when Amazon or an affiliate domain starts overlapping or outranking the Brand campaign, adjusting bids or campaign status in response. It directly targets the leakage already confirmed in the Competitive Brief and <a class="xref" href="#section-11">Section 11</a>. It would also double as the account's first piece of always-on monitoring.</p>
+
+    <h3>arba</h3>
+    <p class="dek">A separate tool with a separate purpose. Of the Google Marketing Solutions open-source tools available, <a href="https://github.com/google-marketing-solutions/arba">arba</a> diagnoses Quality Score-driven impression share loss, directly relevant to the DSA finding in <a class="xref" href="#section-05">Section 05</a>. It has nothing to do with brand defense. The two would sit alongside each other, not overlap.</p>
+  </div>
+
+  <div class="section" id="section-13">
+    <div class="section-head"><span class="section-num">13</span><h2>Budget and pacing</h2></div>
+
+    <h3>Daily pacing volatility</h3>
+    <div class="table-wrap">
+      <svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,Menlo,monospace" class="chart-svg">
+<line x1="46" y1="154.0" x2="784" y2="154.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="157.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$0.0k</text>
+<line x1="46" y1="85.0" x2="784" y2="85.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="88.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$2.5k</text>
+<line x1="46" y1="16.0" x2="784" y2="16.0" stroke="var(--line)" stroke-width="1"/>
+<text x="38" y="19.0" text-anchor="end" font-size="9" fill="var(--ink-soft)">$5.0k</text>
+<path d="M 46.0 76.3 L 57.9 80.8 L 69.8 89.8 L 81.7 87.7 L 93.6 88.0 L 105.5 90.4 L 117.4 82.0 L 129.3 57.1 L 141.2 52.9 L 153.1 62.2 L 165.0 29.1 L 176.9 34.0 L 188.8 35.8 L 200.7 30.8 L 212.6 82.6 L 224.5 98.8 L 236.5 109.4 L 248.4 116.2 L 260.3 109.5 L 272.2 110.6 L 284.1 103.9 L 296.0 106.3 L 307.9 102.2 L 319.8 110.9 L 331.7 114.2 L 343.6 107.6 L 355.5 103.0 L 367.4 101.9 L 379.3 116.8 L 391.2 110.1 L 403.1 108.3 L 415.0 108.3 L 426.9 106.9 L 438.8 109.3 L 450.7 108.2 L 462.6 113.8 L 474.5 109.8 L 486.4 107.1 L 498.3 114.9 L 510.2 150.3 L 522.1 154.0 L 534.0 154.0 L 545.9 154.0 L 557.8 132.5 L 569.7 99.3 L 581.6 99.2 L 593.5 90.4 L 605.5 80.9 L 617.4 79.2 L 629.3 89.4 L 641.2 97.2 L 653.1 95.8 L 665.0 100.7 L 676.9 84.8 L 688.8 74.2 L 700.7 73.6 L 712.6 68.8 L 724.5 81.4 L 736.4 83.0 L 748.3 88.7 L 760.2 86.2 L 772.1 85.1 L 784.0 105.9 L 784.0 154.0 L 46.0 154.0 Z" fill="var(--saffron-strong)" opacity="0.10"/>
+<path d="M 46.0 76.3 L 57.9 80.8 L 69.8 89.8 L 81.7 87.7 L 93.6 88.0 L 105.5 90.4 L 117.4 82.0 L 129.3 57.1 L 141.2 52.9 L 153.1 62.2 L 165.0 29.1 L 176.9 34.0 L 188.8 35.8 L 200.7 30.8 L 212.6 82.6 L 224.5 98.8 L 236.5 109.4 L 248.4 116.2 L 260.3 109.5 L 272.2 110.6 L 284.1 103.9 L 296.0 106.3 L 307.9 102.2 L 319.8 110.9 L 331.7 114.2 L 343.6 107.6 L 355.5 103.0 L 367.4 101.9 L 379.3 116.8 L 391.2 110.1 L 403.1 108.3 L 415.0 108.3 L 426.9 106.9 L 438.8 109.3 L 450.7 108.2 L 462.6 113.8 L 474.5 109.8 L 486.4 107.1 L 498.3 114.9 L 510.2 150.3 L 522.1 154.0 L 534.0 154.0 L 545.9 154.0 L 557.8 132.5 L 569.7 99.3 L 581.6 99.2 L 593.5 90.4 L 605.5 80.9 L 617.4 79.2 L 629.3 89.4 L 641.2 97.2 L 653.1 95.8 L 665.0 100.7 L 676.9 84.8 L 688.8 74.2 L 700.7 73.6 L 712.6 68.8 L 724.5 81.4 L 736.4 83.0 L 748.3 88.7 L 760.2 86.2 L 772.1 85.1 L 784.0 105.9" fill="none" stroke="var(--saffron-strong)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="510.2" y="16" width="35.7" height="138" fill="var(--threat)" opacity="0.12"/>
+<text x="510.2" y="27" font-size="8.5" fill="var(--threat)" font-weight="700">3-day gap</text>
+<text x="46.0" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">05-27</text>
+<text x="165.0" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">06-06</text>
+<text x="284.1" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">06-16</text>
+<text x="403.1" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">06-26</text>
+<text x="522.1" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">07-06</text>
+<text x="641.2" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">07-16</text>
+<text x="760.2" y="172" text-anchor="middle" font-size="9" fill="var(--ink-soft)">07-26</text>
+</svg>
+    </div>
+    <p class="dek">Daily spend over the last 60 days swings hard. A June 6 to 9 spike near $4,300 to $4,500 a day, down to roughly $1,400 to $1,900 a day for most of late June and early July. That's a near-4x swing, not steady pacing. More notable: spend drops to $135 on July 5, then effectively zero for July 6 through 8, three days with no recorded spend at all, before restarting July 9. Deliberate pause or unplanned outage, either way, this is exactly the kind of window <a class="xref" href="#section-07">Section 07</a>'s recommended data exclusion should be protecting Smart Bidding from.</p>
+
+    <h3>Lost impression share and Planner vs. actuals</h3>
+    <p class="dek"><a class="xref" href="#section-05">Section 05</a> already covers Search impression share loss to rank in detail. Pull a parallel lost-to-budget view (as opposed to lost-to-rank) directly in the UI alongside a Performance Planner comparison for the full budget-vs-actuals picture.</p>
+  </div>
+
+  <div class="section" id="section-14">
+    <div class="section-head"><span class="section-num">14</span><h2>Landing page and CRO</h2></div>
+
+    <h3>Post-click funnel by landing page</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Landing page</th><th>Spend</th><th>CVR</th><th>ROAS</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>Homepage (/)</td><td class="num">$20,784</td><td class="num">13.1%</td><td class="num">5.39x</td></tr>
+          <tr class="hi"><td>Quiz funnel</td><td class="num">$46,638</td><td class="num">10.6%</td><td class="num">2.12x</td></tr>
+          <tr><td>10-reasons-adhd-kids-saffron</td><td class="num">$28,366</td><td class="num">4.1%</td><td class="num">1.17x</td></tr>
+          <tr class="lo"><td>5-reasons-gummies</td><td class="num">$63,538</td><td class="num">5.0%</td><td class="num">1.36x</td></tr>
+          <tr class="lo"><td>Product page (Saphire Saffron Gummies)</td><td class="num">$51,694</td><td class="num">2.0%</td><td class="num">0.78x</td></tr>
+          <tr class="lo"><td>neuro-ifnlammation-7-rw (typo in the live URL)</td><td class="num">$4,931</td><td class="num">0.5%</td><td class="num">0.27x</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="pullquote">The two largest-spend landing pages in the account are also two of its worst performers. "5-reasons-gummies" is the single biggest destination by spend, $63,538, and converts at 5.0% for a 1.36x ROAS. The bare product page is second by spend, $51,694, and is actually losing money at 0.78x ROAS. Meanwhile the homepage, at less than a third of that spend, converts at 13.1% and returns 5.39x. This is a message-match problem more than a traffic-quality problem, the same budget currently pointed at the two weak pages, pointed at the homepage or the quiz instead, is directionally worth more than the entire PMax reallocation discussed in <a class="xref" href="#section-01">Section 01</a>.</p>
+
+    <h3>Page speed and mobile experience</h3>
+    <p class="dek">A live check of trysaphire.com found first contentful paint at 12.7 seconds, total page weight of 6.3MB across 353 resources including 120 separate scripts. That is a slow page by any standard, and it matters more than usual here because 90.8% of the account's spend is on mobile (<a class="xref" href="#section-01">Section 01</a> device data), where that weight is felt hardest. The page does render cleanly once loaded, this is a load-time problem, not a design problem, but on a cold mobile connection a meaningful share of paid clicks are likely abandoning before first paint.</p>
+  </div>
+
+  <div class="section" id="section-15">
+    <div class="section-head"><span class="section-num">15</span><h2>Findings and roadmap</h2></div>
+
+    <div class="actions">
+      <div class="col">
+        <h4>Quick wins (0 to 30 days)</h4>
+        <ol>
+          <li>Fix the API setup issue on the primary Enhanced Conversions action (<a class="xref" href="#section-04">Section 04</a>).</li>
+          <li>Turn on restricted data processing for the 20 US privacy-law states, 46.9% of spend (<a class="xref" href="#section-04">Section 04</a>).</li>
+          <li>Redirect ad groups from the two weak landing pages to the homepage or quiz funnel (<a class="xref" href="#section-14">Section 14</a>).</li>
+          <li>Pull the zero-conversion "Gummies 3-Pack" and "Chaos to Calm" listings out of active Shopping delivery (<a class="xref" href="#section-06">Section 06</a>).</li>
+          <li>Fill the missing RSA headline slots, only 13 of 48 ads use all 15 today (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Add search themes to the Bed Wetting Angle PMax campaign, it currently has none (<a class="xref" href="#section-07">Section 07</a>).</li>
+          <li>Configure New Customer Lifetime Value in bid strategies, it's $0 everywhere today (<a class="xref" href="#section-07">Section 07</a>).</li>
+          <li>Investigate the July 5 to 8 near-zero spend gap and set a data exclusion around it (<a class="xref" href="#section-13">Section 13</a>).</li>
+        </ol>
+      </div>
+      <div class="col">
+        <h4>Structural fixes (30 to 90 days)</h4>
+        <ol>
+          <li>Get a definitive answer on the Restricted Targeting policy citation, then rebuild the PMax and Demand Gen audience strategy around it (<a class="xref" href="#section-04">Section 04</a>, <a class="xref" href="#section-07">07</a>, <a class="xref" href="#section-08">08</a>, <a class="xref" href="#section-10">10</a>).</li>
+          <li>Fix keyword cannibalization across the four non-brand Search campaigns, they're bidding against each other on the same terms today (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Turn off Optimized Targeting on Demand Gen until real audience signals exist (<a class="xref" href="#section-08">Section 08</a>).</li>
+          <li>Write and test the four new RSA copy clusters against the current generic supplement-aisle copy (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Either rebuild Demand Gen around a genuinely different targeting and creative logic, or stop funding it, 0.27x to 0.45x ROAS is not a scale problem (<a class="xref" href="#section-08">Section 08</a>).</li>
+          <li>Consolidate the account's 68 standalone bid strategies into portfolio strategies where conversion volume supports it (<a class="xref" href="#section-03">Section 03</a>, <a class="xref" href="#section-09">09</a>).</li>
+          <li>Connect the Quiz Funnel's zero-party data collection to a Customer Match list or CRM feed (<a class="xref" href="#section-10">Section 10</a>).</li>
+          <li>Rewrite the campaign naming taxonomy to one consistent template, and archive the 56 paused campaigns (<a class="xref" href="#section-03">Section 03</a>).</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="actions" style="margin-top:22px;">
+      <div class="col">
+        <h4>Strategic roadmap (90 days-plus)</h4>
+        <ol>
+          <li>Build and ship the Branding keywords switch as the account's first automation layer (<a class="xref" href="#section-12">Section 12</a>).</li>
+          <li>Evaluate arba for the DSA and NB Search Quality Score problem behind the account's worst impression-share loss (<a class="xref" href="#section-05">Section 05</a>, <a class="xref" href="#section-12">12</a>).</li>
+          <li>Scale the DSA campaign's budget once its rank-based impression share loss is fixed, it's the account's most efficient campaign (<a class="xref" href="#section-05">Section 05</a>).</li>
+          <li>Build the continuous ABCD testing loop for Demand Gen video, score before launch, test in batches, promote and repeat (<a class="xref" href="#section-08">Section 08</a>).</li>
+          <li>Address the 6.3MB, 12.7-second landing page load, it touches every single campaign type at once (<a class="xref" href="#section-14">Section 14</a>).</li>
+        </ol>
+      </div>
+      <div class="col">
+        <h4>Expected ROI impact</h4>
+        <p style="font-size:14px;color:var(--ink-soft);margin:0 0 10px;">The Demand Gen reallocation and PMax recovery opportunity sized in the Executive Summary, roughly $20,000 a month, about a quarter million a year, holds at current spend levels. Three more items compound on top of it directionally: redirecting spend from the two weak landing pages (<a class="xref" href="#section-14">Section 14</a>), recovering a fraction of the DSA campaign's 87.7% rank-based impression share loss (<a class="xref" href="#section-05">Section 05</a>), and fixing the keyword cannibalization eating into Search efficiency (<a class="xref" href="#section-05">Section 05</a>). None of the three have a precise dollar figure attached, all three point the same direction as the original estimate.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>Sources: Google Ads account performance exports (campaign, ad group, keyword, device, geo, landing page, Shopping product, and Demand Gen daily reports, Sep 2025 to Jul 2026), the account's full bulk data export, in-platform screenshots, a live check of trysaphire.com, and the companion Competitive Intelligence Brief and Targeted Audience Analysis.</span>
+    <span>Report period: Sep 2025 to Jul 2026.</span>
+  </div>
+
+</div>

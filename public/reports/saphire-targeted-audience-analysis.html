@@ -1,0 +1,400 @@
+<title>Targeted Audience Analysis: Saphire Saffron</title>
+<style>
+:root{
+  --paper:#f6f5f1;
+  --ink:#1b1c20;
+  --ink-soft:#53555c;
+  --line:#dcd9d0;
+  --saffron:#b8791f;
+  --saffron-strong:#8f5e15;
+  --threat:#a63f2c;
+  --opp:#3f6b4a;
+  --card:#ffffff;
+  --tag-data-bg:#eee2c9;
+  --tag-data-fg:#6b4f14;
+  --tag-research-bg:#e2e6df;
+  --tag-research-fg:#3c4a3e;
+  --tag-threat-bg:#f2ded8;
+  --tag-threat-fg:#7a2c1d;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#15161a;
+    --ink:#ece9e0;
+    --ink-soft:#a5a7ad;
+    --line:#33353b;
+    --saffron:#e3a83e;
+    --saffron-strong:#f0bd5e;
+    --threat:#e08874;
+    --opp:#7cb589;
+    --card:#1c1e23;
+    --tag-data-bg:#3a2f14;
+    --tag-data-fg:#e3bd6e;
+    --tag-research-bg:#25302a;
+    --tag-research-fg:#9fc2a8;
+    --tag-threat-bg:#3a221c;
+    --tag-threat-fg:#e6a190;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15161a; --ink:#ece9e0; --ink-soft:#a5a7ad; --line:#33353b;
+  --saffron:#e3a83e; --saffron-strong:#f0bd5e; --threat:#e08874; --opp:#7cb589;
+  --card:#1c1e23; --tag-data-bg:#3a2f14; --tag-data-fg:#e3bd6e; --tag-research-bg:#25302a; --tag-research-fg:#9fc2a8;
+  --tag-threat-bg:#3a221c; --tag-threat-fg:#e6a190;
+}
+:root[data-theme="light"]{
+  --paper:#f6f5f1; --ink:#1b1c20; --ink-soft:#53555c; --line:#dcd9d0;
+  --saffron:#b8791f; --saffron-strong:#8f5e15; --threat:#a63f2c; --opp:#3f6b4a;
+  --card:#ffffff; --tag-data-bg:#eee2c9; --tag-data-fg:#6b4f14; --tag-research-bg:#e2e6df; --tag-research-fg:#3c4a3e;
+  --tag-threat-bg:#f2ded8; --tag-threat-fg:#7a2c1d;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  line-height:1.55;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+.doc{max-width:880px;margin:0 auto;padding:56px 24px 96px;}
+
+.masthead{
+  display:flex;justify-content:space-between;align-items:flex-end;
+  gap:24px;padding-bottom:22px;margin-bottom:36px;
+  border-bottom:2px solid var(--ink);
+}
+.masthead .eyebrow{
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--saffron-strong);font-weight:700;margin-bottom:10px;
+}
+.masthead h1{
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+  font-size:clamp(26px,4vw,38px);
+  font-weight:600;margin:0;letter-spacing:-.01em;text-wrap:balance;
+}
+.masthead .meta{
+  text-align:right;font-size:12.5px;color:var(--ink-soft);
+  font-variant-numeric:tabular-nums;line-height:1.6;white-space:nowrap;
+}
+
+.section{margin-top:52px;}
+.section-head{
+  display:flex;align-items:baseline;gap:12px;margin-bottom:18px;
+}
+.section-num{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:13px;color:var(--saffron-strong);font-weight:700;
+}
+.section h2{
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+  font-size:23px;font-weight:600;margin:0;letter-spacing:-.005em;
+}
+.section h3{font-size:15px;font-weight:700;margin:22px 0 6px;}
+.section > p.dek{color:var(--ink-soft);max-width:66ch;}
+
+.tag{
+  display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;padding:3px 8px;border-radius:3px;margin:0 6px 6px 0;
+  vertical-align:middle;
+}
+.tag-data{background:var(--tag-data-bg);color:var(--tag-data-fg);}
+.tag-research{background:var(--tag-research-bg);color:var(--tag-research-fg);}
+.tag-threat{background:var(--tag-threat-bg);color:var(--tag-threat-fg);}
+
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+@media (max-width:640px){.callout-grid{grid-template-columns:1fr;}}
+.callout{
+  background:var(--card);border:1px solid var(--line);border-left:4px solid var(--threat);
+  border-radius:6px;padding:18px 20px;
+}
+.callout.opp{border-left-color:var(--opp);}
+.callout .k{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.callout.threat .k{color:var(--threat);}
+.callout.opp .k{color:var(--opp);}
+.callout p{margin:0;color:var(--ink);font-size:14.5px;}
+
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0;}
+@media (max-width:700px){.stat-row{grid-template-columns:repeat(2,1fr);}}
+.metric{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 16px;text-align:left;}
+.metric .stat{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:22px;font-weight:600;
+  color:var(--saffron-strong);display:block;margin-bottom:4px;font-variant-numeric:tabular-nums;
+}
+.metric .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);}
+
+.pullquote{
+  border-left:3px solid var(--saffron);padding:4px 0 4px 20px;margin:22px 0;
+  font-family:Georgia,serif;font-style:italic;font-size:17.5px;color:var(--ink);
+  max-width:62ch;
+}
+
+.quote-stack{display:flex;flex-direction:column;gap:14px;margin:18px 0;}
+.quote{
+  background:var(--card);border:1px solid var(--line);border-left:3px solid var(--threat);
+  border-radius:6px;padding:14px 18px;max-width:66ch;
+}
+.quote.opp{border-left-color:var(--opp);}
+.quote p{margin:0 0 6px;font-family:Georgia,serif;font-style:italic;font-size:15.5px;}
+.quote cite{
+  font-style:normal;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ink-soft);font-weight:600;
+}
+
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:14px 0;}
+.table-wrap{overflow-x:auto;margin:14px 0;}
+.table-wrap table{margin:0;min-width:560px;}
+th{
+  text-align:left;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink-soft);font-weight:700;padding:8px 12px;border-bottom:1.5px solid var(--ink);
+  white-space:nowrap;
+}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+td.num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+tr:last-child td{border-bottom:1.5px solid var(--ink);}
+tr.hi td{background:var(--tag-data-bg);}
+
+.profile{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px;margin:16px 0;}
+.profile-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px;}
+.profile-head h3{font-size:16.5px;margin:0;font-weight:700;}
+.profile p{margin:6px 0;font-size:14.5px;color:var(--ink);}
+.profile .label{color:var(--ink-soft);font-weight:600;}
+
+ul.clean{margin:10px 0;padding-left:20px;}
+ul.clean li{margin:6px 0;font-size:14.5px;}
+ol.clean{margin:10px 0;padding-left:20px;}
+ol.clean li{margin:8px 0;font-size:14.5px;}
+
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:16px;}
+@media (max-width:640px){.actions{grid-template-columns:1fr;}}
+.actions .col h4{
+  font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--saffron-strong);
+  margin:0 0 10px;font-weight:700;
+}
+.actions.alt .col:last-child h4{color:var(--ink-soft);}
+.actions ol{margin:0;padding-left:18px;}
+.actions li{margin:8px 0;font-size:14px;}
+
+.foot{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+</style>
+
+<div class="doc">
+
+  <div class="masthead">
+    <div>
+      <div class="eyebrow">Targeted Audience Analysis</div>
+      <h1>Sarah Whitfield, The Happy Chews Buyer</h1>
+    </div>
+    <div class="meta">
+      Niche: Natural saffron gummies, kids' focus &amp; mood<br>
+      Market: United States, national DTC + Amazon<br>
+      Tier: Premium, ~$1/day subscription
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">01</span><h2>Executive Summary</h2></div>
+    <p class="dek">The buyer isn't shopping a supplement category. She's negotiating a decision she's terrified to get wrong. Every message, angle, and proof point in this account should be built to survive the conversation she's having with herself at 11pm, not the one on a product ingredients panel.</p>
+    <div class="callout-grid">
+      <div class="callout threat">
+        <div class="k">Core fear</div>
+        <p>That she'll be forced onto medication she doesn't trust, and it will change who her kid fundamentally is, or that she waited too long and it's already her fault.</p>
+      </div>
+      <div class="callout opp">
+        <div class="k">Core desire</div>
+        <p>To be the mom who found the answer without giving up her "natural" instincts or her kid's personality, and to be proven right in front of the people who doubted her.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">02</span><h2>Persona snapshot</h2></div>
+    <div class="stat-row">
+      <div class="metric"><span class="stat">36</span><span class="lbl">Age (core 30 to 45)</span></div>
+      <div class="metric"><span class="stat">~92%</span><span class="lbl">Female buyers</span></div>
+      <div class="metric"><span class="stat">$85 to 140k</span><span class="lbl">Household income</span></div>
+      <div class="metric"><span class="stat">$1/day</span><span class="lbl">Price she'll tolerate</span></div>
+    </div>
+    <p><strong>Sarah Whitfield</strong> is a suburban homeowner in a mid-size metro suburb (think suburban Charlotte, Columbus, Dallas, Denver). Works part-time or full-time in a white-collar or healthcare-adjacent role, or stepped back from a career after kids. Drives an SUV loaded with soccer gear, shops a mix of Costco and Whole Foods/Trader Joe's, follows a handful of "crunchy-but-not-too-crunchy" parenting accounts, runs a color-coded family calendar. Evenings are a triage of homework, screen-time negotiations, and one more load of laundry before collapsing on the couch at 9:30pm googling her kid's symptoms.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">03</span><h2>Attitudes to life</h2></div>
+    <div class="profile">
+      <p><span class="label">Hopes and dreams:</span> That her kids grow up confident and capable, not defined by a label the school wants to pin on them. That she'll know she fought for her kid instead of medicating the problem away or ignoring it. That her marriage survives the stress of a hard kid.</p>
+      <p><span class="label">Victories and failures:</span> Victory: a full week without a call from school. Failure: the meltdown in Target that drew stares, the parent-teacher conference she cried through in the car afterward. She measures her own worth partly by how "together" her kid appears in public.</p>
+      <p><span class="label">Core beliefs:</span> Family comes first, full stop. Love means fighting for your kid even when it's exhausting and invisible to everyone else. She's suspicious of quick fixes but desperate enough to try almost anything short of a prescription. She believes most problems have a root cause if you look hard enough.</p>
+      <p><span class="label">Core values:</span> Honesty with herself about what's actually working. Self-sacrifice for her children. Being "informed": obsessive research before deciding anything for her kids' bodies. Word-of-mouth trust over institutional trust.</p>
+      <p><span class="label">Core identity:</span> The family's project manager, researcher-in-chief, and emotional shock absorber, the one who remembers the pediatrician's number, the IEP meeting date, the allergy list. Resourceful and relentless, even on the days she feels like she's failing.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">04</span><h2>Main problems</h2></div>
+    <ol class="clean">
+      <li>Her child struggles with focus, impulsivity, and/or emotional regulation severely enough to affect school, friendships, and home life, and she doesn't know how much is "just a phase" versus something to act on now.</li>
+      <li>She's being pushed toward stimulant medication (or already on one and hating the side effects) and feels like no one in the medical system offers a real "natural" middle ground.</li>
+      <li>She's exhausted from being the only one managing it (researching, advocating, absorbing the guilt) while feeling judged by other parents, teachers, and sometimes her own spouse.</li>
+    </ol>
+
+    <h3>Top 5 emotions in play</h3>
+    <div>
+      <span class="tag tag-threat">Guilt</span>
+      <span class="tag tag-threat">Overwhelm</span>
+      <span class="tag tag-threat">Fear of the future</span>
+      <span class="tag tag-threat">Isolation</span>
+      <span class="tag tag-threat">Defensive anger</span>
+    </div>
+
+    <h3>The 3am fears (never said out loud)</h3>
+    <ol class="clean">
+      <li>Her child gets labeled "the problem kid" for the rest of school: friendless, held back, tracked into remedial everything, into adulthood.</li>
+      <li>Medication changes who her kid fundamentally is: "zombie" and "not himself" are the words she dreads.</li>
+      <li>This is actually her fault (too much screen time, bad parenting) and everyone secretly thinks so.</li>
+      <li>Her marriage won't survive the strain: her partner blames her, disengages, or they fight about "what's wrong with him" until something breaks.</li>
+      <li>She'll look back in ten years and realize she didn't act soon enough, and her child will resent her for it.</li>
+    </ol>
+
+    <h3>How the fear leaks into her relationships</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Relationship</th><th>The scene</th></tr></thead>
+        <tbody>
+          <tr><td>Spouse</td><td>Snaps at her husband over dinner when he suggests "more discipline"; hears it as an accusation that she's failing.</td></tr>
+          <tr><td>Other kids</td><td>Her younger daughter says "you never have time for me" because all the bandwidth goes to her brother.</td></tr>
+          <tr><td>In-laws</td><td>Mother-in-law drops "we didn't have all this in my day" at Thanksgiving; she fakes a smile while burning inside.</td></tr>
+          <tr><td>Friends</td><td>Stops accepting playdate invites, terrified of another public meltdown; her social circle quietly shrinks.</td></tr>
+          <tr><td>Teacher</td><td>Dreads the "can we talk after pickup" text; feels like she's on trial at every drop-off.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Phrases that wound (from people who mean well, and some who don't)</h3>
+    <div class="quote-stack">
+      <div class="quote"><p>"Have you thought about just&nbsp;&hellip; more structure at home?"</p><cite>Her own mother</cite></div>
+      <div class="quote"><p>"He's fine with me, I don't know why he acts like that for you."</p><cite>Her husband</cite></div>
+      <div class="quote"><p>"We've seen kids like this before. Medication really is the gold standard."</p><cite>The pediatrician, delivered like her hesitation is unreasonable</cite></div>
+      <div class="quote"><p>"Must be nice, my kid would never act like that in public."</p><cite>Another mom, under her breath, at a birthday party</cite></div>
+      <div class="quote"><p>"Are you SURE you're not just being too soft on him?"</p><cite>Her sister, whose kids are "easy"</cite></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">05</span><h2>Painful situations</h2></div>
+    <p class="dek">The moments she can no longer ignore the problem: the ones that make her open a search bar or an ad.</p>
+    <ol class="clean">
+      <li>The school calls again (third time this month), and she leaves a work meeting to pick him up early, apologizing to her boss while her stomach drops.</li>
+      <li>She's in the birthday-party pickup line watching her son melt down over the cake being cut "wrong," feeling every parent's eyes on her back.</li>
+      <li>She's up at 11pm googling "is my child ADHD or just difficult" for the fortieth time, half-hoping and half-dreading the answer.</li>
+      <li>The pediatrician hands her a prescription pad after a 12-minute appointment; she leaves feeling railroaded, clutching a script she's not ready to fill.</li>
+      <li>Her son says "everyone thinks I'm bad" after a rough day, and it breaks something in her chest she can't explain to anyone.</li>
+      <li>She watches her child struggle to sit still at a family dinner while a relative visibly judges, and has to choose between defending him and just getting through the meal.</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">06</span><h2>Obstacles &amp; myths</h2></div>
+    <div class="actions">
+      <div class="col">
+        <h4>What's actually in her way</h4>
+        <ol>
+          <li>Doesn't know what's "safe" to try: the supplement aisle is a wall of unregulated claims, and she's already been burned.</li>
+          <li>Time and mental bandwidth: barely room to research one more thing between work, appointments, and the household.</li>
+          <li>Getting buy-in from a spouse who may think she's overreacting or "chasing trends."</li>
+          <li>Fear of being judged (by the pediatrician, by family) for going "alternative" instead of "real medicine."</li>
+          <li>Cost: repeated trial and error has already burned real money with nothing to show for it.</li>
+        </ol>
+      </div>
+      <div class="col">
+        <h4>What she wrongly believes</h4>
+        <ol>
+          <li>"If it's natural, it must be weaker than medication," so trying it feels like settling for a placebo.</li>
+          <li>"A real diagnosis requires medication, or I'm not taking it seriously."</li>
+          <li>"Gummies are just candy in disguise. How could that actually touch brain chemistry?"</li>
+          <li>"If it hasn't worked by now with other supplements, nothing will."</li>
+          <li>"Good parents shouldn't need to medicate or supplement at all."</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">07</span><h2>Past problem-solving experience</h2></div>
+    <p class="dek">What she's already tried, and exactly where each one lost her trust.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Tried</th><th>Liked</th><th>Didn't like</th><th>Her words</th></tr></thead>
+        <tbody>
+          <tr><td>Prescription stimulants</td><td>Fast, visible school improvement</td><td>Appetite loss, afternoon crashes, "not himself"</td><td>"I got my focused kid back but I lost my happy kid."</td></tr>
+          <tr><td>Behavioral therapy</td><td>Proactive, non-medical</td><td>Slow, expensive, needs consistency she doesn't always have</td><td>"We did six sessions and I still don't know if it's working."</td></tr>
+          <tr><td>Elimination diets</td><td>Felt like the root cause</td><td>Exhausting, kid rebelled, no dramatic change</td><td>"I spent a fortune on groceries and he still bounced off the walls."</td></tr>
+          <tr><td>Generic multivitamins</td><td>Easy, felt "safe"</td><td>No noticeable effect</td><td>"It's basically an expensive candy habit at this point."</td></tr>
+          <tr><td>504 plan / IEP</td><td>Some structural relief</td><td>Slow bureaucracy, stigma, doesn't help at home</td><td>"The paperwork took months and none of it helps at 6pm at home."</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>What she flatly refuses to do</h3>
+    <div class="quote-stack">
+      <div class="quote"><p>"I'm not putting him on Adderall as a first resort."</p><cite>Refuses to jump straight to stimulants</cite></div>
+      <div class="quote"><p>"I don't have time for another 45-minute-a-day protocol."</p><cite>Refuses complicated regimens</cite></div>
+      <div class="quote"><p>"I'm not doing another elimination diet, we tried that, it wrecked family dinners."</p><cite>Refuses extreme dietary overhauls</cite></div>
+      <div class="quote"><p>"I won't do something I have to fight him to take every day."</p><cite>Refuses anything the kid will resist</cite></div>
+      <div class="quote"><p>"I'm not paying for one more thing with zero real research behind it."</p><cite>Refuses unproven, non-clinically-backed products</cite></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">08</span><h2>Magic transformation</h2></div>
+    <p class="dek">If a genie granted the perfect outcome tomorrow:</p>
+    <ol class="clean">
+      <li>The teacher stops sending home daily behavior notes and instead texts "great day today!"</li>
+      <li>Homework time drops from 90 minutes of battling to 25 minutes of mostly cooperative focus.</li>
+      <li>No calls from the school for the rest of the semester.</li>
+      <li>Family dinners and car rides become calm instead of landmines.</li>
+      <li>Her child says, unprompted, "I feel like I can think better," or a teacher volunteers it first.</li>
+    </ol>
+    <div class="profile">
+      <p><span class="label">The private wish:</span> She wants to feel like she was RIGHT: that trusting her gut over the pediatrician's instinct to medicate first was the smarter, more loving call. And she wants the quiet satisfaction of being proven right the next time someone doubted her.</p>
+    </div>
+
+    <h3>What she wants to hear afterward</h3>
+    <div class="quote-stack">
+      <div class="quote opp"><p>"Honestly, I wish more parents found something like this. The difference in him is night and day."</p><cite>The teacher</cite></div>
+      <div class="quote opp"><p>"I was skeptical, but I have to admit, this actually worked."</p><cite>Her husband</cite></div>
+      <div class="quote opp"><p>"See, I knew you'd figure it out."</p><cite>Her own mother</cite></div>
+      <div class="quote opp"><p>"Okay, what is this stuff again? Can you send me the link?"</p><cite>The doubting sister</cite></div>
+      <div class="quote opp"><p>"I didn't give up, and I didn't have to choose between 'natural' and 'it works.'"</p><cite>Her own inner voice</cite></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">09</span><h2>Market features</h2></div>
+    <div class="profile">
+      <p><span class="label">What the market needs to see:</span> A visible behavior change within 2 to 4 weeks (fewer school calls, easier homework, calmer evenings), not vague "overall wellness" but a concrete before/after in the exact situations that hurt. Clinical or study backing she can use to defend the decision to a skeptical spouse or pediatrician.</p>
+      <p><span class="label">What the market loses by giving up the problem:</span> For some, the struggle is part of her identity as "the mom who fights hardest." Solving it too easily can feel like it invalidates years of advocacy, and removes an acceptable explanation for household stress that might otherwise point back at harder conversations.</p>
+      <p><span class="label">Who the market blames:</span> The school system, for being rigid and quick to label. Pediatricians, for reaching for a prescription pad in a 12-minute visit. "Too much screen time" culture and dyes in the food supply. Sometimes genetics ("he's just like his father"). Rarely herself: blame is externalized to protect her sense of having tried hard enough.</p>
+    </div>
+
+    <h3>Top 5 objections</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Objection</th><th>Type</th></tr></thead>
+        <tbody>
+          <tr><td>"Is this real science or just marketing dressed up as a clinical trial?"</td><td class="num">Credibility</td></tr>
+          <tr><td>"Will my kid actually take this consistently, or is it one more daily fight?"</td><td class="num">Compliance</td></tr>
+          <tr><td>"$40/month adds up. Is this worth it if I'm not sure it'll work?"</td><td class="num">Price / risk</td></tr>
+          <tr><td>"What if this is just a milder placebo and I'm delaying real help?"</td><td class="num">Efficacy / guilt</td></tr>
+          <tr><td>"What do I do with the 47 half-used bottles already in my cabinet?"</td><td class="num">Fatigue</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>Companion read: Competitive Intelligence Brief for Saphire Saffron.</span>
+    <span>Persona synthesized from category research + trysaphire.com messaging analysis.</span>
+  </div>
+
+</div>

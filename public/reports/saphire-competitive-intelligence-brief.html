@@ -1,0 +1,317 @@
+<title>Competitive Intelligence Brief: Saphire Saffron</title>
+<style>
+:root{
+  --paper:#f6f5f1;
+  --ink:#1b1c20;
+  --ink-soft:#53555c;
+  --line:#dcd9d0;
+  --saffron:#b8791f;
+  --saffron-strong:#8f5e15;
+  --threat:#a63f2c;
+  --opp:#3f6b4a;
+  --card:#ffffff;
+  --tag-data-bg:#eee2c9;
+  --tag-data-fg:#6b4f14;
+  --tag-research-bg:#e2e6df;
+  --tag-research-fg:#3c4a3e;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#15161a;
+    --ink:#ece9e0;
+    --ink-soft:#a5a7ad;
+    --line:#33353b;
+    --saffron:#e3a83e;
+    --saffron-strong:#f0bd5e;
+    --threat:#e08874;
+    --opp:#7cb589;
+    --card:#1c1e23;
+    --tag-data-bg:#3a2f14;
+    --tag-data-fg:#e3bd6e;
+    --tag-research-bg:#25302a;
+    --tag-research-fg:#9fc2a8;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15161a; --ink:#ece9e0; --ink-soft:#a5a7ad; --line:#33353b;
+  --saffron:#e3a83e; --saffron-strong:#f0bd5e; --threat:#e08874; --opp:#7cb589;
+  --card:#1c1e23; --tag-data-bg:#3a2f14; --tag-data-fg:#e3bd6e; --tag-research-bg:#25302a; --tag-research-fg:#9fc2a8;
+}
+:root[data-theme="light"]{
+  --paper:#f6f5f1; --ink:#1b1c20; --ink-soft:#53555c; --line:#dcd9d0;
+  --saffron:#b8791f; --saffron-strong:#8f5e15; --threat:#a63f2c; --opp:#3f6b4a;
+  --card:#ffffff; --tag-data-bg:#eee2c9; --tag-data-fg:#6b4f14; --tag-research-bg:#e2e6df; --tag-research-fg:#3c4a3e;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  line-height:1.55;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+.doc{max-width:880px;margin:0 auto;padding:56px 24px 96px;}
+
+.masthead{
+  display:flex;justify-content:space-between;align-items:flex-end;
+  gap:24px;padding-bottom:22px;margin-bottom:36px;
+  border-bottom:2px solid var(--ink);
+}
+.masthead .eyebrow{
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--saffron-strong);font-weight:700;margin-bottom:10px;
+}
+.masthead h1{
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+  font-size:clamp(28px,4vw,40px);
+  font-weight:600;margin:0;letter-spacing:-.01em;text-wrap:balance;
+}
+.masthead .meta{
+  text-align:right;font-size:12.5px;color:var(--ink-soft);
+  font-variant-numeric:tabular-nums;line-height:1.6;white-space:nowrap;
+}
+
+.section{margin-top:52px;}
+.section-head{
+  display:flex;align-items:baseline;gap:12px;margin-bottom:18px;
+}
+.section-num{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:13px;color:var(--saffron-strong);font-weight:700;
+}
+.section h2{
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+  font-size:23px;font-weight:600;margin:0;letter-spacing:-.005em;
+}
+.section > p{color:var(--ink-soft);max-width:66ch;}
+
+.tag{
+  display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;padding:3px 8px;border-radius:3px;margin-right:6px;
+  vertical-align:middle;
+}
+.tag-data{background:var(--tag-data-bg);color:var(--tag-data-fg);}
+.tag-research{background:var(--tag-research-bg);color:var(--tag-research-fg);}
+
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+@media (max-width:640px){.callout-grid{grid-template-columns:1fr;}}
+.callout{
+  background:var(--card);border:1px solid var(--line);border-left:4px solid var(--threat);
+  border-radius:6px;padding:18px 20px;
+}
+.callout.opp{border-left-color:var(--opp);}
+.callout .k{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.callout.threat .k{color:var(--threat);}
+.callout.opp .k{color:var(--opp);}
+.callout p{margin:0;color:var(--ink);font-size:14.5px;}
+.callout .stat{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:26px;
+  font-weight:600;display:block;margin-bottom:4px;font-variant-numeric:tabular-nums;
+}
+.callout.threat .stat{color:var(--threat);}
+.callout.opp .stat{color:var(--opp);}
+
+.pullquote{
+  border-left:3px solid var(--saffron);padding:4px 0 4px 20px;margin:22px 0;
+  font-family:Georgia,serif;font-style:italic;font-size:17.5px;color:var(--ink);
+  max-width:62ch;
+}
+
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:14px 0;}
+.table-wrap{overflow-x:auto;margin:14px 0;}
+.table-wrap table{margin:0;min-width:560px;}
+th{
+  text-align:left;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink-soft);font-weight:700;padding:8px 12px;border-bottom:1.5px solid var(--ink);
+  white-space:nowrap;
+}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+td.num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+tr:last-child td{border-bottom:1.5px solid var(--ink);}
+tr.hi td{background:var(--tag-data-bg);}
+
+.profile{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px;margin:16px 0;}
+.profile-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px;}
+.profile-head h3{font-size:16.5px;margin:0;font-weight:700;}
+.profile p{margin:6px 0;font-size:14.5px;color:var(--ink);}
+.profile .label{color:var(--ink-soft);font-weight:600;}
+
+ul.clean{margin:10px 0;padding-left:20px;}
+ul.clean li{margin:6px 0;font-size:14.5px;}
+
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:16px;}
+@media (max-width:640px){.actions{grid-template-columns:1fr;}}
+.actions .col h4{
+  font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--saffron-strong);
+  margin:0 0 10px;font-weight:700;
+}
+.actions ol{margin:0;padding-left:18px;}
+.actions li{margin:8px 0;font-size:14px;}
+
+.foot{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+</style>
+
+<div class="doc">
+
+  <div class="masthead">
+    <div>
+      <div class="eyebrow">Competitive Intelligence Brief</div>
+      <h1>Saphire Saffron Google Ads Account</h1>
+    </div>
+    <div class="meta">
+      trysaphire.com (Happy Chews)<br>
+      Prepared for account audit<br>
+      Period: Sep 1, 2025 through Jul 28, 2026
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">01</span><h2>Executive Summary</h2></div>
+    <p>Saphire competes on two fronts, and the account's own Auction Insights exports make both visible without a single external search. On the <strong>brand/legitimate front</strong>, direct saffron-gummy peers (JoySpring) and larger kids-wellness brands (Hiya, OLLY, First Day, EllaOla, BrainMD) are contesting parent attention. On the <strong>auction front</strong> (the more urgent, fixable one), Amazon resellers and affiliate content farms are intercepting Saphire's own branded demand, and the Shopping "Brand" campaign is bleeding impression share into the entire kids-supplement category and even raw culinary-saffron sellers.</p>
+    <div class="callout-grid">
+      <div class="callout threat">
+        <div class="k">Biggest threat</div>
+        <span class="stat">62%</span>
+        <p>Peak query overlap from amazon.com against Saphire's own Brand Search campaign, with a 90%+ top-of-page rate. Brand-intent clicks are being won by resellers, not trysaphire.com.</p>
+      </div>
+      <div class="callout opp">
+        <div class="k">Biggest opportunity</div>
+        <span class="stat">90+</span>
+        <p>Distinct advertiser domains surfacing on the Shopping "Brand" campaign: proof the campaign isn't isolating brand queries. Segmenting it is a high-confidence, fast win.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">02</span><h2>Who's actually in the auction</h2></div>
+    <p>Cross-referencing the account's own Search and Shopping Brand Auction Insights exports surfaces four distinct competitor tiers. Most audits stop at tier one.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Tier</th><th>Who</th><th>Signal</th><th>Read</th></tr></thead>
+        <tbody>
+          <tr class="hi">
+            <td>1: Marketplace leakage</td>
+            <td>amazon.com</td>
+            <td class="num">9 campaigns · up to 62% overlap</td>
+            <td>Third-party resellers outranking Saphire on its own name.</td>
+          </tr>
+          <tr>
+            <td>2: Direct DTC peers</td>
+            <td>JoySpring, First Day, EllaOla, Hiya, OLLY, BrainMD</td>
+            <td class="num">4 to 9 appearances each</td>
+            <td>Real category competitors, formula or audience overlap.</td>
+          </tr>
+          <tr>
+            <td>3: Affiliate / content farms</td>
+            <td>10best-choices.com, topcertifiedsupplements.com, +6 more "top 5 / review" domains</td>
+            <td class="num">6 to 7 appearances, up to 58% overlap</td>
+            <td>SEO arbitrage sites owning "best saffron gummies" research queries, routing clicks to Amazon.</td>
+          </tr>
+          <tr>
+            <td>4: Irrelevant category bleed</td>
+            <td>My Spice Sage, Slofoodgroup, Zarffron, bedwetting brands (Goodnites, Ninjamas)</td>
+            <td class="num">1 to 4 appearances</td>
+            <td>Raw culinary saffron sellers and diaper brands: the account is being matched on the word "saffron" and the Bed Wetting PMax angle, not the product itself.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="pullquote">Tier 4 is the tell: if a raw-spice retailer and a Huggies sub-brand are showing up next to a "Brand" campaign's auction insights, the campaign is not targeting what its name says it is.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">03</span><h2>Competitor profiles</h2></div>
+
+    <div class="profile">
+      <div class="profile-head"><h3>JoySpring (Mood Munchies)</h3><span><span class="tag tag-data">Account data</span><span class="tag tag-research">Market research</span></span></div>
+      <p><span class="label">Overlap:</span> Near-identical actives (saffron + GABA + passionflower + St. John's Wort). Surfaces directly in Shopping brand auction insights (~11% IS).</p>
+      <p><span class="label">Model:</span> Multi-retailer presence (Amazon, Walmart, niche wellness stores), a listing brand rather than a funnel brand.</p>
+      <p><span class="label">Proof:</span> 4.2/5, under 100 reviews on most listings, vs. Saphire's claimed 4.85/5 and 2,000+ reviews. Saphire's social-proof asset is stronger but under-featured in paid creative.</p>
+      <p><span class="label">Gap:</span> No visible quiz funnel, PDP remarketing, or angle-testing. Saphire's 15+ live creative batches (ADHD, Natural Alternative, Bed Wetting, Quiz Funnel) is a structural edge most auditors would assume doesn't exist in this category.</p>
+    </div>
+
+    <div class="profile">
+      <div class="profile-head"><h3>Hiya Health &amp; OLLY (mass/VC-backed)</h3><span><span class="tag tag-data">Account data</span></span></div>
+      <p><span class="label">Threat type:</span> Category-education capture, not product-level. Hiya owns "kids health vitamin" as a DTC category name; OLLY owns it on-shelf at Target/CVS/Walgreens. Neither claims saffron specificity or the Ritalin-comparison clinical angle, a wedge Saphire can own outright.</p>
+    </div>
+
+    <div class="profile">
+      <div class="profile-head"><h3>BrainMD (Dr. Amen)</h3><span><span class="tag tag-data">Account data</span></span></div>
+      <p><span class="label">Threat type:</span> Authority-register overlap: parents researching "cognitive support for kids" land here on credentials, not gummies. Saphire's 2019 clinical trial citation is the direct counter.</p>
+    </div>
+
+    <div class="profile">
+      <div class="profile-head"><h3>Affiliate / "best of" content cluster</h3><span><span class="tag tag-data">Account data</span></span></div>
+      <p>10best-choices.com, topcertifiedsupplements.com, toproductsreviews.com, thetop5tested.com, our-top5.com, supplement-review.co, momjunction.com, thefullest.com. Not competitors on formula, but arbitrage on the comparison-stage query ("best saffron gummies for kids"), typically monetized via Amazon affiliate links. They are winning the exact moment Saphire's clinical-trial and review-volume story would win, because Saphire has no owned page built for that query.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">04</span><h2>Positioning matrix</h2></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Dimension</th><th>Saphire</th><th>JoySpring</th><th>Hiya / OLLY</th></tr></thead>
+        <tbody>
+          <tr><td>Core claim</td><td>Saffron vs. methylphenidate (clinical trial)</td><td>Saffron + calm botanicals</td><td>General kids multivitamin</td></tr>
+          <tr><td>Price tier</td><td>Premium, ~$1/day subscription</td><td>Mid, one-time or Amazon Subscribe &amp; Save</td><td>Mass, retail-anchored</td></tr>
+          <tr><td>Distribution</td><td>DTC-first funnel</td><td>Marketplace/retail-first</td><td>Retail-first, DTC secondary</td></tr>
+          <tr><td>Proof asset</td><td>Clinical trial + 2,000+ reviews</td><td>Ingredient list only</td><td>Brand scale, pediatrician mentions</td></tr>
+          <tr><td>Funnel sophistication</td><td>High: quiz, PDP remarketing, angle testing</td><td>Low: listing only</td><td>Medium: brand-led, less DR</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">05</span><h2>Threats vs. opportunities</h2></div>
+    <div class="callout-grid">
+      <div class="callout threat">
+        <div class="k">Threat</div>
+        <p>Brand-term spend may be subsidizing Amazon's checkout economics instead of Saphire's own subscription LTV.</p>
+      </div>
+      <div class="callout threat">
+        <div class="k">Threat</div>
+        <p>"Brand" Shopping campaign has ~90 overlapping advertisers. In practice, it's a mislabeled non-brand campaign.</p>
+      </div>
+      <div class="callout opp">
+        <div class="k">Opportunity</div>
+        <p>No competitor owns the Ritalin-comparison clinical angle. Saphire's strongest asset is under-deployed against JoySpring specifically.</p>
+      </div>
+      <div class="callout opp">
+        <div class="k">Opportunity</div>
+        <p>Affiliate "best of" sites are farming a query Saphire could own with one comparison landing page + matching NB ad group.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="section-num">06</span><h2>Recommended actions</h2></div>
+    <div class="actions">
+      <div class="col">
+        <h4>Quick wins (this week)</h4>
+        <ol>
+          <li>Placement/domain-exclude confirmed affiliate farms (10best-choices.com + peers) on PMax/Display where eligible.</li>
+          <li>Segment the Shopping "Brand" campaign's listing groups to exclude raw-spice and non-supplement matches.</li>
+          <li>Review Bed Wetting PMax asset group for audience/query bleed into diaper-brand adjacent traffic.</li>
+        </ol>
+      </div>
+      <div class="col">
+        <h4>Strategic (this quarter)</h4>
+        <ol>
+          <li>Open the Amazon-reseller conversation: MAP enforcement or a deliberate "buy direct" incentive in brand ad copy.</li>
+          <li>Build a "JoySpring alternative" / "best saffron gummies" comparison page and matching NB ad group to reclaim affiliate-owned queries.</li>
+          <li>Stand up a monthly Auction Insights review as a standing account-health check, not a one-time audit line item.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>Source: account Auction Insights exports (Search &amp; Shopping, Brand campaigns) + public site/marketplace research.</span>
+    <span>Confidence: high on auction data, moderate on qualitative competitor positioning.</span>
+  </div>
+
+</div>
