@@ -1,0 +1,583 @@
+{
+  "slug": "fractional-cmo-vs-full-time-cmo",
+  "pageType": "topic",
+  "meta": {
+    "title": "Fractional CMO vs. Full-Time CMO: The Real Cost and Outcome Breakdown",
+    "description": "A real cost and outcome comparison between hiring a fractional CMO and a full-time CMO — what you're actually paying for in each case, and when the math favors one over the other."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Fractional CMO vs. Full-Time CMO: The Real Cost and Outcome Breakdown",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A full-time CMO in most markets runs somewhere in the range of $180K-$300K+ base salary, before equity, benefits, bonus, and the cost of building out a team underneath them. A fractional CMO engagement typically runs $6K-$20K/month depending on scope and seniority, so annualized, often $70K-$240K.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The headline numbers, and why they're misleading on their own",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A full-time CMO in most markets runs somewhere in the range of $180K-$300K+ base salary, before equity, benefits, bonus, and the cost of building out a team underneath them. A fractional CMO engagement typically runs $6K-$20K/month depending on scope and seniority, so annualized, often $70K-$240K.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "On pure sticker price, fractional usually looks cheaper, and in a lot of cases it is. But the number that actually matters isn't the fee, it's the cost per unit of strategic output the company gets for that fee, and that depends entirely on what stage the company is at.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Where full-time wins on the math",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "If you have the budget for a full-time CMO ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "and",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " enough marketing complexity to genuinely occupy them five days a week (multiple product lines, a team of 8+ that needs daily management, board-level reporting on a weekly cadence, cross-functional politics that require constant in-person presence) a full-time hire's cost per hour of applied attention is often lower than a fractional engagement's, because you're not paying a premium for flexibility you don't need.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Full-time also wins on organizational embedding. A full-time CMO builds institutional knowledge continuously, sits in on decisions a fractional person might miss, and is available for the unplanned Tuesday-afternoon crisis without a scheduling conversation. If your marketing function needs someone who's psychologically \"always on\" for the team, that's a real full-time advantage a fractional arrangement structurally can't fully replicate, no matter how good the fractional person is.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Where fractional wins on the math",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The fractional model wins when the actual bottleneck isn't hours of attention, it's the quality and seniority of strategic decisions, and that's most companies below a certain revenue and team-size threshold. A company with 2-3 marketers who are good at execution but have never had someone senior enough to set the actual strategy doesn't need 40 hours a week of CMO time. It needs 8-15 hours a week of someone who's made the mistakes before, applied consistently, plus the execution team doing the work in between.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Paying full-time-CMO money for that situation means either overpaying for unused capacity, or (more commonly) hiring someone at a lower level who's cheaper but doesn't actually have the seniority the strategic problems require. I've seen this pattern repeatedly: a company hires a \"Head of Marketing\" at $140K because a $250K CMO felt like too much, and eighteen months later the actual gap wasn't budget, it was that the strategic decisions needed someone who'd been through this specific set of problems before, and the hire (through no fault of their own) hadn't been.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Fractional also wins when the need is genuinely time-bound: a company is preparing for a specific inflection point (a funding round, a new market launch, a rebrand) and needs senior strategic input through that window without a permanent headcount commitment on the other side of it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The cost that doesn't show up in either sticker price",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Full-time hiring has a cost that's easy to underweight: time-to-productive. Recruiting a genuinely strong CMO typically takes 3-6 months, and a new full-time hire (even a strong one) usually needs another 60-90 days to actually understand the business well enough to make high-confidence calls. That's 5-9 months of reduced strategic output before the \"full-time\" hire is operating at full value, on top of the recruiting cost itself.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A fractional engagement, if you pick someone with relevant vertical or stage-specific experience, is usually productive inside 2-4 weeks, because the entire value proposition of a fractional CMO is pattern-matching from having solved a version of your problem multiple times before, not learning your business from zero. That speed is a real, quantifiable part of the cost comparison that a pure salary-vs-fee number misses.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The tradeoff nobody likes to say out loud",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Here's the part fractional-CMO content usually skips: a fractional CMO, by design, isn't in the building every day, isn't available for every ad-hoc conversation, and has other clients competing for their attention. If your team needs heavy day-to-day coaching and hand-holding rather than periodic senior direction, a fractional arrangement will feel thin no matter how good the person is, that's not a flaw in execution, it's a structural property of the model, and it's worth being honest about before signing anything.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The honest framing: fractional buys you concentrated strategic seniority at a fraction of full-time cost, in exchange for less continuous presence. Full-time buys you continuous presence and deep institutional embedding, at a cost that only makes sense once your marketing function is complex enough to need someone fully occupied by it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The hybrid model that's more common in practice than either \"pure\" option",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A pattern I see work well, and one that doesn't get discussed as often as the binary fractional-vs-full-time framing suggests it should: a fractional CMO setting strategy and reviewing performance at the senior level, paired with a full-time Head of Marketing or Marketing Manager who owns day-to-day execution and is the team's continuous point of contact. This isn't a compromise so much as a different allocation of the same total budget, instead of one full-time senior salary, the spend splits between a lower-cost execution-focused full-time hire and a part-time strategic layer above them.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This structure tends to work particularly well for companies that have outgrown \"team of 1-5 with no strategic leadership\" but aren't yet at the complexity level where a full-time CMO is clearly justified, which, in practice, describes a large share of growth-stage companies. The execution hire gets senior mentorship they wouldn't otherwise have access to at their compensation level, and the company gets continuous presence for the day-to-day without paying full-time-CMO rates for it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "A rough decision framework",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Team of 1-5 marketers, no senior strategic leadership yet:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " fractional almost always wins on cost-per-outcome. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Team of 15+, multiple product lines, daily cross-functional decisions:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " full-time usually wins. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Preparing for a specific, time-bound inflection point:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " fractional, because you don't want a permanent headcount commitment for a temporary need. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Somewhere in between (team of 6-15, growing fast):",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " this is the genuinely close call, and the right answer usually depends on whether the current bottleneck is strategic direction (fractional) or execution capacity that needs daily oversight (full-time, or a strong Head of Marketing reporting into a fractional CMO, a hybrid that's more common than either \"pure\" model suggests).",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Can a fractional CMO transition into a full-time role later?",
+          "answer": "Yes, and it's a common enough pattern that some companies structure the engagement with that possibility in mind from the start. The advantage: by the time a full-time conversation happens, both sides already know whether the working relationship is genuinely strong, rather than betting on it during a hiring process. The disadvantage worth naming: a fractional CMO who's built their business around multiple clients may not want to give that up for one full-time seat, so don't assume the option exists without discussing it directly, some fractional CMOs are open to it, others deliberately aren't."
+        },
+        {
+          "question": "How many hours per week does a typical fractional CMO engagement include?",
+          "answer": "Most engagements run somewhere between 8 and 20 hours a week, structured either as a fixed weekly cadence (recurring strategy sessions, campaign reviews, team check-ins) or as a monthly hour bank the company draws down as needed. The right number depends on team size and how much of the execution already has capable ownership underneath, a company with a strong existing marketing team needs fewer strategic hours than one where the CMO is also filling execution gaps."
+        },
+        {
+          "question": "Does a fractional CMO manage the existing marketing team directly?",
+          "answer": "Usually yes, at least in terms of setting direction and reviewing output, even though they're not in the building daily. The specific reporting structure (whether the fractional CMO has direct authority over hiring/firing decisions, or operates in an advisory capacity to a founder or ops lead who retains that authority) should be defined explicitly at the start of the engagement, because ambiguity here is one of the more common sources of friction in fractional arrangements once real team decisions come up."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Fractional CMO",
+          "description": "Part-time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "How to Choose a Fractional CMO",
+          "description": "Selection criteria.",
+          "href": "/how-to-choose-a-fractional-cmo"
+        },
+        {
+          "title": "Signs You Need a Fractional CMO",
+          "description": "Diagnostic signals.",
+          "href": "/signs-you-need-a-fractional-cmo"
+        },
+        {
+          "title": "Fractional CMO Pricing by Stage",
+          "description": "Cost by company stage.",
+          "href": "/fractional-cmo-pricing-by-stage"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Not sure which side of this you're on?",
+      "description": "The framework above is directional. The right call for a specific company depends on team composition, growth stage, and what's actually bottlenecking marketing output right now, that's worth a real conversation.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "fractional-cmo",
+    "siblings": [
+      "fractional-cmo",
+      "how-to-choose-a-fractional-cmo",
+      "signs-you-need-a-fractional-cmo",
+      "fractional-cmo-pricing-by-stage"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 993,
+  "generatedAt": "2026-07-30T22:27:01.708Z"
+}

@@ -1,0 +1,671 @@
+{
+  "slug": "fractional-cmo-90-day-engagement",
+  "pageType": "topic",
+  "meta": {
+    "title": "What a 90-Day Fractional CMO Engagement Actually Looks Like",
+    "description": "A week-by-week breakdown of the first 90 days of a fractional CMO engagement — what actually happens, in what order, and why the first 30 days shouldn't include big changes."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "What a 90-Day Fractional CMO Engagement Actually Looks Like",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The instinct on both sides (mine included, early in my career) is to start making changes immediately. Resist it. The first 30 days of a good fractional CMO engagement should produce almost no visible external changes, because the entire point of this window is figuring out what's actually true about the business before acting on assumptions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Days 1-30: diagnosis, not action",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The instinct on both sides (mine included, early in my career) is to start making changes immediately. Resist it. The first 30 days of a good fractional CMO engagement should produce almost no visible external changes, because the entire point of this window is figuring out what's actually true about the business before acting on assumptions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Week 1: audit the measurement layer before anything else.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Before evaluating whether a channel, a campaign, or a team member is underperforming, I need to know whether the data I'd be evaluating them against is trustworthy. This means checking tracking implementation, attribution setup, and whether reported numbers reconcile with actual revenue in the finance system. I've walked into more than one engagement where the real problem wasn't the marketing, it was that a tracking break six months earlier had made every subsequent decision look worse than it was, or better than it was, depending on which direction the break went.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Week 2: talk to the people doing the work, and to customers.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Structured conversations with the existing marketing team (what's working, what's frustrating, what they've been asking for that hasn't happened) and (this gets skipped more than it should) actual customer conversations or a review of recent sales calls. A strategic plan built without hearing from the people who actually buy the product is a plan built on assumptions, and I'd rather find out in week 2 that an assumption is wrong than in month four.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Weeks 3-4: map the current state against the stated goals.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Where's budget actually going, channel by channel? What's the real CAC and LTV, not the version in last quarter's board deck? Where is the team spending time that doesn't map to a stated priority? This produces a written diagnostic (not a strategy yet, just an honest map of where things stand) that I share with leadership before proposing what to do about it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Days 31-60: the plan, and the first real changes",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Weeks 5-6: prioritized strategic plan.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Based on the diagnostic, this is where I lay out what to fix first, what to test, and what to deliberately leave alone for now. The \"leave alone for now\" part matters as much as the action items, a common failure mode in fast strategic pivots is trying to fix everything simultaneously, which makes it impossible to tell which change caused which result. I typically pick the 2-3 priorities with the biggest expected payoff for this window, not ten.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Weeks 7-8: first changes go live, with a measurement plan attached to each one.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Every change ships with a stated hypothesis and a defined way to know if it worked, agreed before it launches, not evaluated after the fact based on whatever numbers happen to move. This is also usually when the first real test of the tracking fixes from week 1 pays off: if attribution wasn't fixed first, you can't actually tell whether week 7's changes worked.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Days 61-90: read the results, and decide what continues",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Weeks 9-10: first honest read on what's working.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Ninety days total isn't enough time to fully validate a channel-level strategy (real incrementality data especially takes longer than that to accumulate confidently) but it's enough time to see clear early signal: which of the 2-3 priorities from week 5 is showing real movement, which is inconclusive, and which should be killed before more budget goes into it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Weeks 11-12: the actual deliverable of the 90-day window.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Not a big flashy campaign result, a validated, evidence-backed plan for the next 6-12 months, built on real data from the first quarter instead of pre-engagement assumptions. This is also the natural checkpoint to decide, together, whether the engagement continues as-is, changes scope, or wraps up, because by this point both sides have enough real evidence to make that call instead of guessing.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Why this order, specifically",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The sequencing above (measurement first, listening second, diagnosis third, action fourth) is deliberate, and skipping steps to \"move faster\" almost always costs more time than it saves. I've seen fractional engagements (and full-time hires) start with bold changes in week one that looked decisive and felt good, and then spend months unable to tell whether those changes actually worked, because nobody fixed the measurement layer first. Slow and verifiable beats fast and unverifiable, especially in a fractional relationship where trust is still being built and every early decision is being watched closely.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Warning signs the engagement has gone off track",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A few patterns worth watching for, on either side of the relationship, because catching them early is much cheaper than catching them at month six:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "No written diagnostic by day 30.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " If the first month has produced activity (meetings, opinions, early recommendations) but no written, specific document laying out what's actually true about the current state, that's a sign the engagement skipped the diagnostic step in favor of looking productive. Ask for it directly if it hasn't appeared.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "More than 3-4 initiatives launched simultaneously in the 30-60 day window.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " This usually means prioritization didn't happen, everything looked important, so everything got greenlit, which guarantees that by day 90 nobody can cleanly attribute results to any single change.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Reporting that changes definition month to month.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " If the metric used to judge \"is this working\" shifts each review cycle, that's often a sign results aren't matching the original hypothesis and the goalposts are moving to compensate, rather than the plan being honestly revised based on evidence.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The founder or CEO is still being asked to approve routine execution decisions in month three.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " By weeks 9-12, a working fractional relationship should have earned enough trust to operate with real autonomy inside the agreed strategy. If every decision still needs sign-off at the same level as week one, either the relationship hasn't built trust, or the scope was never actually clear enough to delegate against.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What \"good\" looks like at each 30-day mark",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Day 30:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " a written, specific diagnostic the team agrees is accurate, not a positive spin, an honest one, even where it's uncomfortable. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Day 60:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " 2-3 changes live, each with a stated hypothesis and a way to measure it, not a scattershot of a dozen simultaneous experiments. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Day 90:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " a clear read on which priorities are working, and a validated plan for the next phase built on real data from this engagement, not a repeat of the pre-engagement pitch deck.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "If you're 90 days into a fractional CMO relationship and you don't have those three things, that's worth a direct conversation regardless of how the top-line numbers look.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What if the diagnosis in the first 30 days finds something urgent that can't wait?",
+          "answer": "It happens, and when it does, urgent fixes go first regardless of the general sequencing above, a broken tracking pixel actively losing attributable revenue, or a campaign burning budget with no realistic path to profitability, gets addressed immediately rather than waiting for week 5. The 30-60-90 structure describes the default sequencing for strategic work, not a rigid rule that overrides addressing something actively bleeding money. Good judgment about which findings are \"fix now\" versus \"fix as part of the plan\" is itself part of what a fractional CMO should bring on day one."
+        },
+        {
+          "question": "How involved should the founder or CEO be during the first 90 days?",
+          "answer": "More involved at the start than most founders expect, and less involved than most founders assume by the end. Weeks 1-2 specifically benefit from direct founder input, nobody else in the company usually has as complete a picture of the original vision, the customers, and the internal politics that shape what's actually achievable. By weeks 9-12, the goal is a working relationship where the fractional CMO can operate with real autonomy inside an agreed strategy, checking in on results and major decisions rather than needing founder sign-off on daily execution."
+        },
+        {
+          "question": "Is 90 days enough time to actually see results?",
+          "answer": "Enough time to see early directional signal on 2-3 prioritized initiatives, not enough time for full validation of a channel or strategy, and being honest about that distinction upfront prevents a lot of disappointment at the 90-day mark. Real incrementality data, especially for anything with a longer sales cycle, often needs a full two-to-three-month cycle just to gather a clean read, on top of the diagnostic time that came before it. The deliverable at day 90 should be a validated plan and early signal, not a declared victory."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Fractional CMO",
+          "description": "Part-time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "How to Choose a Fractional CMO",
+          "description": "Selection criteria.",
+          "href": "/how-to-choose-a-fractional-cmo"
+        },
+        {
+          "title": "Fractional CMO vs. Full-Time",
+          "description": "Cost/outcome breakdown.",
+          "href": "/fractional-cmo-vs-full-time-cmo"
+        },
+        {
+          "title": "Marketing Attribution",
+          "description": "Measuring what happened.",
+          "href": "/marketing-attribution"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Considering a fractional CMO for the next 90 days?",
+      "description": "The structure above is how I run these engagements. What the actual first-30-days priorities look like for a specific business depends on where things currently stand, that's the first real conversation to have.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "fractional-cmo",
+    "siblings": [
+      "fractional-cmo",
+      "how-to-choose-a-fractional-cmo",
+      "fractional-cmo-vs-full-time-cmo",
+      "marketing-attribution"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 1045,
+  "generatedAt": "2026-07-30T22:27:01.708Z"
+}

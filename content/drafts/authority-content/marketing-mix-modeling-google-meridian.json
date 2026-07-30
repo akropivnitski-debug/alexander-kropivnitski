@@ -1,0 +1,477 @@
+{
+  "slug": "marketing-mix-modeling-google-meridian",
+  "pageType": "topic",
+  "meta": {
+    "title": "Marketing Mix Modeling with Google Meridian: When Attribution Isn't Enough",
+    "description": "What Marketing Mix Modeling actually solves that attribution can't, how Google Meridian works in practice, and when a company is genuinely ready to invest in MMM."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Marketing Mix Modeling with Google Meridian: When Attribution Isn't Enough",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Attribution (even good, server-side, first-party attribution) only measures channels that produce a trackable digital touchpoint. It has no native way to account for TV, out-of-home, podcast sponsorships, brand-building activity, or even the halo effect one channel has on another (search demand that exists because of a brand campaign the searcher never consciously connected to the ad). For companies running any meaningful offline or brand spend, attribution alone is measuring a partial picture and treating it as the whole picture, which systematically under-credits everything outside the trackable digital funnel.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What MMM solves that attribution structurally can't",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Attribution (even good, server-side, first-party attribution) only measures channels that produce a trackable digital touchpoint. It has no native way to account for TV, out-of-home, podcast sponsorships, brand-building activity, or even the halo effect one channel has on another (search demand that exists because of a brand campaign the searcher never consciously connected to the ad). For companies running any meaningful offline or brand spend, attribution alone is measuring a partial picture and treating it as the whole picture, which systematically under-credits everything outside the trackable digital funnel.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "MMM works differently: it's a statistical model built on aggregate time-series data (weekly or monthly spend by channel, plus external factors, seasonality, pricing changes, competitor activity, macroeconomic signals) regressed against actual business outcomes. It doesn't need a cookie, a pixel, or a trackable click to work, which is precisely why it's become more relevant, not less, as privacy changes have degraded click-based attribution's accuracy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What Google Meridian actually does differently",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Meridian is Google's open-source MMM framework, built on Bayesian causal inference rather than the simpler regression approaches older MMM tools relied on. In practice, this matters in a few concrete ways:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "It quantifies uncertainty, not just a point estimate.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " A lot of legacy MMM output gives you a single number (\"Google Ads drove 23% of revenue\") with no sense of how confident that number actually is. Meridian's Bayesian approach produces a credible interval, so you know whether that 23% is a tight, high-confidence estimate or a wide range that shouldn't be the basis for a major budget reallocation yet.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "It handles adstock and saturation explicitly.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Media effects aren't instantaneous or linear, a TV ad this week can still be influencing purchase decisions three weeks later (adstock) and doubling spend on a channel rarely doubles the output once that channel starts saturating its addressable audience. Meridian models both effects, which is the difference between a model that tells you \"spend more on Meta\" in a way that's actually still true at 2x the current budget, versus one that's extrapolating from a spend range that no longer applies once you scale.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "It's built to incorporate incrementality testing results as a prior.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " This is the part that matters most in practice, and it's where MMM and geo-based incrementality testing (see below) work together rather than compete: real experimental data (a genuine holdout or geo test) can be fed into the model to calibrate and constrain what the statistical model concludes, rather than trusting a purely observational regression on its own. That combination (real experiments informing a statistical model that then extrapolates across a wider set of channels and scenarios) is a materially different level of rigor than either method alone.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "How MMM and incrementality testing relate, they're not competing methods",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A common confusion: MMM and incrementality testing (geo holdouts, matched-market tests) get talked about as alternative approaches, when in practice the strongest measurement setups use both, because they answer different questions at different grains. Incrementality testing gives you a ground-truth, causally clean read on a specific channel or campaign, at a specific point in time, in the markets tested. MMM gives you a continuously-updated view across every channel simultaneously, including channels an incrementality test wasn't designed to isolate, but it's a statistical inference, not a controlled experiment, so its conclusions are only as trustworthy as the data and priors feeding it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The practical pattern I use: run periodic incrementality tests on the highest-spend channels to get real causal ground truth, then use that ground truth to calibrate the MMM, which then extrapolates across the full channel mix, including the channels too small or too operationally difficult to run a clean holdout test on individually.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "When a company is actually ready to invest in MMM",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "MMM isn't the right first investment for every company, and I say that as someone who uses it regularly. Two things need to be true first:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Enough historical data and enough channel diversity for the statistics to have something to work with.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " MMM needs meaningful variation in spend across time and channels to identify effects, a company that's only ever run one channel at a flat budget doesn't have the data variation an MMM needs to say anything useful yet. As a rough guide, I want at least 12-18 months of weekly spend and outcome data across multiple channels before an MMM output is trustworthy enough to drive real budget decisions.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Enough total spend that the effort is worth it.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Building and maintaining a proper MMM is real analytical work, not a one-time report. For a company spending a few thousand dollars a month across one or two channels, a well-run incrementality test and disciplined attribution are usually enough, the marginal value of adding MMM on top doesn't clear the cost of building it yet. MMM earns its keep once spend is diversified across enough channels, including offline or brand spend, that attribution's blind spots are genuinely costing real budget-allocation accuracy.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What this looks like when it's working",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The output that actually changes decisions isn't a single \"here's the split\" chart, it's a response curve per channel, showing where each channel is still efficient to scale and where it's approaching saturation, combined with a confidence range so leadership knows which reallocation recommendations are solid and which need more data before being treated as certain. That's the version of MMM output that changes a budget meeting, as opposed to a slide that gets nodded at and then ignored because nobody trusts the number behind it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Does MMM replace the need for platform-level attribution (Google Ads, Meta reporting)?",
+          "answer": "No, they answer different, complementary questions and both stay useful. Platform attribution is still the right tool for day-to-day, tactical decisions inside a channel (which ad creative is performing, which audience segment to scale this week) because it's fast and granular in a way MMM isn't designed to be. MMM is the right tool for cross-channel, strategic budget-allocation decisions made quarterly or a few times a year, where the question is \"how should the total budget be split,\" not \"which specific ad should I pause today.\""
+        },
+        {
+          "question": "How much historical data does Google Meridian actually need to produce trustworthy output?",
+          "answer": "As a practical minimum, I look for at least a year of weekly data with genuine variation in spend levels across channels, periods of higher and lower spend, not just a flat weekly budget repeated for a year, since the model needs that variation to isolate each channel's actual effect. Two years is meaningfully better if it's available, particularly for businesses with strong seasonality, since the model needs to see at least one full seasonal cycle to separate a channel's real effect from a seasonal pattern that happened to coincide with a spend change."
+        },
+        {
+          "question": "Is MMM worth it for a company that's mostly running performance channels (Google Ads, Meta) without much brand or offline spend?",
+          "answer": "It can be, but the case is weaker than for a company with real offline or brand spend, since attribution already captures most of what's happening in a purely digital-performance mix. Where MMM still adds real value even in a digital-only mix is quantifying saturation and diminishing returns per channel, attribution tells you a channel converted, it doesn't tell you clearly whether the next incremental dollar into that channel is still efficient or is chasing a saturated audience. If budget-scaling decisions are a live, recurring question, that alone can justify the investment even without offline spend in the mix."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition services.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Paid Media Attribution",
+          "description": "Cookieless-world attribution.",
+          "href": "/paid-media-attribution-cookieless-world"
+        },
+        {
+          "title": "GeoX & Multicell Testing",
+          "description": "Beyond A/B testing.",
+          "href": "/geox-multicell-incrementality-testing"
+        },
+        {
+          "title": "Incrementality Testing",
+          "description": "Causal measurement.",
+          "href": "/incrementality-testing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Considering whether MMM is the right next investment for your measurement stack?",
+      "description": "The framework above is general. Whether MMM makes sense right now (versus tightening attribution or running incrementality tests first) depends on current spend level, channel mix, and how much historical data actually exists to build on.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing",
+      "paid-media-attribution-cookieless-world",
+      "geox-multicell-incrementality-testing",
+      "incrementality-testing"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 880,
+  "generatedAt": "2026-07-30T22:27:01.709Z"
+}

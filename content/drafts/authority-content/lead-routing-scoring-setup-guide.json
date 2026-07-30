@@ -1,0 +1,482 @@
+{
+  "slug": "lead-routing-scoring-setup-guide",
+  "pageType": "topic",
+  "meta": {
+    "title": "Lead Routing and Scoring: A Practical Setup Guide",
+    "description": "How to actually set up lead routing and scoring without silently losing leads — the setup order, the scoring model mistakes to avoid, and how to know if it's working."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Lead Routing and Scoring: A Practical Setup Guide",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Lead scoring gets the attention because it's the more interesting problem to think about. But if routing is broken (a lead reaches the wrong salesperson, or reaches the right one after too much delay, or reaches nobody because a routing rule has a gap) sophisticated scoring on top of broken routing is optimizing the wrong layer entirely. Fix routing first, and only then worry about scoring which of the correctly-routed leads deserve priority attention.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Start with routing, not scoring, most companies build it backwards",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Lead scoring gets the attention because it's the more interesting problem to think about. But if routing is broken (a lead reaches the wrong salesperson, or reaches the right one after too much delay, or reaches nobody because a routing rule has a gap) sophisticated scoring on top of broken routing is optimizing the wrong layer entirely. Fix routing first, and only then worry about scoring which of the correctly-routed leads deserve priority attention.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Routing rules should be built and tested for the edge cases, not just the common case.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " The routing logic that handles \"a lead from a target account fills out the contact form during business hours\" is usually easy and gets built first. What gets missed: what happens to a lead that comes in outside business hours, from a company that doesn't match any defined segment, through a channel (a chat widget, a phone call logged manually, an inbound email) that wasn't part of the original routing design. I test routing setups specifically by feeding them the weird cases, not the clean ones, because the weird cases are where leads actually get lost.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Every routing rule needs an explicit fallback.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " If a lead doesn't match any defined segment or owner, where does it go? I've seen systems where the honest answer was \"nowhere\", the routing logic simply had no rule for that case, and the lead sat unassigned in the CRM until someone happened to notice, sometimes weeks later. A working setup should have a default owner or queue for anything that doesn't match a specific rule, checked regularly, not an implicit gap.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Scoring: the model matters less than most teams think, discipline matters more",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "There's a lot of content about scoring model sophistication (behavioral scoring, predictive scoring, AI-driven scoring) and most of it overstates how much the model matters relative to two much more boring factors: whether the scoring criteria are actually reviewed and updated, and whether sales and marketing agree on what the score means.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Start simple: firmographic fit plus behavioral engagement, weighted and combined.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Firmographic fit (company size, industry, role) answers \"is this the kind of company/person we sell to.\" Behavioral engagement (pages visited, content downloaded, demo requested) answers \"how close are they to being ready.\" A lead can score high on fit and low on engagement (a great-fit company just starting to look) or the reverse (high engagement from someone who's clearly not a fit) the combination, not either factor alone, is what should drive routing priority and outreach cadence.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Review the scoring model quarterly, and actually check it against outcomes.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Pull the leads that scored highest last quarter and check what actually happened to them (did they convert to opportunities, did they close, or did the model's \"high score\" turn out not to correlate with anything real? I've found scoring models that were built once, two years earlier, based on assumptions about what a good lead looked like that had quietly stopped being true as the business, ICP, or offer changed) and nobody had checked because the dashboard kept showing scores, and scores showing up on a dashboard feels like the system is working even when it's measuring the wrong thing.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Get sales and marketing to agree on the score's meaning before it ships, not after sales starts ignoring it.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " The single fastest way to kill a scoring system's usefulness is for sales to learn, from experience, that a \"hot lead\" flag doesn't actually correlate with a lead worth prioritizing. Once that trust breaks, sales starts working leads by gut feel again regardless of what the score says, and the entire scoring investment becomes reporting theater, technically running, functionally ignored.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Negative scoring: the piece most setups skip entirely",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Most scoring models only add points for positive signals, a page visit, a download, a demo request. Fewer include negative scoring: signals that should actively lower a lead's priority even if positive signals exist alongside them. A lead with a personal email domain instead of a company domain, a job title clearly outside the buying committee, or repeated engagement with only the careers page rather than product content are all signals worth actively subtracting for, not just failing to add points for. Skipping negative scoring means these leads still accumulate some baseline score from generic engagement and end up in the same priority tier as genuinely qualified leads, diluting the list sales actually needs to focus on.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "How lead scoring and attribution actually relate",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "These get built as separate projects on separate timelines, and that's a missed opportunity. Attribution data (which channel and campaign a lead came from) is a genuinely useful scoring input, because different channels reliably produce different quality distributions of lead, and a scoring model that ignores this is leaving real signal on the table. A lead from a bottom-of-funnel search campaign for a specific product term and a lead from a broad top-of-funnel content download are different in kind, not just in engagement level, and a scoring model should reflect that rather than treating all \"downloaded a resource\" behavior identically regardless of source.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Signs the current setup is quietly broken",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Sales complains leads are \"bad\" without being able to say specifically why.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " This is often a routing or scoring signal problem, not actually a lead quality problem, leads that would convert well are being scored or routed in a way that buries them next to genuinely poor-fit leads. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A meaningful share of leads in the CRM have no owner or no follow-up logged.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Pull this number directly rather than assuming it's small, it's often larger than expected once actually checked, and it's the clearest possible sign of a routing gap. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Marketing and sales report different numbers for \"how many qualified leads came in this month.\"",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " If the two teams can't agree on this number from the same underlying data, the scoring definition isn't actually shared, it exists as two different informal definitions that happen to share a label.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How quickly should a lead be routed and reach a salesperson after coming in?",
+          "answer": "For inbound leads showing active buying intent (a demo request, a pricing page inquiry) the research on response-time impact on conversion is fairly consistent: minutes matter, not hours, response within 5 minutes materially outperforms response within an hour, which materially outperforms next-day response. For lower-intent leads (a content download, a newsletter signup) same-day or next-business-day routing is usually adequate, and treating every lead with 5-minute urgency regardless of intent tends to burn sales capacity on leads that weren't ready to talk yet."
+        },
+        {
+          "question": "Should lead scoring be handled inside the CRM, a dedicated marketing automation platform, or a custom system?",
+          "answer": "Most CRMs (HubSpot, Salesforce with add-ons) and marketing automation platforms now have native scoring capability that's genuinely sufficient for most companies, a custom-built scoring system is rarely justified before a company has outgrown what the native tooling offers, which happens later than most teams assume. Where a custom or more sophisticated system starts to make sense is when the scoring logic needs to incorporate data sources the native platform can't easily reach (a product-usage signal from the actual application, a data point from a data warehouse) which is a real but relatively advanced need."
+        },
+        {
+          "question": "How do you handle leads that come from channels without clean tracking, like phone calls or referrals?",
+          "answer": "These need an explicit manual-entry or call-tracking-integration path into the same routing and scoring system, rather than being handled as a separate, informal process outside it, which is exactly how leads from these channels tend to get lost. Call tracking software can capture and route phone leads automatically with source attribution attached; for referrals, a simple, consistently-used manual-entry field with a \"referral source\" tag, fed into the same scoring model as every other lead, at minimum ensures these leads aren't invisible to the reporting that's driving decisions about the rest of the funnel."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "MarTech stack strategy.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "Marketing Attribution",
+          "description": "Attribution modeling.",
+          "href": "/marketing-attribution"
+        },
+        {
+          "title": "Google Tag Manager",
+          "description": "Tracking implementation.",
+          "href": "/google-tag-manager"
+        },
+        {
+          "title": "GA4/BigQuery/Looker Studio",
+          "description": "Single source of truth.",
+          "href": "/ga4-bigquery-looker-studio-single-source-of-truth"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Setting this up or fixing a leaky version of it?",
+      "description": "The framework above is general. The right routing rules and scoring weights depend on the actual sales team structure, the ICP, and what data sources are realistically available to feed the model.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-technology",
+      "marketing-attribution",
+      "google-tag-manager",
+      "ga4-bigquery-looker-studio-single-source-of-truth"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 954,
+  "generatedAt": "2026-07-30T22:27:01.712Z"
+}

@@ -1,0 +1,497 @@
+{
+  "slug": "tiktok-snapchat-pinterest-paid-social",
+  "pageType": "topic",
+  "meta": {
+    "title": "TikTok, Snapchat, and Pinterest: When Paid Social Beyond Meta Is Worth It",
+    "description": "When it actually makes sense to run paid media on TikTok, Snapchat, or Pinterest instead of just scaling Meta further — audience fit, creative demands, and measurement differences by platform."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "TikTok, Snapchat, and Pinterest: When Paid Social Beyond Meta Is Worth It",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Not \"which platform has the most users\" or \"which platform is growing fastest\", the question that actually predicts whether a new platform will work for a specific business is: does this platform's core audience behavior match how someone would realistically discover and evaluate this specific product? Get this wrong and even a technically well-run campaign on a genuinely large platform underperforms, because the platform's users aren't in the right mindset for what's being asked of them.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The question that matters more than platform popularity",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Not \"which platform has the most users\" or \"which platform is growing fastest\", the question that actually predicts whether a new platform will work for a specific business is: does this platform's core audience behavior match how someone would realistically discover and evaluate this specific product? Get this wrong and even a technically well-run campaign on a genuinely large platform underperforms, because the platform's users aren't in the right mindset for what's being asked of them.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "TikTok: earns its place when the product benefits from demonstration, not description",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "TikTok's format rewards content that shows something happening (a product in use, a process, a transformation) over content that states a value proposition. This isn't a creative-style preference, it's closer to a platform-level behavioral pattern: users are in a discovery, entertainment-adjacent mindset, and content that reads as a traditional ad (polished, static, benefit-statement-led) tends to underperform relative to content that reads as native to the feed, even when it's clearly sponsored.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Where this genuinely works well:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " physical products with a visual \"aha\" moment (a demonstration, an unboxing, a before/after) and services or products with a strong founder or personality-led story that fits creator-style content. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Where it typically doesn't:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " B2B products with a long sales cycle and no visual hook, or anything where the value proposition genuinely requires explanation rather than demonstration to land.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The real operational cost most companies underestimate:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " TikTok performance is disproportionately creative-dependent compared to Meta, where targeting and bidding sophistication can partially compensate for average creative. On TikTok, a genuinely strong creative can outperform a mediocre one by a wide margin, and the platform's algorithm rewards fresh creative rotation more aggressively than Meta does, which means the real cost of running TikTok well isn't the media spend, it's the ongoing creative production capacity required to keep feeding it, and companies that budget for the media spend without budgeting for that production cadence tend to see performance decay within weeks as their limited creative set fatigues.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Snapchat: a narrower audience fit, but a real one for specific verticals",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Snapchat's user base skews younger and more mobile-native than Meta's broader base, with genuine strength in specific verticals: mobile gaming, certain DTC categories targeting Gen Z and younger millennials, and AR-driven experiences where Snapchat's lens/filter technology offers something Meta doesn't natively replicate. Its ad formats and measurement tooling are less mature than Meta's or TikTok's, which is a real, practical downside, expect a steeper learning curve on the platform's specific optimization levers and less third-party tooling support than the bigger platforms.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Where this genuinely works well:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " products or services where the core buyer demographic skews meaningfully younger than the account's Meta audience already performs well against, or where AR/lens-based interactive ad formats offer a real creative advantage for the specific product (try-on experiences, gamified engagement). ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Where it typically doesn't:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " anything where the target audience skews older than roughly mid-30s, where Snapchat's reach and targeting precision both drop off meaningfully.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Pinterest: the platform most underused for the audience mindset it actually offers",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Pinterest gets underrated in a lot of paid social strategy conversations because it doesn't fit the \"scroll and discover\" mental model of TikTok or Meta. Pinterest users are frequently in an active planning or purchase-intent mindset (planning a purchase, a project, an event) which is a meaningfully different, often higher-intent starting point than most social platforms offer. This matters specifically for categories tied to a planning behavior: home goods, weddings, fashion, food, travel, DIY.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Where this genuinely works well:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " any product category with a natural \"planning\" association, and specifically for businesses whose organic Pinterest presence (if they have one) already shows engagement (that's a strong leading indicator paid Pinterest will convert well too, since it means the audience-content fit is already validated organically before any budget is spent confirming it. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Where it typically doesn't:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " low-consideration, impulse-purchase categories, and B2B almost across the board) Pinterest's planning-mindset advantage doesn't translate to a B2B buying process at all.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Measurement differences that trip teams up during a first test",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Each platform's attribution window and reporting defaults differ meaningfully from Meta's, and comparing raw platform-reported numbers across platforms without accounting for this produces a misleading read. TikTok and Snapchat both tend to report shorter default attribution windows than teams are used to from Meta, which can make a genuinely working campaign look worse than it is if evaluated on the platform's default reporting alone rather than a consistent, cross-platform measurement standard. I standardize on a single attribution window and, wherever possible, a shared incrementality-testing approach across every platform being compared, specifically so a new platform isn't unfairly penalized (or flattered) by a reporting quirk rather than actual performance.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "How to actually test a new platform without overcommitting",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Don't scale a new platform with the same budget commitment as an already-proven channel. I run new-platform tests as a defined-budget, defined-timeline pilot (enough spend to get past the platform's learning phase (varies by platform, but budget for at least 2-3 weeks of consistent daily spend before drawing conclusions) with a pre-agreed kill criterion if it's not showing directional signal by the end of the test window. This is the same incrementality-testing discipline that applies to any channel decision) see the companion piece on GeoX and multicell testing, just scaled down to a pilot-appropriate budget for a genuinely new, unproven channel rather than an established one.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How should budget be allocated between Meta and a new platform during an initial test?",
+          "answer": "I typically cap a new-platform pilot at 10-15% of total paid social budget until it's proven itself against a defined success threshold, keeping the majority of spend on the already-validated channel while the test runs. This protects overall performance during the learning period (new platforms almost always have a rougher initial optimization phase than an already-mature account) while still committing enough budget to get a real read rather than a token amount too small to produce meaningful data either way."
+        },
+        {
+          "question": "Does creative need to be built separately for each platform, or can the same assets be reused?",
+          "answer": "Reusing Meta-style creative directly on TikTok specifically tends to underperform, because TikTok's algorithm and audience both respond negatively to content that reads as an obvious repurposed ad rather than native-feeling platform content (this is one of the more consistent findings across the accounts I've run. Snapchat and Pinterest are more forgiving of adapted (not necessarily from-scratch) creative, but even there, format-native adjustments) Pinterest's vertical, save-oriented format in particular, meaningfully outperform a straight resize of an existing asset. Budget for platform-specific creative adaptation, not just platform-specific media spend."
+        },
+        {
+          "question": "Is it worth testing all three platforms at once, or better to test them sequentially?",
+          "answer": "Sequentially, in almost every case (testing multiple new platforms simultaneously makes it hard to properly resource the creative demands of any one of them well (see the TikTok section above specifically) and it splits both budget and analytical attention across tests, which usually produces a weaker, less conclusive read on each individual platform than a focused, sequential test would. Pick the platform with the clearest audience-fit hypothesis based on the framework above, test it properly with real creative investment and a defined evaluation window, then move to the next one) a slower but more genuinely conclusive process than running three inconclusive tests at once."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition services.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Meta advertising baseline.",
+          "href": "/meta-ads"
+        },
+        {
+          "title": "Performance Marketing Retainer",
+          "description": "How retainers are structured.",
+          "href": "/performance-marketing-retainer-structure"
+        },
+        {
+          "title": "GeoX & Multicell Testing",
+          "description": "Testing discipline for new channels.",
+          "href": "/geox-multicell-incrementality-testing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Considering whether a new platform is the right next move?",
+      "description": "The framework above is general. The right platform, if any, depends on your specific audience, product category, and whether the creative production capacity to run it well actually exists.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing",
+      "meta-ads",
+      "performance-marketing-retainer-structure",
+      "geox-multicell-incrementality-testing"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 832,
+  "generatedAt": "2026-07-30T22:27:01.715Z"
+}

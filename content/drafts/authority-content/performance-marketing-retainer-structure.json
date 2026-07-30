@@ -1,0 +1,652 @@
+{
+  "slug": "performance-marketing-retainer-structure",
+  "pageType": "topic",
+  "meta": {
+    "title": "How to Structure a Performance Marketing Retainer",
+    "description": "How I structure performance marketing retainers — fee models, scope boundaries, reporting cadence, and the mistakes that turn a retainer into a slow-motion dispute."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "How to Structure a Performance Marketing Retainer",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A performance marketing retainer isn't buying \"management of your ad accounts.\" That's the activity, not the deliverable. What it should be buying is one of three things, and naming which one changes everything downstream:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Start with what the retainer is actually buying",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A performance marketing retainer isn't buying \"management of your ad accounts.\" That's the activity, not the deliverable. What it should be buying is one of three things, and naming which one changes everything downstream:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Scaling",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", you have a working channel and a validated offer, and the job is to spend more while holding or improving efficiency. This is the easiest retainer to structure because the success metric already exists: CAC, ROAS, or MER at a defined spend level, measured against the trailing baseline.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Diagnosis and fix",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", something that used to work has degraded, or a channel has never worked and nobody's sure why. This retainer needs a defined diagnostic phase (I use 30 days) before any performance commitment, because committing to a number before you know if the tracking is broken, the creative is fatigued, or the offer doesn't hold up under paid traffic is how retainers turn adversarial by month two.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Expansion",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", a new channel, market, or product line with no historical baseline. Success here has to be measured against a stated hypothesis and a pre-agreed learning budget, not against a ROAS number that doesn't exist yet.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Most disputes I've seen start because the retainer was priced and structured like #1 (scaling) when the actual situation was #2 or #3. If you're not sure which one you're buying, that's the first thing to resolve, before the fee model, before the reporting cadence, before anything else.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Fee models, and which one fits which situation",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Flat monthly fee.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Cleanest to administer, easiest to budget against. Works when scope is genuinely stable, you know roughly how many campaigns, how many creative iterations, how many channels are in play, and that's not going to swing wildly month to month. The risk: if scope creeps (new channel, new market, a launch that needs extra hands) and the fee doesn't move with it, you either get resentment from whoever's doing the work or quiet scope-cutting that shows up as declining quality three months later.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Percentage of spend.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Common, and I understand why, it scales naturally with the size of the account. But it has a structural problem worth naming directly: it can create an incentive to spend more even when spending more isn't the right call. If a channel is saturated and the right move is to hold budget flat and fix creative instead, a pure percentage-of-spend fee is quietly working against that recommendation. I use this model, but I pair it with a spend ceiling that requires explicit sign-off to exceed, so the incentive to grow spend for its own sake doesn't have room to operate.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Performance-based (fee tied to a metric).",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Sounds the most aligned on paper, and clients often ask for it first. In practice this only works when the metric is fully within the agency or manager's control, which is rarer than it sounds, attribution gaps, sales-cycle-length in B2B, and business-side factors (pricing changes, inventory issues, a competitor's move) all affect the metric without the marketing team touching anything. I've used performance components successfully, but only as a bonus layered on top of a base fee, never as the entire compensation, because a 100% performance model gives the agency every incentive to game the metric you're measuring rather than grow the business you actually care about.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hybrid",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " (small base + light performance kicker) is where most of my retainers land in practice: a base that covers the real cost of the work regardless of outcome, plus a bonus structure tied to a metric both sides trust and can audit.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Scope: write down what's in, and (more importantly) what isn't",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The retainers that go sideways almost always have a scope document that lists deliverables (\"manage Google Ads and Meta campaigns\") without listing boundaries. Specifically define:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Channel boundaries.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Does the retainer cover creative production, or just media buying and optimization on creative someone else supplies? This single ambiguity is the most common source of scope disputes I've seen, creative production is a materially different (and larger) job than campaign management. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Landing page and site changes.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Performance often bottlenecks on the landing page, not the ad. Does the retainer include making those changes, recommending them, or neither? ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Reporting and analysis vs. reporting and strategy.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " A dashboard that shows the numbers is not the same deliverable as a monthly review that explains why the numbers moved and what to do next. Price and staff these differently if you actually need both. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Response time and escalation.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " For anything with real budget velocity (especially Google Shopping or high-spend Meta accounts) what happens when something breaks on a weekend matters. Define it before it happens, not after.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "How you'll know it's working",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Agree on the measurement method before the retainer starts, not after the first month's results come in, because the measurement method itself is often the actual disagreement wearing a \"the numbers are wrong\" costume. Three things I put in writing on every retainer:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "1. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Which attribution model, and its known limitations.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Last-click, data-driven, or a blended view, whichever you pick, write down what it systematically undercounts or overcounts, so a channel doesn't get killed for a measurement artifact. 2. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A baseline period and what \"improvement\" means against it.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " \"Grow ROAS\" without a stated baseline and timeframe isn't a target, it's a mood. 3. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Whether incrementality gets tested, and when.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Attribution tells you what a platform claims credit for. It doesn't tell you what would have happened without the spend. For accounts above a certain spend threshold, I build in a holdout or geo-based incrementality check specifically because platform-reported numbers and actual incremental revenue can diverge more than most teams expect, sometimes substantially.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The review cadence that actually prevents disputes",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Weekly optimization check-ins, monthly performance reviews, and a quarterly scope-and-fee review are the rhythm I use. The quarterly review is the one people skip and shouldn't: it's the checkpoint where you catch a retainer that's quietly become the wrong shape (scope grew, the market shifted, or the original success metric stopped being the right one to chase) before six more months pass on a structure nobody actually agreed to anymore.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How long should a performance marketing retainer run before either side can walk away?",
+          "answer": "I use a 90-day minimum commitment, then month-to-month with 30 days' notice after that. Ninety days is roughly the minimum time needed to get past initial account volatility, run a real diagnostic if one's needed, and gather enough data to evaluate the channel honestly, anything shorter and you're judging results before the system has stabilized. Beyond that initial window, locking in longer just protects the agency, not the outcome, so month-to-month with fair notice is the right default once the diagnostic period has passed."
+        },
+        {
+          "question": "Should the retainer fee include ad spend, or is that always separate?",
+          "answer": "Always separate, and I write that explicitly into every contract even though it seems obvious. The reason it needs to be explicit: ambiguity here creates two specific problems, a client wondering whether their invoice total includes media spend (and being surprised when it doesn't) and an incentive structure where the fee-taker benefits from spend decisions in a way that isn't transparent. Keep media spend flowing directly from the client's own ad accounts wherever possible, both for cost transparency and so the client retains ownership of the account and its history if the relationship ends."
+        },
+        {
+          "question": "What's a reasonable diagnostic period before committing to a performance target?",
+          "answer": "Thirty days for most accounts, sixty for anything with a long sales cycle or low weekly conversion volume where thirty days doesn't produce enough data to be meaningful. The diagnostic period exists to answer one question honestly: is the current underperformance a media problem, a tracking problem, or an offer/product problem? Committing to a performance number before answering that is how a retainer ends up trying to fix a landing page conversion problem by spending more on ads, which doesn't work, and burns trust fast when it doesn't."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition services.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Incrementality Testing",
+          "description": "Causal measurement.",
+          "href": "/incrementality-testing"
+        },
+        {
+          "title": "Marketing Attribution",
+          "description": "Attribution modeling.",
+          "href": "/marketing-attribution"
+        },
+        {
+          "title": "GeoX & Multicell Testing",
+          "description": "Beyond A/B testing.",
+          "href": "/geox-multicell-incrementality-testing"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Want this structured for your account?",
+      "description": "This is the general framework. The right structure for a specific account depends on spend level, sales cycle, and what's already broken versus what's being scaled, that's a conversation, not a template.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing",
+      "incrementality-testing",
+      "marketing-attribution",
+      "geox-multicell-incrementality-testing"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 983,
+  "generatedAt": "2026-07-30T22:27:01.705Z"
+}

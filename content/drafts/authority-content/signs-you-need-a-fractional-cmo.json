@@ -1,0 +1,429 @@
+{
+  "slug": "signs-you-need-a-fractional-cmo",
+  "pageType": "topic",
+  "meta": {
+    "title": "Signs Your Company Actually Needs a Fractional CMO (vs. a Senior In-House Hire)",
+    "description": "The specific, checkable signs that a company's marketing problem is a strategy gap a fractional CMO solves — versus an execution gap that needs a different hire entirely."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Signs Your Company Actually Needs a Fractional CMO (vs. a Senior In-House Hire)",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The clearest signal isn't \"we don't have enough marketing capacity\" (it's \"the decisions we are making don't seem to be building on each other.\" A company running paid campaigns, content, and a rebrand simultaneously without any of those decisions connecting to a shared strategic thesis is usually not short on execution capacity) it's short on someone senior enough to say no to some of those initiatives and sequence the rest. If the actual gap is \"we need more hands to execute a strategy we already have,\" that's an execution hire, not a strategy hire, and a fractional CMO would be overqualified and underused for that specific need.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Sign 1: decisions are being made without a framework, not just without enough hands",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The clearest signal isn't \"we don't have enough marketing capacity\" (it's \"the decisions we are making don't seem to be building on each other.\" A company running paid campaigns, content, and a rebrand simultaneously without any of those decisions connecting to a shared strategic thesis is usually not short on execution capacity) it's short on someone senior enough to say no to some of those initiatives and sequence the rest. If the actual gap is \"we need more hands to execute a strategy we already have,\" that's an execution hire, not a strategy hire, and a fractional CMO would be overqualified and underused for that specific need.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Sign 2: marketing spend and marketing results have stopped correlating in a way anyone can explain",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "If spend has increased over the past several quarters without a corresponding, explainable increase in pipeline or revenue (and nobody in the company can articulate specifically why, beyond general statements about market conditions) that's usually a sign the underlying strategy needs re-examination by someone with enough seniority and outside pattern-matching to diagnose it, not just someone to run more campaigns inside the same unexamined strategy. This is different from a temporary dip with a known cause (a known seasonal pattern, a known market shift) the specific signal here is spend and results decoupling *without* anyone having a confident explanation.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Sign 3: the team is good at execution but nobody's questioned the underlying assumptions in a long time",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A marketing team can be genuinely skilled (good copywriters, competent paid media managers, a strong designer) and still be executing against a strategic direction set 18 months ago that's never been revisited against what's actually changed in the market, the product, or the customer base since. This is one of the more common situations I walk into: not a weak team, a team that's never had someone senior enough above them whose job is specifically to question whether the direction is still right, as opposed to executing well against whatever direction currently exists.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Sign 4: you're approaching a specific inflection point that needs senior judgment, on a timeline that doesn't fit a normal hiring process",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A funding round, a new market entry, a significant repositioning, a product launch that changes the target customer, these moments benefit from senior strategic input specifically during the window leading up to and through them, and a normal executive hiring process (which realistically takes 3-6 months before someone's even fully ramped) often doesn't fit the actual timeline. This is the clearest case where fractional wins over any other option almost by default: the need is real, senior, and time-bound in a way a full-time search can't match on speed.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Sign 5: the marketing conversation at leadership level has become vague",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Listen to how marketing gets discussed in leadership or board meetings. \"We should probably do more content,\" \"our brand needs work,\" \"I don't think we're maximizing paid\" (vague, directionally-agreed-upon statements without a specific plan attached) are a reliable tell that nobody in the room currently has the standing or the analytical grounding to turn those instincts into a concrete, prioritized plan. This is different from a team that disagrees about specifics (a healthy sign of real strategic engagement) versus a team that's stopped having specific disagreements because nobody's proposing anything specific enough to disagree with.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The signs that point away from a fractional CMO",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The team lacks execution capacity, not strategic direction.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " If the strategy is genuinely sound and the actual gap is \"we know what to do, we don't have enough people to do it,\" the right fix is more execution-level hiring (a paid media specialist, a content writer, a marketing coordinator) not a strategic layer that would mostly be reviewing work the team already knows how to do.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The company needs someone who's psychologically \"in the building\" every day.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " If what's actually missing is a full-time presence (someone in every meeting, always available for the unplanned question, deeply embedded in day-to-day team dynamics) that's a legitimate need, but it's a full-time need, and trying to meet it with a part-time fractional arrangement will produce ongoing frustration on both sides regardless of how skilled the fractional person is.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Marketing isn't actually the constraint on growth.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " This gets missed surprisingly often: a company diagnoses \"we need better marketing leadership\" when the real constraint is product-market fit, pricing, sales process, or retention, and better marketing strategy, fractional or otherwise, won't fix a problem that isn't actually a marketing problem. A good fractional CMO engagement should surface this honestly in the diagnostic phase if it's true, rather than proceeding as if more marketing sophistication will fix a non-marketing problem.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The honest self-check",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Before reaching out to a fractional CMO, ask internally: if we had unlimited execution capacity right now (every campaign staffed, every content piece written) would we actually know what to prioritize and why? If the honest answer is yes, the gap is execution, not strategy, and a fractional CMO isn't the right next hire. If the honest answer is genuinely uncertain, or no, that's the real signal a strategic layer is what's missing.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Can a company be too early-stage for a fractional CMO?",
+          "answer": "Yes, in a specific sense (a company that hasn't yet found product-market fit typically needs a different kind of help (founder-led sales and marketing, rapid iteration on positioning) more than it needs formalized marketing strategy, since strategy built on top of an unvalidated product/market fit tends to need to be rebuilt anyway once real fit is found. That said, \"too early\" is about validation stage, not headcount or revenue specifically) a well-funded pre-revenue company that's already validated demand can genuinely benefit from senior strategic input earlier than the headcount alone would suggest."
+        },
+        {
+          "question": "How do you tell the difference between a strategy problem and an execution problem from the outside, before engaging anyone?",
+          "answer": "Look at whether the team can articulate a clear, specific reason for their current priorities that ties back to a stated business goal, or whether priorities seem to be set reactively, whatever feels most urgent this week, or whatever a competitor just did. Teams with a real strategy gap usually describe their own priorities in vague terms even when pressed directly (\"we're doing a bit of everything,\" \"we're trying to see what works\") while teams with a genuine execution gap can usually describe the strategy clearly and specifically, they just don't have enough hands to execute all of it."
+        },
+        {
+          "question": "Is it possible to need both a fractional CMO and additional execution hires at the same time?",
+          "answer": "Very commonly, yes, and in practice this is closer to the norm than either pure scenario. A fractional CMO engagement often surfaces execution gaps as part of the initial diagnostic (see the companion piece on what a 90-day engagement looks like) and part of the resulting plan is frequently a recommendation to hire specific execution roles the fractional CMO then helps recruit for and direct. The two aren't mutually exclusive; a fractional CMO who diagnoses \"you also need to hire a paid media specialist\" as part of the plan is doing the job correctly, not admitting their own engagement is unnecessary."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Fractional CMO",
+          "description": "Part-time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "Fractional CMO vs. Full-Time",
+          "description": "Cost/outcome breakdown.",
+          "href": "/fractional-cmo-vs-full-time-cmo"
+        },
+        {
+          "title": "90-Day Fractional CMO Engagement",
+          "description": "What actually happens.",
+          "href": "/fractional-cmo-90-day-engagement"
+        },
+        {
+          "title": "Small Business CMO",
+          "description": "CMO leadership for smaller teams.",
+          "href": "/small-business-cmo"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Not sure which situation this actually is?",
+      "description": "The signs above are diagnostic starting points, not a definitive test. A short conversation is usually enough to tell which situation actually applies.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "fractional-cmo",
+    "siblings": [
+      "fractional-cmo",
+      "fractional-cmo-vs-full-time-cmo",
+      "fractional-cmo-90-day-engagement",
+      "small-business-cmo"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 769,
+  "generatedAt": "2026-07-30T22:27:01.713Z"
+}

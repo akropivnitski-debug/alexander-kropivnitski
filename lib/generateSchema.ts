@@ -134,9 +134,15 @@ export function generatePageSchema(input: SchemaInput): object[] {
   return schemas
 }
 
+// Professional marketing credentials only — every entry here must carry a
+// live, third-party-verifiable url. Three previously-listed entries (SQL
+// Certification/Stanford, Tableau Certification/Tableau, "Certified
+// Marketing Analyst (MCP)"/Google) had no verification url and Google has no
+// certification actually named "MCP" — removed rather than left unverifiable
+// alongside the ones that are real. Claude Code / Claude 101 (AI-tool
+// onboarding certificates) moved out entirely: they're not marketing
+// credentials and listing them here read as a category error.
 const CREDENTIALS: { name: string; url?: string; recognizedBy?: string }[] = [
-  { name: 'Claude Code', url: 'https://verify.skilljar.com/c/2pn5ts2adtn3', recognizedBy: 'Anthropic' },
-  { name: 'Claude 101', url: 'https://verify.skilljar.com/c/doiwoovpvmfd', recognizedBy: 'Anthropic' },
   {
     name: 'AI Powered Performance Ads Certification',
     url: 'https://skillshop.credential.net/30f5c94a-4983-469c-94b4-f019352f8c22',
@@ -152,14 +158,11 @@ const CREDENTIALS: { name: string; url?: string; recognizedBy?: string }[] = [
     url: 'https://skillshop.credential.net/927cf410-eeea-4815-a2e0-de6a18aade31',
     recognizedBy: 'Google',
   },
-  { name: 'SQL Certification', recognizedBy: 'Stanford University' },
-  { name: 'Tableau Certification', recognizedBy: 'Tableau' },
   {
     name: 'Google Ads Search Certification',
     url: 'https://skillshop.credential.net/005153ea-ebbe-4476-8db3-688271e6a775',
     recognizedBy: 'Google',
   },
-  { name: 'Certified Marketing Analyst (MCP)', recognizedBy: 'Google' },
 ]
 
 export function generatePersonSchema(): object {

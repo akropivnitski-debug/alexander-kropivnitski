@@ -1,0 +1,448 @@
+{
+  "slug": "geox-multicell-incrementality-testing",
+  "pageType": "topic",
+  "meta": {
+    "title": "Beyond A/B Testing: GeoX and Multicell Experiments for Real Incrementality",
+    "description": "When standard A/B testing breaks down for measuring paid media incrementality, and how GeoX (geo-based) and multicell tests solve the problems A/B tests structurally can't."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Beyond A/B Testing: GeoX and Multicell Experiments for Real Incrementality",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A standard A/B test splits individual users into a test and control group, then compares outcomes. That works cleanly when the thing you're testing is contained within a single user's experience, a landing page, an email subject line. It breaks down for measuring channel-level incrementality for a specific reason: ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "contamination between groups.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Why user-level A/B testing breaks down for incrementality",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A standard A/B test splits individual users into a test and control group, then compares outcomes. That works cleanly when the thing you're testing is contained within a single user's experience, a landing page, an email subject line. It breaks down for measuring channel-level incrementality for a specific reason: ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "contamination between groups.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "If you're testing \"does running this Meta campaign increase revenue,\" and you randomly assign users to see-the-ad versus don't-see-the-ad, you run into real problems. Users talk to each other, browse the same retargeting pools, get served other ads that reference the same campaign indirectly, and search-brand-terms after seeing an ad in a way that shows up as \"organic\" or \"direct\" traffic in the control group's outcomes, quietly polluting the control group with an effect from the very campaign it's supposed to be isolated from. The smaller and more networked the audience, the worse this contamination gets, and for most companies it's bad enough that a user-level A/B test overstates or understates channel impact in ways that are hard to detect from the results alone.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "GeoX: testing at the geography level instead of the user level",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Geo-based experiments (often called GeoX) sidestep the contamination problem by testing at the level of a geographic market instead of an individual user. You select a set of comparable regions (metro areas, states, or countries, depending on scale) randomly assign them to test or control, and run the campaign in test regions while holding it back in control regions, then compare aggregate outcomes between the two groups.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Because the split happens at the geography level, individual-user contamination mostly disappears. Someone in a control-region city isn't going to see a test-region-only campaign, browse a test-region retargeting pool, or get affected by word-of-mouth from a different metro area in a way that meaningfully pollutes the result. What replaces the contamination problem is a different one worth naming honestly: you need enough comparable geographic units, with similar-enough baseline behavior, to get statistical power. A test with only 4-6 regions per group produces a wide, often inconclusive confidence interval, no matter how carefully the regions were matched. Region selection and matching (based on historical spend, revenue, and demographic similarity) is genuinely the hard part of running a good GeoX test, more so than the analysis that follows it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Multicell testing: more than two arms, testing more than one thing at once",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A standard test has two arms, test and control. A multicell test extends the same holdout logic across three or more arms simultaneously, which matters when you need to answer more than a single yes/no question. Common structures I use:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Spend-level multicell:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " instead of just \"on vs. off,\" test multiple spend levels simultaneously, say, 50% of current spend, 100%, and 150%, each against a true holdout. This answers a materially more useful question than a binary test: not just \"does this channel work,\" but \"where does it stop being efficient,\" which is exactly the input a response-curve model (like the MMM approach in the Meridian piece) needs to be genuinely accurate rather than assuming a flat, linear relationship between spend and outcome that rarely holds in practice.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Creative or offer multicell:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " multiple creative approaches or offer structures tested simultaneously against a shared holdout, rather than sequential A/B/C tests run one after another. Running them concurrently against a common control removes a real confound sequential testing introduces, external conditions (seasonality, competitor activity, macro shifts) change between sequential test windows in ways that can look like a creative difference but aren't, and a concurrent multicell design controls for that automatically.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The tradeoff, and it's a real one: more arms means the total sample or region pool gets split more ways, which means you need more total scale (more regions, more budget, or more time) to keep each arm's statistical power reasonable. A 5-arm multicell test run at the same total scale as a clean 2-arm GeoX test will generally produce noisier, less confident results per arm, that's not a flaw in the method, it's the direct cost of asking a more detailed question, and it needs to be planned for at the design stage, not discovered as a disappointing result afterward.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What actually goes wrong when teams skip this and trust platform-reported ROAS instead",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Platform-reported ROAS from Google or Meta is, structurally, measuring \"how much revenue can this platform claim credit for,\" not \"how much revenue would not have happened without this platform's spend.\" The gap between those two numbers is frequently larger than teams expect, in both directions. I've seen accounts where a genuine GeoX test revealed a channel reporting strong platform ROAS was actually driving close to zero incremental revenue: the platform was capturing credit for demand that existed regardless (brand searches, direct visits from people who were going to buy anyway) rather than creating new demand. I've also seen the reverse: a channel that looked mediocre on platform-reported numbers turn out, under a real holdout test, to be driving meaningful incremental volume that attribution was systematically undercounting because of cross-device or cross-session gaps in the tracking.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Neither error is rare, and both are expensive if left uncorrected, the first leads to over-investing in a channel that isn't actually growing the business, the second leads to under-investing in one that is.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "When it's worth the operational cost of running these tests",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "GeoX and multicell tests take real setup effort (region matching, holdout logic, enough elapsed time to gather a statistically meaningful read) so they're not something to run on every campaign decision. I reserve them for genuinely consequential questions: is this the largest channel in the budget, is a major reallocation decision riding on the answer, or has platform-reported performance for a channel diverged sharply enough from expectations that leadership actually needs a trustworthy answer, not just another dashboard number. For smaller, lower-stakes decisions, disciplined attribution plus periodic, lighter-weight incrementality checks is usually the right amount of rigor, save the full GeoX/multicell setup for the decisions where getting it wrong is genuinely expensive.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How long does a typical GeoX test need to run to produce a trustworthy result?",
+          "answer": "Most of the GeoX tests I run need somewhere between 4 and 8 weeks, depending on the business's typical purchase cycle and how much weekly variance exists in the outcome metric being measured. A business with a short, high-frequency purchase cycle can sometimes get a clean read in closer to 4 weeks; a longer sales cycle or high week-to-week revenue variance needs the longer end of that range, and cutting the test short to get an early read is one of the more common ways teams end up trusting a noisy, not-yet-converged result."
+        },
+        {
+          "question": "How many geographic regions do I actually need for a GeoX test to have real statistical power?",
+          "answer": "As a practical floor, I want at least 10-14 comparable regions total, split across test and control, before I trust the confidence interval the test produces, fewer than that and the result is usually too wide to confidently act on, even if the point estimate looks compelling. Businesses without enough distinct, comparable geographic markets to hit that floor (a company operating in only 3-4 major metro areas, for instance) often aren't a good fit for geo-based testing yet, and are better served by a different incrementality method, like a well-designed multicell spend test structured around time periods instead of geography."
+        },
+        {
+          "question": "Can these test results feed directly into a Marketing Mix Model?",
+          "answer": "Yes, and doing so is one of the most valuable uses of the results, a real GeoX or multicell holdout gives a causally clean, ground-truth read on a specific channel at a specific point in time, which can then calibrate and constrain an MMM's broader, ongoing statistical inference across the full channel mix. Feeding real experimental results into the model this way is a meaningfully more rigorous setup than trusting either method entirely on its own, and it's the approach covered in more detail in the companion piece on Marketing Mix Modeling with Google Meridian."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Performance Marketing",
+          "description": "Paid acquisition services.",
+          "href": "/performance-marketing"
+        },
+        {
+          "title": "Incrementality Testing",
+          "description": "Causal measurement.",
+          "href": "/incrementality-testing"
+        },
+        {
+          "title": "Marketing Mix Modeling",
+          "description": "Modeling with Google Meridian.",
+          "href": "/marketing-mix-modeling-google-meridian"
+        },
+        {
+          "title": "Marketing Attribution",
+          "description": "Attribution modeling.",
+          "href": "/marketing-attribution"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Considering a real incrementality test for a specific channel?",
+      "description": "The design details above are general. The right test structure (GeoX, multicell, or a combination) depends on your market footprint, spend level, and what decision the result actually needs to inform.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "performance-marketing",
+    "siblings": [
+      "performance-marketing",
+      "incrementality-testing",
+      "marketing-mix-modeling-google-meridian",
+      "marketing-attribution"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 950,
+  "generatedAt": "2026-07-30T22:27:01.710Z"
+}

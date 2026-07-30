@@ -1,0 +1,408 @@
+{
+  "slug": "ga4-bigquery-looker-studio-single-source-of-truth",
+  "pageType": "topic",
+  "meta": {
+    "title": "Connecting GA4, BigQuery, and Looker Studio: Building a Single Source of Truth",
+    "description": "A practical guide to connecting GA4, BigQuery, and Looker Studio so marketing and leadership are finally looking at the same numbers — what to build first, and the mistakes that undermine trust in the data."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "Connecting GA4, BigQuery, and Looker Studio: Building a Single Source of Truth",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "GA4's built-in interface is fine for quick checks, but it has real limits once a company needs anything beyond the standard reports: data retention caps on raw event data (as short as 2 months on the free tier for certain report types), no easy way to blend GA4 data with CRM or sales data, and a UI that isn't built for the specific, recurring questions a growing marketing team actually needs answered. Exporting GA4's raw event-level data into BigQuery removes the retention limit and (more importantly) makes the data queryable and joinable with other business data, which is the actual unlock.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Why GA4's native reporting isn't the endpoint",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "GA4's built-in interface is fine for quick checks, but it has real limits once a company needs anything beyond the standard reports: data retention caps on raw event data (as short as 2 months on the free tier for certain report types), no easy way to blend GA4 data with CRM or sales data, and a UI that isn't built for the specific, recurring questions a growing marketing team actually needs answered. Exporting GA4's raw event-level data into BigQuery removes the retention limit and (more importantly) makes the data queryable and joinable with other business data, which is the actual unlock.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The order that works, and why skipping steps causes problems later",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Step 1: GA4 → BigQuery export, configured correctly, before anything else.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " This is a native, free integration (daily export on GA4's free tier, streaming export if you're on GA4 360) and it needs to be set up early because BigQuery only has data from the point the export was enabled forward, there's no retroactive backfill for the raw event data. I've seen teams wait months to set this up \"once the dashboard project starts,\" and lose that entire window of raw data permanently. Enable it now, even before deciding what to build on top of it.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Step 2: Validate the raw data before building anything on top of it.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Before writing a single dashboard query, reconcile a sample of BigQuery's exported event data against GA4's own interface for the same date range and metric. Small discrepancies are normal (different processing methods, thresholding on some metrics) but large discrepancies mean something's wrong with the tracking implementation itself, and building a polished Looker Studio dashboard on top of broken underlying data just makes the problem look more credible, not less wrong.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Step 3: Build the core queries in BigQuery, not directly in Looker Studio.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " This is the step most teams skip, going straight from raw BigQuery tables to Looker Studio's visual query builder. The problem: complex joins, session-stitching logic, and multi-table blends done inside Looker Studio's interface are hard to audit, hard to version-control, and slow to run against large datasets. Writing the core transformation logic as SQL in BigQuery (creating clean, pre-aggregated tables or views that Looker Studio then reads from) is both faster and produces a queryable, auditable source of truth that isn't locked inside one dashboard tool's proprietary query builder.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Step 4: Connect Looker Studio to the clean BigQuery tables, not the raw export.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Looker Studio should be the visualization layer on top of already-clean data, not where the cleaning happens. This separation matters for a very practical reason: when someone questions a number on the dashboard six months from now, you want to be able to point to the specific SQL query that produced it, not untangle a chain of Looker Studio calculated fields built by someone who's since left the company.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Cost control: BigQuery bills on data processed, and that surprises teams who skip this",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "BigQuery pricing is based on the volume of data scanned per query (on the standard on-demand pricing model) not a flat subscription, which means a poorly written query that scans an entire raw events table instead of a filtered, partitioned subset can rack up meaningful cost, especially once GA4's raw event export has accumulated a year or more of data. This is a genuine, practical concern I flag early with every team setting this up: partition your tables by date, filter as early as possible in every query, and materialize expensive, frequently-reused queries into pre-aggregated tables rather than re-scanning raw event data every time a dashboard refreshes. Skipping this isn't a catastrophic mistake, but it's the difference between a data pipeline that costs a few dollars a month and one that costs meaningfully more without anyone noticing until a monthly bill prompts the question.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Where blending with CRM or sales data actually earns its keep",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The real value of this setup shows up once GA4/BigQuery data gets joined with data that lives outside Google's ecosystem entirely: CRM opportunity data, actual closed-revenue figures, customer lifetime value from a billing system. This is where marketing can finally answer the question leadership actually cares about, not \"how much traffic did this campaign drive,\" but \"how much revenue, eventually, did this campaign drive,\" which requires joining session-level or user-level marketing data to a sales outcome that GA4 alone has no visibility into.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This join is also where data quality problems that were invisible in GA4-only reporting become obvious, a CRM using a different definition of \"qualified lead\" than what marketing's dashboard assumed, or a mismatch between how GA4 attributes a conversion and how sales attributes a closed deal to a source. Finding these mismatches is uncomfortable in the moment and genuinely valuable, because it's exactly the kind of disagreement that otherwise stays hidden inside two teams' separately-built dashboards, quietly undermining trust in both.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The mistake that undermines trust in the whole system",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Building one dashboard that tries to answer every question for every audience. A CEO wants three or four numbers, refreshed reliably, with clear definitions. A performance marketer wants granular, filterable, near-real-time campaign data. Cramming both needs into a single Looker Studio report usually produces something too cluttered for the CEO and too shallow for the marketer, and once either audience stops trusting or using the dashboard, the whole investment stops paying off, even if the underlying data pipeline is solid. Build separate, purpose-specific views on top of the same clean BigQuery source, rather than one dashboard trying to serve every audience at once.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Is BigQuery necessary, or can Looker Studio connect directly to GA4?",
+          "answer": "Looker Studio can connect directly to GA4 without BigQuery, and for a small site with simple reporting needs, that's a reasonable starting point. BigQuery becomes worth the added setup once you need data retention beyond GA4's built-in limits, need to blend GA4 data with data from outside Google's ecosystem (CRM, billing, ad platform costs) or need query logic complex enough that Looker Studio's native connector and calculated-field system becomes slow or hard to maintain. If none of those apply yet, direct GA4-to-Looker-Studio is fine; add BigQuery when one of them does."
+        },
+        {
+          "question": "How much SQL knowledge does a marketing team actually need for this setup?",
+          "answer": "Someone on the team (marketing operations, a marketing analyst, or a fractional resource) needs real comfort with SQL to build and maintain the core BigQuery queries; this isn't optional if the setup is going to stay useful. What the broader marketing team doesn't need is SQL knowledge to consume the output, that's the entire point of building clean, well-labeled Looker Studio dashboards on top of the BigQuery layer. The SQL skill needs to exist somewhere in the pipeline, but it doesn't need to be distributed across every person using the dashboard."
+        },
+        {
+          "question": "How often should the underlying BigQuery tables and Looker Studio dashboards be reviewed for accuracy?",
+          "answer": "I recommend a quarterly audit at minimum, comparing dashboard output against source-of-truth numbers (actual GA4 interface figures for a sample period, actual CRM/billing figures for revenue data) rather than assuming the pipeline is still accurate because nobody's complained. Tracking implementations drift (a new campaign parameter gets introduced inconsistently, a GTM tag gets modified without updating the downstream query, a CRM field gets renamed) and these drift issues are usually invisible until someone actively checks, at which point the dashboard may have been quietly wrong for months."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Marketing Technology",
+          "description": "MarTech stack strategy.",
+          "href": "/marketing-technology"
+        },
+        {
+          "title": "BigQuery",
+          "description": "Data warehousing.",
+          "href": "/bigquery"
+        },
+        {
+          "title": "Google Analytics 4",
+          "description": "Analytics implementation.",
+          "href": "/google-analytics-4"
+        },
+        {
+          "title": "Looker Studio",
+          "description": "Dashboards and reporting.",
+          "href": "/looker-studio"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Setting this up for a specific stack?",
+      "description": "The sequence above is general. The right structure depends on current tracking maturity, what other systems need to be blended in, and who on the team will actually own the SQL layer going forward.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "marketing-technology",
+    "siblings": [
+      "marketing-technology",
+      "bigquery",
+      "google-analytics-4",
+      "looker-studio"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 876,
+  "generatedAt": "2026-07-30T22:27:01.711Z"
+}

@@ -1,0 +1,474 @@
+{
+  "slug": "fractional-cmo-pricing-by-stage",
+  "pageType": "topic",
+  "meta": {
+    "title": "How Fractional CMO Pricing Scales With Company Stage",
+    "description": "How fractional CMO fees actually scale from pre-seed to growth stage — what drives the price at each stage, and why the highest fee isn't always the right fit."
+  },
+  "blocks": [
+    {
+      "blockType": "heroV3",
+      "heading": "How Fractional CMO Pricing Scales With Company Stage",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Two companies with similar revenue can need very different things from a fractional CMO. A pre-seed company with early revenue needs help finding a repeatable go-to-market motion: high uncertainty, fast iteration, decisions made on thin data. A growth-stage company with the same revenue but a validated model needs help scaling what's already working without breaking it: a different uncertainty profile, different skill emphasis, often a genuinely different price point for genuinely different work, even at comparable revenue.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "image": {
+        "source": "upload",
+        "upload": 68
+      },
+      "circleColor": "#facc15"
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Why stage matters more than headcount or revenue alone",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Two companies with similar revenue can need very different things from a fractional CMO. A pre-seed company with early revenue needs help finding a repeatable go-to-market motion: high uncertainty, fast iteration, decisions made on thin data. A growth-stage company with the same revenue but a validated model needs help scaling what's already working without breaking it: a different uncertainty profile, different skill emphasis, often a genuinely different price point for genuinely different work, even at comparable revenue.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Pre-seed / early stage: lower fee, narrower scope, faster cycles",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "At this stage, the work is usually closer to \"help me find and validate a go-to-market motion\" than \"manage an existing marketing function.\" Engagements here tend to run on the lower end of the range, often structured with fewer weekly hours, because the actual deliverable (a validated positioning and channel hypothesis, tested cheaply and fast) doesn't require the same ongoing operational oversight a larger, already-scaling marketing function would.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "What drives the fee up even at this stage: founders who want someone who's specifically done this exact validation process before, in a comparable market or business model, rather than generalist strategic help. Pattern-matched experience from having solved the specific \"find product-market fit's marketing counterpart\" problem before is worth a premium even for an early-stage engagement, because the alternative (a generalist fumbling through the same discovery a specialist could shortcut) costs more in wasted runway than the fee premium does.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Seed to Series A: the fee starts reflecting real operational complexity",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "By this stage, there's usually an existing team (even if small) some historical data to diagnose, and real budget already being deployed somewhere, which means the fractional CMO's job shifts from pure discovery toward diagnosing what's working, fixing what isn't, and building the operational rigor (measurement, reporting, team structure) the company will need at the next stage. This tends to be where the middle of the fee range concentrates, and it's also where hourly commitment per week tends to increase, since there's now an actual team and actual budget decisions to actively manage, not just a hypothesis to validate.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "What actually moves the fee within a stage, not just between stages",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Two companies at the identical stage can still land at different points in the range for reasons worth naming explicitly. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Number of channels already live.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " A company running paid, SEO, content, and email simultaneously requires more oversight than one running a single validated channel, independent of overall company stage. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Whether a team needs to be built, not just managed.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Recruiting and standing up new hires is materially more time-intensive work than directing an already-functioning team, and should be scoped and priced as such rather than assumed to fit inside a standard management retainer. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Industry complexity.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " A regulated industry (financial services, healthcare) or a technically complex B2B sale usually requires more ramp-up time and carries more risk per decision than a simpler consumer category, and that's a legitimate factor in fee, not just company stage on its own.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Series B and later / scaling stage: highest fees, but a materially different job",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "At this stage, fees climb toward the top of the range, and the reasons are specific: managing meaningfully larger budgets (which raises the stakes of every recommendation) coordinating across a larger existing marketing team (which requires real management skill, not just strategic input) and often board-level reporting and cross-functional coordination with sales, product, and finance leadership that a smaller company doesn't yet have. This is genuinely closer in complexity to a traditional CMO role, just delivered part-time, and the fee reflects that the fractional CMO is operating at that level of organizational complexity, not that the \"same job\" simply costs more at a bigger company.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "The mistake that costs companies the most money: buying the wrong stage-fit, in either direction",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Overpaying for growth-stage sophistication at an early stage.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " A pre-seed company hiring a fractional CMO whose real expertise and rate reflect scaling an already-validated growth-stage business is paying for organizational-management skill it doesn't need yet, while potentially getting less of the fast, scrappy, validation-focused work it actually needs, that specific skill set isn't automatically the same one.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Underpaying for the complexity at a later stage.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " The reverse mistake is just as costly: a growth-stage company hiring based on the lowest quote, without checking whether that fractional CMO has actually operated at the organizational complexity the company has already reached, often finds the engagement thin on exactly the operational and cross-functional-coordination skill the stage actually requires, the strategic instincts might be good, but managing a team of 8 across 3 channels with board reporting is a different skill than validating a first channel from zero.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "aboutSimple",
+      "heading": "Questions worth asking to sanity-check a quote against your actual stage",
+      "description": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Has this person actually operated at a company facing the specific problem I have right now (validation, scaling, or a specific inflection point) not just \"marketing\" in the abstract? Does the proposed weekly hour commitment match the actual complexity of what needs managing, or does it look copy-pasted from a different stage's typical engagement? Is the fee structure (flat, percentage of budget managed, hybrid) appropriate for how much budget is actually being deployed, or is it disconnected from the real operational scope?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Do fractional CMO fees typically increase as the engagement continues, even at the same company stage?",
+          "answer": "Often yes, and it's usually a legitimate reflection of scope growth rather than simple price creep (as a fractional CMO engagement proves out and the company grows even within the same broad stage, the actual scope (team size managed, budget overseen, strategic complexity) tends to expand, and a fee that stays flat while scope grows is undercharging for the added complexity. That said, this should be an explicit, discussed adjustment tied to a specific scope change, not a gradual, unstated fee creep) worth confirming upfront how fee reviews will be handled as the engagement evolves."
+        },
+        {
+          "question": "Is it reasonable to negotiate a lower fee in exchange for equity, especially at an early stage?",
+          "answer": "It happens, particularly at the earliest stages where cash is genuinely constrained, but it needs to be structured carefully and isn't automatically the right move for either side. The risk worth naming directly: equity compensation ties the fractional CMO's incentives to long-term company outcomes in a way that can be genuinely aligning, but it can also create pressure toward decisions that look good for a future valuation event rather than what's actually right for the business's near-term health, this is a real tension, not a hypothetical one, and it's worth discussing explicitly rather than assuming equity automatically aligns incentives cleanly."
+        },
+        {
+          "question": "Should the fee structure change once a fractional CMO engagement transitions from initial diagnostic to ongoing management?",
+          "answer": "Frequently, yes, and it's worth structuring the initial agreement with that transition in mind rather than treating the first quote as permanent. The diagnostic phase (the first 30-90 days, covered in more detail in the companion piece on what a 90-day engagement looks like) is often priced or scoped differently from the ongoing management phase that follows, since the actual work (and the confidence level behind any performance commitments) is meaningfully different once real data and a validated plan exist versus the uncertainty of the initial diagnostic window."
+        }
+      ]
+    },
+    {
+      "blockType": "cardGrid",
+      "heading": "Related Topics",
+      "columns": "4",
+      "cards": [
+        {
+          "title": "Fractional CMO",
+          "description": "Part-time marketing leadership.",
+          "href": "/fractional-cmo"
+        },
+        {
+          "title": "Fractional CMO vs. Full-Time",
+          "description": "Cost/outcome breakdown.",
+          "href": "/fractional-cmo-vs-full-time-cmo"
+        },
+        {
+          "title": "Signs You Need a Fractional CMO",
+          "description": "Diagnostic signals.",
+          "href": "/signs-you-need-a-fractional-cmo"
+        },
+        {
+          "title": "How to Choose a Fractional CMO",
+          "description": "Selection criteria.",
+          "href": "/how-to-choose-a-fractional-cmo"
+        }
+      ]
+    },
+    {
+      "blockType": "cta",
+      "heading": "Trying to figure out the right budget for your specific stage?",
+      "description": "The ranges above are directional, not a quote. The right number depends on team size, budget already being deployed, and what specific problem (validation, diagnosis, or scaling) actually needs solving right now.",
+      "buttonLabel": "Contact Me",
+      "buttonHref": "#form:email_to_alexander",
+      "buttonColor": "#facc15"
+    }
+  ],
+  "internalLinks": {
+    "parent": "fractional-cmo",
+    "siblings": [
+      "fractional-cmo",
+      "fractional-cmo-vs-full-time-cmo",
+      "signs-you-need-a-fractional-cmo",
+      "how-to-choose-a-fractional-cmo"
+    ],
+    "tools": [],
+    "topics": [],
+    "relatedTopics": []
+  },
+  "wordCount": 792,
+  "generatedAt": "2026-07-30T22:27:01.714Z"
+}
