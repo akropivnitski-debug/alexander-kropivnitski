@@ -83,6 +83,7 @@ export default async function Page({ params }: Props) {
     pageType: pageData.pageType,
     layout: page.layout ?? undefined,
     updatedAt: page.updatedAt,
+    createdAt: page.createdAt,
   })
 
   return (

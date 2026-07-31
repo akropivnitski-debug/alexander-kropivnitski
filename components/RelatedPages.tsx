@@ -61,8 +61,16 @@ export async function RelatedPages({ slug, pageType }: { slug: string; pageType?
   }>
 
   const clusterKey = getClusterKey(slug)
+  // Exclude the core pillar itself from this tier — it's already guaranteed a slot via
+  // the CORE_PAGES fill-up below. Without this, the pillar always sorts first
+  // alphabetically and occupies one of the 4 cluster slots, which — combined with the
+  // 4-item cap and 5 sibling cities (dubai/london/new-york/paris/singapore) — meant
+  // whichever city sorted last (singapore, every time) was mathematically always
+  // excluded on every other city's page, regardless of which page you were on.
   const sameCluster = clusterKey
-    ? docs.filter((d) => getClusterKey(d.slug) === clusterKey).sort((a, b) => a.slug.localeCompare(b.slug))
+    ? docs
+        .filter((d) => getClusterKey(d.slug) === clusterKey && !CORE_PAGES.includes(d.slug))
+        .sort((a, b) => a.slug.localeCompare(b.slug))
     : []
   const sameType = !clusterKey && pageType
     ? docs.filter((d) => d.pageType === pageType).sort((a, b) => a.slug.localeCompare(b.slug))

@@ -24,6 +24,7 @@ interface SchemaInput {
   parentHubTitle?: string
   layout?: Page['layout']
   updatedAt?: string
+  createdAt?: string
 }
 
 export function generatePageSchema(input: SchemaInput): object[] {
@@ -49,6 +50,35 @@ export function generatePageSchema(input: SchemaInput): object[] {
       url: SITE_URL,
     },
   })
+
+  // BlogPosting schema — pageType 'topic' covers the site's long-form guide/blog
+  // content (both the tool explainers and the newer authority-building posts).
+  // Alongside WebPage, not replacing it, per the GEO audit's Finding 4: dateModified
+  // and author were already present via WebPage, but datePublished was missing
+  // everywhere and the generic WebPage type is parsed less reliably by AI/search
+  // systems for article freshness than BlogPosting.
+  if (input.pageType === 'topic') {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: input.title,
+      ...(input.description ? { description: input.description } : {}),
+      url: pageUrl,
+      mainEntityOfPage: pageUrl,
+      ...(input.createdAt ? { datePublished: input.createdAt } : {}),
+      ...(input.updatedAt ? { dateModified: input.updatedAt } : {}),
+      author: {
+        '@type': 'Person',
+        name: SITE_NAME,
+        url: SITE_URL,
+      },
+      publisher: {
+        '@type': 'Person',
+        name: SITE_NAME,
+        url: SITE_URL,
+      },
+    })
+  }
 
   // ProfessionalService schema — only on pages that describe an actual service
   if (SERVICE_SLUGS.has(input.slug)) {

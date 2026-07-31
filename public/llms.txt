@@ -11,6 +11,63 @@
 - [Web Development](https://alexanderkropivnitski.com/web-development): Next.js and React web application development.
 - [Fractional CMO](https://alexanderkropivnitski.com/fractional-cmo): Part-time marketing leadership engagements.
 
+## Case Studies
+
+- [Case Studies](https://alexanderkropivnitski.com/case-studies): Overview of client website projects.
+- [Headwall Partners](https://alexanderkropivnitski.com/case-study-headwall-partners): Investment banking site anchored by a 150+ transaction history grid.
+- [ABC Appliance Repair](https://alexanderkropivnitski.com/case-study-abc-appliance-repair): Trust-signal-led design for a residential appliance repair business.
+- [Pro Appliance Repair](https://alexanderkropivnitski.com/case-study-pro-appliance-repair): Illustrated brand identity and location-based service model.
+- [Thermador Appliance Repair](https://alexanderkropivnitski.com/case-study-thermador-appliance-repair): Premium serif branding for high-end appliance repair.
+- [Luxury Boat Hire](https://alexanderkropivnitski.com/case-study-luxury-boat-hire): Yacht charter marketplace built around fleet browsing and booking flow.
+- [Tour Operator Certification](https://alexanderkropivnitski.com/case-study-tour-operator-certification): Conversion-focused microsite for a GSTC sustainability certification service.
+
+## Guides & Articles: SEO / GEO
+
+- [SEO vs. GEO: What's the Difference](https://alexanderkropivnitski.com/seo-vs-geo-whats-the-difference)
+- [What Is GEO (Generative Engine Optimization)?](https://alexanderkropivnitski.com/what-is-geo-generative-engine-optimization)
+- [How AI Overviews Work and How to Get Cited](https://alexanderkropivnitski.com/how-ai-overviews-work-and-how-to-get-cited)
+- [Optimizing Content for ChatGPT and Perplexity Citations](https://alexanderkropivnitski.com/optimizing-content-for-chatgpt-and-perplexity-citations)
+- [Schema Markup Guide for AI Search Visibility](https://alexanderkropivnitski.com/schema-markup-guide-for-ai-search-visibility)
+- [B2B Keyword Research: A Practical Framework](https://alexanderkropivnitski.com/b2b-keyword-research-practical-framework)
+- [Content Architecture for Topical Authority](https://alexanderkropivnitski.com/content-architecture-for-topical-authority)
+- [Internal Linking Strategy for SEO](https://alexanderkropivnitski.com/internal-linking-strategy-for-seo)
+- [Technical SEO Checklist for B2B Websites](https://alexanderkropivnitski.com/technical-seo-checklist-for-b2b-websites)
+- [Local SEO Checklist for Service Businesses](https://alexanderkropivnitski.com/local-seo-checklist-for-service-businesses)
+- [How to Audit a Competitor's SEO Strategy](https://alexanderkropivnitski.com/how-to-audit-a-competitors-seo-strategy)
+- [How Long Does SEO Take to Show Results?](https://alexanderkropivnitski.com/how-long-does-seo-take-to-show-results)
+- [E-E-A-T Guide for B2B and Service Businesses](https://alexanderkropivnitski.com/e-e-a-t-guide-for-b2b-and-service-businesses)
+- [Google Ads vs. SEO: Where to Invest First](https://alexanderkropivnitski.com/google-ads-vs-seo-where-to-invest-first)
+
+## Guides & Articles: Performance Marketing
+
+- [How to Structure a Performance Marketing Retainer](https://alexanderkropivnitski.com/performance-marketing-retainer-structure): Fee models, scope boundaries, and how to know it's working.
+- [Marketing Mix Modeling with Google Meridian](https://alexanderkropivnitski.com/marketing-mix-modeling-google-meridian): What MMM solves that attribution can't, and when a company is ready to invest in it.
+- [Beyond A/B Testing: GeoX and Multicell Experiments](https://alexanderkropivnitski.com/geox-multicell-incrementality-testing): Real incrementality measurement methods.
+- [Paid Media Attribution in a Cookieless World](https://alexanderkropivnitski.com/paid-media-attribution-cookieless-world)
+- [TikTok, Snapchat, and Pinterest: When Paid Social Beyond Meta Is Worth It](https://alexanderkropivnitski.com/tiktok-snapchat-pinterest-paid-social)
+
+## Guides & Articles: Fractional CMO
+
+- [How to Choose a Fractional CMO](https://alexanderkropivnitski.com/how-to-choose-a-fractional-cmo)
+- [Fractional CMO vs. Full-Time CMO: The Real Cost and Outcome Breakdown](https://alexanderkropivnitski.com/fractional-cmo-vs-full-time-cmo)
+- [What a 90-Day Fractional CMO Engagement Actually Looks Like](https://alexanderkropivnitski.com/fractional-cmo-90-day-engagement)
+- [Signs Your Company Actually Needs a Fractional CMO](https://alexanderkropivnitski.com/signs-you-need-a-fractional-cmo)
+- [How Fractional CMO Pricing Scales With Company Stage](https://alexanderkropivnitski.com/fractional-cmo-pricing-by-stage)
+
+## Guides & Articles: Marketing Technology & Web Development
+
+- [Marketing Technology Stack Guide for Growing Companies](https://alexanderkropivnitski.com/marketing-technology-stack-guide)
+- [Connecting GA4, BigQuery, and Looker Studio](https://alexanderkropivnitski.com/ga4-bigquery-looker-studio-single-source-of-truth): Building a single source of truth for reporting.
+- [Lead Routing and Scoring: A Practical Setup Guide](https://alexanderkropivnitski.com/lead-routing-scoring-setup-guide)
+- [Headless vs. Traditional CMS](https://alexanderkropivnitski.com/headless-vs-traditional-cms): Choosing the right foundation for a marketing website.
+- [Core Web Vitals Guide for Marketing Websites](https://alexanderkropivnitski.com/core-web-vitals-guide-for-marketing-websites)
+- [Website Redesign SEO Checklist](https://alexanderkropivnitski.com/website-redesign-seo-checklist)
+- [What Makes a Marketing Website Convert](https://alexanderkropivnitski.com/what-makes-a-marketing-website-convert)
+
+## Services by Location and Industry
+
+Service pages are also available by city (Dubai, London, New York, Paris, Singapore) as `/{service}-agency-{city}`, and by industry vertical (appliance repair, ecommerce, fintech, home services, investment banks, manufacturing, professional services, SaaS startups, tour operators, yacht charter) as `/{service}-for-{industry}`, for each of seo, fractional-cmo, marketing-technology, performance-marketing, and web-development.
+
 ## Full Site Index
 
-For the complete list of pages, see [sitemap.xml](https://alexanderkropivnitski.com/sitemap.xml).
+For the complete, current list of pages, see [sitemap.xml](https://alexanderkropivnitski.com/sitemap.xml).
